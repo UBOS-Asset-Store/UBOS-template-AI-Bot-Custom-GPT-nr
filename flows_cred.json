@@ -1,6 +1,8 @@
 {
     "7908a755f1520aa7": {
         "user": "${AIBOTDB-MONGO-USER-NAME}",
-        "password": "PPSJITwf"
-    }
+        "password": "${AIBOTDB-MONGO-PASSWORD}"
+    },
+    "8c07a93ccb7f1d25": {},
+    "646ced92d10efb02": {}
 }

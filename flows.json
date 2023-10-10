@@ -385,7 +385,7 @@
             "22995a8e4464c6e5",
             "daa9252c4d5e4a15"
         ],
-        "x": 14,
+        "x": 4,
         "y": 2079
     },
     {
@@ -930,9 +930,9 @@
             "f7d336beb3bb2ce7",
             "fe7802ec805d07bd"
         ],
-        "x": 4,
+        "x": 44,
         "y": 179,
-        "w": 2672,
+        "w": 2632,
         "h": 702
     },
     {
@@ -1160,7 +1160,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 400,
+        "x": 370,
         "y": 420,
         "wires": [
             [
@@ -4063,6 +4063,7 @@
         "id": "82e139d665440e8d",
         "type": "telegram receiver",
         "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
         "name": "",
         "bot": "4b07803a52e468f5",
         "saveDataDir": "",
@@ -4081,6 +4082,7 @@
         "id": "991562c24c1dbb8a",
         "type": "telegram sender",
         "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
         "name": "",
         "bot": "4b07803a52e468f5",
         "haserroroutput": false,
@@ -4095,6 +4097,7 @@
         "id": "0b18dada9196baa4",
         "type": "telegram sender",
         "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
         "name": "",
         "bot": "4b07803a52e468f5",
         "haserroroutput": true,
@@ -4115,6 +4118,7 @@
         "id": "588935d38b66c7b2",
         "type": "telegram sender",
         "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
         "name": "",
         "bot": "4b07803a52e468f5",
         "haserroroutput": false,
@@ -4132,6 +4136,7 @@
         "id": "6fae5298f072ae66",
         "type": "telegram sender",
         "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
         "name": "",
         "bot": "4b07803a52e468f5",
         "haserroroutput": false,
@@ -4149,6 +4154,7 @@
         "id": "42c541d584f35255",
         "type": "telegram sender",
         "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
         "name": "",
         "bot": "4b07803a52e468f5",
         "haserroroutput": false,
@@ -4165,6 +4171,7 @@
         "id": "baf7420b5b216cc2",
         "type": "while-loop",
         "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
         "name": "",
         "condi": "global.get(`${msg.typing}`) === true",
         "limit": true,
@@ -4185,6 +4192,7 @@
         "id": "8e058063d7977bdc",
         "type": "while-loop",
         "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
         "name": "",
         "condi": "global.get(`${msg.typing}`) === true",
         "limit": true,
@@ -4205,6 +4213,7 @@
         "id": "c79f68ae78c2fa0a",
         "type": "array-loop",
         "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
         "name": "",
         "key": "count",
         "keyType": "msg",
@@ -4386,6 +4395,52 @@
             [
                 "cc5e7181a25ef63d"
             ]
+        ]
+    },
+    {
+        "id": "50f5376e0bd61c38",
+        "type": "inject",
+        "z": "33ad232901cfdd1c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 480,
+        "wires": [
+            [
+                "f370608a91430dba"
+            ]
+        ]
+    },
+    {
+        "id": "f370608a91430dba",
+        "type": "function",
+        "z": "33ad232901cfdd1c",
+        "name": "function 378",
+        "func": "node.warn(env.get('AIBOTDB-MONGO-HOST-NAME'));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 460,
+        "wires": [
+            []
         ]
     },
     {
@@ -17195,6 +17250,7 @@
         "id": "6cb8466c8d27b038",
         "type": "array-loop",
         "z": "8bea414da58d7b2a",
+        "g": "911c1ee2586e9d4d",
         "name": "",
         "key": "amount",
         "keyType": "msg",
@@ -17217,6 +17273,7 @@
         "id": "bb3b0def28dfa3ab",
         "type": "array-loop",
         "z": "8bea414da58d7b2a",
+        "g": "7ce0f5d37c531784",
         "name": "",
         "key": "count",
         "keyType": "msg",
@@ -17239,6 +17296,7 @@
         "id": "75e116bf63574213",
         "type": "array-loop",
         "z": "8bea414da58d7b2a",
+        "g": "7ce0f5d37c531784",
         "name": "",
         "key": "count",
         "keyType": "msg",
@@ -17261,6 +17319,7 @@
         "id": "62541437b715dd0c",
         "type": "array-loop",
         "z": "8bea414da58d7b2a",
+        "g": "7ce0f5d37c531784",
         "name": "",
         "key": "count",
         "keyType": "msg",
@@ -17283,6 +17342,7 @@
         "id": "9663fe0a4b4156f0",
         "type": "array-loop",
         "z": "8bea414da58d7b2a",
+        "g": "ac609398eb670d05",
         "name": "",
         "key": "amount",
         "keyType": "msg",
@@ -17305,6 +17365,7 @@
         "id": "576cadf9d8acf893",
         "type": "pdfparse",
         "z": "8bea414da58d7b2a",
+        "g": "7ce0f5d37c531784",
         "name": "",
         "path": "",
         "x": 720,
