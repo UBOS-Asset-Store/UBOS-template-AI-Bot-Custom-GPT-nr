@@ -173,9 +173,7 @@
             "881a3a438a261f6f"
         ],
         "x": 14,
-        "y": 1139,
-        "w": 712,
-        "h": 902
+        "y": 1139
     },
     {
         "id": "7cf09a5628ba29e5",
@@ -260,9 +258,7 @@
             "56afed1bb13cc979"
         ],
         "x": 4,
-        "y": 39,
-        "w": 1962,
-        "h": 1022
+        "y": 39
     },
     {
         "id": "d47c4baf98dd7d3b",
@@ -286,9 +282,7 @@
             "4ca2aafdce75631b"
         ],
         "x": 774,
-        "y": 1139,
-        "w": 1012,
-        "h": 162
+        "y": 1139
     },
     {
         "id": "b69c8ee37e3e0852",
@@ -339,9 +333,7 @@
             "5322da50da8b810a"
         ],
         "x": 774,
-        "y": 1339,
-        "w": 1652,
-        "h": 622
+        "y": 1339
     },
     {
         "id": "1c10aa09f2bae3b6",
@@ -385,9 +377,7 @@
             "db9c3ea65883774f"
         ],
         "x": 14,
-        "y": 3039,
-        "w": 1172,
-        "h": 662
+        "y": 3039
     },
     {
         "id": "a89d39ed625d493a",
@@ -444,9 +434,7 @@
             "daa9252c4d5e4a15"
         ],
         "x": 4,
-        "y": 2079,
-        "w": 1042,
-        "h": 922
+        "y": 2079
     },
     {
         "id": "1f1b365afc8becc5",
@@ -469,9 +457,7 @@
             "359cab52989aa29b"
         ],
         "x": 1334,
-        "y": 1399,
-        "w": 1202,
-        "h": 122
+        "y": 1399
     },
     {
         "id": "ebee837ffce65a75",
@@ -625,9 +611,7 @@
             "e2ddfce36897aa9d"
         ],
         "x": 34,
-        "y": 39,
-        "w": 1012,
-        "h": 442
+        "y": 39
     },
     {
         "id": "7ab0a46dbaab3e33",
@@ -663,9 +647,7 @@
             "2baefbb8c45261ea"
         ],
         "x": 34,
-        "y": 519,
-        "w": 1112,
-        "h": 402
+        "y": 519
     },
     {
         "id": "7a0dc49638e7953f",
@@ -701,9 +683,7 @@
             "0f0d30344ca45f4a"
         ],
         "x": 24,
-        "y": 939,
-        "w": 1162,
-        "h": 442
+        "y": 939
     },
     {
         "id": "5cf2bc7a9091263d",
@@ -739,9 +719,7 @@
             "b1cb89a3b4ba7937"
         ],
         "x": 34,
-        "y": 1419,
-        "w": 1072,
-        "h": 442
+        "y": 1419
     },
     {
         "id": "aff5f6094780b487",
@@ -802,9 +780,7 @@
             "203b9423c44f39af"
         ],
         "x": 1334,
-        "y": 779,
-        "w": 1292,
-        "h": 602
+        "y": 779
     },
     {
         "id": "cbd9c53fe26c3884",
@@ -912,9 +888,7 @@
             "646ced92d10efb02"
         ],
         "x": 1334,
-        "y": 1559,
-        "w": 1272,
-        "h": 222
+        "y": 1559
     },
     {
         "id": "5b7ced25ddad191c",
@@ -1006,9 +980,7 @@
             "7104b69acea77d94"
         ],
         "x": 14,
-        "y": 779,
-        "w": 1292,
-        "h": 1002
+        "y": 779
     },
     {
         "id": "91096b9755d49fe2",
@@ -1082,9 +1054,7 @@
             "eff25909ffe8d8b0"
         ],
         "x": 14,
-        "y": 59,
-        "w": 2192,
-        "h": 702
+        "y": 59
     },
     {
         "id": "7908a755f1520aa7",
@@ -5087,7 +5057,7 @@
         "fieldType": "msg",
         "format": "css",
         "syntax": "mustache",
-        "template": "@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,200&display=swap');\n\nbody{\n    font-family: 'Titillium Web', sans-serif!important;\n}\n.header{\ntop: 0px !important;\nheight: 66px !important;\npadding: 0px !important;\n/* width: 100% !important; */\nborder-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n.menu_section{\nbox-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\nheight: 100vh !important;\npadding: 0px !important;\nleft: 0px !important;\nborder-right: 2px solid rgb(241, 243, 244) !important;\n}\n\n.main_section{\npadding: 0px !important;\nheight: 100vh !important;\nposition: fixed !important;\ntop: 66px !important; \n}\n\n.tab_login>div>div>div>div{\nbox-shadow: none !important;\n}\n\n.tab_login>div>div>div>div>div{\nbackground: transparent !important;\n}\n\n.frame_section{\nheight: 100vh !important;\nposition: fixed !important;\ntop: 16px !important; \n}\n\n.scroll_section{\n    height: 100% !important;\n    top: 66px !important; \npadding: 0px !important;\n\n}\n\n.image{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n    height: 75px !important;\n}\n\n\n.menu .active span{\ncolor: #2a2f36 !important;\n}\n\n.menu .active {\n    background: #ebf1fb !important;\n}\n\n.menu button:hover{\nbackground: #ebf1fb;\n}\n\n.menu span[role=\"img\"]{\nmargin-left: 8px !important;\nmargin-top: 3px !important;\n\n}\n.menu .bp3-collapse-body .sub_category {\n    padding: 5px 5px 5px 20px !important;\n}\n.menu button{\n    box-shadow: none !important;\n}\n\n.menu span{\n    font-size: 16px !important;\n    font-weight: 400 !important;\n    color: #00000099 !important;\n}\n\n.menu {\n    left: 0px !important;\n    width: 100% !important;\n    padding: 0 !important;\n}\n\n.menu_wrap{\n    position: fixed !important;\n    left: 0px!important;\n    top: 0px !important;\n    height: 100vh !important;\n    /* width: 178.312px!important; */\n    padding: 0px!important;\n    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\n}\n\n.menu button {\n    justify-content: start !important;\n    padding: 5px 10px 5px 15px !important;\n    margin-bottom: 5px !important;\n}\n\n.setting_title{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n\n.setting_text{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important; \n}\n\n.setting_text .bp3-ui-text {\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n.setting_title .bp3-ui-text {\n    font-weight: 600 !important;\n    font-size: 18px !important;\n}\n\n.telegramList {\n    padding: 10px 20px !important;\n}\n\n.telegramList .custom-wrapper-canvas-list{\n    display: flex;\n    flex-direction: column !important;\n}\n.telegramList .custom-wrapper-canvas-list button {\n    display: none !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget{\n    width: 90% !important;\n    position: static !important;\n    border-radius: 8px!important;\n    padding: 0 !important;\n    margin-bottom: 7px;\n    margin-right: auto !important;\n    margin-left: 0 !important;\n    background-color: #cfcfdb !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd){\n    margin-right: 0 !important;\n    margin-left: auto !important;\n    background-color: #e5e5e6 !important;\n}\n.telegramList .t--widget-textwidget{\n    width: auto !important;\n    position: static !important;\n    padding: 5px 15px !important;\n    height: 100% !important;\n}\n.telegramList .t--widget-textwidget span{\n    font-weight: 500; \n    font-size: 16px;\n    line-height: 125%;\n}\n\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd) .t--widget-textwidget span{\n    text-align: end;\n}\n\n.telegramWrap{\n    padding: 0!important;\n}\n\n.container{\n    min-height: 100vh;\n}\n\n.selectedTab{\n    box-shadow: rgb(235, 239, 242) -1px 0px 0px inset, rgb(235, 239, 242) 0px 0px 0px inset, rgb(55 169 235) 0px 4px 0px inset !important;\n}\n\n.icon >div>div>div>div>div>div>div{\n   background-position: center right!important;\n}\n\n.title >div>div>div>div>div>div>div span {\nfont-size:22px!important; \n}\n.tabs >div>div>div>div>div>div {\nfont-size:20px!important;\ntext-transform: uppercase!important;\nfont-weight: 500!important;\n}\n.training_wrap >div>div>div>div>div>div>div>div>div>div>div>div>div{\n    display: inline-flex!important;\n    justify-content: space-between!important;\n}\n.table{\nfont-size:14px!important;\ntext-transform: lowercase!important;\nfont-weight: 400!important; \n}\n.table >div>div>div>div>div>div{\n    font-size:14px!important;\ntext-transform: uppercase!important;\n}\n\n/* .btn{\n     background-color: #0088cc!important; \n            color: white!important; \n            padding: 10px 20px !important; \n            border: none!important; \n            cursor: pointer!important;\n            border-radius: 5px!important; \n            display: flex!important; \n            align-items: center!important; \n            justify-content: center!important; \n} */",
+        "template": "@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,200&display=swap');\n\nbody{\n    font-family: 'Titillium Web', sans-serif!important;\n}\n.header{\ntop: 0px !important;\nheight: 66px !important;\npadding: 0px !important;\nborder-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n.menu_section{\nbox-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\nheight: 100vh !important;\npadding: 0px !important;\nleft: 0px !important;\nborder-right: 2px solid rgb(241, 243, 244) !important;\n}\n\n.main_section{\npadding: 0px !important;\nheight: 100vh !important;\nposition: fixed !important;\ntop: 66px !important; \n}\n\n.tab_login>div>div>div>div{\nbox-shadow: none !important;\n}\n\n.tab_login>div>div>div>div>div{\nbackground: transparent !important;\n}\n\n.frame_section{\nheight: 100vh !important;\nposition: fixed !important;\ntop: 16px !important; \n}\n\n.scroll_section{\n    height: 100% !important;\n    top: 66px !important; \npadding: 0px !important;\n\n}\n\n.image{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n    height: 75px !important;\n}\n\n\n.menu .active span{\ncolor: #2a2f36 !important;\n}\n\n.menu .active {\n    background: #ebf1fb !important;\n}\n\n.menu button:hover{\nbackground: #ebf1fb;\n}\n\n.menu span[role=\"img\"]{\nmargin-left: 8px !important;\nmargin-top: 3px !important;\n\n}\n.menu .bp3-collapse-body .sub_category {\n    padding: 5px 5px 5px 20px !important;\n}\n.menu button{\n    box-shadow: none !important;\n}\n\n.menu span{\n    font-size: 16px !important;\n    font-weight: 400 !important;\n    color: #00000099 !important;\n}\n\n.menu {\n    left: 0px !important;\n    width: 100% !important;\n    padding: 0 !important;\n}\n\n.menu_wrap{\n    position: fixed !important;\n    left: 0px!important;\n    top: 0px !important;\n    height: 100vh !important;\n    /* width: 178.312px!important; */\n    padding: 0px!important;\n    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\n}\n\n.menu button {\n    justify-content: start !important;\n    padding: 5px 10px 5px 15px !important;\n    margin-bottom: 5px !important;\n}\n\n.setting_title{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n\n.setting_text{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important; \n}\n\n.setting_text .bp3-ui-text {\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n.setting_title .bp3-ui-text {\n    font-weight: 600 !important;\n    font-size: 18px !important;\n}\n\n.telegramList {\n    padding: 10px 20px !important;\n}\n\n.telegramList .custom-wrapper-canvas-list{\n    display: flex;\n    flex-direction: column !important;\n}\n.telegramList .custom-wrapper-canvas-list button {\n    display: none !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget{\n    width: 90% !important;\n    position: static !important;\n    border-radius: 8px!important;\n    padding: 0 !important;\n    margin-bottom: 7px;\n    margin-right: auto !important;\n    margin-left: 0 !important;\n    background-color: #cfcfdb !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd){\n    margin-right: 0 !important;\n    margin-left: auto !important;\n    background-color: #e5e5e6 !important;\n}\n.telegramList .t--widget-textwidget{\n    width: auto !important;\n    position: static !important;\n    padding: 5px 15px !important;\n    height: 100% !important;\n}\n.telegramList .t--widget-textwidget span{\n    font-weight: 500; \n    font-size: 16px;\n    line-height: 125%;\n}\n\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd) .t--widget-textwidget span{\n    text-align: end;\n}\n\n.telegramWrap{\n    padding: 0!important;\n}\n\n.container{\n    min-height: 100vh;\n}\n\n.selectedTab{\n    box-shadow: rgb(235, 239, 242) -1px 0px 0px inset, rgb(235, 239, 242) 0px 0px 0px inset, rgb(55 169 235) 0px 4px 0px inset !important;\n}\n\n.icon >div>div>div>div>div>div>div{\n   background-position: center right!important;\n}\n\n.title >div>div>div>div>div>div>div span {\nfont-size:22px!important; \n}\n.title >div>div>div>div>div>div>div >span >span.training_span {color:#118cfc!important; font-size: 28px!important;  font-weight: 700!important;}\n.tabs >div>div>div>div>div>div {\nfont-size:20px!important;\ntext-transform: uppercase!important;\nfont-weight: 500!important;\n}\n.training_wrap >div>div>div>div>div>div>div>div>div>div>div>div>div{\n    display: inline-flex!important;\n    justify-content: space-between!important;\n}\n.table{\nfont-size:14px!important;\ntext-transform: lowercase!important;\nfont-weight: 400!important; \n}\n.table >div>div>div>div>div>div{\n    font-size:14px!important;\ntext-transform: uppercase!important;\n}\n.tr>div>div>div>div>div>div>div>div{\n    border-right: none!important;\n}\n\n\n\n.title >div>div>div>div>div>div>div >span >span {\nfont-size:14px!important;\nfont-weight: 400!important; \n}\n\n/**/\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    margin-bottom: 20px!important;\n}\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    position: initial !important;\n}\n\n.hide{\n    display: none;\n       height: 20px!important;\n}\n\n.activ{\n    display: block;\n    height: 270px!important;\n}\n.btn_right>div>div>div>div>button>span>svg {\n    transform: rotate(180deg)!important;\n    transition: all 0.5s ease 0s !important;\n}\n.btn_left>div>div>div>div>button>span>svg {\n        transform: translateY(0px)!important;\n    transition: none 0s ease 0s!important;\n}\n\n/* За замовчуванням */\n.btn_left>div>div>div>div>button,\n.btn_right>div>div>div>div>button {\n    background-color: #ccc;  \n    transition: background-color 0.3s ease, transform 0.3s ease !important;\n \n}\n\n\n.btn_left>div>div>div>div>button:hover:enabled,\n.btn_right>div>div>div>div>button:hover:enabled {\n    background: #9991 !important; \n    transform: translateY(-5px) !important; \n}\n.bp3-input {\nborder-radius: 10px!important;\n}",
         "output": "str",
         "x": 280,
         "y": 620,
