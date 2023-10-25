@@ -11685,7 +11685,7 @@
         "z": "4cba6f8219137af4",
         "g": "649b2f424f00fcf7",
         "name": "default data",
-        "func": "if (global.get('isCredentialsWhatsAppSent') === false){\n    msg.payload = {\n        \"whatsApp_url\": '',\n        \"whatsApp_token\": ''\n    }\n    global.set('isCredentialsWhatsAppSent', true)\n    return msg;\n}\n",
+        "func": "if (global.get('isCredentialsWhatsAppSent') === false){\n    msg.payload = {\n        \"whatsApp_phoneId\": '',\n        \"whatsApp_token\": ''\n    }\n    global.set('isCredentialsWhatsAppSent', true)\n    return msg;\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
