@@ -9852,7 +9852,7 @@
         "z": "f4036141cc030bcf",
         "g": "424028bffdc76acc",
         "name": "create default knowlegebase",
-        "func": "msg.collection = \"knowlegebase\"\nmsg.payload ={\n    _id: objectid(),\n    name: \"default\",\n    deleted:false\n}\nglobal.set('files','yes')\nreturn msg;",
+        "func": "msg.collection = \"knowlegebase\"\nmsg.payload ={\n    _id: objectid(),\n    name: \"default\",\n    deleted:false\n}\nglobal.set('base','yes')\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
