@@ -482,7 +482,9 @@
             "db7d2c1d52f05bf9",
             "7917d687a61f2409",
             "2b941a89d00cf43d",
-            "ec114b44f0f2b0e3"
+            "ec114b44f0f2b0e3",
+            "96fdc9ebf7f8fd4d",
+            "44b9e0968d17375a"
         ],
         "x": 34,
         "y": 979,
@@ -2638,7 +2640,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "ebee837ffce65a75",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nconst process_env = global.get(\"process_env\")\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL;\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE} , and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}`;\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\":''},\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload.matches[1].metadata.result },\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n}\n  return msg;",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nconst process_env = global.get(\"process_env\")\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL;\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}`;\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\":''},\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload.matches[1].metadata.result },\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n}\n  return msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -2746,15 +2748,16 @@
         "id": "96fdc9ebf7f8fd4d",
         "type": "function",
         "z": "c8208e6a65d3c2af",
+        "g": "40d09c6e6df96683",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE} , and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}`;\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": \"\" },\n    { \"role\": \"user\", \"content\": msg.old.entry[0].changes[0].value.messages[0].text.body }\n  ]\n} else {\n  msg.messages = [\n  { \"role\": \"system\", \"content\":  totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload.matches[1].metadata.result},\n  { \"role\": \"user\", \"content\": msg.old.entry[0].changes[0].value.messages[0].text.body }]\n\n\n}\n\nreturn msg;",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}`;\n\n\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": \"\" },\n    { \"role\": \"user\", \"content\": msg.old.entry[0].changes[0].value.messages[0].text.body }\n  ]\n} else {\n  msg.messages = [\n  { \"role\": \"system\", \"content\":  totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload.matches[1].metadata.result},\n  { \"role\": \"user\", \"content\": msg.old.entry[0].changes[0].value.messages[0].text.body }]\n\n\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 1010,
-        "y": 1220,
+        "y": 1180,
         "wires": [
             [
                 "44b9e0968d17375a"
@@ -2765,6 +2768,7 @@
         "id": "44b9e0968d17375a",
         "type": "openai-ubos",
         "z": "c8208e6a65d3c2af",
+        "g": "40d09c6e6df96683",
         "name": "genarate unswer",
         "model": "gpt-3.5-turbo",
         "temperature": 0.02,
@@ -2779,7 +2783,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 1125,
-        "y": 1220,
+        "y": 1160,
         "wires": [
             [
                 "72c0f7facf326866"
@@ -2856,7 +2860,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "7f86806a4ca0c715",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE} , and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}`;\n\n\n\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n  msg.messages = [\n    { \"role\": \"system\", \"content\":''},\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload.matches[1].metadata.result },\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n\n\n}\n\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}`;\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n  msg.messages = [\n    { \"role\": \"system\", \"content\":''},\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload.matches[1].metadata.result },\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n\n\n}\n\n\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3223,7 +3227,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "cbd9c53fe26c3884",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE} , and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}`;\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ? msg.fromTG.content.replace(`@${msg.BOT_NAME }`, '') : msg.fromTG.content;\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": ''},\n    { \"role\": \"user\", \"content\": content }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": content }\n  ]\n}\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}`;\n\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ? msg.fromTG.content.replace(`@${msg.BOT_NAME }`, '') : msg.fromTG.content;\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": ''},\n    { \"role\": \"user\", \"content\": content }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": content }\n  ]\n}\n\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3619,8 +3623,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1030,
-        "y": 1220,
+        "x": 1050,
+        "y": 1120,
         "wires": []
     },
     {
