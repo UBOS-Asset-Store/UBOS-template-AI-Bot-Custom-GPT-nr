@@ -56,40 +56,6 @@
         "env": []
     },
     {
-        "id": "a36ef6d92fe6c77f",
-        "type": "subflow",
-        "name": "initialMain",
-        "info": "",
-        "category": "",
-        "in": [
-            {
-                "x": 160,
-                "y": 80,
-                "wires": [
-                    {
-                        "id": "9c118fcdb9ebf1db"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 400,
-                "y": 80,
-                "wires": [
-                    {
-                        "id": "9c118fcdb9ebf1db",
-                        "port": 0
-                    }
-                ]
-            }
-        ],
-        "env": [],
-        "meta": {},
-        "color": "#C0DEED",
-        "icon": "node-red/leveldb.png"
-    },
-    {
         "id": "6a6d2afa5b0c7ec9",
         "type": "subflow",
         "name": "icons",
@@ -136,40 +102,6 @@
         "env": [],
         "meta": {},
         "color": "#DDAA99"
-    },
-    {
-        "id": "4aae098dcedbd26c",
-        "type": "subflow",
-        "name": "initialMain (2)",
-        "info": "",
-        "category": "",
-        "in": [
-            {
-                "x": 160,
-                "y": 80,
-                "wires": [
-                    {
-                        "id": "686e4745cd6070f0"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 400,
-                "y": 80,
-                "wires": [
-                    {
-                        "id": "686e4745cd6070f0",
-                        "port": 0
-                    }
-                ]
-            }
-        ],
-        "env": [],
-        "meta": {},
-        "color": "#C0DEED",
-        "icon": "node-red/leveldb.png"
     },
     {
         "id": "752a8b5a286babe5",
@@ -1237,40 +1169,6 @@
         "name": ""
     },
     {
-        "id": "9c118fcdb9ebf1db",
-        "type": "function",
-        "z": "a36ef6d92fe6c77f",
-        "name": "initialMain",
-        "func": "\nmsg.fromApp = msg.payload\nmsg.fromTG = msg.payload\n\nconst { OpenAI } = openai;\nconst { PineconeClient } = pineconeBD;\nconst { CreateIndexRequest } = pineconeDBPFetch;\nnode.warn(OpenAI);\nconst process_env = global.get(\"process_env\")\nconst OPENAI_API_KEY = process_env.OPENAI_API\nconst PINECONE_API_KEY = process_env.PIPECONE_API\nconst PINECONE_ENVIRONMENT = process_env.PIPECONE_ENV\nconst PIPECONE_INDEX = process_env.PIPECONE_INDEX\n\n\nglobal.set(\"TABLE_NAME\", PIPECONE_INDEX);\nglobal.set(\"tasks_storage\", []);\nglobal.set(\"results_storage\", []);\nglobal.set(\"taskId\", 0);\n// ============================\n\nnode.warn(OpenAI);\nconst configuration = new OpenAI({\n    apiKey: OPENAI_API_KEY,\n});\nconst openAI = new OpenAI(configuration);\n\nconst pinecone = new PineconeClient();\nawait pinecone.init({\n    apiKey: PINECONE_API_KEY,\n    environment: PINECONE_ENVIRONMENT,\n});\n\nconst indexList = await pinecone.listIndexes();\nlet index = pinecone.Index(global.get(\"TABLE_NAME\"));\n\nlet embeddingList = new Map();\nglobal.set(\"embeddingList\", embeddingList);\n\nmsg.main = { indexList, openAI, pinecone, index };\n\n\n\nasync function getADAEmbedding(text) {\n\n    const embeddingList = global.get(\"embeddingList\");\n\n    if (embeddingList.has(text)) {\n        return embeddingList.get(text);\n    }\n\n    const embedding = (\n        await openAI.embeddings.create({\n            input: [text],\n            model: \"text-embedding-ada-002\",\n        })\n    ).data?.[0].embedding;\n\n\n    embeddingList.set(text, embedding);\n\n    return embedding;\n}\n\nglobal.set(\"helpers\", {\n    getADAEmbedding\n});\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "openai",
-                "module": "openai"
-            },
-            {
-                "var": "pineconeBD",
-                "module": "@pinecone-database/pinecone"
-            },
-            {
-                "var": "pineconeDBPFetch",
-                "module": "@pinecone-database/pinecone/dist/pinecone-generated-ts-fetch"
-            },
-            {
-                "var": "axios",
-                "module": "axios"
-            }
-        ],
-        "x": 260,
-        "y": 80,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "7b7dced66ebb9ed0",
         "type": "function",
         "z": "6a6d2afa5b0c7ec9",
@@ -1406,40 +1304,6 @@
         "reduceFixup": "",
         "x": 470,
         "y": 260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "686e4745cd6070f0",
-        "type": "function",
-        "z": "4aae098dcedbd26c",
-        "name": "initialMain",
-        "func": "\n\nmsg.fromApp = msg.payload\nmsg.fromTG = msg.payload\n\n\n\nconst { Configuration, OpenAIApi } = openai;\nconst { PineconeClient } = pineconeBD;\nconst { CreateIndexRequest } = pineconeDBPFetch;\n\n\n\nconst process_env = global.get(\"process_env\")\nconst OPENAI_API_KEY = process_env.OPENAI_API\nconst PINECONE_API_KEY = process_env.PIPECONE_API\nconst PINECONE_ENVIRONMENT = process_env.PIPECONE_ENV\nconst PIPECONE_INDEX = process_env.PIPECONE_INDEX\n// node.warn(OPENAI_API_KEY)\n// node.warn(PINECONE_API_KEY)\n// node.warn(PINECONE_ENVIRONMENT)\n// node.warn(PIPECONE_INDEX)\nglobal.set(\"TABLE_NAME\", PIPECONE_INDEX);\nglobal.set(\"tasks_storage\", []);\nglobal.set(\"results_storage\", []);\nglobal.set(\"taskId\", 0);\n// ============================\n\nconst configuration = new Configuration({\n    apiKey: OPENAI_API_KEY,\n});\nconst openAI = new OpenAIApi(configuration);\n\nconst pinecone = new PineconeClient();\nawait pinecone.init({\n    apiKey: PINECONE_API_KEY,\n    environment: PINECONE_ENVIRONMENT,\n});\n\nconst indexList = await pinecone.listIndexes();\nlet index = pinecone.Index(global.get(\"TABLE_NAME\"));\n\nlet embeddingList = new Map();\nglobal.set(\"embeddingList\", embeddingList);\n\nmsg.main = { indexList, openAI, pinecone, index };\n\n\n\nasync function getADAEmbedding(text) {\n    try {\n        const response = await axios.post(\n            'https://api.openai.com/v1/embeddings',\n            {\n                input: `${text}`,\n                model: \"text-embedding-ada-002\"\n            },\n            {\n                headers: {\n                    'Authorization': `Bearer ${OPENAI_API_KEY}`,\n                    'Content-Type': 'application/json'\n                }\n            }\n        );\n\n        const embeddings = response.data.data[0].embedding;\n        return embeddings;\n    } catch (error) {\n        //node.warn(`Error: ${error}`);\n    }\n}\n\nglobal.set(\"helpers\", {\n    getADAEmbedding\n});\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "openai",
-                "module": "openai"
-            },
-            {
-                "var": "pineconeBD",
-                "module": "@pinecone-database/pinecone"
-            },
-            {
-                "var": "pineconeDBPFetch",
-                "module": "@pinecone-database/pinecone/dist/pinecone-generated-ts-fetch"
-            },
-            {
-                "var": "axios",
-                "module": "axios"
-            }
-        ],
-        "x": 260,
-        "y": 80,
         "wires": [
             []
         ]
@@ -13796,10 +13660,6 @@
             {
                 "var": "objectid",
                 "module": "objectid"
-            },
-            {
-                "var": "axios",
-                "module": "axios"
             }
         ],
         "x": 830,
