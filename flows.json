@@ -632,7 +632,9 @@
             "203b9423c44f39af"
         ],
         "x": 1354,
-        "y": 839
+        "y": 839,
+        "w": 1252,
+        "h": 362
     },
     {
         "id": "91096b9755d49fe2",
@@ -707,7 +709,9 @@
             "81747bc94dce71a1"
         ],
         "x": 34,
-        "y": 79
+        "y": 79,
+        "w": 2132,
+        "h": 702
     },
     {
         "id": "5b7ced25ddad191c",
@@ -793,7 +797,9 @@
             "034bd72aa6ae2af3"
         ],
         "x": 34,
-        "y": 819
+        "y": 819,
+        "w": 1292,
+        "h": 1002
     },
     {
         "id": "945706dce188c905",
@@ -836,7 +842,9 @@
             "c2ee02a2d477d604"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 1932,
+        "h": 282
     },
     {
         "id": "152119097abe3c6c",
@@ -879,7 +887,9 @@
             "ec678fb91d17199b"
         ],
         "x": 34,
-        "y": 359
+        "y": 359,
+        "w": 1932,
+        "h": 302
     },
     {
         "id": "c479b9fa6206f5f0",
@@ -914,7 +924,9 @@
             "582d4dfb377e5c9b"
         ],
         "x": 34,
-        "y": 699
+        "y": 699,
+        "w": 1072,
+        "h": 302
     },
     {
         "id": "32d3112d56e6b1ab",
@@ -949,7 +961,9 @@
             "b14dd00693046baf"
         ],
         "x": 34,
-        "y": 1039
+        "y": 1039,
+        "w": 1092,
+        "h": 282
     },
     {
         "id": "faa44c8af53ff52c",
@@ -984,7 +998,9 @@
             "0dc15aa186445a0f"
         ],
         "x": 34,
-        "y": 1359
+        "y": 1359,
+        "w": 992,
+        "h": 302
     },
     {
         "id": "649b2f424f00fcf7",
@@ -1019,7 +1035,9 @@
             "18435aa94cd08c68"
         ],
         "x": 34,
-        "y": 1699
+        "y": 1699,
+        "w": 1012,
+        "h": 302
     },
     {
         "id": "e40f1639481a93e5",
@@ -1054,7 +1072,9 @@
             "73d781cf02f69e93"
         ],
         "x": 34,
-        "y": 2059
+        "y": 2059,
+        "w": 992,
+        "h": 322
     },
     {
         "id": "cbd9c53fe26c3884",
@@ -10325,7 +10345,7 @@
         "z": "4cba6f8219137af4",
         "g": "945706dce188c905",
         "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n    // OPENAI_API: data.openai_api,\n    PIPECONE_API: data.pipecone_api,\n    PIPECONE_ENV: data.pipecone_env,\n    PIPECONE_INDEX: data.pipecone_index,\n    PIPECONE_URL: data.pipecone_url,\n    // PROMPT: data.prompt,\n}\n\nglobal.set(\"pinecone\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    PIPECONE_API: data.pipecone_api ? data.pipecone_api:\"\",\n    PIPECONE_ENV: data.pipecone_env ? data.pipecone_env : \"\",\n    PIPECONE_INDEX: data.pipecone_index ? data.pipecone_index :\"\",\n    PIPECONE_URL: data.pipecone_url ? data.pipecone_url  :\"\",\n}\n\nglobal.set(\"pinecone\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -10557,7 +10577,7 @@
         "z": "4cba6f8219137af4",
         "g": "649b2f424f00fcf7",
         "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n    WHATSAPP_PHONEID: data.whatsApp_phoneId,\n    WHATSAPP_TOKEN: data.whatsApp_token\n}\n\nglobal.set(\"WHATSAPP\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    WHATSAPP_PHONEID: data.whatsApp_phoneId ? data.whatsApp_phoneId :\"\",\n    WHATSAPP_TOKEN: data.whatsApp_token ? data.whatsApp_token : \"\"\n}\n\nglobal.set(\"WHATSAPP\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -10789,7 +10809,7 @@
         "z": "4cba6f8219137af4",
         "g": "e40f1639481a93e5",
         "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n    META_TOKEN: data.meta_token,\n    META_PAGEID: data.response_pageId\n}\n\nglobal.set(\"META\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    META_TOKEN: data.meta_token ? data.meta_token :\"\",\n    META_PAGEID: data.response_pageId ? data.response_pageId : \"\"\n}\n\nglobal.set(\"META\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -11176,7 +11196,7 @@
         "z": "4cba6f8219137af4",
         "g": "152119097abe3c6c",
         "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n   OPENAI_API: data.openai_api,\n    OPENAI_MODEL: data.openai_api_model\n}\n\nglobal.set(\"openai\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    OPENAI_API: data.openai_api ? data.openai_api :\"\",\n    OPENAI_MODEL: data.openai_api_model ? data.openai_api_model :\"\"\n}\n\nglobal.set(\"openai\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -12099,7 +12119,7 @@
         "z": "4cba6f8219137af4",
         "g": "945706dce188c905",
         "name": "default data",
-        "func": "if (global.get('isCredentialsSent') === false){\n    msg.payload = {\n        \"openai_api\": '',\n        \"pipecone_api\": '',\n        \"pipecone_env\": '',\n        \"pipecone_index\": '',\n        \"prompt\": ''\n    }\n    global.set('isCredentialsSent', true)\n    return msg;\n}\n",
+        "func": "if (global.get('isCredentialsSent') === false){\n    msg.payload = {\n        \"pipecone_url\": '',\n        \"pipecone_api\": '',\n        \"pipecone_env\": '',\n        \"pipecone_index\": ''  \n    }\n    global.set('isCredentialsSent', true)\n    return msg;\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -12440,7 +12460,7 @@
         "z": "4cba6f8219137af4",
         "g": "c479b9fa6206f5f0",
         "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\nANSWER_LENGTH: data.answer_length,\nANSWER_AS: data.answer_as,\nTONE: data.tone,\nLANGUAGE: data.language,\nPROMPT_CUSTOM: data.prompt_custom\n}\n\nglobal.set(\"prompts\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    ANSWER_LENGTH: data.answer_length ? data.answer_length :\"\",\n    ANSWER_AS: data.answer_as ? data.answer_as : \"\",\n    TONE: data.tone ? data.tone : \"\",\n    LANGUAGE: data.language ? data.language : \"\",\n    PROMPT_CUSTOM: data.prompt_custom ? data.prompt_custom: \"\"\n}\n\nglobal.set(\"prompts\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -12847,7 +12867,7 @@
         "z": "4cba6f8219137af4",
         "g": "32d3112d56e6b1ab",
         "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n    WELCOME: data.welcome,\n    UNABLE: data.unable,\n    RESPOND: data.respond\n}\n\nglobal.set(\"messages\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    WELCOME: data.welcome ? data.welcome :\"\",\n    UNABLE: data.unable ? data.unable : \"\",\n    RESPOND: data.respond ? data.respond : \"\"\n}\n\nglobal.set(\"messages\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -13235,7 +13255,7 @@
         "z": "4cba6f8219137af4",
         "g": "faa44c8af53ff52c",
         "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n    BOT_NAME: data.bot_name,\n    BOT_TOKEN: data.bot_token\n}\n\nglobal.set(\"telegram\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    BOT_NAME: data.bot_name ? data.bot_name :\"\",\n    BOT_TOKEN: data.bot_token ? data.bot_token : \"\"\n}\n\nglobal.set(\"telegram\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -16871,7 +16891,7 @@
         "type": "function",
         "z": "b41bb82e8b5e16dc",
         "name": "get analytics",
-        "func": "msg.payload = {\n    pinecone: global.get('pinecone'),\n    whatsApp: global.get('WHATSAPP'),\n    telegram: global.get('telegram'),\n    openai: global.get('openai'),\n    meta: global.get('META'),\n    base: global.get('base') ? global.get('base'): '',\n    files: global.get('files') ? global.get('files'):''\n}\nnode.warn(msg.payload)\nfunction countEmptyAndFilledFields(obj) {\n    let totalFields = 0;\n    let emptyFields = 0;\n    const result = {}; // Об'єкт для збереження кількості заповнених полів для кожного ключа\n\n    for (const key in obj) {\n        const subObj = obj[key];\n        totalFields += Object.keys(subObj).length;\n        let filledFieldsForKey = 0;\n\n        for (const subKey in subObj) {\n            if (subObj[subKey] === \"\") {\n                emptyFields++;\n            } else {\n                filledFieldsForKey++;\n            }\n        }\n\n        // Зберігаємо кількість заповнених полів для поточного ключа\n        result[key] = {\n            filledFields: filledFieldsForKey,\n            totalFields: Object.keys(subObj).length,\n            percentage: parseFloat(((filledFieldsForKey / Object.keys(subObj).length) * 100).toFixed(0)) // Округлюємо до 2 знаків після коми\n        };\n    }\n\n    // Обчислюємо загальну кількість заповнених полів для всього об'єкта\n    const filledFields = totalFields - emptyFields;\n    const emptyFieldPercentage = parseFloat(((emptyFields / totalFields) * 100).toFixed(0)); // Округлюємо до 2 знаків після коми\n    const filledFieldPercentage = parseFloat(((filledFields / totalFields) * 100).toFixed(0)); // Округлюємо до 2 знаків після коми\n\n    // Додаємо загальну інформацію до результату\n    result[\"total\"] = {\n        filledFields: filledFields,\n        totalFields: totalFields,\n        percentage: filledFieldPercentage\n    };\n\n    return result;\n}\n\n\n\n\nconst result = countEmptyAndFilledFields(msg.payload);\nnode.warn(result)\nnode.warn(result)\nlet botsFilledFields = result.whatsApp.filledFields + result.telegram.filledFields + result.meta.filledFields;\nlet botsTotalFields = result.whatsApp.totalFields + result.telegram.totalFields + result.meta.totalFields;\nlet gettingsFilledFields = result.pinecone.filledFields + result.openai.filledFields;\nlet gettingsTotalFields = result.pinecone.totalFields + result.openai.totalFields;\nlet baseTotalFields = result.base.totalFields;\nlet filesTotalFields = result.files.totalFields;\nmsg.payload = {\n    bots: {\n        filledFields: botsFilledFields,\n        totalFields: botsTotalFields,\n        percentage: parseFloat(((botsFilledFields / botsTotalFields) * 100)).toFixed(0)\n    },\n    settings: {\n        filledFields: gettingsFilledFields,\n        totalFields: gettingsTotalFields,\n        percentage: parseFloat(((gettingsFilledFields / gettingsTotalFields) * 100)).toFixed(0)\n    },\n    base: {\n        totalFields: baseTotalFields,\n        percentage: filesTotalFields !== 0 ? \"100\" :\"0\"\n    },\n    files: {\n        totalFields: baseTotalFields,\n        percentage: filesTotalFields !== 0 ? \"100\" : \"0\"\n    },\n    total:result.total.percentage\n\n}\n\n\n\nreturn msg",
+        "func": "msg.payload = {\n    pinecone: global.get('pinecone')? global.get('pinecone'):\"\",\n    whatsApp: global.get('WHATSAPP')? global.get('WHATSAPP'):\"\",\n    telegram: global.get('telegram')? global.get('telegram'):\"\",\n    openai: global.get('openai')? global.get('openai'):\"\",\n    meta: global.get('META')? global.get('META'):\"\",\n    base: global.get('base') ? global.get('base'): '',\n    files: global.get('files') ? global.get('files'):''\n}\nnode.warn(msg.payload)\nfunction countEmptyAndFilledFields(obj) {\n    let totalFields = 0;\n    let emptyFields = 0;\n    const result = {}; // Об'єкт для збереження кількості заповнених полів для кожного ключа\n\n    for (const key in obj) {\n        const subObj = obj[key];\n        totalFields += Object.keys(subObj).length;\n        let filledFieldsForKey = 0;\n\n        for (const subKey in subObj) {\n            if (subObj[subKey] === \"\") {\n                emptyFields++;\n            } else {\n                filledFieldsForKey++;\n            }\n        }\n\n        // Зберігаємо кількість заповнених полів для поточного ключа\n        result[key] = {\n            filledFields: filledFieldsForKey,\n            totalFields: Object.keys(subObj).length,\n            percentage: parseFloat(((filledFieldsForKey / Object.keys(subObj).length) * 100).toFixed(0)) // Округлюємо до 2 знаків після коми\n        };\n    }\n\n    // Обчислюємо загальну кількість заповнених полів для всього об'єкта\n    const filledFields = totalFields - emptyFields;\n    const emptyFieldPercentage = parseFloat(((emptyFields / totalFields) * 100).toFixed(0)); // Округлюємо до 2 знаків після коми\n    const filledFieldPercentage = parseFloat(((filledFields / totalFields) * 100).toFixed(0)); // Округлюємо до 2 знаків після коми\n\n    // Додаємо загальну інформацію до результату\n    result[\"total\"] = {\n        filledFields: filledFields,\n        totalFields: totalFields,\n        percentage: filledFieldPercentage\n    };\n\n    return result;\n}\n\n\n\n\nconst result = countEmptyAndFilledFields(msg.payload);\nnode.warn(result)\nnode.warn(result)\nlet botsFilledFields = result.whatsApp.filledFields + result.telegram.filledFields + result.meta.filledFields;\nlet botsTotalFields = result.whatsApp.totalFields + result.telegram.totalFields + result.meta.totalFields;\nlet gettingsFilledFields = result.pinecone.filledFields + result.openai.filledFields;\nlet gettingsTotalFields = result.pinecone.totalFields + result.openai.totalFields;\nlet baseTotalFields = result.base.totalFields;\nlet filesTotalFields = result.files.totalFields;\nmsg.payload = {\n    bots: {\n        filledFields: botsFilledFields,\n        totalFields: botsTotalFields,\n        percentage: parseFloat(((botsFilledFields / botsTotalFields) * 100)).toFixed(0)\n    },\n    settings: {\n        filledFields: gettingsFilledFields,\n        totalFields: gettingsTotalFields,\n        percentage: parseFloat(((gettingsFilledFields / gettingsTotalFields) * 100)).toFixed(0)\n    },\n    base: {\n        totalFields: baseTotalFields,\n        percentage: filesTotalFields !== 0 ? \"100\" :\"0\"\n    },\n    files: {\n        totalFields: baseTotalFields,\n        percentage: filesTotalFields !== 0 ? \"100\" : \"0\"\n    },\n    total:result.total.percentage\n\n}\n\n\n\nreturn msg",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
