@@ -2973,7 +2973,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "cbd9c53fe26c3884",
         "name": "/start",
-        "func": "msg.payload.content = global.get(\"messages\").WELCOME ? global.get(\"messages\").WELCOME :\"Hello\";\n\nreturn msg;",
+        "func": "msg.payload.content = global.get(\"messages\")?.WELCOME ? global.get(\"messages\").WELCOME :\"Hello\";\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
