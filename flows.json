@@ -564,9 +564,7 @@
             "203b9423c44f39af"
         ],
         "x": 1354,
-        "y": 839,
-        "w": 1252,
-        "h": 362
+        "y": 839
     },
     {
         "id": "91096b9755d49fe2",
@@ -641,9 +639,7 @@
             "81747bc94dce71a1"
         ],
         "x": 34,
-        "y": 79,
-        "w": 2132,
-        "h": 702
+        "y": 79
     },
     {
         "id": "5b7ced25ddad191c",
@@ -729,9 +725,7 @@
             "034bd72aa6ae2af3"
         ],
         "x": 34,
-        "y": 819,
-        "w": 1292,
-        "h": 1002
+        "y": 819
     },
     {
         "id": "945706dce188c905",
@@ -11847,7 +11841,7 @@
         "z": "4cba6f8219137af4",
         "g": "e40f1639481a93e5",
         "name": "default data",
-        "func": "if (global.get('isCredentialsMetaSent') === false){\n    msg.payload = {\n        \"meta_token\": '',\n        \"data.response_pageId\":''\n\n    }\n    global.set('isCredentialsMetaSent', true)\n    return msg;\n}\n",
+        "func": "if (global.get('isCredentialsMetaSent') === false){\n    msg.payload = {\n        \"meta_token\": '',\n        \"response_pageId\":''\n\n    }\n    global.set('isCredentialsMetaSent', true)\n    return msg;\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
