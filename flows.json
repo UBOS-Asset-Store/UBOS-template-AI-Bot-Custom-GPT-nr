@@ -12619,7 +12619,7 @@
         "type": "function",
         "z": "4cba6f8219137af4",
         "name": "function 399",
-        "func": "\nmsg.payload = {\n    meta: global.get('META') ? global.get('META') : {\n        META_TOKEN: \"\",\n        META_PAGEID: \"\"\n    },\n    whatsApp: global.set(\"WHATSAPP\") ? global.set(\"WHATSAPP\") : {\n        WHATSAPP_PHONEID: \"\",\n        WHATSAPP_TOKEN: \"\"\n    },\n   telegram: global.get('telegram') ? global.get('telegram') : {\n        BOT_NAME: \"\",\n        BOT_TOKEN: \"\"\n    }\n\n};\nreturn msg\n\n\n",
+        "func": "\nmsg.payload = {\n    meta: global.get('META') ? global.get('META') : {\n        META_TOKEN: \"\",\n        META_PAGEID: \"\"\n    },\n    whatsApp: global.get(\"WHATSAPP\") ? global.get(\"WHATSAPP\") : {\n        WHATSAPP_PHONEID: \"\",\n        WHATSAPP_TOKEN: \"\"\n    },\n   telegram: global.get('telegram') ? global.get('telegram') : {\n        BOT_NAME: \"\",\n        BOT_TOKEN: \"\"\n    }\n\n};\nreturn msg\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
