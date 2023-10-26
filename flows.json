@@ -1098,6 +1098,29 @@
         "y": 0
     },
     {
+        "id": "4f917968caad45c9",
+        "type": "group",
+        "z": "4cba6f8219137af4",
+        "name": "All settings",
+        "style": {
+            "stroke": "#ffC000",
+            "fill": "#ffefbf",
+            "label": true
+        },
+        "nodes": [
+            "d0e3e6de89b9f1ab",
+            "734f87d6e57db2ee",
+            "281de60d94f6055f",
+            "653e53d7fb5ce764",
+            "b058b242b8e6f650",
+            "2dbe218776fe3204"
+        ],
+        "x": 34,
+        "y": 2059,
+        "w": 572,
+        "h": 162
+    },
+    {
         "id": "4b07803a52e468f5",
         "type": "telegram bot",
         "botname": "{global.get('telegram').BOT_NAME}",
@@ -12554,13 +12577,14 @@
         "id": "d0e3e6de89b9f1ab",
         "type": "http in",
         "z": "4cba6f8219137af4",
+        "g": "4f917968caad45c9",
         "name": "",
         "url": "/getenvs",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 150,
-        "y": 2060,
+        "x": 130,
+        "y": 2100,
         "wires": [
             [
                 "734f87d6e57db2ee"
@@ -12571,15 +12595,16 @@
         "id": "734f87d6e57db2ee",
         "type": "function",
         "z": "4cba6f8219137af4",
-        "name": "function 398",
+        "g": "4f917968caad45c9",
+        "name": "get settings",
         "func": "\nmsg.payload = {\n    pinecone: global.get('pinecone') ? global.get('pinecone') : {\n        PIPECONE_API:  \"\",\n        PIPECONE_ENV: \"\",\n        PIPECONE_INDEX: \"\",\n        PIPECONE_URL: \"\",\n    },\n    messages: global.set(\"messages\") ? global.set(\"messages\") : {\n        WELCOME: \"\",\n        UNABLE:  \"\",\n        RESPOND: \"\"\n    },\n    openai: global.get('openai') ? global.get('openai') : {\n        OPENAI_API: \"\",\n        OPENAI_MODEL: \"\",\n    },\n    prompts: global.get(\"prompts\") ? global.get(\"prompts\") : {\n        ANSWER_LENGTH: \"\",\n        ANSWER_AS:  \"\",\n        TONE: \"\",\n        LANGUAGE: \"\",\n        PROMPT_CUSTOM: \"\"\n    }\n\n    \n};\nreturn msg",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 2060,
+        "x": 310,
+        "y": 2100,
         "wires": [
             [
                 "281de60d94f6055f"
@@ -12590,24 +12615,26 @@
         "id": "281de60d94f6055f",
         "type": "http response",
         "z": "4cba6f8219137af4",
+        "g": "4f917968caad45c9",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 490,
-        "y": 2060,
+        "x": 470,
+        "y": 2100,
         "wires": []
     },
     {
         "id": "653e53d7fb5ce764",
         "type": "http in",
         "z": "4cba6f8219137af4",
+        "g": "4f917968caad45c9",
         "name": "",
         "url": "/getenvsbots",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 170,
-        "y": 2140,
+        "x": 150,
+        "y": 2180,
         "wires": [
             [
                 "b058b242b8e6f650"
@@ -12618,7 +12645,8 @@
         "id": "b058b242b8e6f650",
         "type": "function",
         "z": "4cba6f8219137af4",
-        "name": "function 399",
+        "g": "4f917968caad45c9",
+        "name": "get bots settings",
         "func": "\nmsg.payload = {\n    meta: global.get('META') ? global.get('META') : {\n        META_TOKEN: \"\",\n        META_PAGEID: \"\"\n    },\n    whatsApp: global.get(\"WHATSAPP\") ? global.get(\"WHATSAPP\") : {\n        WHATSAPP_PHONEID: \"\",\n        WHATSAPP_TOKEN: \"\"\n    },\n   telegram: global.get('telegram') ? global.get('telegram') : {\n        BOT_NAME: \"\",\n        BOT_TOKEN: \"\"\n    }\n\n};\nreturn msg\n\n\n",
         "outputs": 1,
         "noerr": 0,
@@ -12626,7 +12654,7 @@
         "finalize": "",
         "libs": [],
         "x": 370,
-        "y": 2140,
+        "y": 2180,
         "wires": [
             [
                 "2dbe218776fe3204"
@@ -12637,11 +12665,12 @@
         "id": "2dbe218776fe3204",
         "type": "http response",
         "z": "4cba6f8219137af4",
+        "g": "4f917968caad45c9",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 510,
-        "y": 2140,
+        "x": 530,
+        "y": 2180,
         "wires": []
     },
     {
