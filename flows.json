@@ -147,9 +147,7 @@
             "881a3a438a261f6f"
         ],
         "x": 14,
-        "y": 1139,
-        "w": 712,
-        "h": 902
+        "y": 1139
     },
     {
         "id": "7cf09a5628ba29e5",
@@ -234,9 +232,7 @@
             "56afed1bb13cc979"
         ],
         "x": 4,
-        "y": 39,
-        "w": 1962,
-        "h": 1022
+        "y": 39
     },
     {
         "id": "d47c4baf98dd7d3b",
@@ -260,9 +256,7 @@
             "4ca2aafdce75631b"
         ],
         "x": 774,
-        "y": 1139,
-        "w": 1012,
-        "h": 162
+        "y": 1139
     },
     {
         "id": "b69c8ee37e3e0852",
@@ -313,9 +307,7 @@
             "5322da50da8b810a"
         ],
         "x": 774,
-        "y": 1339,
-        "w": 1652,
-        "h": 622
+        "y": 1339
     },
     {
         "id": "1c10aa09f2bae3b6",
@@ -359,9 +351,7 @@
             "db9c3ea65883774f"
         ],
         "x": 14,
-        "y": 3039,
-        "w": 1172,
-        "h": 662
+        "y": 3039
     },
     {
         "id": "a89d39ed625d493a",
@@ -418,9 +408,7 @@
             "daa9252c4d5e4a15"
         ],
         "x": 4,
-        "y": 2079,
-        "w": 1042,
-        "h": 922
+        "y": 2079
     },
     {
         "id": "ebee837ffce65a75",
@@ -578,7 +566,9 @@
             "203b9423c44f39af"
         ],
         "x": 1354,
-        "y": 839
+        "y": 839,
+        "w": 1252,
+        "h": 362
     },
     {
         "id": "91096b9755d49fe2",
@@ -653,7 +643,9 @@
             "81747bc94dce71a1"
         ],
         "x": 34,
-        "y": 79
+        "y": 79,
+        "w": 2132,
+        "h": 702
     },
     {
         "id": "5b7ced25ddad191c",
@@ -739,7 +731,9 @@
             "034bd72aa6ae2af3"
         ],
         "x": 34,
-        "y": 819
+        "y": 819,
+        "w": 1292,
+        "h": 1002
     },
     {
         "id": "945706dce188c905",
@@ -1047,9 +1041,9 @@
             "35eee919bdbe2587",
             "762d9f30ef250e1b"
         ],
-        "x": 34,
+        "x": -6,
         "y": 219,
-        "w": 2312,
+        "w": 2352,
         "h": 382
     },
     {
@@ -1125,9 +1119,7 @@
             "0fba73d698585ddf"
         ],
         "x": 14,
-        "y": 3759,
-        "w": 3712,
-        "h": 762
+        "y": 3759
     },
     {
         "id": "4b07803a52e468f5",
@@ -3535,95 +3527,6 @@
         ]
     },
     {
-        "id": "8fad88cb54468d62",
-        "type": "while-loop",
-        "z": "c8208e6a65d3c2af",
-        "g": "cbd9c53fe26c3884",
-        "name": "",
-        "condi": "global.get(`${msg.typing}`) === true",
-        "limit": true,
-        "limitTime": "100",
-        "time": "counter",
-        "timeType": "msg",
-        "x": 395,
-        "y": 480,
-        "wires": [
-            [],
-            [
-                "db7c93f50d03cd4e"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "b78866b9d0f3e7c8",
-        "type": "telegram receiver",
-        "z": "c8208e6a65d3c2af",
-        "g": "cbd9c53fe26c3884",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "saveDataDir": "",
-        "filterCommands": true,
-        "x": 140,
-        "y": 520,
-        "wires": [
-            [
-                "666747ce63dfca18",
-                "1d797e0280d34dfb"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "e59e5a043c88871f",
-        "type": "telegram sender",
-        "z": "c8208e6a65d3c2af",
-        "g": "cbd9c53fe26c3884",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 640,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "aa712d12bd3f3a12",
-        "type": "telegram sender",
-        "z": "c8208e6a65d3c2af",
-        "g": "cbd9c53fe26c3884",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 1880,
-        "y": 400,
-        "wires": [
-            [
-                "c9fb5769ca6ccbec"
-            ]
-        ]
-    },
-    {
-        "id": "35eee919bdbe2587",
-        "type": "telegram sender",
-        "z": "c8208e6a65d3c2af",
-        "g": "cbd9c53fe26c3884",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 500,
-        "y": 560,
-        "wires": [
-            [
-                "44b3fdac09e09d2a"
-            ]
-        ]
-    },
-    {
         "id": "2b941a89d00cf43d",
         "type": "debug",
         "z": "c8208e6a65d3c2af",
@@ -3661,6 +3564,90 @@
                 "9a29fe13cdb79569"
             ]
         ]
+    },
+    {
+        "id": "b78866b9d0f3e7c8",
+        "type": "telegram receiver",
+        "z": "c8208e6a65d3c2af",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "saveDataDir": "",
+        "filterCommands": true,
+        "x": 140,
+        "y": 520,
+        "wires": [
+            [
+                "666747ce63dfca18",
+                "1d797e0280d34dfb"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e59e5a043c88871f",
+        "type": "telegram sender",
+        "z": "c8208e6a65d3c2af",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 640,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aa712d12bd3f3a12",
+        "type": "telegram sender",
+        "z": "c8208e6a65d3c2af",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1880,
+        "y": 400,
+        "wires": [
+            [
+                "c9fb5769ca6ccbec"
+            ]
+        ]
+    },
+    {
+        "id": "35eee919bdbe2587",
+        "type": "telegram sender",
+        "z": "c8208e6a65d3c2af",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 500,
+        "y": 560,
+        "wires": [
+            [
+                "44b3fdac09e09d2a"
+            ]
+        ]
+    },
+    {
+        "id": "8fad88cb54468d62",
+        "type": "while-loop",
+        "z": "c8208e6a65d3c2af",
+        "name": "",
+        "condi": "global.get(`${msg.typing}`) === true",
+        "limit": true,
+        "limitTime": "100",
+        "time": "counter",
+        "timeType": "msg",
+        "x": 395,
+        "y": 480,
+        "wires": [
+            [],
+            [
+                "db7c93f50d03cd4e"
+            ]
+        ],
+        "l": false
     },
     {
         "id": "2677414dc3b763e4",
@@ -3765,6 +3752,31 @@
         "wires": []
     },
     {
+        "id": "3acc1c4c6dcb66c9",
+        "type": "link in",
+        "z": "33ad232901cfdd1c",
+        "name": "mongo Count",
+        "links": [],
+        "x": 445,
+        "y": 80,
+        "wires": [
+            [
+                "4e23a09a5b495b92"
+            ]
+        ]
+    },
+    {
+        "id": "9aab6d54b4d2d96a",
+        "type": "link out",
+        "z": "33ad232901cfdd1c",
+        "name": "link out 6",
+        "mode": "return",
+        "links": [],
+        "x": 715,
+        "y": 80,
+        "wires": []
+    },
+    {
         "id": "f3044d88f842fe9e",
         "type": "mongodb out",
         "z": "33ad232901cfdd1c",
@@ -3825,31 +3837,6 @@
                 "cc5e7181a25ef63d"
             ]
         ]
-    },
-    {
-        "id": "3acc1c4c6dcb66c9",
-        "type": "link in",
-        "z": "33ad232901cfdd1c",
-        "name": "mongo Count",
-        "links": [],
-        "x": 445,
-        "y": 80,
-        "wires": [
-            [
-                "4e23a09a5b495b92"
-            ]
-        ]
-    },
-    {
-        "id": "9aab6d54b4d2d96a",
-        "type": "link out",
-        "z": "33ad232901cfdd1c",
-        "name": "link out 6",
-        "mode": "return",
-        "links": [],
-        "x": 715,
-        "y": 80,
-        "wires": []
     },
     {
         "id": "4e23a09a5b495b92",
@@ -9949,54 +9936,6 @@
         "l": false
     },
     {
-        "id": "cf9110db7c6fe96f",
-        "type": "mongodb out",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "mongodb": "7908a755f1520aa7",
-        "name": "",
-        "collection": "admin_modules",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 910,
-        "y": 4360,
-        "wires": []
-    },
-    {
-        "id": "21a55fa65e78be8f",
-        "type": "mongodb out",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "mongodb": "7908a755f1520aa7",
-        "name": "",
-        "collection": "admin_roles",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 890,
-        "y": 4420,
-        "wires": []
-    },
-    {
-        "id": "800a07af663511f3",
-        "type": "mongodb out",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "mongodb": "7908a755f1520aa7",
-        "name": "",
-        "collection": "admins",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 880,
-        "y": 4300,
-        "wires": []
-    },
-    {
         "id": "f62e6f992aa07fdb",
         "type": "function",
         "z": "f4036141cc030bcf",
@@ -10017,22 +9956,6 @@
         ]
     },
     {
-        "id": "84b037deaf9dfdca",
-        "type": "mongodb out",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "mongodb": "7908a755f1520aa7",
-        "name": "",
-        "collection": "knowlegebase",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 900,
-        "y": 4240,
-        "wires": []
-    },
-    {
         "id": "4dd1bab0c348d47e",
         "type": "function",
         "z": "f4036141cc030bcf",
@@ -10051,22 +9974,6 @@
                 "af6faaf15d904ee0"
             ]
         ]
-    },
-    {
-        "id": "af6faaf15d904ee0",
-        "type": "mongodb out",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "mongodb": "7908a755f1520aa7",
-        "name": "",
-        "collection": "knowledgeObjects",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 910,
-        "y": 4180,
-        "wires": []
     },
     {
         "id": "8c11a89df1c25667",
@@ -10109,38 +10016,6 @@
         ]
     },
     {
-        "id": "2985690b8042519b",
-        "type": "mongodb out",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "mongodb": "7908a755f1520aa7",
-        "name": "",
-        "collection": "users_messages",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 910,
-        "y": 4120,
-        "wires": []
-    },
-    {
-        "id": "dfae14f2d9b47785",
-        "type": "mongodb out",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "mongodb": "7908a755f1520aa7",
-        "name": "",
-        "collection": "users",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 870,
-        "y": 4060,
-        "wires": []
-    },
-    {
         "id": "0fba73d698585ddf",
         "type": "inject",
         "z": "f4036141cc030bcf",
@@ -10170,6 +10045,111 @@
                 "8c11a89df1c25667"
             ]
         ]
+    },
+    {
+        "id": "cf9110db7c6fe96f",
+        "type": "mongodb out",
+        "z": "f4036141cc030bcf",
+        "mongodb": "7908a755f1520aa7",
+        "name": "",
+        "collection": "admin_modules",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 910,
+        "y": 4360,
+        "wires": []
+    },
+    {
+        "id": "21a55fa65e78be8f",
+        "type": "mongodb out",
+        "z": "f4036141cc030bcf",
+        "mongodb": "7908a755f1520aa7",
+        "name": "",
+        "collection": "admin_roles",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 890,
+        "y": 4420,
+        "wires": []
+    },
+    {
+        "id": "800a07af663511f3",
+        "type": "mongodb out",
+        "z": "f4036141cc030bcf",
+        "mongodb": "7908a755f1520aa7",
+        "name": "",
+        "collection": "admins",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 880,
+        "y": 4300,
+        "wires": []
+    },
+    {
+        "id": "84b037deaf9dfdca",
+        "type": "mongodb out",
+        "z": "f4036141cc030bcf",
+        "mongodb": "7908a755f1520aa7",
+        "name": "",
+        "collection": "knowlegebase",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 900,
+        "y": 4240,
+        "wires": []
+    },
+    {
+        "id": "af6faaf15d904ee0",
+        "type": "mongodb out",
+        "z": "f4036141cc030bcf",
+        "mongodb": "7908a755f1520aa7",
+        "name": "",
+        "collection": "knowledgeObjects",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 910,
+        "y": 4180,
+        "wires": []
+    },
+    {
+        "id": "2985690b8042519b",
+        "type": "mongodb out",
+        "z": "f4036141cc030bcf",
+        "mongodb": "7908a755f1520aa7",
+        "name": "",
+        "collection": "users_messages",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 910,
+        "y": 4120,
+        "wires": []
+    },
+    {
+        "id": "dfae14f2d9b47785",
+        "type": "mongodb out",
+        "z": "f4036141cc030bcf",
+        "mongodb": "7908a755f1520aa7",
+        "name": "",
+        "collection": "users",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 870,
+        "y": 4060,
+        "wires": []
     },
     {
         "id": "2cd32bbc5f43b1e9",
@@ -13984,8 +13964,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1360,
-        "y": 220,
+        "x": 1320,
+        "y": 180,
         "wires": []
     },
     {
@@ -15173,21 +15153,6 @@
         ]
     },
     {
-        "id": "576cadf9d8acf893",
-        "type": "pdfparse",
-        "z": "8bea414da58d7b2a",
-        "g": "5b7ced25ddad191c",
-        "name": "",
-        "path": "",
-        "x": 720,
-        "y": 1100,
-        "wires": [
-            [
-                "0cd095660d72aa7b"
-            ]
-        ]
-    },
-    {
         "id": "e7b9e2966ec9a530",
         "type": "function",
         "z": "8bea414da58d7b2a",
@@ -15411,29 +15376,6 @@
         "l": false
     },
     {
-        "id": "75e116bf63574213",
-        "type": "array-loop",
-        "z": "8bea414da58d7b2a",
-        "g": "5b7ced25ddad191c",
-        "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 600,
-        "y": 1660,
-        "wires": [
-            [
-                "a54f017ce67d1c90"
-            ],
-            [
-                "a1670647af3c537e"
-            ]
-        ]
-    },
-    {
         "id": "a54f017ce67d1c90",
         "type": "function",
         "z": "8bea414da58d7b2a",
@@ -15612,29 +15554,6 @@
         "wires": [
             [
                 "62541437b715dd0c"
-            ]
-        ]
-    },
-    {
-        "id": "62541437b715dd0c",
-        "type": "array-loop",
-        "z": "8bea414da58d7b2a",
-        "g": "5b7ced25ddad191c",
-        "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 860,
-        "y": 1420,
-        "wires": [
-            [
-                "8397a151d3c25458"
-            ],
-            [
-                "3dd63ba1c0af4c0a"
             ]
         ]
     },
@@ -15956,29 +15875,6 @@
         "y": 1020,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "1d3167e5d7dd4929",
-        "type": "array-loop",
-        "z": "8bea414da58d7b2a",
-        "g": "5b7ced25ddad191c",
-        "name": "",
-        "key": "amount",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 560,
-        "y": 1240,
-        "wires": [
-            [
-                "f6cef9694005b68a"
-            ],
-            [
-                "a87c1c3ff323fa11"
-            ]
         ]
     },
     {
@@ -16511,6 +16407,86 @@
         "wires": [
             [
                 "2939b17ff85927a5"
+            ]
+        ]
+    },
+    {
+        "id": "75e116bf63574213",
+        "type": "array-loop",
+        "z": "8bea414da58d7b2a",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 600,
+        "y": 1660,
+        "wires": [
+            [
+                "a54f017ce67d1c90"
+            ],
+            [
+                "a1670647af3c537e"
+            ]
+        ]
+    },
+    {
+        "id": "62541437b715dd0c",
+        "type": "array-loop",
+        "z": "8bea414da58d7b2a",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 860,
+        "y": 1420,
+        "wires": [
+            [
+                "8397a151d3c25458"
+            ],
+            [
+                "3dd63ba1c0af4c0a"
+            ]
+        ]
+    },
+    {
+        "id": "1d3167e5d7dd4929",
+        "type": "array-loop",
+        "z": "8bea414da58d7b2a",
+        "name": "",
+        "key": "amount",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 560,
+        "y": 1240,
+        "wires": [
+            [
+                "f6cef9694005b68a"
+            ],
+            [
+                "a87c1c3ff323fa11"
+            ]
+        ]
+    },
+    {
+        "id": "576cadf9d8acf893",
+        "type": "pdfparse",
+        "z": "8bea414da58d7b2a",
+        "name": "",
+        "path": "",
+        "x": 720,
+        "y": 1100,
+        "wires": [
+            [
+                "0cd095660d72aa7b"
             ]
         ]
     },
