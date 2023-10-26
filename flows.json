@@ -147,7 +147,9 @@
             "881a3a438a261f6f"
         ],
         "x": 14,
-        "y": 1139
+        "y": 1139,
+        "w": 712,
+        "h": 902
     },
     {
         "id": "7cf09a5628ba29e5",
@@ -232,7 +234,9 @@
             "56afed1bb13cc979"
         ],
         "x": 4,
-        "y": 39
+        "y": 39,
+        "w": 1962,
+        "h": 1022
     },
     {
         "id": "d47c4baf98dd7d3b",
@@ -256,7 +260,9 @@
             "4ca2aafdce75631b"
         ],
         "x": 774,
-        "y": 1139
+        "y": 1139,
+        "w": 1012,
+        "h": 162
     },
     {
         "id": "b69c8ee37e3e0852",
@@ -307,7 +313,9 @@
             "5322da50da8b810a"
         ],
         "x": 774,
-        "y": 1339
+        "y": 1339,
+        "w": 1652,
+        "h": 622
     },
     {
         "id": "1c10aa09f2bae3b6",
@@ -351,7 +359,9 @@
             "db9c3ea65883774f"
         ],
         "x": 14,
-        "y": 3039
+        "y": 3039,
+        "w": 1172,
+        "h": 662
     },
     {
         "id": "a89d39ed625d493a",
@@ -408,7 +418,9 @@
             "daa9252c4d5e4a15"
         ],
         "x": 4,
-        "y": 2079
+        "y": 2079,
+        "w": 1042,
+        "h": 922
     },
     {
         "id": "ebee837ffce65a75",
@@ -526,7 +538,7 @@
             "641684d8ce0a590f",
             "e0933beca89886f4"
         ],
-        "x": 54,
+        "x": 34,
         "y": 1359,
         "w": 1812,
         "h": 302
@@ -566,7 +578,9 @@
             "203b9423c44f39af"
         ],
         "x": 1354,
-        "y": 839
+        "y": 839,
+        "w": 1252,
+        "h": 362
     },
     {
         "id": "91096b9755d49fe2",
@@ -641,7 +655,9 @@
             "81747bc94dce71a1"
         ],
         "x": 34,
-        "y": 79
+        "y": 79,
+        "w": 2132,
+        "h": 702
     },
     {
         "id": "5b7ced25ddad191c",
@@ -727,7 +743,9 @@
             "034bd72aa6ae2af3"
         ],
         "x": 34,
-        "y": 819
+        "y": 819,
+        "w": 1292,
+        "h": 1002
     },
     {
         "id": "945706dce188c905",
@@ -1113,7 +1131,9 @@
             "0fba73d698585ddf"
         ],
         "x": 14,
-        "y": 3759
+        "y": 3759,
+        "w": 3712,
+        "h": 762
     },
     {
         "id": "4b07803a52e468f5",
@@ -2064,7 +2084,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 400,
+        "x": 380,
         "y": 1400,
         "wires": [
             [
@@ -2081,7 +2101,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 570,
+        "x": 550,
         "y": 1400,
         "wires": []
     },
@@ -2095,7 +2115,7 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 170,
+        "x": 150,
         "y": 1520,
         "wires": [
             [
@@ -2116,7 +2136,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 400,
+        "x": 380,
         "y": 1520,
         "wires": [
             [
@@ -2137,7 +2157,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 610,
+        "x": 590,
         "y": 1520,
         "wires": []
     },
@@ -2153,7 +2173,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1240,
+        "x": 1220,
         "y": 1580,
         "wires": [
             [
@@ -2192,7 +2212,7 @@
                 "valueValue": "token"
             }
         ],
-        "x": 1410,
+        "x": 1390,
         "y": 1580,
         "wires": [
             [
@@ -2213,7 +2233,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
+        "x": 580,
         "y": 1460,
         "wires": [
             [
@@ -2238,7 +2258,7 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 750,
+        "x": 730,
         "y": 1460,
         "wires": [
             [
@@ -2259,7 +2279,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 930,
+        "x": 910,
         "y": 1460,
         "wires": [
             [
@@ -2286,7 +2306,7 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1090,
+        "x": 1070,
         "y": 1460,
         "wires": [
             []
@@ -2304,7 +2324,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1570,
+        "x": 1550,
         "y": 1580,
         "wires": [
             [
@@ -2330,7 +2350,7 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1770,
+        "x": 1750,
         "y": 1580,
         "wires": [
             []
@@ -2346,7 +2366,7 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 170,
+        "x": 150,
         "y": 1400,
         "wires": [
             [
@@ -2367,7 +2387,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 730,
+        "x": 710,
         "y": 1400,
         "wires": []
     },
@@ -2385,7 +2405,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 850,
+        "x": 830,
         "y": 1540,
         "wires": []
     },
@@ -2403,7 +2423,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1390,
+        "x": 1370,
         "y": 1620,
         "wires": []
     },
@@ -2421,7 +2441,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1590,
+        "x": 1570,
         "y": 1540,
         "wires": []
     },
@@ -2438,7 +2458,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 390,
+        "x": 370,
         "y": 1480,
         "wires": []
     },
@@ -2473,7 +2493,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 950,
+        "x": 930,
         "y": 1500,
         "wires": []
     },
@@ -2800,7 +2820,7 @@
         "actionType": "query",
         "apiKey": "",
         "environment": "",
-        "x": 830,
+        "x": 810,
         "y": 1580,
         "wires": [
             [
@@ -2866,7 +2886,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 990,
+        "x": 970,
         "y": 1580,
         "wires": [
             [
@@ -2892,7 +2912,7 @@
             "value": "[]"
         },
         "OPENAI_API_KEY": "",
-        "x": 1105,
+        "x": 1085,
         "y": 1580,
         "wires": [
             [
@@ -13797,7 +13817,7 @@
         "z": "8bea414da58d7b2a",
         "g": "91096b9755d49fe2",
         "name": "insert",
-        "func": "let question = msg.oldPayload.question;\nlet result = msg.oldPayload.result;\n\nlet url = msg.oldPayload.name\n\nlet vector = {\n            id: Date.now().toString(),\n            pinecone: false,\n            metadata: { url: url, question: question, result },\n        }\n        \nmsg.payload = {\n    _id:objectid() ,\n    knowledgeBaseId: msg.oldPayloadforlink.id,\n    url: url,\n    type: msg.type,\n    name: msg.oldPayload.name,\n    vectors: [vector],\n    status: \"Divided\",\n    deleted: false,\n    createdAt: new Date()\n};\nreturn msg;",
+        "func": "let question = msg.oldPayload.question;\nlet result = msg.oldPayload.result;\n\nlet url = msg.oldPayload.name\n\nlet vector = {\n            id: Date.now().toString(),\n            pinecone: false,\n            metadata: { url: url, question: question, result },\n        }\n        \nmsg.payload = {\n    _id:objectid() ,\n    knowledgeBaseId: objectid(msg.oldPayloadforlink.id),\n    url: url,\n    type: msg.type,\n    name: msg.oldPayload.name,\n    vectors: [vector],\n    status: \"Divided\",\n    deleted: false,\n    createdAt: new Date()\n};\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -14395,7 +14415,7 @@
         "z": "8bea414da58d7b2a",
         "g": "91096b9755d49fe2",
         "name": "FAQ",
-        "func": "msg.buffer = msg.req.files[0].buffer\n\nmsg.decodedFilename = '/data/storage/' + msg.req.files[0].originalname\n\nmsg.payload = {\n    _id: objectid(),\n    knowledgeBaseId: msg.oldPayload.id,\n    name: msg.req.files[0].originalname,\n    type: \"FAQ\",\n    file: msg.req.files[0].originalname,\n    vectors: [],\n    status: \"Source saved\",\n    deleted: false,\n    createdAt: new Date(),\n    totaCharacters: msg.totaCharacters\n};\nreturn msg;",
+        "func": "msg.buffer = msg.req.files[0].buffer\n\nmsg.decodedFilename = '/data/storage/' + msg.req.files[0].originalname\n\nmsg.payload = {\n    _id: objectid(),\n    knowledgeBaseId:objectid(msg.oldPayload.id),\n    name: msg.req.files[0].originalname,\n    type: \"FAQ\",\n    file: msg.req.files[0].originalname,\n    vectors: [],\n    status: \"Source saved\",\n    deleted: false,\n    createdAt: new Date(),\n    totaCharacters: msg.totaCharacters\n};\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -14422,7 +14442,7 @@
         "z": "8bea414da58d7b2a",
         "g": "91096b9755d49fe2",
         "name": "FILES",
-        "func": "msg.payload = {\n    _id: objectid(),\n    knowledgeBaseId: msg.oldPayload.id,\n    name: msg.req.files[0].originalname,\n    type: \"Files\",\n    file: msg.req.files[0].originalname,\n    vectors: [],\n    status: \"Source saved\",\n    deleted: false,\n    createdAt: new Date(),\n    totaCharacters: msg.totaCharacters\n};\nreturn msg;",
+        "func": "msg.payload = {\n    _id: objectid(),\n    knowledgeBaseId: objectid(msg.oldPayload.id),\n    name: msg.req.files[0].originalname,\n    type: \"Files\",\n    file: msg.req.files[0].originalname,\n    vectors: [],\n    status: \"Source saved\",\n    deleted: false,\n    createdAt: new Date(),\n    totaCharacters: msg.totaCharacters\n};\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
