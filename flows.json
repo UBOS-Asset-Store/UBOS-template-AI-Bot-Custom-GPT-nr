@@ -872,14 +872,6 @@
             "label": true
         },
         "nodes": [
-            "87b82344d6908b63",
-            "4fb5a43a7d75f08f",
-            "b9815998ec0ff101",
-            "9fd8b6b0c74557cb",
-            "0bcfc8f12b32291e",
-            "35ebc5ae3d580cf3",
-            "8cd807269d2c952b",
-            "797dfafc5b87228d",
             "b7d26d9f317a4ce9",
             "a44d45874ebeb754",
             "a33aa3cab944b729",
@@ -896,7 +888,7 @@
         "x": 34,
         "y": 979,
         "w": 992,
-        "h": 302
+        "h": 182
     },
     {
         "id": "649b2f424f00fcf7",
@@ -920,20 +912,12 @@
             "746c06b58c3b2d30",
             "02f3af026c6e9af0",
             "97ecf733940516b3",
-            "e9e2f318883d6af3",
-            "a89dc643d7ed1d38",
-            "23ad2dd8e4ad9e52",
-            "dd20c171a117fa26",
-            "daee4a22f6e13e3b",
-            "b37a736dc177ca0d",
-            "7222dbc9feceef20",
-            "7fa977495633219d",
-            "18435aa94cd08c68"
+            "e9e2f318883d6af3"
         ],
         "x": 34,
-        "y": 1339,
+        "y": 1199,
         "w": 1012,
-        "h": 302
+        "h": 202
     },
     {
         "id": "e40f1639481a93e5",
@@ -957,20 +941,12 @@
             "5008af5f7461f232",
             "db66ea7be2d27d87",
             "eb9f04e925a2c58e",
-            "8a7b40691c947077",
-            "568bd261dec24e8e",
-            "8153b58e8cb03c28",
-            "b9ea4df6dd2c52a0",
-            "35791fa0cfcc358a",
-            "c524031bddfe449e",
-            "db19671e427d153f",
-            "0107501c2fc4fd94",
-            "73d781cf02f69e93"
+            "8a7b40691c947077"
         ],
         "x": 34,
-        "y": 1699,
-        "w": 992,
-        "h": 322
+        "y": 1439,
+        "w": 972,
+        "h": 202
     },
     {
         "id": "cbd9c53fe26c3884",
@@ -1116,7 +1092,7 @@
             "2dbe218776fe3204"
         ],
         "x": 34,
-        "y": 2059,
+        "y": 1679,
         "w": 572,
         "h": 162
     },
@@ -10298,7 +10274,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 190,
-        "y": 1500,
+        "y": 1360,
         "wires": [
             [
                 "54e078af5c0d3adc"
@@ -10314,7 +10290,7 @@
         "statusCode": "",
         "headers": {},
         "x": 970,
-        "y": 1500,
+        "y": 1360,
         "wires": []
     },
     {
@@ -10330,7 +10306,7 @@
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 1500,
+        "y": 1360,
         "wires": [
             [
                 "604fb55d3034b5b3"
@@ -10350,7 +10326,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 700,
-        "y": 1500,
+        "y": 1360,
         "wires": [
             [
                 "4e7b3768b3931cfb"
@@ -10370,7 +10346,7 @@
         "finalize": "",
         "libs": [],
         "x": 840,
-        "y": 1500,
+        "y": 1360,
         "wires": [
             [
                 "fcbb92757366bf33"
@@ -10387,7 +10363,7 @@
         "action": "",
         "pretty": false,
         "x": 570,
-        "y": 1500,
+        "y": 1360,
         "wires": [
             [
                 "81f9b8c4177c260c"
@@ -10417,7 +10393,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 170,
-        "y": 1420,
+        "y": 1280,
         "wires": [
             [
                 "02f3af026c6e9af0"
@@ -10437,7 +10413,7 @@
         "finalize": "",
         "libs": [],
         "x": 670,
-        "y": 1400,
+        "y": 1260,
         "wires": [
             []
         ]
@@ -10453,7 +10429,7 @@
         ],
         "uncaught": false,
         "x": 150,
-        "y": 1380,
+        "y": 1240,
         "wires": [
             [
                 "02f3af026c6e9af0"
@@ -10473,7 +10449,7 @@
         "finalize": "",
         "libs": [],
         "x": 340,
-        "y": 1400,
+        "y": 1260,
         "wires": [
             [
                 "97ecf733940516b3"
@@ -10494,7 +10470,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 500,
-        "y": 1400,
+        "y": 1260,
         "wires": [
             [
                 "e9e2f318883d6af3"
@@ -10511,7 +10487,7 @@
         "action": "",
         "pretty": false,
         "x": 585,
-        "y": 1400,
+        "y": 1260,
         "wires": [
             [
                 "f22993bbddeb18b5"
@@ -10530,7 +10506,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 180,
-        "y": 1860,
+        "y": 1600,
         "wires": [
             [
                 "a1e983d79486f057"
@@ -10546,7 +10522,7 @@
         "statusCode": "",
         "headers": {},
         "x": 930,
-        "y": 1860,
+        "y": 1600,
         "wires": []
     },
     {
@@ -10562,7 +10538,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 1860,
+        "y": 1600,
         "wires": [
             [
                 "eb6e8f5ff083dd6b"
@@ -10582,7 +10558,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 660,
-        "y": 1860,
+        "y": 1600,
         "wires": [
             [
                 "d09342e7a96a3a1b"
@@ -10602,7 +10578,7 @@
         "finalize": "",
         "libs": [],
         "x": 800,
-        "y": 1860,
+        "y": 1600,
         "wires": [
             [
                 "5c07c1802edd7436"
@@ -10619,7 +10595,7 @@
         "action": "",
         "pretty": false,
         "x": 530,
-        "y": 1860,
+        "y": 1600,
         "wires": [
             [
                 "5a28a0e9ba4c93ae"
@@ -10649,7 +10625,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 170,
-        "y": 1780,
+        "y": 1520,
         "wires": [
             [
                 "db66ea7be2d27d87"
@@ -10669,7 +10645,7 @@
         "finalize": "",
         "libs": [],
         "x": 670,
-        "y": 1760,
+        "y": 1500,
         "wires": [
             []
         ]
@@ -10685,7 +10661,7 @@
         ],
         "uncaught": false,
         "x": 150,
-        "y": 1740,
+        "y": 1480,
         "wires": [
             [
                 "db66ea7be2d27d87"
@@ -10705,7 +10681,7 @@
         "finalize": "",
         "libs": [],
         "x": 340,
-        "y": 1760,
+        "y": 1500,
         "wires": [
             [
                 "eb9f04e925a2c58e"
@@ -10726,7 +10702,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 500,
-        "y": 1760,
+        "y": 1500,
         "wires": [
             [
                 "8a7b40691c947077"
@@ -10743,7 +10719,7 @@
         "action": "",
         "pretty": false,
         "x": 585,
-        "y": 1760,
+        "y": 1500,
         "wires": [
             [
                 "097d5a354e0f8ea6"
@@ -11408,474 +11384,6 @@
                 "bf8257455d77acac"
             ]
         ]
-    },
-    {
-        "id": "87b82344d6908b63",
-        "type": "file in",
-        "z": "4cba6f8219137af4",
-        "g": "faa44c8af53ff52c",
-        "name": "",
-        "filename": "filename",
-        "filenameType": "msg",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 540,
-        "y": 1200,
-        "wires": [
-            [
-                "4fb5a43a7d75f08f"
-            ]
-        ]
-    },
-    {
-        "id": "4fb5a43a7d75f08f",
-        "type": "json",
-        "z": "4cba6f8219137af4",
-        "g": "faa44c8af53ff52c",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 670,
-        "y": 1200,
-        "wires": [
-            [
-                "0bcfc8f12b32291e"
-            ]
-        ]
-    },
-    {
-        "id": "b9815998ec0ff101",
-        "type": "http in",
-        "z": "4cba6f8219137af4",
-        "g": "faa44c8af53ff52c",
-        "name": "",
-        "url": "/getCredentialsTelegram",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 180,
-        "y": 1200,
-        "wires": [
-            [
-                "35ebc5ae3d580cf3"
-            ]
-        ]
-    },
-    {
-        "id": "9fd8b6b0c74557cb",
-        "type": "http response",
-        "z": "4cba6f8219137af4",
-        "g": "faa44c8af53ff52c",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 950,
-        "y": 1200,
-        "wires": []
-    },
-    {
-        "id": "0bcfc8f12b32291e",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "faa44c8af53ff52c",
-        "name": "return res",
-        "func": "msg.statusCode = 200\nglobal.set('iscredentialsTelegramSent', true)\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 820,
-        "y": 1200,
-        "wires": [
-            [
-                "9fd8b6b0c74557cb"
-            ]
-        ]
-    },
-    {
-        "id": "35ebc5ae3d580cf3",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "faa44c8af53ff52c",
-        "name": "set filename",
-        "func": "msg.filename = '/data/credentialsTelegram.json'\nglobal.set('iscredentialsTelegramSent', false)\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 390,
-        "y": 1200,
-        "wires": [
-            [
-                "87b82344d6908b63",
-                "797dfafc5b87228d"
-            ]
-        ]
-    },
-    {
-        "id": "8cd807269d2c952b",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "faa44c8af53ff52c",
-        "name": "default data",
-        "func": "if (global.get('iscredentialsTelegramSent') === false){\n    msg.payload = {\n        \"bot_token\": '',\n        \"bot_name\": ''\n    }\n    global.set('iscredentialsTelegramSent', true)\n    return msg;\n}\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 630,
-        "y": 1240,
-        "wires": [
-            [
-                "0bcfc8f12b32291e"
-            ]
-        ]
-    },
-    {
-        "id": "797dfafc5b87228d",
-        "type": "delay",
-        "z": "4cba6f8219137af4",
-        "g": "faa44c8af53ff52c",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "3",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 515,
-        "y": 1240,
-        "wires": [
-            [
-                "8cd807269d2c952b"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "a89dc643d7ed1d38",
-        "type": "file in",
-        "z": "4cba6f8219137af4",
-        "g": "649b2f424f00fcf7",
-        "name": "",
-        "filename": "filename",
-        "filenameType": "msg",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 560,
-        "y": 1560,
-        "wires": [
-            [
-                "23ad2dd8e4ad9e52"
-            ]
-        ]
-    },
-    {
-        "id": "23ad2dd8e4ad9e52",
-        "type": "json",
-        "z": "4cba6f8219137af4",
-        "g": "649b2f424f00fcf7",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 690,
-        "y": 1560,
-        "wires": [
-            [
-                "b37a736dc177ca0d"
-            ]
-        ]
-    },
-    {
-        "id": "dd20c171a117fa26",
-        "type": "http in",
-        "z": "4cba6f8219137af4",
-        "g": "649b2f424f00fcf7",
-        "name": "",
-        "url": "/getCredentialsWhatsApp",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 200,
-        "y": 1560,
-        "wires": [
-            [
-                "7222dbc9feceef20"
-            ]
-        ]
-    },
-    {
-        "id": "daee4a22f6e13e3b",
-        "type": "http response",
-        "z": "4cba6f8219137af4",
-        "g": "649b2f424f00fcf7",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 970,
-        "y": 1560,
-        "wires": []
-    },
-    {
-        "id": "b37a736dc177ca0d",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "649b2f424f00fcf7",
-        "name": "return res",
-        "func": "msg.statusCode = 200\nglobal.set('isCredentialsWhatsAppSent', true)\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 840,
-        "y": 1560,
-        "wires": [
-            [
-                "daee4a22f6e13e3b"
-            ]
-        ]
-    },
-    {
-        "id": "7222dbc9feceef20",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "649b2f424f00fcf7",
-        "name": "set filename",
-        "func": "msg.filename = '/data/credentialsWhatsApp.json'\nglobal.set('isCredentialsWhatsAppSent', false)\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 410,
-        "y": 1560,
-        "wires": [
-            [
-                "a89dc643d7ed1d38",
-                "18435aa94cd08c68"
-            ]
-        ]
-    },
-    {
-        "id": "7fa977495633219d",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "649b2f424f00fcf7",
-        "name": "default data",
-        "func": "if (global.get('isCredentialsWhatsAppSent') === false){\n    msg.payload = {\n        \"whatsApp_phoneId\": '',\n        \"whatsApp_token\": ''\n    }\n    global.set('isCredentialsWhatsAppSent', true)\n    return msg;\n}\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 650,
-        "y": 1600,
-        "wires": [
-            [
-                "b37a736dc177ca0d"
-            ]
-        ]
-    },
-    {
-        "id": "18435aa94cd08c68",
-        "type": "delay",
-        "z": "4cba6f8219137af4",
-        "g": "649b2f424f00fcf7",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "3",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 535,
-        "y": 1600,
-        "wires": [
-            [
-                "7fa977495633219d"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "568bd261dec24e8e",
-        "type": "file in",
-        "z": "4cba6f8219137af4",
-        "g": "e40f1639481a93e5",
-        "name": "",
-        "filename": "filename",
-        "filenameType": "msg",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 540,
-        "y": 1940,
-        "wires": [
-            [
-                "8153b58e8cb03c28"
-            ]
-        ]
-    },
-    {
-        "id": "8153b58e8cb03c28",
-        "type": "json",
-        "z": "4cba6f8219137af4",
-        "g": "e40f1639481a93e5",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 670,
-        "y": 1940,
-        "wires": [
-            [
-                "c524031bddfe449e"
-            ]
-        ]
-    },
-    {
-        "id": "b9ea4df6dd2c52a0",
-        "type": "http in",
-        "z": "4cba6f8219137af4",
-        "g": "e40f1639481a93e5",
-        "name": "",
-        "url": "/getCredentialsMeta",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 170,
-        "y": 1940,
-        "wires": [
-            [
-                "db19671e427d153f"
-            ]
-        ]
-    },
-    {
-        "id": "35791fa0cfcc358a",
-        "type": "http response",
-        "z": "4cba6f8219137af4",
-        "g": "e40f1639481a93e5",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 950,
-        "y": 1940,
-        "wires": []
-    },
-    {
-        "id": "c524031bddfe449e",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "e40f1639481a93e5",
-        "name": "return res",
-        "func": "msg.statusCode = 200\nglobal.set('isCredentialsMetaSent', true)\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 820,
-        "y": 1940,
-        "wires": [
-            [
-                "35791fa0cfcc358a"
-            ]
-        ]
-    },
-    {
-        "id": "db19671e427d153f",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "e40f1639481a93e5",
-        "name": "set filename",
-        "func": "msg.filename = '/data/credentialsMeta.json'\nglobal.set('isCredentialsMetaSent', false)\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 390,
-        "y": 1940,
-        "wires": [
-            [
-                "568bd261dec24e8e",
-                "73d781cf02f69e93"
-            ]
-        ]
-    },
-    {
-        "id": "0107501c2fc4fd94",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "e40f1639481a93e5",
-        "name": "default data",
-        "func": "if (global.get('isCredentialsMetaSent') === false){\n    msg.payload = {\n        \"meta_token\": '',\n        \"response_pageId\":''\n\n    }\n    global.set('isCredentialsMetaSent', true)\n    return msg;\n}\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 630,
-        "y": 1980,
-        "wires": [
-            [
-                "c524031bddfe449e"
-            ]
-        ]
-    },
-    {
-        "id": "73d781cf02f69e93",
-        "type": "delay",
-        "z": "4cba6f8219137af4",
-        "g": "e40f1639481a93e5",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "3",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 515,
-        "y": 1980,
-        "wires": [
-            [
-                "0107501c2fc4fd94"
-            ]
-        ],
-        "l": false
     },
     {
         "id": "c1676b9bb7345473",
@@ -12584,7 +12092,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 130,
-        "y": 2100,
+        "y": 1720,
         "wires": [
             [
                 "734f87d6e57db2ee"
@@ -12604,7 +12112,7 @@
         "finalize": "",
         "libs": [],
         "x": 310,
-        "y": 2100,
+        "y": 1720,
         "wires": [
             [
                 "281de60d94f6055f"
@@ -12620,7 +12128,7 @@
         "statusCode": "",
         "headers": {},
         "x": 470,
-        "y": 2100,
+        "y": 1720,
         "wires": []
     },
     {
@@ -12634,7 +12142,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 150,
-        "y": 2180,
+        "y": 1800,
         "wires": [
             [
                 "b058b242b8e6f650"
@@ -12654,7 +12162,7 @@
         "finalize": "",
         "libs": [],
         "x": 370,
-        "y": 2180,
+        "y": 1800,
         "wires": [
             [
                 "2dbe218776fe3204"
@@ -12670,7 +12178,7 @@
         "statusCode": "",
         "headers": {},
         "x": 530,
-        "y": 2180,
+        "y": 1800,
         "wires": []
     },
     {
