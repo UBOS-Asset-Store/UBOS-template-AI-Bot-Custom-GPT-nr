@@ -566,9 +566,7 @@
             "203b9423c44f39af"
         ],
         "x": 1354,
-        "y": 839,
-        "w": 1252,
-        "h": 362
+        "y": 839
     },
     {
         "id": "91096b9755d49fe2",
@@ -643,9 +641,7 @@
             "81747bc94dce71a1"
         ],
         "x": 34,
-        "y": 79,
-        "w": 2132,
-        "h": 702
+        "y": 79
     },
     {
         "id": "5b7ced25ddad191c",
@@ -731,9 +727,7 @@
             "034bd72aa6ae2af3"
         ],
         "x": 34,
-        "y": 819,
-        "w": 1292,
-        "h": 1002
+        "y": 819
     },
     {
         "id": "945706dce188c905",
@@ -765,18 +759,12 @@
             "30a581e7169ce66b",
             "e608cb0aed9c3293",
             "90852342350e7d53",
-            "13a0b7d44f1afb32",
-            "931e194e9b75caee",
-            "92ab2ed96301cd3c",
-            "97a310ed15ce5aa4",
-            "d55771afa12b5aac",
-            "cd683ef9e78becc0",
-            "99853d35faf76072",
-            "fec1ac06f5741c17",
-            "c2ee02a2d477d604"
+            "13a0b7d44f1afb32"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 1932,
+        "h": 222
     },
     {
         "id": "152119097abe3c6c",
@@ -808,18 +796,12 @@
             "bf8257455d77acac",
             "67c979cecf8bb16c",
             "0e9818cbfac7e687",
-            "baf069bd70255c7f",
-            "82a370f8e3403825",
-            "52af83ae1850f349",
-            "b2c9ea24659cc020",
-            "93e207c2f00012e9",
-            "d8cb24b3a862dd48",
-            "54bc62cb8a4f1e52",
-            "59e50938e78c1eab",
-            "ec678fb91d17199b"
+            "baf069bd70255c7f"
         ],
         "x": 34,
-        "y": 359
+        "y": 299,
+        "w": 1932,
+        "h": 222
     },
     {
         "id": "c479b9fa6206f5f0",
@@ -843,18 +825,12 @@
             "9335d8cfb00a95d7",
             "e084f337475f802b",
             "23e0235bad59815e",
-            "c32d2d5b2f208e74",
-            "20822d469c18a9f9",
-            "b713290f4b5333e2",
-            "1a81bad6deca216c",
-            "627fcf7f3cb44e27",
-            "7205d58d229fae62",
-            "ad19720c056c7b08",
-            "39ec878b33d017bc",
-            "582d4dfb377e5c9b"
+            "c32d2d5b2f208e74"
         ],
         "x": 34,
-        "y": 699
+        "y": 539,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "32d3112d56e6b1ab",
@@ -878,18 +854,12 @@
             "63f9ab4f77edaa65",
             "55a61cde9a1f0379",
             "7d0e7ea7c69fed74",
-            "3513b2ea589bb4a4",
-            "6572bf1d7a52ac7d",
-            "2a7555b9cd3bd8a2",
-            "0c9c88a6b576404a",
-            "410f36f95b22ba64",
-            "378a02518c0e4c86",
-            "63df096c7f5ba1fd",
-            "8e091b28021f8cfa",
-            "b14dd00693046baf"
+            "3513b2ea589bb4a4"
         ],
         "x": 34,
-        "y": 1039
+        "y": 759,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "faa44c8af53ff52c",
@@ -924,7 +894,9 @@
             "0dc15aa186445a0f"
         ],
         "x": 34,
-        "y": 1359
+        "y": 979,
+        "w": 992,
+        "h": 302
     },
     {
         "id": "649b2f424f00fcf7",
@@ -959,7 +931,9 @@
             "18435aa94cd08c68"
         ],
         "x": 34,
-        "y": 1699
+        "y": 1339,
+        "w": 1012,
+        "h": 302
     },
     {
         "id": "e40f1639481a93e5",
@@ -994,7 +968,9 @@
             "73d781cf02f69e93"
         ],
         "x": 34,
-        "y": 2059
+        "y": 1699,
+        "w": 992,
+        "h": 322
     },
     {
         "id": "cbd9c53fe26c3884",
@@ -1041,9 +1017,9 @@
             "35eee919bdbe2587",
             "762d9f30ef250e1b"
         ],
-        "x": -6,
+        "x": 34,
         "y": 219,
-        "w": 2352,
+        "w": 2312,
         "h": 382
     },
     {
@@ -1118,8 +1094,8 @@
             "dfae14f2d9b47785",
             "0fba73d698585ddf"
         ],
-        "x": 14,
-        "y": 3759
+        "x": 0,
+        "y": 0
     },
     {
         "id": "4b07803a52e468f5",
@@ -3569,6 +3545,7 @@
         "id": "b78866b9d0f3e7c8",
         "type": "telegram receiver",
         "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
         "name": "",
         "bot": "4b07803a52e468f5",
         "saveDataDir": "",
@@ -3587,6 +3564,7 @@
         "id": "e59e5a043c88871f",
         "type": "telegram sender",
         "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
         "name": "",
         "bot": "4b07803a52e468f5",
         "haserroroutput": false,
@@ -3601,6 +3579,7 @@
         "id": "aa712d12bd3f3a12",
         "type": "telegram sender",
         "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
         "name": "",
         "bot": "4b07803a52e468f5",
         "haserroroutput": false,
@@ -3617,6 +3596,7 @@
         "id": "35eee919bdbe2587",
         "type": "telegram sender",
         "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
         "name": "",
         "bot": "4b07803a52e468f5",
         "haserroroutput": false,
@@ -3633,6 +3613,7 @@
         "id": "8fad88cb54468d62",
         "type": "while-loop",
         "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
         "name": "",
         "condi": "global.get(`${msg.typing}`) === true",
         "limit": true,
@@ -10050,6 +10031,7 @@
         "id": "cf9110db7c6fe96f",
         "type": "mongodb out",
         "z": "f4036141cc030bcf",
+        "g": "424028bffdc76acc",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "admin_modules",
@@ -10065,6 +10047,7 @@
         "id": "21a55fa65e78be8f",
         "type": "mongodb out",
         "z": "f4036141cc030bcf",
+        "g": "424028bffdc76acc",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "admin_roles",
@@ -10080,6 +10063,7 @@
         "id": "800a07af663511f3",
         "type": "mongodb out",
         "z": "f4036141cc030bcf",
+        "g": "424028bffdc76acc",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "admins",
@@ -10095,6 +10079,7 @@
         "id": "84b037deaf9dfdca",
         "type": "mongodb out",
         "z": "f4036141cc030bcf",
+        "g": "424028bffdc76acc",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "knowlegebase",
@@ -10110,6 +10095,7 @@
         "id": "af6faaf15d904ee0",
         "type": "mongodb out",
         "z": "f4036141cc030bcf",
+        "g": "424028bffdc76acc",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "knowledgeObjects",
@@ -10125,6 +10111,7 @@
         "id": "2985690b8042519b",
         "type": "mongodb out",
         "z": "f4036141cc030bcf",
+        "g": "424028bffdc76acc",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "users_messages",
@@ -10140,6 +10127,7 @@
         "id": "dfae14f2d9b47785",
         "type": "mongodb out",
         "z": "f4036141cc030bcf",
+        "g": "424028bffdc76acc",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "users",
@@ -10287,7 +10275,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 190,
-        "y": 1860,
+        "y": 1500,
         "wires": [
             [
                 "54e078af5c0d3adc"
@@ -10303,7 +10291,7 @@
         "statusCode": "",
         "headers": {},
         "x": 970,
-        "y": 1860,
+        "y": 1500,
         "wires": []
     },
     {
@@ -10319,7 +10307,7 @@
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 1860,
+        "y": 1500,
         "wires": [
             [
                 "604fb55d3034b5b3"
@@ -10339,7 +10327,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 700,
-        "y": 1860,
+        "y": 1500,
         "wires": [
             [
                 "4e7b3768b3931cfb"
@@ -10359,7 +10347,7 @@
         "finalize": "",
         "libs": [],
         "x": 840,
-        "y": 1860,
+        "y": 1500,
         "wires": [
             [
                 "fcbb92757366bf33"
@@ -10376,7 +10364,7 @@
         "action": "",
         "pretty": false,
         "x": 570,
-        "y": 1860,
+        "y": 1500,
         "wires": [
             [
                 "81f9b8c4177c260c"
@@ -10406,7 +10394,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 170,
-        "y": 1780,
+        "y": 1420,
         "wires": [
             [
                 "02f3af026c6e9af0"
@@ -10426,7 +10414,7 @@
         "finalize": "",
         "libs": [],
         "x": 670,
-        "y": 1760,
+        "y": 1400,
         "wires": [
             []
         ]
@@ -10442,7 +10430,7 @@
         ],
         "uncaught": false,
         "x": 150,
-        "y": 1740,
+        "y": 1380,
         "wires": [
             [
                 "02f3af026c6e9af0"
@@ -10462,7 +10450,7 @@
         "finalize": "",
         "libs": [],
         "x": 340,
-        "y": 1760,
+        "y": 1400,
         "wires": [
             [
                 "97ecf733940516b3"
@@ -10483,7 +10471,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 500,
-        "y": 1760,
+        "y": 1400,
         "wires": [
             [
                 "e9e2f318883d6af3"
@@ -10500,7 +10488,7 @@
         "action": "",
         "pretty": false,
         "x": 585,
-        "y": 1760,
+        "y": 1400,
         "wires": [
             [
                 "f22993bbddeb18b5"
@@ -10519,7 +10507,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 180,
-        "y": 2220,
+        "y": 1860,
         "wires": [
             [
                 "a1e983d79486f057"
@@ -10535,7 +10523,7 @@
         "statusCode": "",
         "headers": {},
         "x": 930,
-        "y": 2220,
+        "y": 1860,
         "wires": []
     },
     {
@@ -10551,7 +10539,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 2220,
+        "y": 1860,
         "wires": [
             [
                 "eb6e8f5ff083dd6b"
@@ -10571,7 +10559,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 660,
-        "y": 2220,
+        "y": 1860,
         "wires": [
             [
                 "d09342e7a96a3a1b"
@@ -10591,7 +10579,7 @@
         "finalize": "",
         "libs": [],
         "x": 800,
-        "y": 2220,
+        "y": 1860,
         "wires": [
             [
                 "5c07c1802edd7436"
@@ -10608,7 +10596,7 @@
         "action": "",
         "pretty": false,
         "x": 530,
-        "y": 2220,
+        "y": 1860,
         "wires": [
             [
                 "5a28a0e9ba4c93ae"
@@ -10638,7 +10626,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 170,
-        "y": 2140,
+        "y": 1780,
         "wires": [
             [
                 "db66ea7be2d27d87"
@@ -10658,7 +10646,7 @@
         "finalize": "",
         "libs": [],
         "x": 670,
-        "y": 2120,
+        "y": 1760,
         "wires": [
             []
         ]
@@ -10674,7 +10662,7 @@
         ],
         "uncaught": false,
         "x": 150,
-        "y": 2100,
+        "y": 1740,
         "wires": [
             [
                 "db66ea7be2d27d87"
@@ -10694,7 +10682,7 @@
         "finalize": "",
         "libs": [],
         "x": 340,
-        "y": 2120,
+        "y": 1760,
         "wires": [
             [
                 "eb9f04e925a2c58e"
@@ -10715,7 +10703,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 500,
-        "y": 2120,
+        "y": 1760,
         "wires": [
             [
                 "8a7b40691c947077"
@@ -10732,7 +10720,7 @@
         "action": "",
         "pretty": false,
         "x": 585,
-        "y": 2120,
+        "y": 1760,
         "wires": [
             [
                 "097d5a354e0f8ea6"
@@ -11025,7 +11013,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 150,
-        "y": 440,
+        "y": 380,
         "wires": [
             [
                 "2345d5259ca0ca0c"
@@ -11045,7 +11033,7 @@
         "finalize": "",
         "libs": [],
         "x": 650,
-        "y": 420,
+        "y": 360,
         "wires": [
             []
         ]
@@ -11061,7 +11049,7 @@
         ],
         "uncaught": false,
         "x": 130,
-        "y": 400,
+        "y": 340,
         "wires": [
             [
                 "2345d5259ca0ca0c"
@@ -11081,7 +11069,7 @@
         "finalize": "",
         "libs": [],
         "x": 320,
-        "y": 420,
+        "y": 360,
         "wires": [
             [
                 "9e829c9ae4e26d49"
@@ -11102,7 +11090,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 480,
-        "y": 420,
+        "y": 360,
         "wires": [
             [
                 "c00caad6107d0484"
@@ -11119,7 +11107,7 @@
         "action": "",
         "pretty": false,
         "x": 565,
-        "y": 420,
+        "y": 360,
         "wires": [
             [
                 "a047e4ad8f719e8b"
@@ -11138,7 +11126,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 180,
-        "y": 500,
+        "y": 440,
         "wires": [
             [
                 "0ab166afbc6563b7"
@@ -11158,7 +11146,7 @@
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 500,
+        "y": 440,
         "wires": [
             [
                 "e81089882f4d82a4"
@@ -11178,7 +11166,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 700,
-        "y": 500,
+        "y": 440,
         "wires": [
             [
                 "54cbaf6226b86ab6"
@@ -11195,7 +11183,7 @@
         "action": "",
         "pretty": false,
         "x": 570,
-        "y": 500,
+        "y": 440,
         "wires": [
             [
                 "02eef43416926f09"
@@ -11215,7 +11203,7 @@
         "finalize": "",
         "libs": [],
         "x": 1190,
-        "y": 500,
+        "y": 440,
         "wires": [
             [
                 "1173e7cfd78aea8a"
@@ -11235,7 +11223,7 @@
         "finalize": "",
         "libs": [],
         "x": 840,
-        "y": 500,
+        "y": 440,
         "wires": [
             [
                 "b714b761bc107b2b"
@@ -11256,7 +11244,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 980,
-        "y": 500,
+        "y": 440,
         "wires": [
             [
                 "9b518f139d898786"
@@ -11273,7 +11261,7 @@
         "action": "",
         "pretty": false,
         "x": 1075,
-        "y": 500,
+        "y": 440,
         "wires": [
             [
                 "2ba640ea2406a74b"
@@ -11294,7 +11282,7 @@
         "finalize": "",
         "libs": [],
         "x": 1350,
-        "y": 500,
+        "y": 440,
         "wires": [
             [
                 "baf069bd70255c7f"
@@ -11310,7 +11298,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1890,
-        "y": 500,
+        "y": 440,
         "wires": []
     },
     {
@@ -11326,7 +11314,7 @@
         "finalize": "",
         "libs": [],
         "x": 1720,
-        "y": 500,
+        "y": 440,
         "wires": [
             [
                 "e6400901da94405f"
@@ -11344,7 +11332,7 @@
         ],
         "uncaught": false,
         "x": 1790,
-        "y": 540,
+        "y": 480,
         "wires": [
             [
                 "0e9818cbfac7e687"
@@ -11364,7 +11352,7 @@
         "finalize": "",
         "libs": [],
         "x": 1915,
-        "y": 540,
+        "y": 480,
         "wires": [
             [
                 "e6400901da94405f"
@@ -11391,7 +11379,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 1540,
-        "y": 500,
+        "y": 440,
         "wires": [
             [
                 "bf8257455d77acac"
@@ -11412,7 +11400,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 540,
-        "y": 1580,
+        "y": 1200,
         "wires": [
             [
                 "4fb5a43a7d75f08f"
@@ -11429,7 +11417,7 @@
         "action": "",
         "pretty": false,
         "x": 670,
-        "y": 1580,
+        "y": 1200,
         "wires": [
             [
                 "0bcfc8f12b32291e"
@@ -11447,7 +11435,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 180,
-        "y": 1580,
+        "y": 1200,
         "wires": [
             [
                 "35ebc5ae3d580cf3"
@@ -11463,7 +11451,7 @@
         "statusCode": "",
         "headers": {},
         "x": 950,
-        "y": 1580,
+        "y": 1200,
         "wires": []
     },
     {
@@ -11479,7 +11467,7 @@
         "finalize": "",
         "libs": [],
         "x": 820,
-        "y": 1580,
+        "y": 1200,
         "wires": [
             [
                 "9fd8b6b0c74557cb"
@@ -11499,7 +11487,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 1580,
+        "y": 1200,
         "wires": [
             [
                 "87b82344d6908b63",
@@ -11520,7 +11508,7 @@
         "finalize": "",
         "libs": [],
         "x": 630,
-        "y": 1620,
+        "y": 1240,
         "wires": [
             [
                 "0bcfc8f12b32291e"
@@ -11546,7 +11534,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 515,
-        "y": 1620,
+        "y": 1240,
         "wires": [
             [
                 "8cd807269d2c952b"
@@ -11568,7 +11556,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 560,
-        "y": 1920,
+        "y": 1560,
         "wires": [
             [
                 "23ad2dd8e4ad9e52"
@@ -11585,7 +11573,7 @@
         "action": "",
         "pretty": false,
         "x": 690,
-        "y": 1920,
+        "y": 1560,
         "wires": [
             [
                 "b37a736dc177ca0d"
@@ -11603,7 +11591,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 200,
-        "y": 1920,
+        "y": 1560,
         "wires": [
             [
                 "7222dbc9feceef20"
@@ -11619,7 +11607,7 @@
         "statusCode": "",
         "headers": {},
         "x": 970,
-        "y": 1920,
+        "y": 1560,
         "wires": []
     },
     {
@@ -11635,7 +11623,7 @@
         "finalize": "",
         "libs": [],
         "x": 840,
-        "y": 1920,
+        "y": 1560,
         "wires": [
             [
                 "daee4a22f6e13e3b"
@@ -11655,7 +11643,7 @@
         "finalize": "",
         "libs": [],
         "x": 410,
-        "y": 1920,
+        "y": 1560,
         "wires": [
             [
                 "a89dc643d7ed1d38",
@@ -11676,7 +11664,7 @@
         "finalize": "",
         "libs": [],
         "x": 650,
-        "y": 1960,
+        "y": 1600,
         "wires": [
             [
                 "b37a736dc177ca0d"
@@ -11702,7 +11690,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 535,
-        "y": 1960,
+        "y": 1600,
         "wires": [
             [
                 "7fa977495633219d"
@@ -11724,7 +11712,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 540,
-        "y": 2300,
+        "y": 1940,
         "wires": [
             [
                 "8153b58e8cb03c28"
@@ -11741,7 +11729,7 @@
         "action": "",
         "pretty": false,
         "x": 670,
-        "y": 2300,
+        "y": 1940,
         "wires": [
             [
                 "c524031bddfe449e"
@@ -11759,7 +11747,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 170,
-        "y": 2300,
+        "y": 1940,
         "wires": [
             [
                 "db19671e427d153f"
@@ -11775,7 +11763,7 @@
         "statusCode": "",
         "headers": {},
         "x": 950,
-        "y": 2300,
+        "y": 1940,
         "wires": []
     },
     {
@@ -11791,7 +11779,7 @@
         "finalize": "",
         "libs": [],
         "x": 820,
-        "y": 2300,
+        "y": 1940,
         "wires": [
             [
                 "35791fa0cfcc358a"
@@ -11811,7 +11799,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 2300,
+        "y": 1940,
         "wires": [
             [
                 "568bd261dec24e8e",
@@ -11832,7 +11820,7 @@
         "finalize": "",
         "libs": [],
         "x": 630,
-        "y": 2340,
+        "y": 1980,
         "wires": [
             [
                 "c524031bddfe449e"
@@ -11858,306 +11846,13 @@
         "allowrate": false,
         "outputs": 1,
         "x": 515,
-        "y": 2340,
+        "y": 1980,
         "wires": [
             [
                 "0107501c2fc4fd94"
             ]
         ],
         "l": false
-    },
-    {
-        "id": "931e194e9b75caee",
-        "type": "http response",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 970,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "92ab2ed96301cd3c",
-        "type": "http in",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "",
-        "url": "/getCredentialsPinecone",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 180,
-        "y": 280,
-        "wires": [
-            [
-                "fec1ac06f5741c17",
-                "c2ee02a2d477d604"
-            ]
-        ]
-    },
-    {
-        "id": "97a310ed15ce5aa4",
-        "type": "file in",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "",
-        "filename": "filename",
-        "filenameType": "msg",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 500,
-        "y": 240,
-        "wires": [
-            [
-                "d55771afa12b5aac"
-            ]
-        ]
-    },
-    {
-        "id": "d55771afa12b5aac",
-        "type": "json",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 630,
-        "y": 240,
-        "wires": [
-            [
-                "cd683ef9e78becc0"
-            ]
-        ]
-    },
-    {
-        "id": "cd683ef9e78becc0",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "return res",
-        "func": "msg.statusCode = 200\nmsg.topic = \"pinecone\"\nglobal.set('isCredentialsSent', true)\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 780,
-        "y": 240,
-        "wires": [
-            [
-                "931e194e9b75caee"
-            ]
-        ]
-    },
-    {
-        "id": "99853d35faf76072",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "default data",
-        "func": "if (global.get('isCredentialsSent') === false){\n    msg.payload = {\n        \"pipecone_url\": '',\n        \"pipecone_api\": '',\n        \"pipecone_env\": '',\n        \"pipecone_index\": ''  \n    }\n    global.set('isCredentialsSent', true)\n    return msg;\n}\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 590,
-        "y": 280,
-        "wires": [
-            [
-                "cd683ef9e78becc0"
-            ]
-        ]
-    },
-    {
-        "id": "fec1ac06f5741c17",
-        "type": "delay",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "6",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 475,
-        "y": 280,
-        "wires": [
-            [
-                "99853d35faf76072"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "82a370f8e3403825",
-        "type": "file in",
-        "z": "4cba6f8219137af4",
-        "g": "152119097abe3c6c",
-        "name": "",
-        "filename": "filename",
-        "filenameType": "msg",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 560,
-        "y": 560,
-        "wires": [
-            [
-                "52af83ae1850f349"
-            ]
-        ]
-    },
-    {
-        "id": "52af83ae1850f349",
-        "type": "json",
-        "z": "4cba6f8219137af4",
-        "g": "152119097abe3c6c",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 690,
-        "y": 560,
-        "wires": [
-            [
-                "b2c9ea24659cc020"
-            ]
-        ]
-    },
-    {
-        "id": "b2c9ea24659cc020",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "152119097abe3c6c",
-        "name": "return res",
-        "func": "msg.statusCode = 200\nmsg.topic = \"openai\"\nglobal.set('isCredentialsSent', true)\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 860,
-        "y": 560,
-        "wires": [
-            [
-                "59e50938e78c1eab"
-            ]
-        ]
-    },
-    {
-        "id": "93e207c2f00012e9",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "152119097abe3c6c",
-        "name": "default data",
-        "func": "if (global.get('isCredentialsSent') === false){\n    msg.payload = {\n        \"openai_api\": '',\n        \"openai_api_model\": '',\n    }\n    global.set('isCredentialsSent', true)\n    return msg;\n}\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 650,
-        "y": 620,
-        "wires": [
-            [
-                "b2c9ea24659cc020"
-            ]
-        ]
-    },
-    {
-        "id": "d8cb24b3a862dd48",
-        "type": "delay",
-        "z": "4cba6f8219137af4",
-        "g": "152119097abe3c6c",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "6",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 475,
-        "y": 620,
-        "wires": [
-            [
-                "93e207c2f00012e9"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "c2ee02a2d477d604",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "set filename",
-        "func": "msg.filename = '/data/credentialsPinecone.json'\nglobal.set('isCredentialsSent', false)\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 330,
-        "y": 240,
-        "wires": [
-            [
-                "97a310ed15ce5aa4"
-            ]
-        ]
-    },
-    {
-        "id": "54bc62cb8a4f1e52",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "152119097abe3c6c",
-        "name": "set filename",
-        "func": "msg.filename = '/data/credentialsOpenAI.json'\nglobal.set('isCredentialsSent', false)\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 390,
-        "y": 560,
-        "wires": [
-            [
-                "82a370f8e3403825"
-            ]
-        ]
-    },
-    {
-        "id": "59e50938e78c1eab",
-        "type": "http response",
-        "z": "4cba6f8219137af4",
-        "g": "152119097abe3c6c",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 1050,
-        "y": 560,
-        "wires": []
     },
     {
         "id": "c1676b9bb7345473",
@@ -12170,7 +11865,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 190,
-        "y": 840,
+        "y": 680,
         "wires": [
             [
                 "0a706b8b32d3e3b0"
@@ -12186,7 +11881,7 @@
         "statusCode": "",
         "headers": {},
         "x": 950,
-        "y": 840,
+        "y": 680,
         "wires": []
     },
     {
@@ -12202,7 +11897,7 @@
         "finalize": "",
         "libs": [],
         "x": 410,
-        "y": 840,
+        "y": 680,
         "wires": [
             [
                 "615cc22704b7c6e6"
@@ -12222,7 +11917,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 680,
-        "y": 840,
+        "y": 680,
         "wires": [
             [
                 "01eeca7d59048bc0"
@@ -12242,7 +11937,7 @@
         "finalize": "",
         "libs": [],
         "x": 820,
-        "y": 840,
+        "y": 680,
         "wires": [
             [
                 "dfe977bd7a67f872"
@@ -12259,7 +11954,7 @@
         "action": "",
         "pretty": false,
         "x": 550,
-        "y": 840,
+        "y": 680,
         "wires": [
             [
                 "f2c81b34257ed170"
@@ -12289,7 +11984,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 150,
-        "y": 780,
+        "y": 620,
         "wires": [
             [
                 "e084f337475f802b"
@@ -12309,7 +12004,7 @@
         "finalize": "",
         "libs": [],
         "x": 650,
-        "y": 760,
+        "y": 600,
         "wires": [
             []
         ]
@@ -12325,7 +12020,7 @@
         ],
         "uncaught": false,
         "x": 130,
-        "y": 740,
+        "y": 580,
         "wires": [
             [
                 "e084f337475f802b"
@@ -12345,7 +12040,7 @@
         "finalize": "",
         "libs": [],
         "x": 320,
-        "y": 760,
+        "y": 600,
         "wires": [
             [
                 "23e0235bad59815e"
@@ -12366,7 +12061,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 460,
-        "y": 760,
+        "y": 600,
         "wires": [
             [
                 "c32d2d5b2f208e74"
@@ -12383,188 +12078,13 @@
         "action": "",
         "pretty": false,
         "x": 565,
-        "y": 760,
+        "y": 600,
         "wires": [
             [
                 "f1df07e95244e6fc"
             ]
         ],
         "l": false
-    },
-    {
-        "id": "ec678fb91d17199b",
-        "type": "http in",
-        "z": "4cba6f8219137af4",
-        "g": "152119097abe3c6c",
-        "name": "",
-        "url": "/getCredentialsOpenAI",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 180,
-        "y": 580,
-        "wires": [
-            [
-                "54bc62cb8a4f1e52",
-                "d8cb24b3a862dd48"
-            ]
-        ]
-    },
-    {
-        "id": "20822d469c18a9f9",
-        "type": "file in",
-        "z": "4cba6f8219137af4",
-        "g": "c479b9fa6206f5f0",
-        "name": "",
-        "filename": "filename",
-        "filenameType": "msg",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 600,
-        "y": 920,
-        "wires": [
-            [
-                "b713290f4b5333e2"
-            ]
-        ]
-    },
-    {
-        "id": "b713290f4b5333e2",
-        "type": "json",
-        "z": "4cba6f8219137af4",
-        "g": "c479b9fa6206f5f0",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 730,
-        "y": 920,
-        "wires": [
-            [
-                "1a81bad6deca216c"
-            ]
-        ]
-    },
-    {
-        "id": "1a81bad6deca216c",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "c479b9fa6206f5f0",
-        "name": "return res",
-        "func": "msg.statusCode = 200\nmsg.topic = \"prompts\"\nglobal.set('isCredentialsSent', true)\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 900,
-        "y": 920,
-        "wires": [
-            [
-                "39ec878b33d017bc"
-            ]
-        ]
-    },
-    {
-        "id": "627fcf7f3cb44e27",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "c479b9fa6206f5f0",
-        "name": "default data",
-        "func": "if (global.get('isCredentialsSent') === false) {\n    msg.payload = {\n        \"answer_length\": \"\",\n        \"answer_as\": \"\",\n        \"tone\": \"\",\n        \"language\": \"\",\n        \"prompt_custom\": \"\"\n    }\n    global.set('isCredentialsSent', true)\n    return msg;\n}\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 690,
-        "y": 960,
-        "wires": [
-            [
-                "1a81bad6deca216c"
-            ]
-        ]
-    },
-    {
-        "id": "7205d58d229fae62",
-        "type": "delay",
-        "z": "4cba6f8219137af4",
-        "g": "c479b9fa6206f5f0",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "6",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 575,
-        "y": 960,
-        "wires": [
-            [
-                "627fcf7f3cb44e27"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "ad19720c056c7b08",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "c479b9fa6206f5f0",
-        "name": "set filename",
-        "func": "msg.filename = '/data/credentialsPrompts.json'\nglobal.set('isCredentialsSent', false)\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 430,
-        "y": 920,
-        "wires": [
-            [
-                "20822d469c18a9f9"
-            ]
-        ]
-    },
-    {
-        "id": "39ec878b33d017bc",
-        "type": "http response",
-        "z": "4cba6f8219137af4",
-        "g": "c479b9fa6206f5f0",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 1030,
-        "y": 920,
-        "wires": []
-    },
-    {
-        "id": "582d4dfb377e5c9b",
-        "type": "http in",
-        "z": "4cba6f8219137af4",
-        "g": "c479b9fa6206f5f0",
-        "name": "",
-        "url": "/getCredentialsPrompts",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 180,
-        "y": 920,
-        "wires": [
-            [
-                "ad19720c056c7b08",
-                "7205d58d229fae62"
-            ]
-        ]
     },
     {
         "id": "f793aaa7e71bdbe7",
@@ -12577,7 +12097,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 180,
-        "y": 1180,
+        "y": 900,
         "wires": [
             [
                 "0786c7b18b2894d5"
@@ -12593,7 +12113,7 @@
         "statusCode": "",
         "headers": {},
         "x": 950,
-        "y": 1180,
+        "y": 900,
         "wires": []
     },
     {
@@ -12609,7 +12129,7 @@
         "finalize": "",
         "libs": [],
         "x": 410,
-        "y": 1180,
+        "y": 900,
         "wires": [
             [
                 "6ee3197ad8f541e5"
@@ -12629,7 +12149,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 680,
-        "y": 1180,
+        "y": 900,
         "wires": [
             [
                 "39fb3709bdc062b3"
@@ -12649,7 +12169,7 @@
         "finalize": "",
         "libs": [],
         "x": 820,
-        "y": 1180,
+        "y": 900,
         "wires": [
             [
                 "9f8a22311308457b"
@@ -12666,7 +12186,7 @@
         "action": "",
         "pretty": false,
         "x": 550,
-        "y": 1180,
+        "y": 900,
         "wires": [
             [
                 "21c3b0081c02e46f"
@@ -12696,7 +12216,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 150,
-        "y": 1120,
+        "y": 840,
         "wires": [
             [
                 "55a61cde9a1f0379"
@@ -12716,7 +12236,7 @@
         "finalize": "",
         "libs": [],
         "x": 650,
-        "y": 1100,
+        "y": 820,
         "wires": [
             []
         ]
@@ -12732,7 +12252,7 @@
         ],
         "uncaught": false,
         "x": 130,
-        "y": 1080,
+        "y": 800,
         "wires": [
             [
                 "55a61cde9a1f0379"
@@ -12752,7 +12272,7 @@
         "finalize": "",
         "libs": [],
         "x": 320,
-        "y": 1100,
+        "y": 820,
         "wires": [
             [
                 "7d0e7ea7c69fed74"
@@ -12773,7 +12293,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 460,
-        "y": 1100,
+        "y": 820,
         "wires": [
             [
                 "3513b2ea589bb4a4"
@@ -12790,169 +12310,13 @@
         "action": "",
         "pretty": false,
         "x": 565,
-        "y": 1100,
+        "y": 820,
         "wires": [
             [
                 "c8d0f5e7463694d7"
             ]
         ],
         "l": false
-    },
-    {
-        "id": "6572bf1d7a52ac7d",
-        "type": "file in",
-        "z": "4cba6f8219137af4",
-        "g": "32d3112d56e6b1ab",
-        "name": "",
-        "filename": "filename",
-        "filenameType": "msg",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 580,
-        "y": 1240,
-        "wires": [
-            [
-                "2a7555b9cd3bd8a2"
-            ]
-        ]
-    },
-    {
-        "id": "2a7555b9cd3bd8a2",
-        "type": "json",
-        "z": "4cba6f8219137af4",
-        "g": "32d3112d56e6b1ab",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 710,
-        "y": 1240,
-        "wires": [
-            [
-                "0c9c88a6b576404a"
-            ]
-        ]
-    },
-    {
-        "id": "0c9c88a6b576404a",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "32d3112d56e6b1ab",
-        "name": "return res",
-        "func": "msg.statusCode = 200\nmsg.topic = \"prompts\"\nglobal.set('isCredentialsSent', true)\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 880,
-        "y": 1240,
-        "wires": [
-            [
-                "8e091b28021f8cfa"
-            ]
-        ]
-    },
-    {
-        "id": "410f36f95b22ba64",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "32d3112d56e6b1ab",
-        "name": "default data",
-        "func": "if (global.get('isCredentialsSent') === false) {\n    msg.payload = {\n        \"welcome\": \"\",\n        \"unable\": \"\",\n        \"respond\": \"\"\n    }\n    global.set('isCredentialsSent', true)\n    return msg;\n}\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 670,
-        "y": 1280,
-        "wires": [
-            [
-                "0c9c88a6b576404a"
-            ]
-        ]
-    },
-    {
-        "id": "378a02518c0e4c86",
-        "type": "delay",
-        "z": "4cba6f8219137af4",
-        "g": "32d3112d56e6b1ab",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "6",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 555,
-        "y": 1280,
-        "wires": [
-            [
-                "410f36f95b22ba64"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "63df096c7f5ba1fd",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "32d3112d56e6b1ab",
-        "name": "set filename",
-        "func": "msg.filename = '/data/credentialsMsg.json'\nglobal.set('isCredentialsSent', false)\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 410,
-        "y": 1240,
-        "wires": [
-            [
-                "6572bf1d7a52ac7d"
-            ]
-        ]
-    },
-    {
-        "id": "8e091b28021f8cfa",
-        "type": "http response",
-        "z": "4cba6f8219137af4",
-        "g": "32d3112d56e6b1ab",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 1050,
-        "y": 1240,
-        "wires": []
-    },
-    {
-        "id": "b14dd00693046baf",
-        "type": "http in",
-        "z": "4cba6f8219137af4",
-        "g": "32d3112d56e6b1ab",
-        "name": "",
-        "url": "/getCredentialsMsg",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 170,
-        "y": 1240,
-        "wires": [
-            [
-                "63df096c7f5ba1fd",
-                "378a02518c0e4c86"
-            ]
-        ]
     },
     {
         "id": "b7d26d9f317a4ce9",
@@ -12965,7 +12329,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 190,
-        "y": 1500,
+        "y": 1120,
         "wires": [
             [
                 "a33aa3cab944b729"
@@ -12981,7 +12345,7 @@
         "statusCode": "",
         "headers": {},
         "x": 950,
-        "y": 1500,
+        "y": 1120,
         "wires": []
     },
     {
@@ -12997,7 +12361,7 @@
         "finalize": "",
         "libs": [],
         "x": 410,
-        "y": 1500,
+        "y": 1120,
         "wires": [
             [
                 "77e03324263dd58d"
@@ -13017,7 +12381,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 680,
-        "y": 1500,
+        "y": 1120,
         "wires": [
             [
                 "24c4d892d84069d7"
@@ -13037,7 +12401,7 @@
         "finalize": "",
         "libs": [],
         "x": 820,
-        "y": 1500,
+        "y": 1120,
         "wires": [
             [
                 "a44d45874ebeb754"
@@ -13054,7 +12418,7 @@
         "action": "",
         "pretty": false,
         "x": 550,
-        "y": 1500,
+        "y": 1120,
         "wires": [
             [
                 "0f3a84ec943e5b13"
@@ -13084,7 +12448,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 150,
-        "y": 1440,
+        "y": 1060,
         "wires": [
             [
                 "fda135fec557af97"
@@ -13104,7 +12468,7 @@
         "finalize": "",
         "libs": [],
         "x": 650,
-        "y": 1420,
+        "y": 1040,
         "wires": [
             []
         ]
@@ -13120,7 +12484,7 @@
         ],
         "uncaught": false,
         "x": 130,
-        "y": 1400,
+        "y": 1020,
         "wires": [
             [
                 "fda135fec557af97"
@@ -13140,7 +12504,7 @@
         "finalize": "",
         "libs": [],
         "x": 320,
-        "y": 1420,
+        "y": 1040,
         "wires": [
             [
                 "175fb1669ebe74b6"
@@ -13161,7 +12525,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 480,
-        "y": 1420,
+        "y": 1040,
         "wires": [
             [
                 "0dc15aa186445a0f"
@@ -13178,13 +12542,107 @@
         "action": "",
         "pretty": false,
         "x": 565,
-        "y": 1420,
+        "y": 1040,
         "wires": [
             [
                 "5ad1a8b7bc330500"
             ]
         ],
         "l": false
+    },
+    {
+        "id": "d0e3e6de89b9f1ab",
+        "type": "http in",
+        "z": "4cba6f8219137af4",
+        "name": "",
+        "url": "/getenvs",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 2060,
+        "wires": [
+            [
+                "734f87d6e57db2ee"
+            ]
+        ]
+    },
+    {
+        "id": "734f87d6e57db2ee",
+        "type": "function",
+        "z": "4cba6f8219137af4",
+        "name": "function 398",
+        "func": "\nmsg.payload = {\n    pinecone: global.get('pinecone') ? global.get('pinecone') : {\n        PIPECONE_API:  \"\",\n        PIPECONE_ENV: \"\",\n        PIPECONE_INDEX: \"\",\n        PIPECONE_URL: \"\",\n    },\n    messages: global.set(\"messages\") ? global.set(\"messages\") : {\n        WELCOME: \"\",\n        UNABLE:  \"\",\n        RESPOND: \"\"\n    },\n    openai: global.get('openai') ? global.get('openai') : {\n        OPENAI_API: \"\",\n        OPENAI_MODEL: \"\",\n    },\n    prompts: global.get(\"prompts\") ? global.get(\"prompts\") : {\n        ANSWER_LENGTH: \"\",\n        ANSWER_AS:  \"\",\n        TONE: \"\",\n        LANGUAGE: \"\",\n        PROMPT_CUSTOM: \"\"\n    }\n\n    \n};\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 2060,
+        "wires": [
+            [
+                "281de60d94f6055f"
+            ]
+        ]
+    },
+    {
+        "id": "281de60d94f6055f",
+        "type": "http response",
+        "z": "4cba6f8219137af4",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 490,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "653e53d7fb5ce764",
+        "type": "http in",
+        "z": "4cba6f8219137af4",
+        "name": "",
+        "url": "/getenvsbots",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 2140,
+        "wires": [
+            [
+                "b058b242b8e6f650"
+            ]
+        ]
+    },
+    {
+        "id": "b058b242b8e6f650",
+        "type": "function",
+        "z": "4cba6f8219137af4",
+        "name": "function 399",
+        "func": "\nmsg.payload = {\n    meta: global.get('META') ? global.get('META') : {\n        META_TOKEN: \"\",\n        META_PAGEID: \"\"\n    },\n    whatsApp: global.set(\"WHATSAPP\") ? global.set(\"WHATSAPP\") : {\n        WHATSAPP_PHONEID: \"\",\n        WHATSAPP_TOKEN: \"\"\n    },\n   telegram: global.get('telegram') ? global.get('telegram') : {\n        BOT_NAME: \"\",\n        BOT_TOKEN: \"\"\n    }\n\n};\nreturn msg\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 2140,
+        "wires": [
+            [
+                "2dbe218776fe3204"
+            ]
+        ]
+    },
+    {
+        "id": "2dbe218776fe3204",
+        "type": "http response",
+        "z": "4cba6f8219137af4",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 510,
+        "y": 2140,
+        "wires": []
     },
     {
         "id": "21cbda1bf24a2a69",
@@ -16414,6 +15872,7 @@
         "id": "75e116bf63574213",
         "type": "array-loop",
         "z": "8bea414da58d7b2a",
+        "g": "5b7ced25ddad191c",
         "name": "",
         "key": "count",
         "keyType": "msg",
@@ -16436,6 +15895,7 @@
         "id": "62541437b715dd0c",
         "type": "array-loop",
         "z": "8bea414da58d7b2a",
+        "g": "5b7ced25ddad191c",
         "name": "",
         "key": "count",
         "keyType": "msg",
@@ -16458,6 +15918,7 @@
         "id": "1d3167e5d7dd4929",
         "type": "array-loop",
         "z": "8bea414da58d7b2a",
+        "g": "5b7ced25ddad191c",
         "name": "",
         "key": "amount",
         "keyType": "msg",
@@ -16480,6 +15941,7 @@
         "id": "576cadf9d8acf893",
         "type": "pdfparse",
         "z": "8bea414da58d7b2a",
+        "g": "5b7ced25ddad191c",
         "name": "",
         "path": "",
         "x": 720,
