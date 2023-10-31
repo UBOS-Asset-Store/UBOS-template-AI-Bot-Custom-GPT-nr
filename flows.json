@@ -951,7 +951,9 @@
             "a99ff7d34a8accef"
         ],
         "x": 1434,
-        "y": 799
+        "y": 799,
+        "w": 1252,
+        "h": 382
     },
     {
         "id": "512f315426441ead",
@@ -1035,7 +1037,9 @@
             "7b74cbb7f4d6c439"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 2392,
+        "h": 742
     },
     {
         "id": "b08897336796f31f",
@@ -1140,7 +1144,9 @@
             "b6454f4e5248451e"
         ],
         "x": 34,
-        "y": 819
+        "y": 819,
+        "w": 1312,
+        "h": 1322
     },
     {
         "id": "4b07803a52e468f5",
@@ -7570,7 +7576,7 @@
         "type": "function",
         "z": "b41bb82e8b5e16dc",
         "name": "get analytics",
-        "func": "\nmsg.payload = {\n    pinecone: global.get('pinecone') ? global.get('pinecone') : {},\n    whatsApp: global.get('WHATSAPP') ? global.get('WHATSAPP') : {},\n    telegram: global.get('telegram') ? global.get('telegram') : {},\n    openai: global.get('openai') ? global.get('openai') : {},\n    meta: global.get('META') ? global.get('META') : {},\n    base: global.get('base') ? global.get('base') : {},\n    files: global.get('files') ? global.get('files') : {}\n};\n\nfunction countEmptyAndFilledFields(obj) {\n    let totalFields = 0;\n    let emptyFields = 0;\n    const result = {};\n\n    for (const key in obj) {\n        const subObj = obj[key];\n        totalFields += Object.keys(subObj).length;\n        let filledFieldsForKey = 0;\n\n        for (const subKey in subObj) {\n            if (subObj[subKey] === \"\") {\n                emptyFields++;\n            } else {\n                filledFieldsForKey++;\n            }\n        }\n\n        result[key] = {\n            filledFields: filledFieldsForKey,\n            totalFields: Object.keys(subObj).length,\n            percentage: filledFieldsForKey === 0 ? 0 : ((filledFieldsForKey / Object.keys(subObj).length) * 100).toFixed(0)\n        };\n    }\n\n    const filledFields = totalFields - emptyFields;\n    const filledFieldPercentage = (filledFields === 0 ? 0 : ((filledFields / totalFields) * 100).toFixed(0));\n\n    result[\"total\"] = {\n        filledFields: filledFields,\n        totalFields: totalFields,\n        percentage: filledFieldPercentage\n    };\n\n    return result;\n}\n\nconst result = countEmptyAndFilledFields(msg.payload);\n\nlet botsFilledFields = result.whatsApp.filledFields + result.telegram.filledFields + result.meta.filledFields;\nlet botsTotalFields = 4;\nlet settingsFilledFields = result.pinecone.filledFields + result.openai.filledFields;\nlet settingsTotalFields = 6;\nlet baseTotalFields = msg.payload.base;\nlet filesTotalFields = result.files.totalFields;\nlet total = parseFloat((botsFilledFields + settingsFilledFields + baseTotalFields + filesTotalFields) / (botsTotalFields + settingsTotalFields + baseTotalFields + filesTotalFields) * 100).toFixed(0)\n\nmsg.payload = {\n    bots: {\n        filledFields: botsFilledFields,\n        totalFields: settingsTotalFields,\n        percentage: botsTotalFields === 0 ? 0 : ((botsFilledFields / botsTotalFields) * 100).toFixed(0)\n    },\n    settings: {\n        filledFields: settingsFilledFields,\n        totalFields: 6,\n        percentage: settingsTotalFields === 0 ? 0 : ((settingsFilledFields / settingsTotalFields) * 100).toFixed(0)\n    },\n    base: {\n        totalFields: baseTotalFields,\n        percentage: baseTotalFields === 0 ? 0 : 100\n    },\n    files: {\n        totalFields: baseTotalFields,\n        percentage: filesTotalFields === 0 ? 0 : 100\n    },\n    total\n};\n\nreturn msg;\n",
+        "func": "\nmsg.payload = {\n    pinecone: global.get('pinecone') ? global.get('pinecone') : {},\n    whatsApp: global.get('WHATSAPP') ? global.get('WHATSAPP') : {},\n    telegram: global.get('telegram') ? global.get('telegram') : {},\n    openai: global.get('openai') ? global.get('openai') : {},\n    meta: global.get('META') ? global.get('META') : {},\n    base: global.get('base') ? global.get('base') : {},\n    files: global.get('files') ? global.get('files') : {}\n};\n\nfunction countEmptyAndFilledFields(obj) {\n    let totalFields = 0;\n    let emptyFields = 0;\n    const result = {};\n\n    for (const key in obj) {\n        const subObj = obj[key];\n        totalFields += Object.keys(subObj).length;\n        let filledFieldsForKey = 0;\n\n        for (const subKey in subObj) {\n            if (subObj[subKey] === \"\") {\n                emptyFields++;\n            } else {\n                filledFieldsForKey++;\n            }\n        }\n\n        result[key] = {\n            filledFields: filledFieldsForKey,\n            totalFields: Object.keys(subObj).length,\n            percentage: filledFieldsForKey === 0 ? 0 : ((filledFieldsForKey / Object.keys(subObj).length) * 100).toFixed(0)\n        };\n    }\n\n    const filledFields = totalFields - emptyFields;\n    const filledFieldPercentage = (filledFields === 0 ? 0 : ((filledFields / totalFields) * 100).toFixed(0));\n\n    result[\"total\"] = {\n        filledFields: filledFields,\n        totalFields: totalFields,\n        percentage: filledFieldPercentage\n    };\n\n    return result;\n}\n\nconst result = countEmptyAndFilledFields(msg.payload);\n\nlet botsFilledFields = result.whatsApp.filledFields + result.telegram.filledFields + result.meta.filledFields;\nlet botsTotalFields = 4;\nlet settingsFilledFields = result.pinecone.filledFields + result.openai.filledFields;\nlet settingsTotalFields = 6;\nlet baseTotalFields = msg.payload.base;\nlet filesTotalFields = result.files.totalFields;\nlet total = parseFloat(((botsTotalFields + settingsTotalFields + baseTotalFields + filesTotalFields) / (botsFilledFields + settingsFilledFields + baseTotalFields + filesTotalFields) )* 100).toFixed(0)\nnode.warn( botsTotalFields/botsFilledFields)\n\nmsg.payload = {\n    bots: {\n        filledFields: botsFilledFields,\n        totalFields: botsTotalFields,\n        percentage: botsFilledFields === 0 ? 0 : ((botsTotalFields / botsFilledFields) * 100).toFixed(0)\n    },\n    settings: {\n        filledFields: settingsFilledFields,\n        totalFields: 6,\n        percentage: settingsFilledFields === 0 ? 0 : ((settingsTotalFields/settingsFilledFields) * 100).toFixed(0)\n    },\n    base: {\n        totalFields: baseTotalFields,\n        percentage: baseTotalFields === 0 ? 0 : 100\n    },\n    files: {\n        totalFields: baseTotalFields,\n        percentage: filesTotalFields === 0 ? 0 : 100\n    },\n    total\n};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7580,7 +7586,8 @@
         "y": 440,
         "wires": [
             [
-                "36ee770488f6d1d7"
+                "36ee770488f6d1d7",
+                "4ac324b8df6cf077"
             ]
         ]
     },
@@ -7903,6 +7910,52 @@
         "x": 1030,
         "y": 500,
         "wires": []
+    },
+    {
+        "id": "4ac324b8df6cf077",
+        "type": "debug",
+        "z": "b41bb82e8b5e16dc",
+        "name": "debug 539",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 590,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "8744a5a97c4d823c",
+        "type": "inject",
+        "z": "b41bb82e8b5e16dc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 400,
+        "wires": [
+            [
+                "b1bf03b5e7f290ba"
+            ]
+        ]
     },
     {
         "id": "2cd32bbc5f43b1e9",
@@ -16745,7 +16798,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 890,
+        "x": 850,
         "y": 1780,
         "wires": []
     }
