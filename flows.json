@@ -56,6 +56,14 @@
         "env": []
     },
     {
+        "id": "71360979efaa1719",
+        "type": "tab",
+        "label": "App settings",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "6a6d2afa5b0c7ec9",
         "type": "subflow",
         "name": "icons",
@@ -147,7 +155,9 @@
             "881a3a438a261f6f"
         ],
         "x": 14,
-        "y": 1139
+        "y": 1139,
+        "w": 712,
+        "h": 902
     },
     {
         "id": "7cf09a5628ba29e5",
@@ -232,7 +242,9 @@
             "56afed1bb13cc979"
         ],
         "x": 4,
-        "y": 39
+        "y": 39,
+        "w": 1962,
+        "h": 1022
     },
     {
         "id": "d47c4baf98dd7d3b",
@@ -256,7 +268,9 @@
             "4ca2aafdce75631b"
         ],
         "x": 774,
-        "y": 1139
+        "y": 1139,
+        "w": 1012,
+        "h": 162
     },
     {
         "id": "b69c8ee37e3e0852",
@@ -307,7 +321,9 @@
             "5322da50da8b810a"
         ],
         "x": 774,
-        "y": 1339
+        "y": 1339,
+        "w": 1652,
+        "h": 622
     },
     {
         "id": "1c10aa09f2bae3b6",
@@ -351,7 +367,9 @@
             "db9c3ea65883774f"
         ],
         "x": 14,
-        "y": 3039
+        "y": 3039,
+        "w": 1172,
+        "h": 662
     },
     {
         "id": "a89d39ed625d493a",
@@ -408,7 +426,9 @@
             "daa9252c4d5e4a15"
         ],
         "x": 4,
-        "y": 2079
+        "y": 2079,
+        "w": 1042,
+        "h": 922
     },
     {
         "id": "ebee837ffce65a75",
@@ -566,7 +586,9 @@
             "203b9423c44f39af"
         ],
         "x": 1354,
-        "y": 839
+        "y": 839,
+        "w": 1252,
+        "h": 362
     },
     {
         "id": "91096b9755d49fe2",
@@ -641,7 +663,9 @@
             "81747bc94dce71a1"
         ],
         "x": 34,
-        "y": 79
+        "y": 79,
+        "w": 2132,
+        "h": 702
     },
     {
         "id": "5b7ced25ddad191c",
@@ -727,7 +751,9 @@
             "034bd72aa6ae2af3"
         ],
         "x": 34,
-        "y": 819
+        "y": 819,
+        "w": 1292,
+        "h": 1002
     },
     {
         "id": "945706dce188c905",
@@ -999,81 +1025,6 @@
         "h": 382
     },
     {
-        "id": "424028bffdc76acc",
-        "type": "group",
-        "z": "f4036141cc030bcf",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "dfc0082f4e1725eb",
-            "0ed5ffc9543206b2",
-            "a16c674049b8b976",
-            "70ee1c32372fcc96",
-            "9a8108100cd6ee7f",
-            "87633d946b21622f",
-            "b2a92124f982054e",
-            "62b62daee225d3a2",
-            "70e4181ae3f0275a",
-            "ad8d80973130a52d",
-            "5116a17ede9b9174",
-            "7daf979c3e2c7a76",
-            "2f1541549a290ef7",
-            "89a826aed605c070",
-            "a38a8f1480c9758d",
-            "7c4aea010b5ff46a",
-            "44c1d1f78ec482d1",
-            "ea6e2fbb4b416587",
-            "ebea711cc8d850d3",
-            "27cb7798ca8f35c8",
-            "961e3c913cd2112c",
-            "f9a5ece7a7b6bc85",
-            "c72a2c8a045b457d",
-            "8f1a371dd4f3b4c8",
-            "d9b51a25d7cf31a5",
-            "dfad2ae10a1f2170",
-            "fcdafe8c0d80cff3",
-            "909b6dc35a1bf271",
-            "b8765ebf35fcbee2",
-            "ba4b22d80c1c5e19",
-            "dbd0601d6a61d27f",
-            "f3e689179c45a333",
-            "25823646b3e742b1",
-            "48e1b949ea4ae66e",
-            "9560b4401de9504f",
-            "33be9c73fb386787",
-            "aa731c1041cbaf75",
-            "bda3da5d16e93c41",
-            "cd743bf8265985e6",
-            "2b8d7cf91e1b5706",
-            "9a10065496c11202",
-            "08e9be32b9725a7c",
-            "da527d53c4d8d6ef",
-            "1bedfdae4be59676",
-            "ddb0daaa58de9ba0",
-            "cf9110db7c6fe96f",
-            "21a55fa65e78be8f",
-            "800a07af663511f3",
-            "f62e6f992aa07fdb",
-            "84b037deaf9dfdca",
-            "4dd1bab0c348d47e",
-            "af6faaf15d904ee0",
-            "8c11a89df1c25667",
-            "800c823e1c5385ff",
-            "2985690b8042519b",
-            "dfae14f2d9b47785",
-            "0fba73d698585ddf"
-        ],
-        "x": 0,
-        "y": 0
-    },
-    {
         "id": "4f917968caad45c9",
         "type": "group",
         "z": "4cba6f8219137af4",
@@ -1095,6 +1046,85 @@
         "y": 1679,
         "w": 572,
         "h": 162
+    },
+    {
+        "id": "22baf3437ddf891a",
+        "type": "group",
+        "z": "f4036141cc030bcf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4d6a17c73d546732",
+            "df7228f1ca2bb11a",
+            "b03ca10f7a5e7d86",
+            "7495a71484e510b5",
+            "105379bf6dad0df3",
+            "ab652fd69b89e525",
+            "ebd2d5ec975b8df6",
+            "0a311e524a45cb4c",
+            "647f224769fd5ccf",
+            "0b2cf452ccbd0145",
+            "3137080b8443ca6f",
+            "98a32147a7ff1fdc",
+            "57457592b1c644ef",
+            "01d699427aab4b28",
+            "0658b60de37e40e6",
+            "16130ac3714e8190",
+            "ad141a591246cdb7",
+            "0ad552e590edd45e",
+            "e4d439733f677236",
+            "f3f6b3701a56c295",
+            "28767513ce15095c",
+            "45a32356e02a2d3c",
+            "73eeb897fd552674",
+            "bc0f550f1359a6ec",
+            "bb7fbccbc18f9d03",
+            "a582bd19acf21cfe",
+            "06af825b3013eade",
+            "d84bc8458a9612e5",
+            "2e3abcb9e2592336",
+            "668a87c95e3fbd65",
+            "9b5665072d190912",
+            "491d19d33c172e92",
+            "b0c3343b55435ef8",
+            "fe8f82cd30da8da0",
+            "bf69b32f8087632e",
+            "6a9dcf9eacd58e3e",
+            "43a5823267034adc",
+            "fa153787f093eb1a",
+            "a4cd87d790402f29",
+            "518dcf3da9d61b4b",
+            "2314198868e16314",
+            "14d0f2d253716bf1",
+            "ff0be0a77672bf4c",
+            "473eed3ec8b60522",
+            "4b64b056edd4d705",
+            "bf7797ef77b76caa",
+            "1834e87d7bf3c7bf",
+            "12caba071ad857d2",
+            "6347ff05c60783c4",
+            "03c4404752de2165",
+            "90f58c6cb8c49015",
+            "67f4d18d700ffcb5",
+            "d9243a5997a099d8",
+            "a7b7d011e14c597c",
+            "3c94a80004b47b76",
+            "c63c83cda1186b6e",
+            "6f0d8b9321ada868",
+            "61e482c97b1b6888",
+            "14560e3cb81ea796"
+        ],
+        "x": 14,
+        "y": 3739,
+        "w": 3712,
+        "h": 762
     },
     {
         "id": "4b07803a52e468f5",
@@ -4352,55 +4382,6 @@
         ]
     },
     {
-        "id": "c13653a3c3d46321",
-        "type": "template",
-        "z": "4004e7d2fbdbf6a9",
-        "name": "",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "css",
-        "syntax": "mustache",
-        "template": "@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,200&display=swap');\n\nbody{\n    font-family: 'Titillium Web', sans-serif!important;\n   \n}\n\n.header{\ntop: 0px !important;\nheight: 66px !important;\npadding: 0px !important;\nborder-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n.menu_section{\nbox-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\nheight: 100vh !important;\npadding: 0px !important;\nleft: 0px !important;\nborder-right: 2px solid rgb(241, 243, 244) !important;\n}\n\n.main_section{\npadding: 0px !important;\nheight: 100vh !important;\nposition: fixed !important;\ntop: 66px !important; \n}\n\n.tab_login>div>div>div>div{\nbox-shadow: none !important;\n}\n\n.tab_login>div>div>div>div>div{\nbackground: transparent !important;\n}\n\n.frame_section{\nheight: 100vh !important;\nposition: fixed !important;\ntop: 16px !important; \n}\n\n.scroll_section{\n   height: 100vh !important; \n    top: 66px !important; \n    padding: 0px !important;\n\n}\n\n.image{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n    height: 75px !important;\n}\n\n\n.menu .active span{\ncolor: #2a2f36 !important;\n}\n\n.menu .active {\n    background: #ebf1fb !important;\n}\n\n.menu button:hover{\nbackground: #ebf1fb;\n}\n\n.menu span[role=\"img\"]{\nmargin-left: 8px !important;\nmargin-top: 3px !important;\n\n}\n.menu .bp3-collapse-body .sub_category {\n    padding: 5px 5px 5px 20px !important;\n}\n.menu button{\n    box-shadow: none !important;\n}\n\n.menu span{\n    font-size: 16px !important;\n    font-weight: 400 !important;\n    color: #00000099 !important;\n}\n\n.menu {\n    left: 0px !important;\n    width: 100% !important;\n    padding: 0 !important;\n}\n\n.menu_wrap{\n    position: fixed !important;\n    left: 0px!important;\n    top: 0px !important;\n    height: 100vh !important;\n    /* width: 178.312px!important; */\n    padding: 0px!important;\n    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\n}\n\n.menu button {\n    justify-content: start !important;\n    padding: 5px 10px 5px 15px !important;\n    margin-bottom: 5px !important;\n}\n\n.setting_title{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n\n.setting_text{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important; \n}\n\n.setting_text .bp3-ui-text {\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n.setting_title .bp3-ui-text {\n    font-weight: 600 !important;\n    font-size: 18px !important;\n}\n\n.telegramList {\n    padding: 10px 20px !important;\n}\n\n.telegramList .custom-wrapper-canvas-list{\n    display: flex;\n    flex-direction: column !important;\n}\n.telegramList .custom-wrapper-canvas-list button {\n    display: none !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget{\n    width: 90% !important;\n    position: static !important;\n    border-radius: 8px!important;\n    padding: 0 !important;\n    margin-bottom: 7px;\n    margin-right: auto !important;\n    margin-left: 0 !important;\n    background-color: #cfcfdb !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd){\n    margin-right: 0 !important;\n    margin-left: auto !important;\n    background-color: #e5e5e6 !important;\n}\n.telegramList .t--widget-textwidget{\n    width: auto !important;\n    position: static !important;\n    padding: 5px 15px !important;\n    height: 100% !important;\n}\n.telegramList .t--widget-textwidget span{\n    font-weight: 500; \n    font-size: 16px;\n    line-height: 125%;\n}\n\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd) .t--widget-textwidget span{\n    text-align: end;\n}\n\n.telegramWrap{\n    padding: 0!important;\n}\n\n.container{\n    min-height: 100vh;\n}\n\n.selectedTab{\n    box-shadow: rgb(235, 239, 242) -1px 0px 0px inset, rgb(235, 239, 242) 0px 0px 0px inset, rgb(55 169 235) 0px 4px 0px inset !important;\n}\n\n.icon >div>div>div>div>div>div>div{\n   background-position: center right!important;\n}\n\n.title >div>div>div>div>div>div>div span {\nfont-size:22px!important; \n}\n.title >div>div>div>div>div>div>div >span >span.training_span {color:#118cfc!important; font-size: 28px!important;  font-weight: 700!important;}\n.tabs >div>div>div>div>div>div {\nfont-size:20px!important;\ntext-transform: uppercase!important;\nfont-weight: 500!important;\n}\n.training_wrap >div>div>div>div>div>div>div>div>div>div>div>div>div{\n    display: inline-flex!important;\n    justify-content: space-between!important;\n}\n.table{\nfont-size:14px!important;\ntext-transform: lowercase!important;\nfont-weight: 400!important; \n}\n.table >div>div>div>div>div>div{\n    font-size:14px!important;\ntext-transform: uppercase!important;\n}\n.tr>div>div>div>div>div>div>div>div{\n    border-right: none!important;\n}\n\n\n\n.title >div>div>div>div>div>div>div >span >span {\nfont-size:14px!important;\nfont-weight: 400!important; \n}\n\n/**/\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    margin-bottom: 20px!important;\n}\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    position: initial !important;\n}\n\n.hide{\n    display: none;\n       height: 20px!important;\n}\n\n.activ{\n    display: block;\n    /* height: 270px!important; */\n}\n.activ_setup{\n    display: block;\n    /* height: 500px!important; */\n}\n.btn_right>div>div>div>div>button>span>svg {\n    transform: rotate(180deg)!important;\n    transition: all 0.5s ease 0s !important;\n}\n.btn_left>div>div>div>div>button>span>svg {\n        transform: translateY(0px)!important;\n    transition: none 0s ease 0s!important;\n}\n\n/* За замовчуванням */\n.btn_left>div>div>div>div>button,\n.btn_right>div>div>div>div>button {\n    background-color: #ccc;  \n    transition: background-color 0.3s ease, transform 0.3s ease !important;\n \n}\n\n\n.btn_left>div>div>div>div>button:hover:enabled,\n.btn_right>div>div>div>div>button:hover:enabled {\n    background: #9991 !important; \n    transform: translateY(-5px) !important; \n}\n.bp3-input  {\nborder-radius: 10px!important;\n}\n.select_input button.select-button {\n    border-radius: 10px!important;\n}\n.dashboard_text>div>div>div>div>div>div>div{\n    font-size:32px!important;\nfont-weight: 700!important; \n}\n.t--widget-progresswidget>div>div>div>div{\n   height: 68%!important; \n  border-radius:10px!important; \n    background: #fec518;\n    overflow: hidden!important;\n    \n\n}\n\n.t--widget-progresswidget>div>div>div>div>div{\n    height: 100%!important; \n    background-color: #fec518!important;\n    padding-right: 4px!important;\n    font-size: 20px!important;\n    font-weight: 600!important;\n    text-align: center!important;\n    padding-top: 2px!important;\n  \n   \n   \n} \n.text_cross{\n    text-decoration: line-through!important;\n}\n.text_cross span{\n    text-decoration: none!important;\n}\n.done{\n    opacity: 0.3!important;\n}\n.scroll_section{\n     overflow-y: hidden!important;\n}\n\n\n.users_tabs{\n    border-radius: 10px!important;\n}",
-        "output": "str",
-        "x": 280,
-        "y": 620,
-        "wires": [
-            [
-                "6c14c16dc9e0d8f4"
-            ]
-        ]
-    },
-    {
-        "id": "6c14c16dc9e0d8f4",
-        "type": "http response",
-        "z": "4004e7d2fbdbf6a9",
-        "name": "",
-        "statusCode": "",
-        "headers": {
-            "content-type": "text/css"
-        },
-        "x": 430,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "cbdef52a04ca4507",
-        "type": "http in",
-        "z": "4004e7d2fbdbf6a9",
-        "name": "",
-        "url": "/css",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 120,
-        "y": 620,
-        "wires": [
-            [
-                "c13653a3c3d46321"
-            ]
-        ]
-    },
-    {
         "id": "31a716a792e6a4c0",
         "type": "function",
         "z": "4004e7d2fbdbf6a9",
@@ -4494,72 +4475,6 @@
                 "84d529cf097f50f8"
             ]
         ]
-    },
-    {
-        "id": "fce1a2f14a66eab2",
-        "type": "http in",
-        "z": "4004e7d2fbdbf6a9",
-        "name": "",
-        "url": "icons",
-        "method": "post",
-        "upload": true,
-        "swaggerDoc": "",
-        "x": 110,
-        "y": 680,
-        "wires": [
-            [
-                "779a6f2daa6a2365"
-            ]
-        ]
-    },
-    {
-        "id": "779a6f2daa6a2365",
-        "type": "function",
-        "z": "4004e7d2fbdbf6a9",
-        "name": "function 384",
-        "func": "msg.buffer = msg.req.files[0].buffer\n\nmsg.decodedFilename = '/data/storage/icons/' + msg.req.files[0].originalname\nmsg.payload = msg.buffer;\nreturn msg;\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 270,
-        "y": 680,
-        "wires": [
-            [
-                "1356140391cce27a"
-            ]
-        ]
-    },
-    {
-        "id": "1356140391cce27a",
-        "type": "file",
-        "z": "4004e7d2fbdbf6a9",
-        "name": "",
-        "filename": "decodedFilename",
-        "filenameType": "msg",
-        "appendNewline": true,
-        "createDir": true,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 440,
-        "y": 680,
-        "wires": [
-            [
-                "5b329a55b88b7457"
-            ]
-        ]
-    },
-    {
-        "id": "5b329a55b88b7457",
-        "type": "http response",
-        "z": "4004e7d2fbdbf6a9",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 610,
-        "y": 680,
-        "wires": []
     },
     {
         "id": "e381e6395ca88806",
@@ -8953,472 +8868,6 @@
         "wires": []
     },
     {
-        "id": "dfc0082f4e1725eb",
-        "type": "http in",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "",
-        "url": "/checkData",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 120,
-        "y": 3840,
-        "wires": [
-            [
-                "0ed5ffc9543206b2"
-            ]
-        ]
-    },
-    {
-        "id": "0ed5ffc9543206b2",
-        "type": "function",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "get users query",
-        "func": "msg.collection = \"admins\";\n\nmsg.payload= {\n        deleted:false\n      }\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 320,
-        "y": 3840,
-        "wires": [
-            [
-                "a16c674049b8b976"
-            ]
-        ]
-    },
-    {
-        "id": "a16c674049b8b976",
-        "type": "link call",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "",
-        "links": [
-            "2677414dc3b763e4"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 490,
-        "y": 3840,
-        "wires": [
-            [
-                "c72a2c8a045b457d"
-            ]
-        ]
-    },
-    {
-        "id": "70ee1c32372fcc96",
-        "type": "http response",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 830,
-        "y": 3840,
-        "wires": []
-    },
-    {
-        "id": "9a8108100cd6ee7f",
-        "type": "http in",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "",
-        "url": "/makeSetting",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 130,
-        "y": 3900,
-        "wires": [
-            [
-                "dfad2ae10a1f2170"
-            ]
-        ]
-    },
-    {
-        "id": "87633d946b21622f",
-        "type": "function",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "admin_modules",
-        "func": "if(msg.payload.length===0){\n     msg.payload = [\n          { \"name\": \"Dashboard\", \"position\": 1, \"icon\": msg.icon.iconDashboard, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"Bots\", \"position\": 2, \"icon\": msg.icon.iconBots, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"Training\", \"position\": 3, \"icon\": msg.icon.iconTraining, \"deleted\": false, \"isParent\": false }, \n          { \"name\": \"Users\", \"position\": 4, \"icon\": msg.icon.iconUsers, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"Setup\", \"position\": 5, \"icon\": msg.icon.iconSetup, \"deleted\": false, \"isParent\": false }, \n          { \"name\": \"Admin\", \"position\": 6, \"icon\": msg.icon.iconManagment, \"deleted\": false, \"isParent\": true, \"childModules\": [{ \"name\": \"Modules\", \"page_id\": \"Modules\", \"position\": 1 }, { \"name\": \"AdminRoles\", \"page_id\": \"AdminRoles\", \"position\": 2 }, { \"name\": \"User Management\", \"page_id\": \"User Management\", \"position\": 3 }] }\n     ]\nmsg.collection = \"admin_modules\"\n\nreturn msg;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1020,
-        "y": 3900,
-        "wires": [
-            [
-                "33be9c73fb386787",
-                "b2a92124f982054e"
-            ]
-        ]
-    },
-    {
-        "id": "b2a92124f982054e",
-        "type": "link call",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "find_",
-        "links": [
-            "8771d95b528d34d0"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 1210,
-        "y": 3900,
-        "wires": [
-            [
-                "27cb7798ca8f35c8"
-            ]
-        ]
-    },
-    {
-        "id": "62b62daee225d3a2",
-        "type": "function",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "get module",
-        "func": "msg.collection = \"admin_modules\"\nmsg.payload={deleted:false}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1470,
-        "y": 3900,
-        "wires": [
-            [
-                "70e4181ae3f0275a"
-            ]
-        ]
-    },
-    {
-        "id": "70e4181ae3f0275a",
-        "type": "link call",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "find_",
-        "links": [
-            "2677414dc3b763e4"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 1610,
-        "y": 3900,
-        "wires": [
-            [
-                "ad8d80973130a52d"
-            ]
-        ]
-    },
-    {
-        "id": "ad8d80973130a52d",
-        "type": "function",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "admin_roles",
-        "func": "if(msg.payload.length>0){\nmsg.payload=\n        { \"name\": \"admin\", \"deleted\": false, \"permissions\": [\n            { \"module\": \"Dashboard\", \"moduleId\": msg.payload.filter(e => e.name ==='Dashboard')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }, \n            { \"module\": \"Bots\", \"moduleId\": msg.payload.filter(e => e.name === 'Bots')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }, \n            { \"module\": \"Training\", \"moduleId\": msg.payload.filter(e => e.name === 'Training')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }, \n            { \"module\": \"Users\", \"moduleId\": msg.payload.filter(e => e.name === 'Users')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true },\n            { \"module\": \"Setup\", \"moduleId\": msg.payload.filter(e => e.name === 'Setup')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true },  \n            { \"module\": \"Admin\", \"moduleId\": msg.payload.filter(e => e.name === 'Admin')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }], \n        \"createdAt\":Date.now() }\n        \nmsg.collection = \"admin_roles\"\n    return [msg,null];\n}\nelse{\n    return[null,msg]\n}",
-        "outputs": 2,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1770,
-        "y": 3900,
-        "wires": [
-            [
-                "5116a17ede9b9174"
-            ],
-            [
-                "aa731c1041cbaf75"
-            ]
-        ]
-    },
-    {
-        "id": "5116a17ede9b9174",
-        "type": "link call",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "find_",
-        "links": [
-            "8771d95b528d34d0"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 1930,
-        "y": 3900,
-        "wires": [
-            [
-                "961e3c913cd2112c"
-            ]
-        ]
-    },
-    {
-        "id": "7daf979c3e2c7a76",
-        "type": "function",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "get roles",
-        "func": "msg.collection = \"admin_roles\"\nmsg.payload={deleted:false}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2140,
-        "y": 3900,
-        "wires": [
-            [
-                "2f1541549a290ef7"
-            ]
-        ]
-    },
-    {
-        "id": "2f1541549a290ef7",
-        "type": "link call",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "find_",
-        "links": [
-            "2677414dc3b763e4"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 2350,
-        "y": 3900,
-        "wires": [
-            [
-                "89a826aed605c070"
-            ]
-        ]
-    },
-    {
-        "id": "89a826aed605c070",
-        "type": "function",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "admins",
-        "func": "if (msg.payload.length > 0){\nlet bcrypt = global.get('bcrypt')\nlet result = '';\nconst characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';\nconst charactersLength = characters.length;\nfor (let i = 0; i < 8; i++) {\n    result += characters.charAt(Math.floor(Math.random() * charactersLength));\n}\n\nlet encryptedPassword = await bcrypt.hash(result, 10);\n\nmsg.password=result\nmsg.payload = {\n    \"deleted\": false,\n    \"avatarColor\": \"#80f124\",\n    \"createdAt\": Date.now(),\n    \"roles\": [msg.payload[0]._id],\n    \"active\": true,\n    \"firstname\": \"admin\",\n    \"lastname\": \"admin\",\n    \"email\": \"admin@ubos.tech\",\n    \"password\": encryptedPassword,\n    \"verifyToken\": null,\n    \"resetPassToken\": \"\",\n    \"resetPassExpireToken\": null\n}\nmsg.collection = \"admins\";\n\nreturn [msg,null];\n}else{\n    return[null,msg]\n}",
-        "outputs": 2,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2480,
-        "y": 3900,
-        "wires": [
-            [
-                "a38a8f1480c9758d"
-            ],
-            [
-                "bda3da5d16e93c41"
-            ]
-        ]
-    },
-    {
-        "id": "a38a8f1480c9758d",
-        "type": "link call",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "find_",
-        "links": [
-            "8771d95b528d34d0"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 2630,
-        "y": 3900,
-        "wires": [
-            [
-                "f9a5ece7a7b6bc85"
-            ]
-        ]
-    },
-    {
-        "id": "7c4aea010b5ff46a",
-        "type": "function",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "get admin",
-        "func": "msg.collection = \"admins\";\n\nmsg.payload = {\n    \"deleted\": false\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2840,
-        "y": 3900,
-        "wires": [
-            [
-                "44c1d1f78ec482d1"
-            ]
-        ]
-    },
-    {
-        "id": "44c1d1f78ec482d1",
-        "type": "link call",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "find_",
-        "links": [
-            "2677414dc3b763e4"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 2990,
-        "y": 3900,
-        "wires": [
-            [
-                "ea6e2fbb4b416587"
-            ]
-        ]
-    },
-    {
-        "id": "ea6e2fbb4b416587",
-        "type": "function",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "send response",
-        "func": "if(msg.payload.length>0){\nmsg.payload={\n    error: false,\n    email: msg.payload[0].email,\n    password: msg.password\n}\nreturn [msg,null];\n}\nelse{\n    return[null,msg]\n}",
-        "outputs": 2,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 3140,
-        "y": 3900,
-        "wires": [
-            [
-                "ebea711cc8d850d3",
-                "f3e689179c45a333",
-                "9a10065496c11202"
-            ],
-            [
-                "cd743bf8265985e6"
-            ]
-        ]
-    },
-    {
-        "id": "ebea711cc8d850d3",
-        "type": "http response",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 3370,
-        "y": 3900,
-        "wires": []
-    },
-    {
-        "id": "27cb7798ca8f35c8",
-        "type": "delay",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "1",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1305,
-        "y": 3900,
-        "wires": [
-            [
-                "62b62daee225d3a2"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "961e3c913cd2112c",
-        "type": "delay",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "1",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 2045,
-        "y": 3900,
-        "wires": [
-            [
-                "7daf979c3e2c7a76"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "f9a5ece7a7b6bc85",
-        "type": "delay",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "1",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 2745,
-        "y": 3900,
-        "wires": [
-            [
-                "7c4aea010b5ff46a"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "c72a2c8a045b457d",
-        "type": "function",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "name": "function 347",
-        "func": "if(msg.payload.length>0){\n    msg.payload=[{data:true}]\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 670,
-        "y": 3840,
-        "wires": [
-            [
-                "70ee1c32372fcc96"
-            ]
-        ]
-    },
-    {
         "id": "daa9252c4d5e4a15",
         "type": "inject",
         "z": "f4036141cc030bcf",
@@ -9449,10 +8898,476 @@
         ]
     },
     {
-        "id": "8f1a371dd4f3b4c8",
+        "id": "4d6a17c73d546732",
+        "type": "http in",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "",
+        "url": "/checkData",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 3820,
+        "wires": [
+            [
+                "df7228f1ca2bb11a"
+            ]
+        ]
+    },
+    {
+        "id": "df7228f1ca2bb11a",
         "type": "function",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
+        "name": "get users query",
+        "func": "msg.collection = \"admins\";\n\nmsg.payload= {\n        deleted:false\n      }\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 3820,
+        "wires": [
+            [
+                "b03ca10f7a5e7d86"
+            ]
+        ]
+    },
+    {
+        "id": "b03ca10f7a5e7d86",
+        "type": "link call",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "",
+        "links": [
+            "2677414dc3b763e4"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 490,
+        "y": 3820,
+        "wires": [
+            [
+                "73eeb897fd552674"
+            ]
+        ]
+    },
+    {
+        "id": "7495a71484e510b5",
+        "type": "http response",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 830,
+        "y": 3820,
+        "wires": []
+    },
+    {
+        "id": "105379bf6dad0df3",
+        "type": "http in",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "",
+        "url": "/makeSetting",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 3880,
+        "wires": [
+            [
+                "a582bd19acf21cfe"
+            ]
+        ]
+    },
+    {
+        "id": "ab652fd69b89e525",
+        "type": "function",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "admin_modules",
+        "func": "if(msg.payload.length===0){\n     msg.payload = [\n          { \"name\": \"Dashboard\", \"position\": 1, \"icon\": msg.icon.iconDashboard, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"Training\", \"position\": 2, \"icon\": msg.icon.iconTraining, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"User Chats\", \"position\": 3, \"icon\": msg.icon.iconUsers, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"Bot Setup\", \"position\": 4, \"icon\": msg.icon.iconBots, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"AI Setup\", \"position\": 5, \"icon\": msg.icon.iconSetup, \"deleted\": false, \"isParent\": false }, \n          { \"name\": \"Admin\", \"position\": 6, \"icon\": msg.icon.iconManagment, \"deleted\": false, \"isParent\": true, \"childModules\": [{ \"name\": \"Modules\", \"page_id\": \"Modules\", \"position\": 1 }, { \"name\": \"AdminRoles\", \"page_id\": \"AdminRoles\", \"position\": 2 }, { \"name\": \"User Management\", \"page_id\": \"User Management\", \"position\": 3 }, { \"name\": \"App settings\", \"page_id\": \"App settings\", \"position\": 4 }] }\n     ]\nmsg.collection = \"admin_modules\"\n\nreturn msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1020,
+        "y": 3880,
+        "wires": [
+            [
+                "6a9dcf9eacd58e3e",
+                "ebd2d5ec975b8df6"
+            ]
+        ]
+    },
+    {
+        "id": "ebd2d5ec975b8df6",
+        "type": "link call",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "find_",
+        "links": [
+            "8771d95b528d34d0"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1210,
+        "y": 3880,
+        "wires": [
+            [
+                "f3f6b3701a56c295"
+            ]
+        ]
+    },
+    {
+        "id": "0a311e524a45cb4c",
+        "type": "function",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "get module",
+        "func": "msg.collection = \"admin_modules\"\nmsg.payload={deleted:false}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1470,
+        "y": 3880,
+        "wires": [
+            [
+                "647f224769fd5ccf"
+            ]
+        ]
+    },
+    {
+        "id": "647f224769fd5ccf",
+        "type": "link call",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "find_",
+        "links": [
+            "2677414dc3b763e4"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1610,
+        "y": 3880,
+        "wires": [
+            [
+                "0b2cf452ccbd0145"
+            ]
+        ]
+    },
+    {
+        "id": "0b2cf452ccbd0145",
+        "type": "function",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "admin_roles",
+        "func": "if(msg.payload.length>0){\nmsg.payload=\n        { \"name\": \"admin\", \"deleted\": false, \"permissions\": [\n            { \"module\": \"Dashboard\", \"moduleId\": msg.payload.filter(e => e.name ==='Dashboard')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }, \n            { \"module\": \"Bot Setup\", \"moduleId\": msg.payload.filter(e => e.name === \"Bot Setup\")[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }, \n            { \"module\": \"Training\", \"moduleId\": msg.payload.filter(e => e.name === 'Training')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }, \n            { \"module\": \"User Chats\", \"moduleId\": msg.payload.filter(e => e.name === \"User Chats\")[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true },\n            { \"module\": \"AI Setup\", \"moduleId\": msg.payload.filter(e => e.name === \"AI Setup\")[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true },  \n            { \"module\": \"Admin\", \"moduleId\": msg.payload.filter(e => e.name === 'Admin')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }], \n        \"createdAt\":Date.now() }\n        \nmsg.collection = \"admin_roles\"\n    return [msg,null];\n}\nelse{\n    return[null,msg]\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1770,
+        "y": 3880,
+        "wires": [
+            [
+                "3137080b8443ca6f"
+            ],
+            [
+                "43a5823267034adc"
+            ]
+        ]
+    },
+    {
+        "id": "3137080b8443ca6f",
+        "type": "link call",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "find_",
+        "links": [
+            "8771d95b528d34d0"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1930,
+        "y": 3880,
+        "wires": [
+            [
+                "28767513ce15095c"
+            ]
+        ]
+    },
+    {
+        "id": "98a32147a7ff1fdc",
+        "type": "function",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "get roles",
+        "func": "msg.collection = \"admin_roles\"\nmsg.payload={deleted:false}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2140,
+        "y": 3880,
+        "wires": [
+            [
+                "57457592b1c644ef"
+            ]
+        ]
+    },
+    {
+        "id": "57457592b1c644ef",
+        "type": "link call",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "find_",
+        "links": [
+            "2677414dc3b763e4"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2290,
+        "y": 3880,
+        "wires": [
+            [
+                "01d699427aab4b28"
+            ]
+        ]
+    },
+    {
+        "id": "01d699427aab4b28",
+        "type": "function",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "admins",
+        "func": "if (msg.payload.length > 0){\nlet bcrypt = global.get('bcrypt')\nlet result = '';\nconst characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';\nconst charactersLength = characters.length;\nfor (let i = 0; i < 8; i++) {\n    result += characters.charAt(Math.floor(Math.random() * charactersLength));\n}\n\nlet encryptedPassword = await bcrypt.hash(result, 10);\n\nmsg.password=result\nmsg.payload = {\n    \"deleted\": false,\n    \"avatarColor\": \"#80f124\",\n    \"createdAt\": Date.now(),\n    \"roles\": [msg.payload[0]._id],\n    \"active\": true,\n    \"firstname\": \"admin\",\n    \"lastname\": \"admin\",\n    \"email\": \"admin@ubos.tech\",\n    \"password\": encryptedPassword,\n    \"verifyToken\": null,\n    \"resetPassToken\": \"\",\n    \"resetPassExpireToken\": null\n}\nmsg.collection = \"admins\";\n\nreturn [msg,null];\n}else{\n    return[null,msg]\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2480,
+        "y": 3880,
+        "wires": [
+            [
+                "0658b60de37e40e6"
+            ],
+            [
+                "fa153787f093eb1a"
+            ]
+        ]
+    },
+    {
+        "id": "0658b60de37e40e6",
+        "type": "link call",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "find_",
+        "links": [
+            "8771d95b528d34d0"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2630,
+        "y": 3880,
+        "wires": [
+            [
+                "45a32356e02a2d3c"
+            ]
+        ]
+    },
+    {
+        "id": "16130ac3714e8190",
+        "type": "function",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "get admin",
+        "func": "msg.collection = \"admins\";\n\nmsg.payload = {\n    \"deleted\": false\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2840,
+        "y": 3880,
+        "wires": [
+            [
+                "ad141a591246cdb7"
+            ]
+        ]
+    },
+    {
+        "id": "ad141a591246cdb7",
+        "type": "link call",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "find_",
+        "links": [
+            "2677414dc3b763e4"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2990,
+        "y": 3880,
+        "wires": [
+            [
+                "0ad552e590edd45e"
+            ]
+        ]
+    },
+    {
+        "id": "0ad552e590edd45e",
+        "type": "function",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "send response",
+        "func": "if(msg.payload.length>0){\nmsg.payload={\n    error: false,\n    email: msg.payload[0].email,\n    password: msg.password\n}\nreturn [msg,null];\n}\nelse{\n    return[null,msg]\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3140,
+        "y": 3880,
+        "wires": [
+            [
+                "e4d439733f677236",
+                "491d19d33c172e92",
+                "2314198868e16314"
+            ],
+            [
+                "a4cd87d790402f29"
+            ]
+        ]
+    },
+    {
+        "id": "e4d439733f677236",
+        "type": "http response",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 3370,
+        "y": 3880,
+        "wires": []
+    },
+    {
+        "id": "f3f6b3701a56c295",
+        "type": "delay",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1305,
+        "y": 3880,
+        "wires": [
+            [
+                "0a311e524a45cb4c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "28767513ce15095c",
+        "type": "delay",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2045,
+        "y": 3880,
+        "wires": [
+            [
+                "98a32147a7ff1fdc"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "45a32356e02a2d3c",
+        "type": "delay",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2745,
+        "y": 3880,
+        "wires": [
+            [
+                "16130ac3714e8190"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "73eeb897fd552674",
+        "type": "function",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "name": "function 347",
+        "func": "if(msg.payload.length>0){\n    msg.payload=[{data:true}]\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 3820,
+        "wires": [
+            [
+                "7495a71484e510b5"
+            ]
+        ]
+    },
+    {
+        "id": "bc0f550f1359a6ec",
+        "type": "function",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
         "name": "check_",
         "func": "msg.collection = \"admins\";\n\nmsg.payload= {\n        deleted:false\n      }\nreturn msg;",
         "outputs": 1,
@@ -9461,19 +9376,19 @@
         "finalize": "",
         "libs": [],
         "x": 400,
-        "y": 3900,
+        "y": 3880,
         "wires": [
             [
-                "d9b51a25d7cf31a5",
-                "48e1b949ea4ae66e"
+                "bb7fbccbc18f9d03",
+                "fe8f82cd30da8da0"
             ]
         ]
     },
     {
-        "id": "d9b51a25d7cf31a5",
+        "id": "bb7fbccbc18f9d03",
         "type": "link call",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "find_",
         "links": [
             "2677414dc3b763e4"
@@ -9481,19 +9396,19 @@
         "linkType": "static",
         "timeout": "30",
         "x": 590,
-        "y": 3900,
+        "y": 3880,
         "wires": [
             [
-                "9560b4401de9504f",
-                "1bedfdae4be59676"
+                "bf69b32f8087632e",
+                "473eed3ec8b60522"
             ]
         ]
     },
     {
-        "id": "dfad2ae10a1f2170",
+        "id": "a582bd19acf21cfe",
         "type": "delay",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "",
         "pauseType": "delay",
         "timeout": "5",
@@ -9508,19 +9423,19 @@
         "allowrate": false,
         "outputs": 1,
         "x": 285,
-        "y": 3900,
+        "y": 3880,
         "wires": [
             [
-                "8f1a371dd4f3b4c8"
+                "bc0f550f1359a6ec"
             ]
         ],
         "l": false
     },
     {
-        "id": "fcdafe8c0d80cff3",
+        "id": "06af825b3013eade",
         "type": "function",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "function 351",
         "func": "msg.payload={}\nreturn msg;",
         "outputs": 1,
@@ -9529,18 +9444,18 @@
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 4420,
+        "y": 4400,
         "wires": [
             [
-                "21a55fa65e78be8f"
+                "1834e87d7bf3c7bf"
             ]
         ]
     },
     {
-        "id": "909b6dc35a1bf271",
+        "id": "d84bc8458a9612e5",
         "type": "function",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "function 352",
         "func": "msg.payload={}\nreturn msg;",
         "outputs": 1,
@@ -9549,18 +9464,18 @@
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 4300,
+        "y": 4280,
         "wires": [
             [
-                "800a07af663511f3"
+                "12caba071ad857d2"
             ]
         ]
     },
     {
-        "id": "b8765ebf35fcbee2",
+        "id": "2e3abcb9e2592336",
         "type": "function",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "function 353",
         "func": "msg.payload={}\nreturn msg;",
         "outputs": 1,
@@ -9569,30 +9484,30 @@
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 4360,
+        "y": 4340,
         "wires": [
             [
-                "cf9110db7c6fe96f"
+                "bf7797ef77b76caa"
             ]
         ]
     },
     {
-        "id": "ba4b22d80c1c5e19",
+        "id": "668a87c95e3fbd65",
         "type": "http response",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "",
         "statusCode": "",
         "headers": {},
         "x": 650,
-        "y": 4480,
+        "y": 4460,
         "wires": []
     },
     {
-        "id": "dbd0601d6a61d27f",
+        "id": "9b5665072d190912",
         "type": "function",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "function 354",
         "func": "msg.statusCode===200\nmsg.payload={\n    error: true\n}\nreturn msg;",
         "outputs": 1,
@@ -9601,18 +9516,18 @@
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 4480,
+        "y": 4460,
         "wires": [
             [
-                "ba4b22d80c1c5e19"
+                "668a87c95e3fbd65"
             ]
         ]
     },
     {
-        "id": "f3e689179c45a333",
+        "id": "491d19d33c172e92",
         "type": "function",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "function 355",
         "func": "if(msg.payload.error===false){\nmsg.url =`http://nodered-svc.nodered:1880/checkUserTime`\nmsg.payload={\n    id: env.get(\"USER_ID\")\n}\nreturn msg;\n}",
         "outputs": 1,
@@ -9621,18 +9536,18 @@
         "finalize": "",
         "libs": [],
         "x": 3350,
-        "y": 3960,
+        "y": 3940,
         "wires": [
             [
-                "25823646b3e742b1"
+                "b0c3343b55435ef8"
             ]
         ]
     },
     {
-        "id": "25823646b3e742b1",
+        "id": "b0c3343b55435ef8",
         "type": "http request",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "",
         "method": "POST",
         "ret": "obj",
@@ -9646,16 +9561,16 @@
         "senderr": false,
         "headers": [],
         "x": 3510,
-        "y": 3940,
+        "y": 3920,
         "wires": [
             []
         ]
     },
     {
-        "id": "48e1b949ea4ae66e",
+        "id": "fe8f82cd30da8da0",
         "type": "debug",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "debug 482",
         "active": true,
         "tosidebar": true,
@@ -9665,14 +9580,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 490,
-        "y": 3800,
+        "y": 3780,
         "wires": []
     },
     {
-        "id": "9560b4401de9504f",
+        "id": "bf69b32f8087632e",
         "type": "debug",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "debug 483",
         "active": false,
         "tosidebar": true,
@@ -9682,14 +9597,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 630,
-        "y": 3940,
+        "y": 3920,
         "wires": []
     },
     {
-        "id": "33be9c73fb386787",
+        "id": "6a9dcf9eacd58e3e",
         "type": "debug",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "debug 496",
         "active": true,
         "tosidebar": true,
@@ -9699,14 +9614,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1170,
-        "y": 3960,
+        "y": 3940,
         "wires": []
     },
     {
-        "id": "aa731c1041cbaf75",
+        "id": "43a5823267034adc",
         "type": "delay",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "",
         "pauseType": "delay",
         "timeout": "1",
@@ -9721,18 +9636,18 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1260,
-        "y": 4040,
+        "y": 4020,
         "wires": [
             [
-                "8f1a371dd4f3b4c8"
+                "bc0f550f1359a6ec"
             ]
         ]
     },
     {
-        "id": "bda3da5d16e93c41",
+        "id": "fa153787f093eb1a",
         "type": "delay",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "",
         "pauseType": "delay",
         "timeout": "1",
@@ -9747,18 +9662,18 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1980,
-        "y": 4040,
+        "y": 4020,
         "wires": [
             [
-                "27cb7798ca8f35c8"
+                "f3f6b3701a56c295"
             ]
         ]
     },
     {
-        "id": "cd743bf8265985e6",
+        "id": "a4cd87d790402f29",
         "type": "delay",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "",
         "pauseType": "delay",
         "timeout": "1",
@@ -9773,18 +9688,18 @@
         "allowrate": false,
         "outputs": 1,
         "x": 2800,
-        "y": 4060,
+        "y": 4040,
         "wires": [
             [
-                "961e3c913cd2112c"
+                "28767513ce15095c"
             ]
         ]
     },
     {
-        "id": "2b8d7cf91e1b5706",
+        "id": "518dcf3da9d61b4b",
         "type": "inject",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "",
         "props": [
             {
@@ -9803,27 +9718,27 @@
         "payload": "",
         "payloadType": "date",
         "x": 120,
-        "y": 4280,
+        "y": 4260,
         "wires": [
             [
-                "909b6dc35a1bf271",
-                "b8765ebf35fcbee2",
-                "dbd0601d6a61d27f",
-                "fcdafe8c0d80cff3",
-                "f62e6f992aa07fdb",
-                "4dd1bab0c348d47e",
-                "8c11a89df1c25667",
-                "800c823e1c5385ff"
+                "d84bc8458a9612e5",
+                "2e3abcb9e2592336",
+                "9b5665072d190912",
+                "06af825b3013eade",
+                "6347ff05c60783c4",
+                "90f58c6cb8c49015",
+                "d9243a5997a099d8",
+                "a7b7d011e14c597c"
             ]
         ]
     },
     {
-        "id": "9a10065496c11202",
+        "id": "2314198868e16314",
         "type": "function",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "create default knowlegebase",
-        "func": "msg.collection = \"knowlegebase\"\nmsg.payload ={\n    _id: objectid(),\n    name: \"default\",\n    deleted:false\n}\nglobal.set('base',1)\nreturn msg;",
+        "func": "msg.collection = \"knowlegebase\"\nmsg.payload ={\n    _id: objectid(),\n    select:true,\n    type:\"chroma\",\n    name: \"default\",\n    deleted:false\n}\nglobal.set('base',1)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -9835,18 +9750,18 @@
             }
         ],
         "x": 3380,
-        "y": 4060,
+        "y": 4040,
         "wires": [
             [
-                "08e9be32b9725a7c"
+                "14d0f2d253716bf1"
             ]
         ]
     },
     {
-        "id": "08e9be32b9725a7c",
+        "id": "14d0f2d253716bf1",
         "type": "link call",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "",
         "links": [
             "8771d95b528d34d0"
@@ -9854,30 +9769,30 @@
         "linkType": "static",
         "timeout": "30",
         "x": 3630,
-        "y": 4060,
+        "y": 4040,
         "wires": [
             []
         ]
     },
     {
-        "id": "da527d53c4d8d6ef",
+        "id": "ff0be0a77672bf4c",
         "type": "subflow:6a6d2afa5b0c7ec9",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "",
         "x": 810,
-        "y": 3900,
+        "y": 3880,
         "wires": [
             [
-                "ddb0daaa58de9ba0"
+                "4b64b056edd4d705"
             ]
         ]
     },
     {
-        "id": "1bedfdae4be59676",
+        "id": "473eed3ec8b60522",
         "type": "function",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "function 385",
         "func": "msg.fromDB=msg.payload\nreturn msg;",
         "outputs": 1,
@@ -9886,19 +9801,19 @@
         "finalize": "",
         "libs": [],
         "x": 705,
-        "y": 3900,
+        "y": 3880,
         "wires": [
             [
-                "da527d53c4d8d6ef"
+                "ff0be0a77672bf4c"
             ]
         ],
         "l": false
     },
     {
-        "id": "ddb0daaa58de9ba0",
+        "id": "4b64b056edd4d705",
         "type": "function",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "function 386",
         "func": "msg.icon=msg.payload;\nmsg.payload=msg.fromDB\nreturn msg;",
         "outputs": 1,
@@ -9907,19 +9822,67 @@
         "finalize": "",
         "libs": [],
         "x": 895,
-        "y": 3900,
+        "y": 3880,
         "wires": [
             [
-                "87633d946b21622f"
+                "ab652fd69b89e525"
             ]
         ],
         "l": false
     },
     {
-        "id": "f62e6f992aa07fdb",
+        "id": "bf7797ef77b76caa",
+        "type": "mongodb out",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "mongodb": "7908a755f1520aa7",
+        "name": "",
+        "collection": "admin_modules",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 910,
+        "y": 4340,
+        "wires": []
+    },
+    {
+        "id": "1834e87d7bf3c7bf",
+        "type": "mongodb out",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "mongodb": "7908a755f1520aa7",
+        "name": "",
+        "collection": "admin_roles",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 890,
+        "y": 4400,
+        "wires": []
+    },
+    {
+        "id": "12caba071ad857d2",
+        "type": "mongodb out",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "mongodb": "7908a755f1520aa7",
+        "name": "",
+        "collection": "admins",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 880,
+        "y": 4280,
+        "wires": []
+    },
+    {
+        "id": "6347ff05c60783c4",
         "type": "function",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "function 395",
         "func": "msg.payload ={}\nreturn msg;",
         "outputs": 1,
@@ -9928,18 +9891,34 @@
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 4240,
+        "y": 4220,
         "wires": [
             [
-                "84b037deaf9dfdca"
+                "03c4404752de2165"
             ]
         ]
     },
     {
-        "id": "4dd1bab0c348d47e",
+        "id": "03c4404752de2165",
+        "type": "mongodb out",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "mongodb": "7908a755f1520aa7",
+        "name": "",
+        "collection": "knowlegebase",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 900,
+        "y": 4220,
+        "wires": []
+    },
+    {
+        "id": "90f58c6cb8c49015",
         "type": "function",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "",
         "func": "msg.payload = {};\n return msg;",
         "outputs": 1,
@@ -9948,18 +9927,34 @@
         "finalize": "",
         "libs": [],
         "x": 460,
-        "y": 4180,
+        "y": 4160,
         "wires": [
             [
-                "af6faaf15d904ee0"
+                "67f4d18d700ffcb5"
             ]
         ]
     },
     {
-        "id": "8c11a89df1c25667",
+        "id": "67f4d18d700ffcb5",
+        "type": "mongodb out",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "mongodb": "7908a755f1520aa7",
+        "name": "",
+        "collection": "knowledgeObjects",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 910,
+        "y": 4160,
+        "wires": []
+    },
+    {
+        "id": "d9243a5997a099d8",
         "type": "function",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "function 396",
         "func": "msg.payload = {};\nreturn msg;",
         "outputs": 1,
@@ -9968,18 +9963,18 @@
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 4120,
+        "y": 4100,
         "wires": [
             [
-                "2985690b8042519b"
+                "3c94a80004b47b76"
             ]
         ]
     },
     {
-        "id": "800c823e1c5385ff",
+        "id": "a7b7d011e14c597c",
         "type": "function",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "function 397",
         "func": "msg.payload = {};\nreturn msg;",
         "outputs": 1,
@@ -9988,18 +9983,50 @@
         "finalize": "",
         "libs": [],
         "x": 470,
-        "y": 4060,
+        "y": 4040,
         "wires": [
             [
-                "dfae14f2d9b47785"
+                "c63c83cda1186b6e"
             ]
         ]
     },
     {
-        "id": "0fba73d698585ddf",
+        "id": "3c94a80004b47b76",
+        "type": "mongodb out",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "mongodb": "7908a755f1520aa7",
+        "name": "",
+        "collection": "users_messages",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 910,
+        "y": 4100,
+        "wires": []
+    },
+    {
+        "id": "c63c83cda1186b6e",
+        "type": "mongodb out",
+        "z": "f4036141cc030bcf",
+        "g": "22baf3437ddf891a",
+        "mongodb": "7908a755f1520aa7",
+        "name": "",
+        "collection": "users",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 870,
+        "y": 4040,
+        "wires": []
+    },
+    {
+        "id": "6f0d8b9321ada868",
         "type": "inject",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
+        "g": "22baf3437ddf891a",
         "name": "",
         "props": [
             {
@@ -10018,125 +10045,61 @@
         "payload": "",
         "payloadType": "date",
         "x": 200,
-        "y": 4100,
+        "y": 4080,
         "wires": [
             [
-                "800c823e1c5385ff",
-                "8c11a89df1c25667"
+                "a7b7d011e14c597c",
+                "d9243a5997a099d8"
             ]
         ]
     },
     {
-        "id": "cf9110db7c6fe96f",
-        "type": "mongodb out",
+        "id": "61e482c97b1b6888",
+        "type": "function",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "mongodb": "7908a755f1520aa7",
-        "name": "",
-        "collection": "admin_modules",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 910,
-        "y": 4360,
-        "wires": []
+        "g": "22baf3437ddf891a",
+        "name": "function 400",
+        "func": "// msg.oldpayload = msg.payload;\n// const { ChromaClient } = chromadb;\n// const { OpenAIEmbeddingFunction } = chromadb;\n// const embedder = new OpenAIEmbeddingFunction({ openai_api_key: \"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\" })\n// //const client = new ChromaClient({ path: \"http://node76586-dockereng.j.scaleforce.net:11051\" });\n// const client = new ChromaClient({ path: env.get('chromaPath') });\n// const collection = await client.createCollection({ name: msg.oldpayload.name, embeddingFunction: embedder })\n// return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3370,
+        "y": 4100,
+        "wires": [
+            []
+        ]
     },
     {
-        "id": "21a55fa65e78be8f",
-        "type": "mongodb out",
+        "id": "14560e3cb81ea796",
+        "type": "inject",
         "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "mongodb": "7908a755f1520aa7",
+        "g": "22baf3437ddf891a",
         "name": "",
-        "collection": "admin_roles",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 890,
-        "y": 4420,
-        "wires": []
-    },
-    {
-        "id": "800a07af663511f3",
-        "type": "mongodb out",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "mongodb": "7908a755f1520aa7",
-        "name": "",
-        "collection": "admins",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 880,
-        "y": 4300,
-        "wires": []
-    },
-    {
-        "id": "84b037deaf9dfdca",
-        "type": "mongodb out",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "mongodb": "7908a755f1520aa7",
-        "name": "",
-        "collection": "knowlegebase",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 900,
-        "y": 4240,
-        "wires": []
-    },
-    {
-        "id": "af6faaf15d904ee0",
-        "type": "mongodb out",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "mongodb": "7908a755f1520aa7",
-        "name": "",
-        "collection": "knowledgeObjects",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 910,
-        "y": 4180,
-        "wires": []
-    },
-    {
-        "id": "2985690b8042519b",
-        "type": "mongodb out",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "mongodb": "7908a755f1520aa7",
-        "name": "",
-        "collection": "users_messages",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 910,
-        "y": 4120,
-        "wires": []
-    },
-    {
-        "id": "dfae14f2d9b47785",
-        "type": "mongodb out",
-        "z": "f4036141cc030bcf",
-        "g": "424028bffdc76acc",
-        "mongodb": "7908a755f1520aa7",
-        "name": "",
-        "collection": "users",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 870,
-        "y": 4060,
-        "wires": []
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 3080,
+        "y": 4000,
+        "wires": [
+            [
+                "2314198868e16314"
+            ]
+        ]
     },
     {
         "id": "2cd32bbc5f43b1e9",
@@ -16102,6 +16065,252 @@
         "statusType": "auto",
         "x": 630,
         "y": 620,
+        "wires": []
+    },
+    {
+        "id": "135bf8fd640f8910",
+        "type": "template",
+        "z": "71360979efaa1719",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "css",
+        "syntax": "mustache",
+        "template": "@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,200&display=swap');\n\nbody{\n    font-family: 'Titillium Web', sans-serif!important;\n   \n}\n\n.header{\ntop: 0px !important;\nheight: 66px !important;\npadding: 0px !important;\nborder-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n.menu_section{\nbox-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\nheight: 100vh !important;\npadding: 0px !important;\nleft: 0px !important;\nborder-right: 2px solid rgb(241, 243, 244) !important;\n}\n\n.main_section{\npadding: 0px !important;\nheight: 100vh !important;\nposition: fixed !important;\ntop: 66px !important; \n}\n\n.tab_login>div>div>div>div{\nbox-shadow: none !important;\n}\n\n.tab_login>div>div>div>div>div{\nbackground: transparent !important;\n}\n\n.frame_section{\nheight: 100vh !important;\nposition: fixed !important;\ntop: 16px !important; \n}\n\n.scroll_section{\n   height: 100vh !important; \n    top: 66px !important; \n    padding: 0px !important;\n\n}\n\n.image{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n    height: 75px !important;\n}\n\n\n.menu .active span{\ncolor: #2a2f36 !important;\n}\n\n.menu .active {\n    background: #ebf1fb !important;\n}\n\n.menu button:hover{\nbackground: #ebf1fb;\n}\n\n.menu span[role=\"img\"]{\nmargin-left: 8px !important;\nmargin-top: 3px !important;\n\n}\n.menu .bp3-collapse-body .sub_category {\n    padding: 5px 5px 5px 20px !important;\n}\n.menu button{\n    box-shadow: none !important;\n}\n\n.menu span{\n    font-size: 16px !important;\n    font-weight: 400 !important;\n    color: #00000099 !important;\n}\n\n.menu {\n    left: 0px !important;\n    width: 100% !important;\n    padding: 0 !important;\n}\n\n.menu_wrap{\n    position: fixed !important;\n    left: 0px!important;\n    top: 0px !important;\n    height: 100vh !important;\n    /* width: 178.312px!important; */\n    padding: 0px!important;\n    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\n}\n\n.menu button {\n    justify-content: start !important;\n    padding: 5px 10px 5px 15px !important;\n    margin-bottom: 5px !important;\n}\n\n.setting_title{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n\n.setting_text{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important; \n}\n\n.setting_text .bp3-ui-text {\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n.setting_title .bp3-ui-text {\n    font-weight: 600 !important;\n    font-size: 18px !important;\n}\n\n.telegramList {\n    padding: 10px 20px !important;\n}\n\n.telegramList .custom-wrapper-canvas-list{\n    display: flex;\n    flex-direction: column !important;\n}\n.telegramList .custom-wrapper-canvas-list button {\n    display: none !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget{\n    width: 90% !important;\n    position: static !important;\n    border-radius: 8px!important;\n    padding: 0 !important;\n    margin-bottom: 7px;\n    margin-right: auto !important;\n    margin-left: 0 !important;\n    background-color: #cfcfdb !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd){\n    margin-right: 0 !important;\n    margin-left: auto !important;\n    background-color: #e5e5e6 !important;\n}\n.telegramList .t--widget-textwidget{\n    width: auto !important;\n    position: static !important;\n    padding: 5px 15px !important;\n    height: 100% !important;\n}\n.telegramList .t--widget-textwidget span{\n    font-weight: 500; \n    font-size: 16px;\n    line-height: 125%;\n}\n\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd) .t--widget-textwidget span{\n    text-align: end;\n}\n\n.telegramWrap{\n    padding: 0!important;\n}\n\n.container{\n    min-height: 100vh;\n}\n\n.selectedTab{\n    box-shadow: rgb(235, 239, 242) -1px 0px 0px inset, rgb(235, 239, 242) 0px 0px 0px inset, rgb(55 169 235) 0px 4px 0px inset !important;\n}\n\n.icon >div>div>div>div>div>div>div{\n   background-position: center right!important;\n}\n\n.title >div>div>div>div>div>div>div span {\nfont-size:22px!important; \n}\n.title >div>div>div>div>div>div>div >span >span.training_span {color:#118cfc!important; font-size: 28px!important;  font-weight: 700!important;}\n.tabs >div>div>div>div>div>div {\nfont-size:20px!important;\ntext-transform: uppercase!important;\nfont-weight: 500!important;\n}\n.training_wrap >div>div>div>div>div>div>div>div>div>div>div>div>div{\n    display: inline-flex!important;\n    justify-content: space-between!important;\n}\n.table{\nfont-size:14px!important;\ntext-transform: lowercase!important;\nfont-weight: 400!important; \n}\n.table >div>div>div>div>div>div{\n    font-size:14px!important;\ntext-transform: uppercase!important;\n}\n.tr>div>div>div>div>div>div>div>div{\n    border-right: none!important;\n}\n\n\n\n.title >div>div>div>div>div>div>div >span >span {\nfont-size:14px!important;\nfont-weight: 400!important; \n}\n\n/**/\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    margin-bottom: 20px!important;\n}\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    position: initial !important;\n}\n\n.hide{\n    display: none;\n       height: 20px!important;\n}\n\n.activ{\n    display: block;\n    /* height: 270px!important; */\n}\n.activ_setup{\n    display: block;\n    /* height: 500px!important; */\n}\n.btn_right>div>div>div>div>button>span>svg {\n    transform: rotate(180deg)!important;\n    transition: all 0.5s ease 0s !important;\n}\n.btn_left>div>div>div>div>button>span>svg {\n        transform: translateY(0px)!important;\n    transition: none 0s ease 0s!important;\n}\n\n/* За замовчуванням */\n.btn_left>div>div>div>div>button,\n.btn_right>div>div>div>div>button {\n    background-color: #ccc;  \n    transition: background-color 0.3s ease, transform 0.3s ease !important;\n \n}\n\n\n.btn_left>div>div>div>div>button:hover:enabled,\n.btn_right>div>div>div>div>button:hover:enabled {\n    background: #9991 !important; \n    transform: translateY(-5px) !important; \n}\n.bp3-input  {\nborder-radius: 10px!important;\n}\n.select_input button.select-button {\n    border-radius: 10px!important;\n}\n.dashboard_text>div>div>div>div>div>div>div{\n    font-size:32px!important;\nfont-weight: 700!important; \n}\n.t--widget-progresswidget>div>div>div>div{\n   height: 68%!important; \n  border-radius:10px!important; \n    background: #fec518;\n    overflow: hidden!important;\n    \n\n}\n\n.t--widget-progresswidget>div>div>div>div>div{\n    height: 100%!important; \n    background-color: #fec518!important;\n    padding-right: 4px!important;\n    font-size: 20px!important;\n    font-weight: 600!important;\n    text-align: center!important;\n    padding-top: 2px!important;\n  \n   \n   \n} \n.text_cross{\n    text-decoration: line-through!important;\n}\n.text_cross span{\n    text-decoration: none!important;\n}\n.done{\n    opacity: 0.3!important;\n}\n.scroll_section{\n     overflow-y: hidden!important;\n}\n\n\n.users_tabs{\n    border-radius: 10px!important;\n}\n.upload_img .bp3-button {\n    background:#3268a8!important;\n    border-radius: 10px !important;\n}\n.upload_img .bp3-button:hover,\n.upload_img >div>div>div>div:hover > button, \n.upload_img >div>div>div>div:active > button{\nbackground: #4e7a9b!important;\ntransition: background-color 0.3s ease, transform 0.3s ease !important;\n}",
+        "output": "str",
+        "x": 280,
+        "y": 60,
+        "wires": [
+            [
+                "580f8f54586a4106"
+            ]
+        ]
+    },
+    {
+        "id": "580f8f54586a4106",
+        "type": "http response",
+        "z": "71360979efaa1719",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "content-type": "text/css"
+        },
+        "x": 430,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "b9d9c12169c0d015",
+        "type": "http in",
+        "z": "71360979efaa1719",
+        "name": "",
+        "url": "/css",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "135bf8fd640f8910"
+            ]
+        ]
+    },
+    {
+        "id": "f83722cf037b1224",
+        "type": "http in",
+        "z": "71360979efaa1719",
+        "name": "",
+        "url": "icons",
+        "method": "post",
+        "upload": true,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 120,
+        "wires": [
+            [
+                "29af98f2e82cb689",
+                "269f4c3a201c1b0a"
+            ]
+        ]
+    },
+    {
+        "id": "269f4c3a201c1b0a",
+        "type": "function",
+        "z": "71360979efaa1719",
+        "name": "function 398",
+        "func": "\nmsg.buffer = msg.payload.img.data\n\nmsg.payload = msg.buffer;\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 120,
+        "wires": [
+            [
+                "ab68471c2ee2f760"
+            ]
+        ]
+    },
+    {
+        "id": "ab68471c2ee2f760",
+        "type": "file",
+        "z": "71360979efaa1719",
+        "name": "",
+        "filename": "/data/storage/icons/logos.png",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "binary",
+        "x": 550,
+        "y": 120,
+        "wires": [
+            [
+                "e21f3922e0863ef7",
+                "8c863e5458064bfb"
+            ]
+        ]
+    },
+    {
+        "id": "e21f3922e0863ef7",
+        "type": "debug",
+        "z": "71360979efaa1719",
+        "name": "debug 534",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "e3826507190f2779",
+        "type": "file in",
+        "z": "71360979efaa1719",
+        "name": "",
+        "filename": "/data/storage/icons/logos.png",
+        "filenameType": "str",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 690,
+        "y": 300,
+        "wires": [
+            [
+                "75c2ed2ad4c3de9b"
+            ]
+        ]
+    },
+    {
+        "id": "4f61bb37c8b067f9",
+        "type": "inject",
+        "z": "71360979efaa1719",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 540,
+        "y": 260,
+        "wires": [
+            [
+                "e3826507190f2779"
+            ]
+        ]
+    },
+    {
+        "id": "7ed7e5e5c4be513a",
+        "type": "http in",
+        "z": "71360979efaa1719",
+        "name": "",
+        "url": "/get_logo",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 410,
+        "y": 300,
+        "wires": [
+            [
+                "e3826507190f2779"
+            ]
+        ]
+    },
+    {
+        "id": "75c2ed2ad4c3de9b",
+        "type": "http response",
+        "z": "71360979efaa1719",
+        "name": "",
+        "statusCode": "200",
+        "headers": {
+            "content-type": "image/png"
+        },
+        "x": 960,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "29af98f2e82cb689",
+        "type": "debug",
+        "z": "71360979efaa1719",
+        "name": "debug 536",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 290,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8c863e5458064bfb",
+        "type": "http response",
+        "z": "71360979efaa1719",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 790,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "c160e92209e9eb9d",
+        "type": "debug",
+        "z": "71360979efaa1719",
+        "name": "debug 537",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 970,
+        "y": 340,
         "wires": []
     }
 ]
