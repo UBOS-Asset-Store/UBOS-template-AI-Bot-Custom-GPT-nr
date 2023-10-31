@@ -425,9 +425,9 @@
             "22995a8e4464c6e5",
             "daa9252c4d5e4a15"
         ],
-        "x": 14,
+        "x": 4,
         "y": 2079,
-        "w": 1032,
+        "w": 1042,
         "h": 922
     },
     {
@@ -580,7 +580,9 @@
             "13a0b7d44f1afb32"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 1932,
+        "h": 222
     },
     {
         "id": "152119097abe3c6c",
@@ -615,7 +617,9 @@
             "baf069bd70255c7f"
         ],
         "x": 34,
-        "y": 299
+        "y": 299,
+        "w": 1932,
+        "h": 222
     },
     {
         "id": "c479b9fa6206f5f0",
@@ -642,7 +646,9 @@
             "c32d2d5b2f208e74"
         ],
         "x": 34,
-        "y": 539
+        "y": 539,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "32d3112d56e6b1ab",
@@ -669,7 +675,9 @@
             "3513b2ea589bb4a4"
         ],
         "x": 34,
-        "y": 759
+        "y": 759,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "faa44c8af53ff52c",
@@ -696,7 +704,9 @@
             "0dc15aa186445a0f"
         ],
         "x": 34,
-        "y": 979
+        "y": 979,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "649b2f424f00fcf7",
@@ -723,7 +733,9 @@
             "e9e2f318883d6af3"
         ],
         "x": 34,
-        "y": 1199
+        "y": 1199,
+        "w": 1012,
+        "h": 202
     },
     {
         "id": "e40f1639481a93e5",
@@ -750,7 +762,9 @@
             "8a7b40691c947077"
         ],
         "x": 34,
-        "y": 1439
+        "y": 1439,
+        "w": 972,
+        "h": 202
     },
     {
         "id": "cbd9c53fe26c3884",
@@ -797,7 +811,7 @@
             "35eee919bdbe2587",
             "762d9f30ef250e1b"
         ],
-        "x": 14,
+        "x": 4,
         "y": 39
     },
     {
@@ -819,7 +833,9 @@
             "2dbe218776fe3204"
         ],
         "x": 34,
-        "y": 1679
+        "y": 1679,
+        "w": 572,
+        "h": 162
     },
     {
         "id": "22baf3437ddf891a",
@@ -935,7 +951,7 @@
             "a99ff7d34a8accef"
         ],
         "x": 1434,
-        "y": 819
+        "y": 799
     },
     {
         "id": "512f315426441ead",
@@ -1004,13 +1020,21 @@
             "6b0127a271910ed9",
             "6b0404e9d5c164f6",
             "e43abbe312c910cc",
-            "b62cbfa455e0bb6f",
             "54ce5acd1e468193",
             "cb4a1aa7cf567b41",
-            "9cc90e35191ba72f",
-            "c6bac41964040f7a"
+            "c6bac41964040f7a",
+            "b4b7b058a2bb8fb9",
+            "0511e829bb6d8786",
+            "17e109b11c877ed7",
+            "92b390d0cae52314",
+            "1382fe989cc941b7",
+            "b746d8916198c204",
+            "560b09cbe9fe0040",
+            "bb696873d9c72501",
+            "c51ee5ee9d9b6cd5",
+            "7b74cbb7f4d6c439"
         ],
-        "x": 94,
+        "x": 34,
         "y": 39
     },
     {
@@ -1094,7 +1118,26 @@
             "444dfd902c66d107",
             "9e1c22b6f865ec7f",
             "37c17ae6e89c99e4",
-            "3161477d5f24abbe"
+            "3161477d5f24abbe",
+            "8bb80afb7f45ea44",
+            "b100106e5cd2c406",
+            "9dc12b07ecea897d",
+            "94598da3051a3dc5",
+            "6f6a5c13aa870df0",
+            "57371eba09b0b86b",
+            "07de504bad65aa0c",
+            "886a4c2b49765806",
+            "1935fa9621fdcad7",
+            "923d6d9274ba70ef",
+            "13970f4ff168dc20",
+            "999bcde02248f87a",
+            "baa2eb8c05ae75f8",
+            "498ccd55288b5495",
+            "ba65f6843de011c6",
+            "da88bbf77856e756",
+            "3d49c880df1d8f39",
+            "e9f5dc6dc1cb4adb",
+            "b6454f4e5248451e"
         ],
         "x": 34,
         "y": 819
@@ -3482,7 +3525,7 @@
         "z": "f4036141cc030bcf",
         "g": "d47c4baf98dd7d3b",
         "name": "redirect to page",
-        "func": "let jwt = global.get('jsonwebtoken')\n\nnode.warn(msg)\nconst token = await jwt.sign(\n    { user_id: msg.payload[0]._id, email: msg.payload[0].email },\n    \"test\",\n    {\n        expiresIn: \"150m\",\n    }\n);\n\nconst uiUrl = env.get(\"uiUrl\");\n\nmsg.token = token\nmsg.statusCode = 302\nmsg.headers = {\n    \"Access-Control-Allow-Origin\": \"*\",\n    \"Access-Control-Allow-Credentials\": true,\n    \"location\": `${uiUrl}/Login`\n}\n\nmsg.collection = \"admins\";\nmsg.query = {\n    _id: objectid(msg.payload[0]._id)\n}\nmsg.payload = {\n    $set: {\n        active: true,\n        verifyToken: null\n    }\n}\n\nnode.send(msg)",
+        "func": "let jwt = global.get('jsonwebtoken')\n\nconst token = await jwt.sign(\n    { user_id: msg.payload[0]._id, email: msg.payload[0].email },\n    \"test\",\n    {\n        expiresIn: \"150m\",\n    }\n);\n\nconst uiUrl = env.get(\"uiUrl\");\n\nmsg.token = token\nmsg.statusCode = 302\nmsg.headers = {\n    \"Access-Control-Allow-Origin\": \"*\",\n    \"Access-Control-Allow-Credentials\": true,\n    \"location\": `${uiUrl}/Login`\n}\n\nmsg.collection = \"admins\";\nmsg.query = {\n    _id: objectid(msg.payload[0]._id)\n}\nmsg.payload = {\n    $set: {\n        active: true,\n        verifyToken: null\n    }\n}\n\nnode.send(msg)",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7031,7 +7074,7 @@
         "fieldType": "msg",
         "format": "css",
         "syntax": "mustache",
-        "template": "@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,200&display=swap');\n\nbody{\n    font-family: 'Titillium Web', sans-serif!important;\n   \n}\n\n.header{\ntop: 0px !important;\nheight: 66px !important;\npadding: 0px !important;\nborder-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n.menu_section{\nbox-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\nheight: 100vh !important;\npadding: 0px !important;\nleft: 0px !important;\nborder-right: 2px solid rgb(241, 243, 244) !important;\n}\n\n.main_section{\npadding: 0px !important;\nheight: 100vh !important;\nposition: fixed !important;\ntop: 66px !important; \n}\n\n.tab_login>div>div>div>div{\nbox-shadow: none !important;\n}\n\n.tab_login>div>div>div>div>div{\nbackground: transparent !important;\n}\n\n.frame_section{\nheight: 100vh !important;\nposition: fixed !important;\ntop: 16px !important; \n}\n\n.scroll_section{\n   height: 100vh !important; \n    top: 66px !important; \n    padding: 0px !important;\n\n}\n\n.image{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n    height: 75px !important;\n}\n\n\n.menu .active span{\ncolor: #2a2f36 !important;\n}\n\n.menu .active {\n    background: #ebf1fb !important;\n}\n\n.menu button:hover{\nbackground: #ebf1fb;\n}\n\n.menu span[role=\"img\"]{\nmargin-left: 8px !important;\nmargin-top: 3px !important;\n\n}\n.menu .bp3-collapse-body .sub_category {\n    padding: 5px 5px 5px 20px !important;\n}\n.menu button{\n    box-shadow: none !important;\n}\n\n.menu span{\n    font-size: 16px !important;\n    font-weight: 400 !important;\n    color: #00000099 !important;\n}\n\n.menu {\n    left: 0px !important;\n    width: 100% !important;\n    padding: 0 !important;\n}\n\n.menu_wrap{\n    position: fixed !important;\n    left: 0px!important;\n    top: 0px !important;\n    height: 100vh !important;\n    /* width: 178.312px!important; */\n    padding: 0px!important;\n    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\n}\n\n.menu button {\n    justify-content: start !important;\n    padding: 5px 10px 5px 15px !important;\n    margin-bottom: 5px !important;\n}\n\n.setting_title{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n\n.setting_text{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important; \n}\n\n.setting_text .bp3-ui-text {\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n.setting_title .bp3-ui-text {\n    font-weight: 600 !important;\n    font-size: 18px !important;\n}\n\n.telegramList {\n    padding: 10px 20px !important;\n}\n\n.telegramList .custom-wrapper-canvas-list{\n    display: flex;\n    flex-direction: column !important;\n}\n.telegramList .custom-wrapper-canvas-list button {\n    display: none !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget{\n    width: 90% !important;\n    position: static !important;\n    border-radius: 8px!important;\n    padding: 0 !important;\n    margin-bottom: 7px;\n    margin-right: auto !important;\n    margin-left: 0 !important;\n    background-color: #cfcfdb !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd){\n    margin-right: 0 !important;\n    margin-left: auto !important;\n    background-color: #e5e5e6 !important;\n}\n.telegramList .t--widget-textwidget{\n    width: auto !important;\n    position: static !important;\n    padding: 5px 15px !important;\n    height: 100% !important;\n}\n.telegramList .t--widget-textwidget span{\n    font-weight: 500; \n    font-size: 16px;\n    line-height: 125%;\n}\n\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd) .t--widget-textwidget span{\n    text-align: end;\n}\n\n.telegramWrap{\n    padding: 0!important;\n}\n\n.container{\n    min-height: 100vh;\n}\n\n.selectedTab{\n    box-shadow: rgb(235, 239, 242) -1px 0px 0px inset, rgb(235, 239, 242) 0px 0px 0px inset, rgb(55 169 235) 0px 4px 0px inset !important;\n}\n\n.icon >div>div>div>div>div>div>div{\n   background-position: center right!important;\n}\n\n.title >div>div>div>div>div>div>div span {\nfont-size:22px!important; \n}\n.title >div>div>div>div>div>div>div >span >span.training_span {color:#118cfc!important; font-size: 28px!important;  font-weight: 700!important;}\n.tabs >div>div>div>div>div>div {\nfont-size:20px!important;\ntext-transform: uppercase!important;\nfont-weight: 500!important;\n}\n.training_wrap >div>div>div>div>div>div>div>div>div>div>div>div>div{\n    display: inline-flex!important;\n    justify-content: space-between!important;\n}\n.table{\nfont-size:14px!important;\ntext-transform: lowercase!important;\nfont-weight: 400!important; \n}\n.table >div>div>div>div>div>div{\n    font-size:14px!important;\ntext-transform: uppercase!important;\n}\n.tr>div>div>div>div>div>div>div>div{\n    border-right: none!important;\n}\n\n\n\n.title >div>div>div>div>div>div>div >span >span {\nfont-size:14px!important;\nfont-weight: 400!important; \n}\n\n/**/\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    margin-bottom: 20px!important;\n}\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    position: initial !important;\n}\n\n.hide{\n    display: none;\n       height: 20px!important;\n}\n\n.activ{\n    display: block;\n    /* height: 270px!important; */\n}\n.activ_setup{\n    display: block;\n    /* height: 500px!important; */\n}\n.btn_right>div>div>div>div>button>span>svg {\n    transform: rotate(180deg)!important;\n    transition: all 0.5s ease 0s !important;\n}\n.btn_left>div>div>div>div>button>span>svg {\n        transform: translateY(0px)!important;\n    transition: none 0s ease 0s!important;\n}\n\n/* За замовчуванням */\n.btn_left>div>div>div>div>button,\n.btn_right>div>div>div>div>button {\n    background-color: #ccc;  \n    transition: background-color 0.3s ease, transform 0.3s ease !important;\n \n}\n\n\n.btn_left>div>div>div>div>button:hover:enabled,\n.btn_right>div>div>div>div>button:hover:enabled {\n    background: #9991 !important; \n    transform: translateY(-5px) !important; \n}\n.bp3-input  {\nborder-radius: 10px!important;\n}\n.select_input button.select-button {\n    border-radius: 10px!important;\n}\n.dashboard_text>div>div>div>div>div>div>div{\n    font-size:32px!important;\nfont-weight: 700!important; \n}\n.t--widget-progresswidget>div>div>div>div{\n   height: 68%!important; \n  border-radius:10px!important; \n    background: #fec518;\n    overflow: hidden!important;\n    \n\n}\n\n.t--widget-progresswidget>div>div>div>div>div{\n    height: 100%!important; \n    background-color: #fec518!important;\n    padding-right: 4px!important;\n    font-size: 20px!important;\n    font-weight: 600!important;\n    text-align: center!important;\n    padding-top: 2px!important;\n  \n   \n   \n} \n.text_cross{\n    text-decoration: line-through!important;\n}\n.text_cross span{\n    text-decoration: none!important;\n}\n.done{\n    opacity: 0.3!important;\n}\n.scroll_section{\n     overflow-y: hidden!important;\n}\n\n\n.users_tabs{\n    border-radius: 10px!important;\n}\n.upload_img .bp3-button {\n    background:#3268a8!important;\n    border-radius: 10px !important;\n}\n.upload_img .bp3-button:hover,\n.upload_img >div>div>div>div:hover > button, \n.upload_img >div>div>div>div:active > button{\nbackground: #4e7a9b!important;\ntransition: background-color 0.3s ease, transform 0.3s ease !important;\n}",
+        "template": "@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,200&display=swap');\n\nbody{\n    font-family: 'Titillium Web', sans-serif!important;\n   \n}\n\n.header{\ntop: 0px !important;\nheight: 66px !important;\npadding: 0px !important;\nborder-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n.menu_section{\nbox-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\nheight: 100vh !important;\npadding: 0px !important;\nleft: 0px !important;\nborder-right: 2px solid rgb(241, 243, 244) !important;\n}\n\n.main_section{\npadding: 0px !important;\nheight: 100vh !important;\nposition: fixed !important;\ntop: 66px !important; \n}\n\n.tab_login>div>div>div>div{\nbox-shadow: none !important;\n}\n\n.tab_login>div>div>div>div>div{\nbackground: transparent !important;\n}\n\n.frame_section{\nheight: 100vh !important;\nposition: fixed !important;\ntop: 16px !important; \n}\n\n.scroll_section{\n   height: 100vh !important; \n    top: 66px !important; \n    padding: 0px !important;\n\n}\n\n.image{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n    height: 75px !important;\n}\n\n\n.menu .active span{\ncolor: #2a2f36 !important;\n}\n\n.menu .active {\n    background: #ebf1fb !important;\n}\n\n.menu button:hover{\nbackground: #ebf1fb;\n}\n\n.menu span[role=\"img\"]{\nmargin-left: 8px !important;\nmargin-top: 3px !important;\n\n}\n.menu .bp3-collapse-body .sub_category {\n    padding: 5px 5px 5px 20px !important;\n}\n.menu button{\n    box-shadow: none !important;\n}\n\n.menu span{\n    font-size: 16px !important;\n    font-weight: 400 !important;\n    color: #00000099 !important;\n}\n\n.menu {\n    left: 0px !important;\n    width: 100% !important;\n    padding: 0 !important;\n}\n\n.menu_wrap{\n    position: fixed !important;\n    left: 0px!important;\n    top: 0px !important;\n    height: 100vh !important;\n    /* width: 178.312px!important; */\n    padding: 0px!important;\n    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\n}\n\n.menu button {\n    justify-content: start !important;\n    padding: 5px 10px 5px 15px !important;\n    margin-bottom: 5px !important;\n}\n\n.setting_title{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n\n.setting_text{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important; \n}\n\n.setting_text .bp3-ui-text {\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n.setting_title .bp3-ui-text {\n    font-weight: 600 !important;\n    font-size: 18px !important;\n}\n\n.telegramList {\n    padding: 10px 20px !important;\n}\n\n.telegramList .custom-wrapper-canvas-list{\n    display: flex;\n    flex-direction: column !important;\n}\n.telegramList .custom-wrapper-canvas-list button {\n    display: none !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget{\n    width: 90% !important;\n    position: static !important;\n    border-radius: 8px!important;\n    padding: 0 !important;\n    margin-bottom: 7px;\n    margin-right: auto !important;\n    margin-left: 0 !important;\n    background-color: #cfcfdb !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd){\n    margin-right: 0 !important;\n    margin-left: auto !important;\n    background-color: #e5e5e6 !important;\n}\n.telegramList .t--widget-textwidget{\n    width: auto !important;\n    position: static !important;\n    padding: 5px 15px !important;\n    height: 100% !important;\n}\n.telegramList .t--widget-textwidget span{\n    font-weight: 500; \n    font-size: 16px;\n    line-height: 125%;\n}\n\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd) .t--widget-textwidget span{\n    text-align: end;\n}\n\n.telegramWrap{\n    padding: 0!important;\n}\n\n.container{\n    min-height: 100vh;\n}\n\n.selectedTab{\n    box-shadow: rgb(235, 239, 242) -1px 0px 0px inset, rgb(235, 239, 242) 0px 0px 0px inset, rgb(55 169 235) 0px 4px 0px inset !important;\n}\n\n.icon >div>div>div>div>div>div>div{\n   background-position: center right!important;\n}\n\n.title >div>div>div>div>div>div>div span {\nfont-size:22px!important; \n}\n.title >div>div>div>div>div>div>div >span >span.training_span {color:#118cfc!important; font-size: 28px!important;  font-weight: 700!important;}\n.tabs >div>div>div>div>div>div {\nfont-size:20px!important;\ntext-transform: uppercase!important;\nfont-weight: 500!important;\n}\n.training_wrap >div>div>div>div>div>div>div>div>div>div>div>div>div{\n    display: inline-flex!important;\n    justify-content: space-between!important;\n}\n.table{\nfont-size:14px!important;\ntext-transform: lowercase!important;\nfont-weight: 400!important; \n}\n.table >div>div>div>div>div>div{\n    font-size:14px!important;\ntext-transform: uppercase!important;\n}\n.tr>div>div>div>div>div>div>div>div{\n    border-right: none!important;\n}\n\n\n\n.title >div>div>div>div>div>div>div >span >span {\nfont-size:14px!important;\nfont-weight: 400!important; \n}\n\n/**/\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    margin-bottom: 20px!important;\n}\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    position: initial !important;\n}\n\n.hide{\n    display: none;\n       height: 20px!important;\n}\n\n.activ{\n    display: block;\n    /* height: 270px!important; */\n}\n.activ_setup{\n    display: block;\n    /* height: 500px!important; */\n}\n.btn_right>div>div>div>div>button>span>svg {\n    transform: rotate(180deg)!important;\n    transition: all 0.5s ease 0s !important;\n}\n.btn_left>div>div>div>div>button>span>svg {\n        transform: translateY(0px)!important;\n    transition: none 0s ease 0s!important;\n}\n\n/* За замовчуванням */\n.btn_left>div>div>div>div>button,\n.btn_right>div>div>div>div>button {\n    background-color: #ccc;  \n    transition: background-color 0.3s ease, transform 0.3s ease !important;\n \n}\n\n\n.btn_left>div>div>div>div>button:hover:enabled,\n.btn_right>div>div>div>div>button:hover:enabled {\n    background: #9991 !important; \n    transform: translateY(-5px) !important; \n}\n.bp3-input  {\nborder-radius: 10px!important;\n}\n.select_input button.select-button {\n    border-radius: 10px!important;\n}\n.dashboard_text>div>div>div>div>div>div>div{\n    font-size:32px!important;\nfont-weight: 700!important; \n}\n.t--widget-progresswidget>div>div>div>div{\n   height: 68%!important; \n  border-radius:10px!important; \n    background: #fec518;\n    overflow: hidden!important;\n    \n\n}\n\n.t--widget-progresswidget>div>div>div>div>div{\n    height: 100%!important; \n    background-color: #fec518!important;\n    padding-right: 4px!important;\n    font-size: 20px!important;\n    font-weight: 600!important;\n    text-align: center!important;\n    padding-top: 2px!important;\n  \n   \n   \n} \n.text_cross{\n    text-decoration: line-through!important;\n}\n.text_cross span{\n    text-decoration: none!important;\n}\n.done{\n    opacity: 0.3!important;\n}\n.scroll_section{\n     overflow-y: hidden!important;\n}\n\n\n.users_tabs{\n    border-radius: 10px!important;\n}\n.upload_img .bp3-button {\n    background:#215484!important;\n    border-radius: 5px !important;\n}\n.upload_img .bp3-button:hover,\n.upload_img >div>div>div>div:hover > button, \n.upload_img >div>div>div>div:active > button{\nbackground: #123a5e!important;\ntransition: background-color 0.3s ease, transform 0.3s ease !important;\n}",
         "output": "str",
         "x": 260,
         "y": 60,
@@ -7093,7 +7136,7 @@
         "type": "function",
         "z": "71360979efaa1719",
         "name": "function 398",
-        "func": "\nmsg.buffer = msg.payload.img.data\n\nmsg.payload = msg.buffer;\nreturn msg;\n\n",
+        "func": "msg.buffer = msg.payload.img.data\nmsg.payload = msg.buffer;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7133,7 +7176,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 790,
+        "x": 750,
         "y": 120,
         "wires": []
     },
@@ -7149,7 +7192,7 @@
         "sendError": false,
         "encoding": "binary",
         "allProps": false,
-        "x": 330,
+        "x": 340,
         "y": 180,
         "wires": [
             [
@@ -7181,11 +7224,116 @@
         "name": "",
         "statusCode": "200",
         "headers": {
-            "content-type": "image/png"
+            "Content-Type": "image/png"
         },
-        "x": 540,
+        "x": 560,
         "y": 180,
         "wires": []
+    },
+    {
+        "id": "1fddeb1d0f1aa246",
+        "type": "file in",
+        "z": "71360979efaa1719",
+        "name": "logo_file",
+        "filename": "/data/storage/icons/logos.png",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "binary",
+        "allProps": false,
+        "x": 280,
+        "y": 240,
+        "wires": [
+            [
+                "b4b1f74b1f92e251"
+            ]
+        ]
+    },
+    {
+        "id": "6fb797a94d8c2f6a",
+        "type": "http in",
+        "z": "71360979efaa1719",
+        "name": "",
+        "url": "/logo",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 100,
+        "y": 240,
+        "wires": [
+            [
+                "1fddeb1d0f1aa246"
+            ]
+        ]
+    },
+    {
+        "id": "1f263028b189f117",
+        "type": "http response",
+        "z": "71360979efaa1719",
+        "name": "",
+        "statusCode": "200",
+        "headers": {
+            "Content-Type": "image/png"
+        },
+        "x": 660,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "b4b1f74b1f92e251",
+        "type": "function",
+        "z": "71360979efaa1719",
+        "name": "make buffer",
+        "func": "msg.payload = Buffer.from(msg.payload.replace('data:image/png;base64,', ''), \"base64\")\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 240,
+        "wires": [
+            [
+                "1f263028b189f117"
+            ]
+        ]
+    },
+    {
+        "id": "9675952046324cbb",
+        "type": "catch",
+        "z": "71360979efaa1719",
+        "name": "",
+        "scope": [
+            "1fddeb1d0f1aa246"
+        ],
+        "uncaught": false,
+        "x": 210,
+        "y": 280,
+        "wires": [
+            [
+                "5d87e404bc2aadfc"
+            ]
+        ]
+    },
+    {
+        "id": "5d87e404bc2aadfc",
+        "type": "function",
+        "z": "71360979efaa1719",
+        "name": "default",
+        "func": "msg.payload = `data:image/png;base64,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`\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 280,
+        "wires": [
+            [
+                "b4b1f74b1f92e251"
+            ]
+        ]
     },
     {
         "id": "72e55cbb37396703",
@@ -7558,7 +7706,7 @@
         "type": "function",
         "z": "b41bb82e8b5e16dc",
         "name": "get knowledgeObjects",
-        "func": "msg.collection = \"knowledgeObjects\"\nreturn msg;",
+        "func": "msg.collection = \"knowledgeObjects\"\nmsg.payload = { deleted: false }\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7792,13 +7940,13 @@
         "z": "4cba6f8219137af4",
         "g": "945706dce188c905",
         "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n    PIPECONE_API: data.pipecone_api ? data.pipecone_api:\"\",\n    PIPECONE_ENV: data.pipecone_env ? data.pipecone_env : \"\",\n    PIPECONE_INDEX: data.pipecone_index ? data.pipecone_index :\"\",\n    PIPECONE_URL: data.pipecone_url ? data.pipecone_url  :\"\",\n}\n\nglobal.set(\"pinecone\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    PIPECONE_API: data.pipecone_api ? data.pipecone_api.trim():\"\",\n    PIPECONE_ENV: data.pipecone_env ? data.pipecone_env.trim() : \"\",\n    PIPECONE_INDEX: data.pipecone_index ? data.pipecone_index.trim() :\"\",\n    PIPECONE_URL: data.pipecone_url ? data.pipecone_url.trim()  :\"\",\n}\n\nglobal.set(\"pinecone\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
+        "x": 690,
         "y": 100,
         "wires": [
             []
@@ -7872,7 +8020,7 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 565,
+        "x": 605,
         "y": 100,
         "wires": [
             [
@@ -8024,7 +8172,7 @@
         "z": "4cba6f8219137af4",
         "g": "649b2f424f00fcf7",
         "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n    WHATSAPP_PHONEID: data.whatsApp_phoneId ? data.whatsApp_phoneId :\"\",\n    WHATSAPP_TOKEN: data.whatsApp_token ? data.whatsApp_token : \"\"\n}\n\nglobal.set(\"WHATSAPP\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    WHATSAPP_PHONEID: data.whatsApp_phoneId ? data.whatsApp_phoneId.trim() :\"\",\n    WHATSAPP_TOKEN: data.whatsApp_token ? data.whatsApp_token.trim() : \"\"\n}\n\nglobal.set(\"WHATSAPP\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -8256,7 +8404,7 @@
         "z": "4cba6f8219137af4",
         "g": "e40f1639481a93e5",
         "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n    META_TOKEN: data.meta_token ? data.meta_token :\"\",\n    META_PAGEID: data.response_pageId ? data.response_pageId : \"\"\n}\n\nglobal.set(\"META\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    META_TOKEN: data.meta_token ? data.meta_token.trim() :\"\",\n    META_PAGEID: data.response_pageId ? data.response_pageId.trim() : \"\"\n}\n\nglobal.set(\"META\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -8643,13 +8791,13 @@
         "z": "4cba6f8219137af4",
         "g": "152119097abe3c6c",
         "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n    OPENAI_API: data.openai_api ? data.openai_api :\"\",\n    OPENAI_MODEL: data.openai_api_model ? data.openai_api_model :\"\"\n}\n\nglobal.set(\"openai\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    OPENAI_API: data.openai_api ? data.openai_api.trim() :\"\",\n    OPENAI_MODEL: data.openai_api_model ? data.openai_api_model.trim() :\"\"\n}\n\nglobal.set(\"openai\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
+        "x": 690,
         "y": 360,
         "wires": [
             []
@@ -8723,7 +8871,7 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 565,
+        "x": 605,
         "y": 360,
         "wires": [
             [
@@ -9610,7 +9758,7 @@
         "z": "4cba6f8219137af4",
         "g": "faa44c8af53ff52c",
         "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n    BOT_NAME: data.bot_name ? data.bot_name :\"\",\n    BOT_TOKEN: data.bot_token ? data.bot_token : \"\"\n}\n\nglobal.set(\"telegram\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    BOT_NAME: data.bot_name ? data.bot_name.trim() :\"\",\n    BOT_TOKEN: data.bot_token ? data.bot_token.trim() : \"\"\n}\n\nglobal.set(\"telegram\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -11175,7 +11323,7 @@
         "finalize": "",
         "libs": [],
         "x": 990,
-        "y": 960,
+        "y": 940,
         "wires": [
             [
                 "44b9e0968d17375a"
@@ -11552,7 +11700,7 @@
         "senderr": false,
         "headers": [],
         "x": 1130,
-        "y": 100,
+        "y": 120,
         "wires": [
             []
         ]
@@ -12911,7 +13059,7 @@
         "method": "post",
         "upload": true,
         "swaggerDoc": "",
-        "x": 230,
+        "x": 170,
         "y": 320,
         "wires": [
             [
@@ -12932,8 +13080,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 770,
-        "y": 500,
+        "x": 690,
+        "y": 460,
         "wires": [
             [
                 "ac1e332f09825540"
@@ -12952,12 +13100,12 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 940,
-        "y": 500,
+        "x": 860,
+        "y": 460,
         "wires": [
             [
                 "4e2bacc2829ef766",
-                "485d0794e6354e4f"
+                "b4b7b058a2bb8fb9"
             ]
         ]
     },
@@ -12971,8 +13119,8 @@
         "method": "delete",
         "upload": false,
         "swaggerDoc": "",
-        "x": 230,
-        "y": 660,
+        "x": 170,
+        "y": 700,
         "wires": [
             [
                 "c6952962dff82cdd",
@@ -12998,8 +13146,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 530,
-        "y": 620,
+        "x": 470,
+        "y": 660,
         "wires": [
             [
                 "a08780ba082a085f"
@@ -13023,8 +13171,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 520,
-        "y": 660,
+        "x": 460,
+        "y": 700,
         "wires": [
             [
                 "1fa0fa0f880d742a"
@@ -13042,8 +13190,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 780,
-        "y": 620,
+        "x": 720,
+        "y": 660,
         "wires": [
             []
         ]
@@ -13059,8 +13207,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 730,
-        "y": 660,
+        "x": 670,
+        "y": 700,
         "wires": [
             [
                 "8567ae67182cb1a4"
@@ -13073,7 +13221,7 @@
         "z": "df2aa561a3e2a544",
         "g": "512f315426441ead",
         "name": "delete",
-        "func": "\nif (msg.payload.length > 0) {\n    let vectorIds = msg.payload.flatMap(e => e.vectors).map(e => e.id);\n    node.warn(vectorIds);\n\n\n    const process_env = global.get(\"process_env\")\n    msg.PIPECONE_URL = process_env.PIPECONE_URL\n    msg.headers = {\n        'Api-Key': process_env.PIPECONE_API,\n        'Content-Type': 'application/json'\n    };\n    msg.ids = vectorIds\n    msg.url = `${msg.PIPECONE_URL}/vectors/delete`;\n    msg.payload = {ids:msg.ids} \n \n    return[msg,null]\n}\nelse {\n    return [null, msg]\n}\n\n\n    ",
+        "func": "if (msg.payload.length > 0) {\n    let vectorIds = msg.payload.flatMap(e => e.vectors).map(e => e.id);\n    node.warn(vectorIds);\n\n\n    const pinecone = global.get(\"pinecone\")\n    msg.PIPECONE_URL = pinecone.PIPECONE_URL\n    msg.headers = {\n        'Api-Key': pinecone.PIPECONE_API,\n        'Content-Type': 'application/json'\n    };\n    msg.ids = vectorIds\n    msg.url = `${msg.PIPECONE_URL}/vectors/delete`;\n    msg.payload = {ids:msg.ids} \n \n    return[msg,null]\n}\nelse {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -13084,8 +13232,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 890,
-        "y": 660,
+        "x": 830,
+        "y": 700,
         "wires": [
             [
                 "f52f17e0e50aa5b0"
@@ -13112,11 +13260,10 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1030,
-        "y": 640,
+        "x": 970,
+        "y": 680,
         "wires": [
             [
-                "b62cbfa455e0bb6f",
                 "54ce5acd1e468193"
             ]
         ]
@@ -13126,7 +13273,7 @@
         "type": "debug",
         "z": "df2aa561a3e2a544",
         "g": "512f315426441ead",
-        "name": "debug 441",
+        "name": "files1",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -13135,8 +13282,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1170,
-        "y": 460,
+        "x": 1010,
+        "y": 420,
         "wires": []
     },
     {
@@ -13151,7 +13298,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 600,
+        "x": 540,
         "y": 320,
         "wires": [
             [
@@ -13170,7 +13317,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 750,
+        "x": 690,
         "y": 320,
         "wires": [
             [
@@ -13190,7 +13337,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 910,
+        "x": 850,
         "y": 320,
         "wires": [
             [
@@ -13219,7 +13366,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 1200,
+        "x": 1140,
         "y": 280,
         "wires": [
             [
@@ -13246,7 +13393,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 1190,
+        "x": 1130,
         "y": 320,
         "wires": [
             [
@@ -13267,7 +13414,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1380,
+        "x": 1320,
         "y": 300,
         "wires": [
             [
@@ -13287,7 +13434,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1560,
+        "x": 1500,
         "y": 300,
         "wires": [
             [
@@ -13303,7 +13450,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1700,
+        "x": 1640,
         "y": 300,
         "wires": []
     },
@@ -13318,7 +13465,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1390,
+        "x": 1330,
         "y": 260,
         "wires": [
             [
@@ -13338,7 +13485,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1560,
+        "x": 1500,
         "y": 260,
         "wires": [
             [
@@ -13354,7 +13501,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1700,
+        "x": 1640,
         "y": 260,
         "wires": []
     },
@@ -13372,7 +13519,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1030,
+        "x": 970,
         "y": 360,
         "wires": []
     },
@@ -13390,8 +13537,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1430,
-        "y": 380,
+        "x": 1710,
+        "y": 340,
         "wires": []
     },
     {
@@ -13408,7 +13555,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1380,
+        "x": 1320,
         "y": 140,
         "wires": []
     },
@@ -13426,8 +13573,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 480,
-        "y": 700,
+        "x": 420,
+        "y": 740,
         "wires": []
     },
     {
@@ -13569,7 +13716,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
+        "x": 390,
         "y": 320,
         "wires": [
             [
@@ -13595,8 +13742,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 610,
-        "y": 500,
+        "x": 530,
+        "y": 460,
         "wires": [
             [
                 "7b57414c5e0a360f"
@@ -13620,7 +13767,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 590,
+        "x": 530,
         "y": 200,
         "wires": [
             [
@@ -13639,7 +13786,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 750,
+        "x": 690,
         "y": 200,
         "wires": [
             [
@@ -13664,7 +13811,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 470,
+        "x": 410,
         "y": 80,
         "wires": [
             [
@@ -13682,7 +13829,7 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 220,
+        "x": 160,
         "y": 80,
         "wires": [
             [
@@ -13701,7 +13848,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 650,
+        "x": 590,
         "y": 80,
         "wires": [
             [
@@ -13718,7 +13865,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 850,
+        "x": 790,
         "y": 80,
         "wires": []
     },
@@ -13728,7 +13875,7 @@
         "z": "df2aa561a3e2a544",
         "g": "512f315426441ead",
         "name": "get file",
-        "func": "\nmsg.filepath = msg.decodedFilename\nreturn msg;",
+        "func": "msg.filepath = msg.decodedFilename\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -13739,8 +13886,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1150,
-        "y": 500,
+        "x": 1210,
+        "y": 540,
         "wires": [
             [
                 "28fa779fcc717590"
@@ -13760,8 +13907,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 1300,
-        "y": 500,
+        "x": 1460,
+        "y": 540,
         "wires": [
             [
                 "c706df4f6ffea383"
@@ -13780,8 +13927,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1470,
-        "y": 500,
+        "x": 1670,
+        "y": 540,
         "wires": [
             [
                 "d94b01bcc45cee99"
@@ -13805,8 +13952,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1650,
-        "y": 420,
+        "x": 1870,
+        "y": 460,
         "wires": []
     },
     {
@@ -13823,8 +13970,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1670,
-        "y": 580,
+        "x": 1870,
+        "y": 620,
         "wires": []
     },
     {
@@ -13844,8 +13991,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1670,
-        "y": 460,
+        "x": 1870,
+        "y": 500,
         "wires": [
             [
                 "d29a21b6772d557c",
@@ -13871,8 +14018,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1670,
-        "y": 540,
+        "x": 1870,
+        "y": 580,
         "wires": [
             [
                 "d29a21b6772d557c",
@@ -13893,8 +14040,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2030,
-        "y": 500,
+        "x": 2230,
+        "y": 540,
         "wires": [
             [
                 "d2bf8aa85084dae2"
@@ -13909,8 +14056,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 2150,
-        "y": 500,
+        "x": 2350,
+        "y": 540,
         "wires": []
     },
     {
@@ -13924,8 +14071,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1850,
-        "y": 500,
+        "x": 2050,
+        "y": 540,
         "wires": [
             [
                 "de3839185f040596"
@@ -13942,7 +14089,7 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 230,
+        "x": 170,
         "y": 140,
         "wires": [
             [
@@ -13967,7 +14114,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 490,
+        "x": 430,
         "y": 140,
         "wires": [
             [
@@ -13986,7 +14133,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 670,
+        "x": 610,
         "y": 140,
         "wires": [
             [
@@ -14002,7 +14149,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 990,
+        "x": 930,
         "y": 140,
         "wires": []
     },
@@ -14018,7 +14165,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 820,
+        "x": 760,
         "y": 140,
         "wires": [
             [
@@ -14039,7 +14186,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 910,
+        "x": 850,
         "y": 200,
         "wires": [
             [
@@ -14056,7 +14203,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1090,
+        "x": 1030,
         "y": 240,
         "wires": []
     },
@@ -14077,7 +14224,7 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1290,
+        "x": 1230,
         "y": 200,
         "wires": [
             []
@@ -14095,7 +14242,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1110,
+        "x": 1050,
         "y": 200,
         "wires": [
             [
@@ -14120,8 +14267,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 2090,
-        "y": 580,
+        "x": 2230,
+        "y": 620,
         "wires": [
             []
         ]
@@ -14138,8 +14285,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1910,
-        "y": 580,
+        "x": 2050,
+        "y": 620,
         "wires": [
             [
                 "0c873b8eec59e7b7"
@@ -14163,8 +14310,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 2030,
-        "y": 440,
+        "x": 2230,
+        "y": 460,
         "wires": [
             []
         ]
@@ -14175,14 +14322,14 @@
         "z": "df2aa561a3e2a544",
         "g": "512f315426441ead",
         "name": "getLinkInfo",
-        "func": "\n\nmsg.payload ={\n    _id: msg.payload._id,\n    knowledgeBaseId: msg.payload.knowledgeBaseId,\n    link: msg.decodedFilename\n}\n\nmsg.url = env.get(\"nodered\") + `/FAQ`\nreturn msg;",
+        "func": "msg.payload ={\n    _id: msg.payload._id,\n    knowledgeBaseId: msg.payload.knowledgeBaseId,\n    link: msg.decodedFilename\n}\n\nmsg.url = env.get(\"nodered\") + `/FAQ`\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1850,
-        "y": 440,
+        "x": 2050,
+        "y": 460,
         "wires": [
             [
                 "6b0127a271910ed9"
@@ -14194,7 +14341,7 @@
         "type": "debug",
         "z": "df2aa561a3e2a544",
         "g": "18bb3452d72cf1ca",
-        "name": "fromTG",
+        "name": "d2",
         "active": true,
         "tosidebar": true,
         "console": false,
@@ -14203,8 +14350,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2220,
-        "y": 860,
+        "x": 2130,
+        "y": 840,
         "wires": []
     },
     {
@@ -14271,26 +14418,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1000,
+        "x": 940,
         "y": 100,
-        "wires": []
-    },
-    {
-        "id": "b62cbfa455e0bb6f",
-        "type": "debug",
-        "z": "df2aa561a3e2a544",
-        "g": "512f315426441ead",
-        "name": "debug 525",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1250,
-        "y": 680,
         "wires": []
     },
     {
@@ -14301,8 +14430,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1250,
-        "y": 640,
+        "x": 1130,
+        "y": 680,
         "wires": []
     },
     {
@@ -14313,8 +14442,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1010,
-        "y": 680,
+        "x": 950,
+        "y": 720,
         "wires": []
     },
     {
@@ -14691,8 +14820,8 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 190,
-        "y": 1360,
+        "x": 150,
+        "y": 1260,
         "wires": [
             [
                 "6848c15d6bd1a239",
@@ -14712,7 +14841,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 210,
-        "y": 1920,
+        "y": 1980,
         "wires": [
             [
                 "b2117b0c5a1d91a2",
@@ -14733,7 +14862,7 @@
         "finalize": "",
         "libs": [],
         "x": 445,
-        "y": 2000,
+        "y": 2060,
         "wires": [
             [
                 "f0c5c1fa68067b78"
@@ -14760,7 +14889,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 515,
-        "y": 2000,
+        "y": 2060,
         "wires": [
             [
                 "6218b41734f3d6cb",
@@ -14782,7 +14911,7 @@
         "finalize": "",
         "libs": [],
         "x": 665,
-        "y": 2000,
+        "y": 2060,
         "wires": [
             [
                 "c54204909d762234",
@@ -14811,7 +14940,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 595,
-        "y": 2000,
+        "y": 2060,
         "wires": [
             [
                 "27e880819f14f841"
@@ -14837,7 +14966,7 @@
             }
         ],
         "x": 790,
-        "y": 1900,
+        "y": 1960,
         "wires": [
             [
                 "d25e3941a0dc2f82",
@@ -14857,7 +14986,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 973,
-        "y": 1901.2000732421875,
+        "y": 1961.2000732421875,
         "wires": [
             []
         ]
@@ -14874,7 +15003,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 820,
-        "y": 2040,
+        "y": 2100,
         "wires": [
             []
         ]
@@ -14894,7 +15023,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 810,
-        "y": 2000,
+        "y": 2060,
         "wires": []
     },
     {
@@ -14912,7 +15041,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 610,
-        "y": 2040,
+        "y": 2100,
         "wires": []
     },
     {
@@ -14952,8 +15081,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 350,
-        "y": 1600,
+        "x": 330,
+        "y": 1460,
         "wires": [
             [
                 "1dc9fe9f06214c70"
@@ -14974,7 +15103,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 480,
-        "y": 1600,
+        "y": 1460,
         "wires": [
             [
                 "8055afeac4dc4202"
@@ -14994,7 +15123,7 @@
         "finalize": "",
         "libs": [],
         "x": 670,
-        "y": 1600,
+        "y": 1460,
         "wires": [
             [
                 "4803b64c62c581af"
@@ -15014,7 +15143,7 @@
         "finalize": "",
         "libs": [],
         "x": 935,
-        "y": 1700,
+        "y": 1560,
         "wires": [
             [
                 "7df843730479ed5c"
@@ -15040,7 +15169,7 @@
             }
         ],
         "x": 1050,
-        "y": 1600,
+        "y": 1460,
         "wires": [
             [
                 "4a667a0da071a186"
@@ -15059,7 +15188,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1080,
-        "y": 1720,
+        "y": 1580,
         "wires": [
             []
         ]
@@ -15076,7 +15205,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1240,
-        "y": 1600,
+        "y": 1460,
         "wires": [
             []
         ]
@@ -15091,8 +15220,8 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 160,
-        "y": 1600,
+        "x": 140,
+        "y": 1460,
         "wires": [
             [
                 "ae95ec54aaec86fb",
@@ -15210,8 +15339,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 390,
-        "y": 1360,
+        "x": 370,
+        "y": 1260,
         "wires": [
             [
                 "118d0dd2c69b79e9",
@@ -15237,7 +15366,7 @@
             }
         ],
         "x": 450,
-        "y": 1920,
+        "y": 1980,
         "wires": [
             [
                 "c54204909d762234"
@@ -15259,7 +15388,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 960,
-        "y": 1940,
+        "y": 2000,
         "wires": []
     },
     {
@@ -15270,8 +15399,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 370,
-        "y": 1320,
+        "x": 350,
+        "y": 1220,
         "wires": []
     },
     {
@@ -15283,7 +15412,7 @@
         "statusCode": "",
         "headers": {},
         "x": 430,
-        "y": 1880,
+        "y": 1940,
         "wires": []
     },
     {
@@ -15295,7 +15424,7 @@
         "statusCode": "",
         "headers": {},
         "x": 330,
-        "y": 1640,
+        "y": 1500,
         "wires": []
     },
     {
@@ -15330,8 +15459,8 @@
         "actionType": "upsert",
         "apiKey": "",
         "environment": "",
-        "x": 810,
-        "y": 1440,
+        "x": 790,
+        "y": 1340,
         "wires": [
             [
                 "118d0dd2c69b79e9"
@@ -15344,7 +15473,7 @@
         "z": "df2aa561a3e2a544",
         "g": "b08897336796f31f",
         "name": "function 380",
-        "func": "const vector = msg.payload.data[0].embedding\nmsg.vector = msg.payload.data[0].embedding\nconst question = msg.input\nconst result = msg.input\nconst url = msg.old.link\nmsg.ids = Date.now().toString(),\nmsg.payload = {\n    name: global.get(\"process_env\").PIPECONE_INDEX,\n    vectors: [{\n        id: msg.ids,\n        pinecone: true,\n        values: vector,\n        metadata: { url: url, question: question, result: result }\n    }]\n};\n\nmsg.PINECONE_API_KEY = global.get(\"process_env\").PIPECONE_API\nmsg.PINECONE_ENVIRONMENT = global.get(\"process_env\").PIPECONE_ENV\nmsg.PINECONE_BASE_URL = global.get(\"process_env\").PIPECONE_URL\n\nreturn msg;",
+        "func": "const vector = msg.payload.data[0].embedding\nmsg.vector = msg.payload.data[0].embedding\nconst question = msg.input\nconst result = msg.input\nconst url = msg.old.link\nmsg.ids = Date.now().toString(),\nmsg.payload = {\n    name: global.get(\"pinecone\").PIPECONE_INDEX,\n    vectors: [{\n        id: msg.ids,\n        pinecone: true,\n        values: vector,\n        metadata: { url: url, question: question, result: result }\n    }]\n};\n\nmsg.PINECONE_API_KEY = global.get(\"pinecone\").PIPECONE_API\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\").PIPECONE_ENV\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\").PIPECONE_URL\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -15355,8 +15484,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 685,
-        "y": 1440,
+        "x": 665,
+        "y": 1340,
         "wires": [
             [
                 "fdfa457870546056",
@@ -15383,8 +15512,8 @@
             "value": "[]"
         },
         "OPENAI_API_KEY": "",
-        "x": 560,
-        "y": 1440,
+        "x": 540,
+        "y": 1340,
         "wires": [
             [
                 "3ecfb208b155d002"
@@ -15408,8 +15537,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 750,
-        "y": 1340,
+        "x": 730,
+        "y": 1240,
         "wires": [
             [
                 "d93b784dab102523"
@@ -15428,8 +15557,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 1440,
+        "x": 350,
+        "y": 1340,
         "wires": [
             [
                 "7d12334896a5e45a"
@@ -15448,8 +15577,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 745,
-        "y": 1480,
+        "x": 725,
+        "y": 1380,
         "wires": [
             [
                 "7165716ec6403de1"
@@ -15468,8 +15597,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 860,
-        "y": 1480,
+        "x": 840,
+        "y": 1380,
         "wires": [
             []
         ]
@@ -15485,8 +15614,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 900,
-        "y": 1340,
+        "x": 880,
+        "y": 1240,
         "wires": [
             []
         ]
@@ -15501,7 +15630,7 @@
         "apiKey": "",
         "environment": "",
         "x": 1070,
-        "y": 1680,
+        "y": 1540,
         "wires": [
             [
                 "4803b64c62c581af"
@@ -15526,7 +15655,7 @@
             }
         ],
         "x": 855,
-        "y": 1680,
+        "y": 1540,
         "wires": [
             [
                 "fb2677b66d5a1ed1",
@@ -15554,7 +15683,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 720,
-        "y": 1680,
+        "y": 1540,
         "wires": [
             [
                 "33ba0bb276397c69"
@@ -15574,7 +15703,7 @@
         "finalize": "",
         "libs": [],
         "x": 530,
-        "y": 1680,
+        "y": 1540,
         "wires": [
             [
                 "85941f72e751e5fd"
@@ -15595,14 +15724,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 310,
-        "y": 1400,
+        "x": 290,
+        "y": 1300,
         "wires": []
     },
     {
         "id": "c51ee5ee9d9b6cd5",
         "type": "http request",
         "z": "df2aa561a3e2a544",
+        "g": "512f315426441ead",
         "name": "",
         "method": "POST",
         "ret": "obj",
@@ -15615,8 +15745,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1670,
-        "y": 380,
+        "x": 1530,
+        "y": 340,
         "wires": [
             []
         ]
@@ -15625,6 +15755,7 @@
         "id": "bb696873d9c72501",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "512f315426441ead",
         "name": "create vector",
         "func": "let question = msg.oldPayload.question;\nlet result = msg.oldPayload.result;\n\nlet url = msg.oldPayload.name\n\n\n\nmsg.payload = {\n    name: url,\n    A: question,\n    B: result\n}\n\nmsg.url = env.get(\"nodered\") + `/FAQmanualy`\nreturn msg;",
         "outputs": 1,
@@ -15632,12 +15763,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1490,
-        "y": 380,
+        "x": 1310,
+        "y": 340,
         "wires": [
             [
-                "c51ee5ee9d9b6cd5",
-                "9cc90e35191ba72f"
+                "c51ee5ee9d9b6cd5"
             ]
         ]
     },
@@ -15678,8 +15808,7 @@
         "y": 220,
         "wires": [
             [
-                "d8783321c9f5fd59",
-                "9cc90e35191ba72f"
+                "d8783321c9f5fd59"
             ]
         ]
     },
@@ -15694,7 +15823,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 170,
-        "y": 1780,
+        "y": 1860,
         "wires": [
             [
                 "2edac485484180ac"
@@ -15714,7 +15843,7 @@
         "finalize": "",
         "libs": [],
         "x": 350,
-        "y": 1780,
+        "y": 1860,
         "wires": [
             [
                 "444dfd902c66d107",
@@ -15741,7 +15870,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 520,
-        "y": 1780,
+        "y": 1860,
         "wires": [
             [
                 "9e1c22b6f865ec7f"
@@ -15766,7 +15895,7 @@
             }
         ],
         "x": 645,
-        "y": 1780,
+        "y": 1860,
         "wires": [
             [
                 "37c17ae6e89c99e4",
@@ -15785,7 +15914,7 @@
         "apiKey": "",
         "environment": "",
         "x": 750,
-        "y": 1780,
+        "y": 1860,
         "wires": [
             []
         ]
@@ -15804,25 +15933,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 650,
+        "x": 750,
         "y": 1820,
-        "wires": []
-    },
-    {
-        "id": "9cc90e35191ba72f",
-        "type": "debug",
-        "z": "df2aa561a3e2a544",
-        "g": "512f315426441ead",
-        "name": "debug 528",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1730,
-        "y": 220,
         "wires": []
     },
     {
@@ -15838,7 +15950,7 @@
         "array": "array",
         "arrayType": "msg",
         "x": 620,
-        "y": 1920,
+        "y": 1980,
         "wires": [
             [
                 "903b76663b1320fb"
@@ -15861,7 +15973,7 @@
         "array": "array",
         "arrayType": "msg",
         "x": 880,
-        "y": 1600,
+        "y": 1460,
         "wires": [
             [
                 "65d0d59cca39208b"
@@ -15883,8 +15995,8 @@
         "resetValue": "value-null",
         "array": "array",
         "arrayType": "msg",
-        "x": 600,
-        "y": 1360,
+        "x": 580,
+        "y": 1260,
         "wires": [
             [
                 "9b6cf8e23eb36b02"
@@ -15923,7 +16035,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 430,
+        "x": 370,
         "y": 400,
         "wires": []
     },
@@ -16084,6 +16196,557 @@
         "headers": {},
         "x": 2890,
         "y": 180,
+        "wires": []
+    },
+    {
+        "id": "b4b7b058a2bb8fb9",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "g": "512f315426441ead",
+        "name": "check type",
+        "func": "if (msg.decodedFilename && /\\.xlsx$/.test(msg.decodedFilename)){\n    //If file excel \n    return [msg, null]\n}else{\n    //Else types\n    return [null, msg]\n}\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 460,
+        "wires": [
+            [
+                "0511e829bb6d8786"
+            ],
+            [
+                "485d0794e6354e4f"
+            ]
+        ]
+    },
+    {
+        "id": "b100106e5cd2c406",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "xlsx",
+        "func": "msg._id = objectid(msg.payload._id);\n\nmsg.old = msg.payload\nconst decodedFilename = `/${msg.old.link}`;\n\nconst outputString = decodedFilename.replace(/י/g, '`')\n\nmsg.filepath = outputString;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 290,
+        "y": 1660,
+        "wires": [
+            [
+                "94598da3051a3dc5",
+                "3d49c880df1d8f39"
+            ]
+        ]
+    },
+    {
+        "id": "94598da3051a3dc5",
+        "type": "file in",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "",
+        "filename": "filepath",
+        "filenameType": "msg",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 420,
+        "y": 1660,
+        "wires": [
+            [
+                "ba65f6843de011c6",
+                "3d49c880df1d8f39"
+            ]
+        ]
+    },
+    {
+        "id": "6f6a5c13aa870df0",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "encoding file",
+        "func": "msg.array= msg.payload;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1660,
+        "wires": [
+            [
+                "57371eba09b0b86b",
+                "e9f5dc6dc1cb4adb"
+            ]
+        ]
+    },
+    {
+        "id": "baa2eb8c05ae75f8",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "create vector",
+        "func": "msg.collection = \"knowledgeObjects\"\n\nconst question = msg.input\nconst result = msg.input\n\nlet url = msg.old.link\n\n\nmsg.query = { \"_id\": msg.old._id }\nmsg.payload = {\n\n   \"$push\": {\n      \"vectors\": {\n         id: msg.ids,\n         pinecone: true,\n         metadata: { url: msg.old.link, question:question, result:result },\n      }\n   }\n\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 975,
+        "y": 1780,
+        "wires": [
+            [
+                "498ccd55288b5495"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "07de504bad65aa0c",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "reset Vectors",
+        "func": "msg.collection = \"knowledgeObjects\"\n\nmsg.query = {\n    _id: objectid(msg.old._id)\n}\nmsg.payload ={\n    $set:{\n        status:\"Divided\"\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 1030,
+        "y": 1640,
+        "wires": [
+            [
+                "886a4c2b49765806"
+            ]
+        ]
+    },
+    {
+        "id": "498ccd55288b5495",
+        "type": "link call",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "",
+        "links": [
+            "d1949ed8cdf3c5ed"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1080,
+        "y": 1780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "886a4c2b49765806",
+        "type": "link call",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "",
+        "links": [
+            "d1949ed8cdf3c5ed"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1200,
+        "y": 1640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8bb80afb7f45ea44",
+        "type": "http in",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "",
+        "url": "/Excel",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 1660,
+        "wires": [
+            [
+                "b100106e5cd2c406",
+                "9dc12b07ecea897d"
+            ]
+        ]
+    },
+    {
+        "id": "9dc12b07ecea897d",
+        "type": "http response",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 290,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "1935fa9621fdcad7",
+        "type": "pinecone-vector-ubos",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "demoversion",
+        "actionType": "upsert",
+        "apiKey": "",
+        "environment": "",
+        "x": 1030,
+        "y": 1740,
+        "wires": [
+            [
+                "57371eba09b0b86b"
+            ]
+        ]
+    },
+    {
+        "id": "923d6d9274ba70ef",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "function 401",
+        "func": "const vector = msg.payload.data[0].embedding\nmsg.vector = msg.payload.data[0].embedding\nconst question = msg.input\nconst result = msg.input\nconst url = msg.old.link\nmsg.ids = Date.now().toString()\nmsg.payload = {\n    name: global.get(\"pinecone\").PIPECONE_INDEX,\n    vectors: [{\n        id: msg.ids,\n        pinecone: true,\n        values: vector,\n        metadata: { url: url, question: question, result: result }\n    }]\n};\n\nmsg.PINECONE_API_KEY = global.get(\"pinecone\").PIPECONE_API\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\").PIPECONE_ENV\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\").PIPECONE_URL\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 915,
+        "y": 1740,
+        "wires": [
+            [
+                "baa2eb8c05ae75f8",
+                "1935fa9621fdcad7"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "13970f4ff168dc20",
+        "type": "openai-ubos",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "prompt": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 800,
+        "y": 1740,
+        "wires": [
+            [
+                "923d6d9274ba70ef"
+            ]
+        ]
+    },
+    {
+        "id": "999bcde02248f87a",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "create vector",
+        "func": "msg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.tobase = JSON.stringify(msg.payload)\nmsg.input = JSON.stringify(msg.payload)\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 1740,
+        "wires": [
+            [
+                "13970f4ff168dc20",
+                "b6454f4e5248451e"
+            ]
+        ]
+    },
+    {
+        "id": "57371eba09b0b86b",
+        "type": "array-loop",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 880,
+        "y": 1660,
+        "wires": [
+            [
+                "07de504bad65aa0c"
+            ],
+            [
+                "999bcde02248f87a"
+            ]
+        ]
+    },
+    {
+        "id": "da88bbf77856e756",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "transform rows to objects",
+        "func": "node.warn(msg.payload);\nconst inputArray = msg.payload;\nconst keys = inputArray[0];\n\ninputArray.shift();\nconst outputArray = inputArray.map(row => {\n    const obj = {};\n    keys.forEach((key, index) => {\n        obj[key] = row[index];\n    });\n    return obj;\n});\n\nmsg.payload = outputArray;\n\n\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 575,
+        "y": 1660,
+        "wires": [
+            [
+                "6f6a5c13aa870df0",
+                "e9f5dc6dc1cb4adb"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ba65f6843de011c6",
+        "type": "xlsx",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "",
+        "sheets": "first",
+        "multi": "one",
+        "parse": "rows",
+        "map": "{\"Питання\":\"question\",\"Тип\":\"type\",\"а\":\"a\",\"б\":\"b\",\"в\":\"c\",\"г\":\"d\",\"Правильна відповідь\":\"correctAnswer\"}",
+        "x": 515,
+        "y": 1660,
+        "wires": [
+            [
+                "da88bbf77856e756"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0511e829bb6d8786",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "g": "512f315426441ead",
+        "name": "Excel",
+        "func": "msg.payload = {\n    _id: objectid(),\n    knowledgeBaseId: objectid(msg.oldPayload.id),\n    name: msg.req.files[0].originalname,\n    type: \"Files\",\n    file: msg.req.files[0].originalname,\n    vectors: [],\n    status: \"Source saved\",\n    deleted: false,\n    createdAt: new Date(),\n    totaCharacters: msg.totaCharacters\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 1210,
+        "y": 420,
+        "wires": [
+            [
+                "17e109b11c877ed7",
+                "92b390d0cae52314",
+                "7b74cbb7f4d6c439"
+            ]
+        ]
+    },
+    {
+        "id": "17e109b11c877ed7",
+        "type": "link call",
+        "z": "df2aa561a3e2a544",
+        "g": "512f315426441ead",
+        "name": "",
+        "links": [
+            "8771d95b528d34d0"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1370,
+        "y": 400,
+        "wires": [
+            [
+                "b746d8916198c204"
+            ]
+        ]
+    },
+    {
+        "id": "b746d8916198c204",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "g": "512f315426441ead",
+        "name": "status",
+        "func": "msg.payload = {\n    \"success\": true,\n    \"payload\": \"Successfully updated\"\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 400,
+        "wires": [
+            [
+                "560b09cbe9fe0040"
+            ]
+        ]
+    },
+    {
+        "id": "560b09cbe9fe0040",
+        "type": "http response",
+        "z": "df2aa561a3e2a544",
+        "g": "512f315426441ead",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1630,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "1382fe989cc941b7",
+        "type": "http request",
+        "z": "df2aa561a3e2a544",
+        "g": "512f315426441ead",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1610,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "92b390d0cae52314",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "g": "512f315426441ead",
+        "name": "getLinkInfo",
+        "func": "msg.payload ={\n    _id: msg.payload._id,\n    knowledgeBaseId: msg.payload.knowledgeBaseId,\n    link: msg.decodedFilename\n}\n\nmsg.url = env.get(\"nodered\") + `/Excel`\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 440,
+        "wires": [
+            [
+                "1382fe989cc941b7"
+            ]
+        ]
+    },
+    {
+        "id": "7b74cbb7f4d6c439",
+        "type": "debug",
+        "z": "df2aa561a3e2a544",
+        "g": "512f315426441ead",
+        "name": "XLSX",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1210,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "3d49c880df1d8f39",
+        "type": "debug",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "e9f5dc6dc1cb4adb",
+        "type": "debug",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "b6454f4e5248451e",
+        "type": "debug",
+        "z": "df2aa561a3e2a544",
+        "g": "b08897336796f31f",
+        "name": "3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 1780,
         "wires": []
     }
 ]
