@@ -580,9 +580,7 @@
             "13a0b7d44f1afb32"
         ],
         "x": 34,
-        "y": 39,
-        "w": 1932,
-        "h": 222
+        "y": 39
     },
     {
         "id": "152119097abe3c6c",
@@ -617,9 +615,7 @@
             "baf069bd70255c7f"
         ],
         "x": 34,
-        "y": 299,
-        "w": 1932,
-        "h": 222
+        "y": 299
     },
     {
         "id": "c479b9fa6206f5f0",
@@ -646,9 +642,7 @@
             "c32d2d5b2f208e74"
         ],
         "x": 34,
-        "y": 539,
-        "w": 992,
-        "h": 182
+        "y": 539
     },
     {
         "id": "32d3112d56e6b1ab",
@@ -675,9 +669,7 @@
             "3513b2ea589bb4a4"
         ],
         "x": 34,
-        "y": 759,
-        "w": 992,
-        "h": 182
+        "y": 759
     },
     {
         "id": "faa44c8af53ff52c",
@@ -704,9 +696,7 @@
             "0dc15aa186445a0f"
         ],
         "x": 34,
-        "y": 979,
-        "w": 992,
-        "h": 182
+        "y": 979
     },
     {
         "id": "649b2f424f00fcf7",
@@ -733,9 +723,7 @@
             "e9e2f318883d6af3"
         ],
         "x": 34,
-        "y": 1199,
-        "w": 1012,
-        "h": 202
+        "y": 1199
     },
     {
         "id": "e40f1639481a93e5",
@@ -762,9 +750,7 @@
             "8a7b40691c947077"
         ],
         "x": 34,
-        "y": 1439,
-        "w": 972,
-        "h": 202
+        "y": 1439
     },
     {
         "id": "cbd9c53fe26c3884",
@@ -833,9 +819,7 @@
             "2dbe218776fe3204"
         ],
         "x": 34,
-        "y": 1679,
-        "w": 572,
-        "h": 162
+        "y": 1679
     },
     {
         "id": "22baf3437ddf891a",
@@ -6503,7 +6487,7 @@
         "z": "f4036141cc030bcf",
         "g": "22baf3437ddf891a",
         "name": "create default knowlegebase",
-        "func": "msg.collection = \"knowlegebase\"\nmsg.payload ={\n    _id: objectid(),\n    type:\"chroma\",\n    name: \"default\",\n    deleted:false\n}\nglobal.set('base',1)\nreturn msg;",
+        "func": "msg.collection = \"knowlegebase\"\nmsg.payload ={\n    _id: objectid(),\n    select:true,\n    type:\"chroma\",\n    name: \"default\",\n    deleted:false\n}\nglobal.set('base',1)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7576,7 +7560,7 @@
         "type": "function",
         "z": "b41bb82e8b5e16dc",
         "name": "get analytics",
-        "func": "\nmsg.payload = {\n    pinecone: global.get('pinecone') ? global.get('pinecone') : {},\n    whatsApp: global.get('WHATSAPP') ? global.get('WHATSAPP') : {},\n    telegram: global.get('telegram') ? global.get('telegram') : {},\n    openai: global.get('openai') ? global.get('openai') : {},\n    meta: global.get('META') ? global.get('META') : {},\n    base: global.get('base') ? global.get('base') : {},\n    files: global.get('files') ? global.get('files') : {}\n};\n\nfunction countEmptyAndFilledFields(obj) {\n    let totalFields = 0;\n    let emptyFields = 0;\n    const result = {};\n\n    for (const key in obj) {\n        const subObj = obj[key];\n        totalFields += Object.keys(subObj).length;\n        let filledFieldsForKey = 0;\n\n        for (const subKey in subObj) {\n            if (subObj[subKey] === \"\") {\n                emptyFields++;\n            } else {\n                filledFieldsForKey++;\n            }\n        }\n\n        result[key] = {\n            filledFields: filledFieldsForKey,\n            totalFields: Object.keys(subObj).length,\n            percentage: filledFieldsForKey === 0 ? 0 : ((filledFieldsForKey / Object.keys(subObj).length) * 100).toFixed(0)\n        };\n    }\n\n    const filledFields = totalFields - emptyFields;\n    const filledFieldPercentage = (filledFields === 0 ? 0 : ((filledFields / totalFields) * 100).toFixed(0));\n\n    result[\"total\"] = {\n        filledFields: filledFields,\n        totalFields: totalFields,\n        percentage: filledFieldPercentage\n    };\n\n    return result;\n}\n\nconst result = countEmptyAndFilledFields(msg.payload);\n\nlet botsFilledFields = result.whatsApp.filledFields + result.telegram.filledFields + result.meta.filledFields;\nlet botsTotalFields = 4;\nlet settingsFilledFields = result.pinecone.filledFields + result.openai.filledFields;\nlet settingsTotalFields = 6;\nlet baseTotalFields = msg.payload.base;\nlet filesTotalFields = result.files.totalFields;\nlet total = parseFloat(((botsTotalFields + settingsTotalFields + baseTotalFields + filesTotalFields) / (botsFilledFields + settingsFilledFields + baseTotalFields + filesTotalFields) )* 100).toFixed(0)\nnode.warn( botsTotalFields/botsFilledFields)\n\nmsg.payload = {\n    bots: {\n        filledFields: botsFilledFields,\n        totalFields: botsTotalFields,\n        percentage: botsFilledFields === 0 ? 0 : ((botsTotalFields / botsFilledFields) * 100).toFixed(0)\n    },\n    settings: {\n        filledFields: settingsFilledFields,\n        totalFields: 6,\n        percentage: settingsFilledFields === 0 ? 0 : ((settingsTotalFields/settingsFilledFields) * 100).toFixed(0)\n    },\n    base: {\n        totalFields: baseTotalFields,\n        percentage: baseTotalFields === 0 ? 0 : 100\n    },\n    files: {\n        totalFields: baseTotalFields,\n        percentage: filesTotalFields === 0 ? 0 : 100\n    },\n    total\n};\n\nreturn msg;\n",
+        "func": "\n// msg.payload = {\n//     pinecone: global.get('pinecone') ? global.get('pinecone') : {},\n//     whatsApp: global.get('WHATSAPP') ? global.get('WHATSAPP') : {},\n//     telegram: global.get('telegram') ? global.get('telegram') : {},\n//     openai: global.get('openai') ? global.get('openai') : {},\n//     meta: global.get('META') ? global.get('META') : {},\n//     base: global.get('base') ? global.get('base') : {},\n//     files: global.get('files') ? global.get('files') : {}\n// };\n\n// function countEmptyAndFilledFields(obj) {\n//     let totalFields = 0;\n//     let emptyFields = 0;\n//     const result = {};\n\n//     for (const key in obj) {\n//         const subObj = obj[key];\n//         totalFields += Object.keys(subObj).length;\n//         let filledFieldsForKey = 0;\n\n//         for (const subKey in subObj) {\n//             if (subObj[subKey] === \"\") {\n//                 emptyFields++;\n//             } else {\n//                 filledFieldsForKey++;\n//             }\n//         }\n\n//         result[key] = {\n//             filledFields: filledFieldsForKey,\n//             totalFields: Object.keys(subObj).length,\n//             percentage: filledFieldsForKey === 0 ? 0 : ((filledFieldsForKey / Object.keys(subObj).length) * 100).toFixed(0)\n//         };\n//     }\n\n//     const filledFields = totalFields - emptyFields;\n//     const filledFieldPercentage = (filledFields === 0 ? 0 : ((filledFields / totalFields) * 100).toFixed(0));\n\n//     result[\"total\"] = {\n//         filledFields: filledFields,\n//         totalFields: totalFields,\n//         percentage: filledFieldPercentage\n//     };\n\n//     return result;\n// }\n\n// const result = countEmptyAndFilledFields(msg.payload);\n\n// let botsFilledFields = result.whatsApp.filledFields + result.telegram.filledFields + result.meta.filledFields;\n// let botsTotalFields = 4;\n// let settingsFilledFields = result.pinecone.filledFields + result.openai.filledFields;\n// let settingsTotalFields = 6;\n// let baseTotalFields = msg.payload.base;\n// let filesTotalFields = result.files.totalFields;\n// let total = parseFloat(((botsTotalFields + settingsTotalFields + baseTotalFields + filesTotalFields) / (botsFilledFields + settingsFilledFields + baseTotalFields + filesTotalFields) )* 100).toFixed(0)\n// node.warn( botsTotalFields/botsFilledFields)\n\n// msg.payload = {\n//     bots: {\n//         filledFields: botsFilledFields,\n//         totalFields: botsTotalFields,\n//         percentage: botsFilledFields === 0 ? 0 : ((botsTotalFields / botsFilledFields) * 100).toFixed(0)\n//     },\n//     settings: {\n//         filledFields: settingsFilledFields,\n//         totalFields: 6,\n//         percentage: settingsFilledFields === 0 ? 0 : ((settingsTotalFields/settingsFilledFields) * 100).toFixed(0)\n//     },\n//     base: {\n//         totalFields: baseTotalFields,\n//         percentage: baseTotalFields === 0 ? 0 : 100\n//     },\n//     files: {\n//         totalFields: filesTotalFields ,\n//         percentage: filesTotalFields  === 0 ? 0 : 100\n//     },\n//     total\n// };\n\n// return msg;\nconst fieldsToCheck = [\n    'pinecone',\n    'WHATSAPP',\n    'telegram',\n    'openai',\n    'META',\n    'base',\n    'files'\n];\n\nconst payload = {};\n\nfieldsToCheck.forEach(field => {\n    payload[field] = global.get(field) || {};\n});\n\nfunction countEmptyAndFilledFields(obj) {\n    const result = {};\n\n    for (const key in obj) {\n        const subObj = obj[key];\n        const totalFields = Object.keys(subObj).length;\n        const filledFieldsForKey = Object.values(subObj).filter(value => value !== \"\").length;\n        const percentage = filledFieldsForKey === 0 ? 0 : ((filledFieldsForKey / totalFields) * 100).toFixed(0);\n\n        result[key] = {\n            filledFields: filledFieldsForKey,\n            totalFields: totalFields,\n            percentage: percentage\n        };\n    }\n\n    const totalFields = Object.values(result).reduce((acc, curr) => acc + curr.totalFields, 0);\n    const filledFields = Object.values(result).reduce((acc, curr) => acc + curr.filledFields, 0);\n    const totalPercentage = filledFields === 0 ? 0 : ((filledFields / totalFields) * 100).toFixed(0);\n\n    result[\"total\"] = {\n        filledFields: filledFields,\n        totalFields: totalFields,\n        percentage: totalPercentage\n    };\n\n    return result;\n}\n\nconst result = countEmptyAndFilledFields(payload);\n\nconst botsFilledFields = result.WHATSAPP.filledFields + result.telegram.filledFields + result.META.filledFields;\nconst botsTotalFields = 4;\nconst settingsFilledFields = result.pinecone.filledFields + result.openai.filledFields;\nconst settingsTotalFields = 6;\nconst baseTotalFields = global.get('base').total\nconst filesTotalFields = global.get('files').total\n\nconst total = parseFloat(((botsTotalFields + settingsTotalFields + baseTotalFields + filesTotalFields) / (botsFilledFields + settingsFilledFields + baseTotalFields + filesTotalFields)) * 100).toFixed(0);\n\nmsg.payload = {\n    bots: {\n        filledFields: botsFilledFields,\n        totalFields: botsTotalFields,\n        percentage: botsFilledFields === 0 ? 0 : ((botsTotalFields / botsFilledFields) * 100).toFixed(0)\n    },\n    settings: {\n        filledFields: settingsFilledFields,\n        totalFields: 6,\n        percentage: settingsFilledFields === 0 ? 0 : ((settingsTotalFields / settingsFilledFields) * 100).toFixed(0)\n    },\n    base: {\n        totalFields: baseTotalFields,\n        percentage: baseTotalFields === 0 ? 0 : 100\n    },\n    files: {\n        totalFields: filesTotalFields,\n        percentage: filesTotalFields === 0 ? 0 : 100\n    },\n    total\n};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7586,8 +7570,7 @@
         "y": 440,
         "wires": [
             [
-                "36ee770488f6d1d7",
-                "4ac324b8df6cf077"
+                "36ee770488f6d1d7"
             ]
         ]
     },
@@ -7633,7 +7616,7 @@
         "type": "function",
         "z": "b41bb82e8b5e16dc",
         "name": "write to global",
-        "func": "msg.statusCode = 200\nmsg.payload = {\n    total: msg.payload.length > 0 ? msg.payload.length : \"\"\n}\nglobal.set('base', msg.payload)\nreturn msg;",
+        "func": "msg.statusCode = 200\nmsg.payload = {\n    total: msg.payload.length > 0 ? msg.payload.length : 0\n}\nglobal.set('base', msg.payload)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7750,7 +7733,7 @@
         "type": "function",
         "z": "b41bb82e8b5e16dc",
         "name": "write to global",
-        "func": "msg.statusCode = 200\nmsg.payload = {\n    total: msg.payload.length > 0 ? \"yes\" : \"\"\n}\nglobal.set('files', msg.payload)\nreturn msg;",
+        "func": "msg.statusCode = 200\nmsg.payload = {\n    total: msg.payload.length > 0 ? msg.payload.length : 0\n}\nglobal.set('files', msg.payload)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7910,52 +7893,6 @@
         "x": 1030,
         "y": 500,
         "wires": []
-    },
-    {
-        "id": "4ac324b8df6cf077",
-        "type": "debug",
-        "z": "b41bb82e8b5e16dc",
-        "name": "debug 539",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 590,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "8744a5a97c4d823c",
-        "type": "inject",
-        "z": "b41bb82e8b5e16dc",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 220,
-        "y": 400,
-        "wires": [
-            [
-                "b1bf03b5e7f290ba"
-            ]
-        ]
     },
     {
         "id": "2cd32bbc5f43b1e9",
@@ -13853,7 +13790,7 @@
         "z": "df2aa561a3e2a544",
         "g": "512f315426441ead",
         "name": "to mongoDB select",
-        "func": "msg.collection = \"knowlegebase\"\nmsg.payload = {\n    // select: true,\n    deleted: false\n}\nreturn msg;",
+        "func": "msg.collection = \"knowlegebase\"\nmsg.payload = {\n    deleted: false\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -14156,7 +14093,7 @@
         "z": "df2aa561a3e2a544",
         "g": "512f315426441ead",
         "name": "to mongoDB select",
-        "func": "msg.collection = \"knowledgeObjects\"\nmsg.payload = {\n    deleted: false\n\n}\nreturn msg;",
+        "func": "msg.collection = \"knowledgeObjects\"\nmsg.payload = {\n    select: true,\n    deleted: false\n\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -16093,165 +16030,6 @@
         "wires": []
     },
     {
-        "id": "1548ea64a5af0d11",
-        "type": "http in",
-        "z": "df2aa561a3e2a544",
-        "name": "",
-        "url": "/createNewBase",
-        "method": "post",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 2380,
-        "y": 100,
-        "wires": [
-            [
-                "1532078cf2e51076"
-            ]
-        ]
-    },
-    {
-        "id": "1532078cf2e51076",
-        "type": "function",
-        "z": "df2aa561a3e2a544",
-        "name": "create new knowlegebase",
-        "func": "msg.collection = \"knowlegebase\"\nmsg.payload ={\n    _id: objectid(),\n    type:msg.payload.type,\n    name: msg.payload.name,\n    deleted:false\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "objectid",
-                "module": "objectid"
-            }
-        ],
-        "x": 2630,
-        "y": 100,
-        "wires": [
-            [
-                "ec802408a48559c2"
-            ]
-        ]
-    },
-    {
-        "id": "ec802408a48559c2",
-        "type": "link call",
-        "z": "df2aa561a3e2a544",
-        "name": "",
-        "links": [
-            "8771d95b528d34d0"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 2850,
-        "y": 100,
-        "wires": [
-            [
-                "718b5f9e46de62c1"
-            ]
-        ]
-    },
-    {
-        "id": "718b5f9e46de62c1",
-        "type": "function",
-        "z": "df2aa561a3e2a544",
-        "name": "status",
-        "func": "msg.payload = {\n    \"success\": true,\n    \"payload\": \"Successfully created\"\n};\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 3010,
-        "y": 100,
-        "wires": [
-            [
-                "00983e8d306f487e"
-            ]
-        ]
-    },
-    {
-        "id": "00983e8d306f487e",
-        "type": "http response",
-        "z": "df2aa561a3e2a544",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 3150,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "d9679777bdceb8e5",
-        "type": "http in",
-        "z": "df2aa561a3e2a544",
-        "name": "",
-        "url": "/getAllBases",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 2360,
-        "y": 180,
-        "wires": [
-            [
-                "3049cd880b2e9502"
-            ]
-        ]
-    },
-    {
-        "id": "3049cd880b2e9502",
-        "type": "function",
-        "z": "df2aa561a3e2a544",
-        "name": "to mongoDB select",
-        "func": "msg.collection = \"knowlegebase\"\nmsg.payload = {\n    deleted: false\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "objectid",
-                "module": "objectid"
-            }
-        ],
-        "x": 2570,
-        "y": 180,
-        "wires": [
-            [
-                "4591b90e2ca4cadb"
-            ]
-        ]
-    },
-    {
-        "id": "4591b90e2ca4cadb",
-        "type": "link call",
-        "z": "df2aa561a3e2a544",
-        "name": "",
-        "links": [
-            "2677414dc3b763e4"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 2750,
-        "y": 180,
-        "wires": [
-            [
-                "42a1406891fd6e2f"
-            ]
-        ]
-    },
-    {
-        "id": "42a1406891fd6e2f",
-        "type": "http response",
-        "z": "df2aa561a3e2a544",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 2890,
-        "y": 180,
-        "wires": []
-    },
-    {
         "id": "b4b7b058a2bb8fb9",
         "type": "function",
         "z": "df2aa561a3e2a544",
@@ -16801,5 +16579,401 @@
         "x": 850,
         "y": 1780,
         "wires": []
+    },
+    {
+        "id": "1548ea64a5af0d11",
+        "type": "http in",
+        "z": "df2aa561a3e2a544",
+        "name": "",
+        "url": "/createNewBase",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 2580,
+        "y": 140,
+        "wires": [
+            [
+                "1532078cf2e51076",
+                "72cfc5160f699d5c"
+            ]
+        ]
+    },
+    {
+        "id": "1532078cf2e51076",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "name": "create new knowlegebase",
+        "func": "msg.collection = \"knowlegebase\"\n\nmsg.payload ={\n    _id: objectid(),\n    select:msg.payload.select,\n    type:msg.payload.type,\n    name: msg.payload.name,\n    deleted:false\n}\nmsg.old = msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 2830,
+        "y": 140,
+        "wires": [
+            [
+                "ec802408a48559c2"
+            ]
+        ]
+    },
+    {
+        "id": "ec802408a48559c2",
+        "type": "link call",
+        "z": "df2aa561a3e2a544",
+        "name": "",
+        "links": [
+            "8771d95b528d34d0"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 3050,
+        "y": 140,
+        "wires": [
+            [
+                "aa7bbf253a9e56c5",
+                "ec2e041a2a800b7b"
+            ]
+        ]
+    },
+    {
+        "id": "718b5f9e46de62c1",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "name": "status",
+        "func": "msg.payload = {\n    \"success\": true,\n    \"payload\": \"Successfully created\"\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 4110,
+        "y": 100,
+        "wires": [
+            [
+                "00983e8d306f487e"
+            ]
+        ]
+    },
+    {
+        "id": "00983e8d306f487e",
+        "type": "http response",
+        "z": "df2aa561a3e2a544",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 4250,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "dfdda57e95f16d5e",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "name": "find all",
+        "func": "msg.payload={\n    _id: { $ne: objectid(msg.old._id) },\n    deleted:false\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 3310,
+        "y": 100,
+        "wires": [
+            [
+                "3484d1eb5817d93b",
+                "de0da50d20b76d7e"
+            ]
+        ]
+    },
+    {
+        "id": "3484d1eb5817d93b",
+        "type": "link call",
+        "z": "df2aa561a3e2a544",
+        "name": "",
+        "links": [
+            "2677414dc3b763e4"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 3470,
+        "y": 100,
+        "wires": [
+            [
+                "998d1e12d3ce476f"
+            ]
+        ]
+    },
+    {
+        "id": "998d1e12d3ce476f",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "name": "function 401",
+        "func": "msg.array = msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3650,
+        "y": 100,
+        "wires": [
+            [
+                "83aad3557cb1e662",
+                "ad7fd5eb9235cfbd"
+            ]
+        ]
+    },
+    {
+        "id": "ff86073454b55d5f",
+        "type": "link call",
+        "z": "df2aa561a3e2a544",
+        "name": "",
+        "links": [
+            "d1949ed8cdf3c5ed"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 3880,
+        "y": 240,
+        "wires": [
+            [
+                "ad7fd5eb9235cfbd"
+            ]
+        ]
+    },
+    {
+        "id": "83aad3557cb1e662",
+        "type": "debug",
+        "z": "df2aa561a3e2a544",
+        "name": "debug 540",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3910,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "aa7bbf253a9e56c5",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "name": ">",
+        "func": "if (msg.old.select === true) {\n    return [msg, null]\n} \nelse{\n    return[null,msg]\n}\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3190,
+        "y": 140,
+        "wires": [
+            [
+                "dfdda57e95f16d5e"
+            ],
+            [
+                "4076e91adb7ba1e1"
+            ]
+        ]
+    },
+    {
+        "id": "4076e91adb7ba1e1",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "name": "status",
+        "func": "msg.payload = {\n    \"success\": true,\n    \"payload\": \"Successfully created\"\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3330,
+        "y": 160,
+        "wires": [
+            [
+                "8acd821ec9412fe8"
+            ]
+        ]
+    },
+    {
+        "id": "8acd821ec9412fe8",
+        "type": "http response",
+        "z": "df2aa561a3e2a544",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 3470,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "ad7fd5eb9235cfbd",
+        "type": "array-loop",
+        "z": "df2aa561a3e2a544",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 3840,
+        "y": 100,
+        "wires": [
+            [
+                "718b5f9e46de62c1"
+            ],
+            [
+                "e4a649c0c3169491"
+            ]
+        ]
+    },
+    {
+        "id": "e4a649c0c3169491",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "name": "change select",
+        "func": "msg.query={\n    _id:objectid(msg.payload._id)\n}\nmsg.payload={\n    $set:{\n        select:false\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 3700,
+        "y": 240,
+        "wires": [
+            [
+                "ff86073454b55d5f"
+            ]
+        ]
+    },
+    {
+        "id": "72cfc5160f699d5c",
+        "type": "debug",
+        "z": "df2aa561a3e2a544",
+        "name": "debug 541",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2790,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "ec2e041a2a800b7b",
+        "type": "debug",
+        "z": "df2aa561a3e2a544",
+        "name": "debug 542",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3250,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "5169a3b397c77fa2",
+        "type": "http in",
+        "z": "df2aa561a3e2a544",
+        "name": "",
+        "url": "changeMainbase",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 2590,
+        "y": 80,
+        "wires": [
+            [
+                "03577d3e65c49253"
+            ]
+        ]
+    },
+    {
+        "id": "03577d3e65c49253",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "name": "fromApp",
+        "func": "msg.old = msg.payload\nmsg.collection = \"knowlegebase\"\n\nmsg.query={\n    _id:objectid(msg.old._id)\n}\nmsg.payload={\n$set:{\n    select:true\n}\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 2860,
+        "y": 80,
+        "wires": [
+            [
+                "e8912347ef762b39"
+            ]
+        ]
+    },
+    {
+        "id": "de0da50d20b76d7e",
+        "type": "debug",
+        "z": "df2aa561a3e2a544",
+        "name": "debug 543",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3410,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "e8912347ef762b39",
+        "type": "link call",
+        "z": "df2aa561a3e2a544",
+        "name": "",
+        "links": [
+            "d1949ed8cdf3c5ed"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 3040,
+        "y": 80,
+        "wires": [
+            [
+                "dfdda57e95f16d5e"
+            ]
+        ]
     }
 ]
