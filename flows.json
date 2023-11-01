@@ -500,7 +500,9 @@
             "28efd2464c3c839c"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 1592,
+        "h": 262
     },
     {
         "id": "40d09c6e6df96683",
@@ -540,7 +542,9 @@
             "9592d313e2e286eb"
         ],
         "x": 14,
-        "y": 759
+        "y": 759,
+        "w": 1812,
+        "h": 342
     },
     {
         "id": "7f86806a4ca0c715",
@@ -578,7 +582,9 @@
             "e0933beca89886f4"
         ],
         "x": 14,
-        "y": 1139
+        "y": 1139,
+        "w": 1812,
+        "h": 302
     },
     {
         "id": "945706dce188c905",
@@ -613,7 +619,9 @@
             "13a0b7d44f1afb32"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 1932,
+        "h": 222
     },
     {
         "id": "152119097abe3c6c",
@@ -648,7 +656,9 @@
             "baf069bd70255c7f"
         ],
         "x": 34,
-        "y": 299
+        "y": 299,
+        "w": 1932,
+        "h": 222
     },
     {
         "id": "c479b9fa6206f5f0",
@@ -675,7 +685,9 @@
             "c32d2d5b2f208e74"
         ],
         "x": 34,
-        "y": 539
+        "y": 539,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "32d3112d56e6b1ab",
@@ -702,7 +714,9 @@
             "3513b2ea589bb4a4"
         ],
         "x": 34,
-        "y": 759
+        "y": 759,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "faa44c8af53ff52c",
@@ -729,7 +743,9 @@
             "0dc15aa186445a0f"
         ],
         "x": 34,
-        "y": 979
+        "y": 979,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "649b2f424f00fcf7",
@@ -756,7 +772,9 @@
             "e9e2f318883d6af3"
         ],
         "x": 34,
-        "y": 1199
+        "y": 1199,
+        "w": 1012,
+        "h": 202
     },
     {
         "id": "e40f1639481a93e5",
@@ -783,7 +801,9 @@
             "8a7b40691c947077"
         ],
         "x": 34,
-        "y": 1439
+        "y": 1439,
+        "w": 972,
+        "h": 202
     },
     {
         "id": "cbd9c53fe26c3884",
@@ -828,10 +848,15 @@
             "e59e5a043c88871f",
             "aa712d12bd3f3a12",
             "35eee919bdbe2587",
-            "762d9f30ef250e1b"
+            "762d9f30ef250e1b",
+            "c9c1333a16ccdec7",
+            "0d6c11d99a575e6e",
+            "e6c0fd344aef33cd"
         ],
         "x": 14,
-        "y": 39
+        "y": 39,
+        "w": 2312,
+        "h": 402
     },
     {
         "id": "4f917968caad45c9",
@@ -852,7 +877,9 @@
             "2dbe218776fe3204"
         ],
         "x": 34,
-        "y": 1679
+        "y": 1679,
+        "w": 572,
+        "h": 162
     },
     {
         "id": "22baf3437ddf891a",
@@ -1078,9 +1105,9 @@
             "a19e64030a636e85",
             "515372f09b077652"
         ],
-        "x": 2344,
+        "x": 2334,
         "y": 399,
-        "w": 1312,
+        "w": 1322,
         "h": 702
     },
     {
@@ -5900,7 +5927,7 @@
         "z": "f4036141cc030bcf",
         "g": "22baf3437ddf891a",
         "name": "create chroma collection",
-        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME')});\nconst collection = await client.createCollection({ name: \"default\", embeddingFunction: embedder }) \n\n//fill collection\nmsg.emb = msg.payload.data[0].embedding\nlet id = Date.now()\nlet collection2 = await client.getCollection({ name: \"default\"})\nconst create = await collection2.add({\n    ids: [`${msg.oldpayload.id}`],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.oldpayload.metadata.question, result: msg.oldpayload.metadata.result }],\n    documents: msg.oldpayload.url \n})\n\nmsg.payload = create\n\nreturn msg;",
+        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openaiKey') })\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME')});\nconst collection = await client.createCollection({ name: \"default\", embeddingFunction: embedder }) \n\n//fill collection\nmsg.emb = msg.payload.data[0].embedding\nlet id = Date.now()\nlet collection2 = await client.getCollection({ name: \"default\"})\nconst create = await collection2.add({\n    ids: [`${msg.oldpayload.id}`],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.oldpayload.metadata.question, result: msg.oldpayload.metadata.result }],\n    documents: msg.oldpayload.url \n})\n\nmsg.payload = create\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -9695,7 +9722,7 @@
         "z": "4cba6f8219137af4",
         "g": "c479b9fa6206f5f0",
         "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n    ANSWER_LENGTH: data.answer_length ? data.answer_length :\"\",\n    ANSWER_AS: data.answer_as ? data.answer_as : \"\",\n    TONE: data.tone ? data.tone : \"\",\n    LANGUAGE: data.language ? data.language : \"\",\n    PROMPT_CUSTOM: data.prompt_custom ? data.prompt_custom: \"\"\n}\n\nglobal.set(\"prompts\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\nlet words = data?.knowledge_base.split(' ');\n\nlet nameBase = words[0];\n\nlet typeBase = words[1];\n\nlet process_env = {\n    ANSWER_LENGTH: data.answer_length ? data.answer_length :\"\",\n    ANSWER_AS: data.answer_as ? data.answer_as : \"\",\n    TONE: data.tone ? data.tone : \"\",\n    LANGUAGE: data.language ? data.language : \"\",\n    PROMPT_CUSTOM: data.prompt_custom ? data.prompt_custom: \"\",\n    TYPE_BASE: typeBase ? typeBase:\"\",\n    NAME_BASE: nameBase ? nameBase:\"\"\n}\n\nglobal.set(\"prompts\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -10272,7 +10299,7 @@
         "z": "4cba6f8219137af4",
         "g": "4f917968caad45c9",
         "name": "get settings",
-        "func": "\nmsg.payload = {\n    pinecone: global.get('pinecone') ? global.get('pinecone') : {\n        PINECONE_API:  \"\",\n        PINECONE_ENV: \"\",\n        PINECONE_INDEX: \"\",\n        PINECONE_URL: \"\",\n    },\n    messages: global.set(\"messages\") ? global.set(\"messages\") : {\n        WELCOME: \"\",\n        UNABLE:  \"\",\n        RESPOND: \"\"\n    },\n    openai: global.get('openai') ? global.get('openai') : {\n        OPENAI_API: \"\",\n        OPENAI_MODEL: \"\",\n    },\n    prompts: global.get(\"prompts\") ? global.get(\"prompts\") : {\n        ANSWER_LENGTH: \"\",\n        ANSWER_AS:  \"\",\n        TONE: \"\",\n        LANGUAGE: \"\",\n        PROMPT_CUSTOM: \"\"\n    }\n\n    \n};\nreturn msg",
+        "func": "\nmsg.payload = {\n    pinecone: global.get('pinecone') ? global.get('pinecone') : {\n        PINECONE_API:  \"\",\n        PINECONE_ENV: \"\",\n        PINECONE_INDEX: \"\",\n        PINECONE_URL: \"\",\n    },\n    messages: global.set(\"messages\") ? global.set(\"messages\") : {\n        WELCOME: \"\",\n        UNABLE:  \"\",\n        RESPOND: \"\"\n    },\n    openai: global.get('openai') ? global.get('openai') : {\n        OPENAI_API: \"\",\n        OPENAI_MODEL: \"\",\n    },\n    prompts: global.get(\"prompts\") ? global.get(\"prompts\") : {\n        ANSWER_LENGTH: \"\",\n        ANSWER_AS:  \"\",\n        TONE: \"\",\n        LANGUAGE: \"\",\n        PROMPT_CUSTOM: \"\",\n        TYPE_BASE: \"\",\n        NAME_BASE: \"\"\n    }\n\n    \n};\nreturn msg",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -11717,7 +11744,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "40d09c6e6df96683",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}`;\n\n\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": \"\" },\n    { \"role\": \"user\", \"content\": msg.old.entry[0].changes[0].value.messages[0].text.body }\n  ]\n} else {\n  msg.messages = [\n  { \"role\": \"system\", \"content\":  totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload.matches[1].metadata.result},\n  { \"role\": \"user\", \"content\": msg.old.entry[0].changes[0].value.messages[0].text.body }]\n\n\n}\n\nreturn msg;",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = PROMPT !== \"undefined\" && PROMPT ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\n\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": \"\" },\n    { \"role\": \"user\", \"content\": msg.old.entry[0].changes[0].value.messages[0].text.body }\n  ]\n} else {\n  msg.messages = [\n  { \"role\": \"system\", \"content\":  totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload.matches[1].metadata.result},\n  { \"role\": \"user\", \"content\": msg.old.entry[0].changes[0].value.messages[0].text.body }]\n\n\n}\n\nreturn msg;\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -11874,14 +11901,14 @@
         "z": "c8208e6a65d3c2af",
         "g": "cbd9c53fe26c3884",
         "name": "check command",
-        "func": "msg.fromTG1 = msg.payload\nmsg.fromTG = msg.payload\n\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.BOT_NAME = global.get('telegram').BOT_NAME;\nmsg.PINECONE_INDEX = global.get(\"pinecone\").PINECONE_INDEX;\nmsg.PINECONE_API_KEY = global.get(\"pinecone\").PINECONE_API;\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\").PINECONE_ENV;\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\").PINECONE_URL;\n\nmsg.history = {\n    requestText: msg.payload.content.toLowerCase(),\n    startDate: Date.now(),\n    type: 'telegram'\n}\n\nconst date = msg.originalMessage.date\n\nmsg.typing = `typing${date}`\nglobal.set(`typing${date}`, true)\n\n if (msg.originalMessage.chat.type === \"group\") {\n    return msg.payload.content === '/start' ? [msg, null] : [null, msg]\n}\nelse if (msg.originalMessage.chat.type === \"private\") {\n    return msg.payload.content === '/start' ? [msg, null] : [null, msg]\n}\nelse {\n\n    return (msg.payload.type === 'message' &&\n        (msg.payload.content.includes(`@${msg.BOT_NAME}`) || msg.payload.content === '/start')) ?\n        ((msg.payload.content === '/start') ? [msg, null] : [null, msg]) :\n        [null, null];\n}",
+        "func": "msg.fromTG1 = msg.payload\nmsg.fromTG = msg.payload\n\nmsg.OPENAI_API_KEY = global.get(\"openai\")?.OPENAI_API;\nmsg.BOT_NAME = global.get('telegram')?.BOT_NAME;\nmsg.PINECONE_INDEX = global.get(\"pinecone\")?.PINECONE_INDEX;\nmsg.PINECONE_API_KEY = global.get(\"pinecone\")?.PINECONE_API;\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\")?.PINECONE_ENV;\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\")?.PINECONE_URL;\n\nmsg.history = {\n    requestText: msg.payload.content.toLowerCase(),\n    startDate: Date.now(),\n    type: 'telegram'\n}\n\nconst date = msg.originalMessage.date\n\nmsg.typing = `typing${date}`\nglobal.set(`typing${date}`, true)\n\n if (msg.originalMessage.chat.type === \"group\") {\n    return msg.payload.content === '/start' ? [msg, null] : [null, msg]\n}\nelse if (msg.originalMessage.chat.type === \"private\") {\n    return msg.payload.content === '/start' ? [msg, null] : [null, msg]\n}\nelse {\n\n    return (msg.payload.type === 'message' &&\n        (msg.payload.content.includes(`@${msg.BOT_NAME}`) || msg.payload.content === '/start')) ?\n        ((msg.payload.content === '/start') ? [msg, null] : [null, msg]) :\n        [null, null];\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 210,
-        "y": 280,
+        "y": 300,
         "wires": [
             [
                 "a71a7acbd224bbc2"
@@ -11905,7 +11932,7 @@
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 180,
+        "y": 200,
         "wires": [
             [
                 "0177e3aab7653e72",
@@ -11928,7 +11955,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 120,
-        "y": 220,
+        "y": 240,
         "wires": []
     },
     {
@@ -11944,7 +11971,7 @@
         "finalize": "",
         "libs": [],
         "x": 580,
-        "y": 120,
+        "y": 140,
         "wires": [
             [
                 "1b678c07805e900a",
@@ -11971,7 +11998,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 645,
-        "y": 380,
+        "y": 400,
         "wires": [
             [
                 "8fad88cb54468d62"
@@ -11992,7 +12019,7 @@
         "finalize": "",
         "libs": [],
         "x": 310,
-        "y": 380,
+        "y": 400,
         "wires": [
             [
                 "35eee919bdbe2587"
@@ -12017,7 +12044,7 @@
         "senderr": false,
         "headers": [],
         "x": 750,
-        "y": 120,
+        "y": 140,
         "wires": [
             [
                 "59f43ba9fea18da2",
@@ -12040,7 +12067,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 740,
-        "y": 80,
+        "y": 100,
         "wires": []
     },
     {
@@ -12056,7 +12083,7 @@
         "finalize": "",
         "libs": [],
         "x": 950,
-        "y": 120,
+        "y": 80,
         "wires": [
             [
                 "411ca984487686ba",
@@ -12079,8 +12106,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 660,
-        "y": 220,
+        "x": 600,
+        "y": 240,
         "wires": []
     },
     {
@@ -12101,7 +12128,7 @@
         "senderr": false,
         "headers": [],
         "x": 1130,
-        "y": 120,
+        "y": 80,
         "wires": [
             []
         ]
@@ -12120,8 +12147,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1130,
-        "y": 220,
+        "x": 1310,
+        "y": 160,
         "wires": []
     },
     {
@@ -12138,8 +12165,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1130,
-        "y": 320,
+        "x": 1150,
+        "y": 160,
         "wires": []
     },
     {
@@ -12148,14 +12175,14 @@
         "z": "c8208e6a65d3c2af",
         "g": "cbd9c53fe26c3884",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}`;\n\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ? msg.fromTG.content.replace(`@${msg.BOT_NAME }`, '') : msg.fromTG.content;\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": ''},\n    { \"role\": \"user\", \"content\": content }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": content }\n  ]\n}\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT !== \"undefined\" && PROMPT  ?`Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}`: \"Answer as friend\";\n\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ? msg.fromTG.content.replace(`@${msg.BOT_NAME }`, '') : msg.fromTG.content;\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": ''},\n    { \"role\": \"user\", \"content\": content }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": content }\n  ]\n}\n\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 1310,
-        "y": 260,
+        "y": 280,
         "wires": [
             [
                 "62ddf71e3259e377",
@@ -12182,7 +12209,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 1435,
-        "y": 260,
+        "y": 280,
         "wires": [
             [
                 "5c39762c2eac8a7e",
@@ -12206,7 +12233,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1460,
-        "y": 220,
+        "y": 240,
         "wires": []
     },
     {
@@ -12222,7 +12249,7 @@
         "finalize": "",
         "libs": [],
         "x": 1600,
-        "y": 260,
+        "y": 280,
         "wires": [
             [
                 "222395ae69864297",
@@ -12245,7 +12272,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1540,
-        "y": 300,
+        "y": 320,
         "wires": []
     },
     {
@@ -12263,7 +12290,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1810,
-        "y": 280,
+        "y": 300,
         "wires": []
     },
     {
@@ -12279,7 +12306,7 @@
         "finalize": "",
         "libs": [],
         "x": 2050,
-        "y": 220,
+        "y": 240,
         "wires": [
             [
                 "09abf79dd626bde6",
@@ -12301,7 +12328,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 2040,
-        "y": 160,
+        "y": 180,
         "wires": []
     },
     {
@@ -12322,7 +12349,7 @@
         "senderr": false,
         "headers": [],
         "x": 2230,
-        "y": 220,
+        "y": 240,
         "wires": [
             []
         ]
@@ -12332,15 +12359,15 @@
         "type": "function",
         "z": "c8208e6a65d3c2af",
         "g": "cbd9c53fe26c3884",
-        "name": "function 361",
+        "name": "pinecone",
         "func": "const vector = msg.payload.data[0].embedding\n\nmsg.payload = {\n    name: msg.PINECONE_INDEX,\n    \"topK\": 2,\n    \"includeMetadata\": true,\n    vector\n};\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 970,
-        "y": 260,
+        "x": 1020,
+        "y": 200,
         "wires": [
             [
                 "f5d2d824f63b0eed",
@@ -12367,11 +12394,11 @@
         },
         "OPENAI_API_KEY": "",
         "x": 740,
-        "y": 260,
+        "y": 300,
         "wires": [
             [
-                "9577f9202c890213",
-                "fe0b23306d0e87cf"
+                "fe0b23306d0e87cf",
+                "0d6c11d99a575e6e"
             ]
         ]
     },
@@ -12389,8 +12416,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 940,
-        "y": 220,
+        "x": 820,
+        "y": 240,
         "wires": []
     },
     {
@@ -12402,8 +12429,8 @@
         "actionType": "query",
         "apiKey": "",
         "environment": "",
-        "x": 1150,
-        "y": 260,
+        "x": 1170,
+        "y": 200,
         "wires": [
             [
                 "7195074bdb1b3509",
@@ -12434,7 +12461,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 780,
-        "y": 320,
+        "y": 380,
         "wires": [
             [
                 "9a29fe13cdb79569"
@@ -12472,7 +12499,7 @@
         "finalize": "",
         "libs": [],
         "x": 490,
-        "y": 280,
+        "y": 300,
         "wires": [
             [
                 "8335934ae0775bcc",
@@ -12490,7 +12517,7 @@
         "saveDataDir": "",
         "filterCommands": true,
         "x": 120,
-        "y": 340,
+        "y": 360,
         "wires": [
             [
                 "666747ce63dfca18",
@@ -12509,7 +12536,7 @@
         "haserroroutput": false,
         "outputs": 1,
         "x": 620,
-        "y": 160,
+        "y": 180,
         "wires": [
             []
         ]
@@ -12524,7 +12551,7 @@
         "haserroroutput": false,
         "outputs": 1,
         "x": 1860,
-        "y": 220,
+        "y": 240,
         "wires": [
             [
                 "c9fb5769ca6ccbec"
@@ -12541,7 +12568,7 @@
         "haserroroutput": false,
         "outputs": 1,
         "x": 480,
-        "y": 380,
+        "y": 400,
         "wires": [
             [
                 "44b3fdac09e09d2a"
@@ -12560,7 +12587,7 @@
         "time": "counter",
         "timeType": "msg",
         "x": 375,
-        "y": 300,
+        "y": 320,
         "wires": [
             [],
             [
@@ -12568,6 +12595,145 @@
             ]
         ],
         "l": false
+    },
+    {
+        "id": "9ef829e70028018d",
+        "type": "function",
+        "z": "c8208e6a65d3c2af",
+        "name": "from Chroma",
+        "func": "const { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: \"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\" })\n\nconst client = new ChromaClient({ path: 'http://chroma-8978-ubos-qhgcq-chromadb:8000' });\n\nmsg.emb = msg.payload.data[0].embedding\nlet collection2 = await client.getCollection({ name: \"default\", })\nconst result = await collection2.query({\n    queryEmbeddings: msg.emb,\n    query_text: [msg.input],\n    nResults: 2\n})\nmsg.payload = result\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "chromadb",
+                "module": "chromadb"
+            },
+            {
+                "var": "openai",
+                "module": "openai"
+            }
+        ],
+        "x": 490,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "69dbb79e79fbc12d",
+        "type": "function",
+        "z": "c8208e6a65d3c2af",
+        "name": "function 579",
+        "func": "msg.payload ={};\nmsg.payload.metadata={};\nmsg.payload.metadata.question = \"What is UBOS?\";\nmsg.payload.metadata.result =\"gdfajgfkajfg\";\nmsg.payload.url=\"test\"\n\nmsg.input =`Ubos?`\n\nmsg.oldpayload = msg.payload;\nmsg.url = `https://api.openai.com/v1/embeddings`;\nmsg.headers = {\n    'Content-Type': 'application/json',\n    'Authorization': 'Bearer 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'\n    //'Authorization': 'Bearer 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'\n};\nmsg.payload = {\n    // //prompt:` Draw me Postcard for thema :${msg.payload.content}`,\n    // prompt: msg.payload.choices[0].message.content,\n    // n:8\n    input: msg.input,\n    model: \"text-embedding-ada-002\"\n}\n//msg.oldpayload = msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 150,
+        "y": 40,
+        "wires": [
+            [
+                "1c9e9dd88d5e1f28"
+            ]
+        ]
+    },
+    {
+        "id": "1c9e9dd88d5e1f28",
+        "type": "http request",
+        "z": "c8208e6a65d3c2af",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 310,
+        "y": 40,
+        "wires": [
+            [
+                "9ef829e70028018d"
+            ]
+        ]
+    },
+    {
+        "id": "c9c1333a16ccdec7",
+        "type": "function",
+        "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
+        "name": "chroma",
+        "func": "const { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: global.get('openai').OPENAI_API })\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME') });\n// const collection = await client.getCollection({ name: global.get(\"prompts\").NAME_BASE})\n\nmsg.emb = msg.payload.data[0].embedding\n\nlet collection = await client.getCollection({ name: global.get(\"prompts\").NAME_BASE })\nconst result = await collection.query({\n    queryEmbeddings: msg.emb,\n    query_text: [msg.input],\n    nResults: 2\n})\nmsg.payload = result\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "chromadb",
+                "module": "chromadb"
+            },
+            {
+                "var": "openai",
+                "module": "openai"
+            }
+        ],
+        "x": 1020,
+        "y": 340,
+        "wires": [
+            [
+                "e6c0fd344aef33cd"
+            ]
+        ]
+    },
+    {
+        "id": "0d6c11d99a575e6e",
+        "type": "function",
+        "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
+        "name": ">",
+        "func": "let TYPE_BASE = global.get(\"knowledgebase\").TYPE_BASE;\nif (TYPE_BASE === \"chroma\"){\n    return[null,msg]\n}else{\n    return[msg,null]\n}\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 300,
+        "wires": [
+            [
+                "9577f9202c890213"
+            ],
+            [
+                "c9c1333a16ccdec7"
+            ]
+        ]
+    },
+    {
+        "id": "e6c0fd344aef33cd",
+        "type": "debug",
+        "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
+        "name": "chroma",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 360,
+        "wires": []
     },
     {
         "id": "b1cbc1d37577fdbd",
@@ -13188,7 +13354,7 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 2480,
+        "x": 2440,
         "y": 520,
         "wires": [
             [
@@ -13284,7 +13450,7 @@
         "method": "delete",
         "upload": false,
         "swaggerDoc": "",
-        "x": 2560,
+        "x": 2480,
         "y": 980,
         "wires": [
             [
@@ -13310,7 +13476,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 2890,
+        "x": 2810,
         "y": 940,
         "wires": [
             [
@@ -13326,7 +13492,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 3430,
+        "x": 3350,
         "y": 920,
         "wires": []
     },
@@ -13347,7 +13513,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 3220,
+        "x": 3140,
         "y": 940,
         "wires": [
             [
@@ -13373,7 +13539,7 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 3050,
+        "x": 2970,
         "y": 940,
         "wires": [
             [
@@ -13409,7 +13575,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 3380,
+        "x": 3300,
         "y": 960,
         "wires": [
             []
@@ -13447,7 +13613,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2910,
+        "x": 2830,
         "y": 900,
         "wires": []
     },
@@ -13595,7 +13761,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3190,
+        "x": 3150,
         "y": 480,
         "wires": []
     },
@@ -13611,7 +13777,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2800,
+        "x": 2760,
         "y": 480,
         "wires": [
             [
@@ -13627,7 +13793,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 3190,
+        "x": 3150,
         "y": 440,
         "wires": []
     },
@@ -13640,7 +13806,7 @@
         "actionType": "query",
         "apiKey": "",
         "environment": "",
-        "x": 2990,
+        "x": 2950,
         "y": 480,
         "wires": [
             [
@@ -14023,7 +14189,7 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 170,
+        "x": 130,
         "y": 1780,
         "wires": [
             [
@@ -14679,7 +14845,7 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 210,
+        "x": 150,
         "y": 2660,
         "wires": [
             [
@@ -14699,7 +14865,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 390,
+        "x": 330,
         "y": 2660,
         "wires": [
             [
@@ -14728,7 +14894,7 @@
             "value": "[]"
         },
         "OPENAI_API_KEY": "",
-        "x": 580,
+        "x": 520,
         "y": 2640,
         "wires": [
             [
@@ -14753,7 +14919,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 745,
+        "x": 685,
         "y": 2640,
         "wires": [
             [
@@ -14771,7 +14937,7 @@
         "actionType": "upsert",
         "apiKey": "",
         "environment": "",
-        "x": 870,
+        "x": 810,
         "y": 2640,
         "wires": [
             []
@@ -15471,7 +15637,7 @@
         "z": "df2aa561a3e2a544",
         "g": "07cfba7089cf4e34",
         "name": "create chroma collection",
-        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: global.get('openai').OPENAI_API })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME')});\nconst collection = await client.createCollection({ name: msg.payload.name , embeddingFunction: embedder }) \n\nreturn msg;\n\n",
+        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: global.get('openai').OPENAI_API })\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME')});\nconst collection = await client.createCollection({ name: msg.payload.name , embeddingFunction: embedder }) \n\nreturn msg;\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -15670,7 +15836,7 @@
         "z": "df2aa561a3e2a544",
         "g": "2f81b499732e56f1",
         "name": "create chroma collection",
-        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME') });\n//fill collection\nmsg.emb = msg.payload.data[0].embedding\nlet id = Date.now().toString()\nlet collection2 = await client.getCollection({ name: msg.tobase.nameBase})\nconst create = await collection2.add({\n    ids: [id],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.tobase.A, result: msg.tobase.B, id: msg.ids}],\n    documents: msg.tobase.name \n})\nnode.warn([{ question: msg.tobase.A, result: msg.tobase.B }])\nmsg.payload = create\n\nreturn msg;",
+        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME') });\n//fill collection\nmsg.emb = msg.payload.data[0].embedding\nlet id = Date.now().toString()\nlet collection2 = await client.getCollection({ name: msg.tobase.nameBase})\nconst create = await collection2.add({\n    ids: [id],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.tobase.A, result: msg.tobase.B, id: msg.ids}],\n    documents: msg.tobase.name \n})\nnode.warn([{ question: msg.tobase.A, result: msg.tobase.B }])\nmsg.payload = create\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -15685,7 +15851,7 @@
                 "module": "openai"
             }
         ],
-        "x": 810,
+        "x": 750,
         "y": 2680,
         "wires": [
             [
@@ -15711,7 +15877,7 @@
             "value": "[]"
         },
         "OPENAI_API_KEY": "",
-        "x": 580,
+        "x": 520,
         "y": 2680,
         "wires": [
             [
@@ -15733,7 +15899,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1030,
+        "x": 970,
         "y": 2680,
         "wires": []
     },
@@ -17319,7 +17485,7 @@
         "z": "df2aa561a3e2a544",
         "g": "2f81b499732e56f1",
         "name": "create chroma collection",
-        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME') });\n//fill collection\nmsg.emb = msg.payload.data[0].embedding\n\nlet collection2 = await client.getCollection({ name: msg.nameBase})\nconst create = await collection2.add({\n    ids: [msg.ids],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.input, result: msg.input, id: msg.ids}],\n    documents: msg.old.link \n})\nnode.warn([{ question: msg.input, result: msg.input }])\nmsg.payload = create\n\nreturn msg;\n\n\n",
+        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME') });\n//fill collection\nmsg.emb = msg.payload.data[0].embedding\n\nlet collection2 = await client.getCollection({ name: msg.nameBase})\nconst create = await collection2.add({\n    ids: [msg.ids],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.input, result: msg.input, id: msg.ids}],\n    documents: msg.old.link \n})\nnode.warn([{ question: msg.input, result: msg.input }])\nmsg.payload = create\n\nreturn msg;\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -17432,7 +17598,7 @@
         "z": "df2aa561a3e2a544",
         "g": "2f81b499732e56f1",
         "name": "create chroma collection",
-        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME') });\n//fill collection\nconst question = msg.tobase.A\nconst result = msg.tobase.B\nmsg.emb = msg.payload.data[0].embedding\n\nlet collection2 = await client.getCollection({ name: msg.nameBase})\nconst create = await collection2.add({\n    ids: [msg.ids],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.input, result: result, id: msg.ids}],\n    documents: msg.old.link \n})\nnode.warn([{ question: question, result: result }])\nmsg.payload = create\n\nreturn msg;\n\n\n",
+        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME') });\n//fill collection\nconst question = msg.tobase.A\nconst result = msg.tobase.B\nmsg.emb = msg.payload.data[0].embedding\n\nlet collection2 = await client.getCollection({ name: msg.nameBase})\nconst create = await collection2.add({\n    ids: [msg.ids],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.input, result: result, id: msg.ids}],\n    documents: msg.old.link \n})\nnode.warn([{ question: question, result: result }])\nmsg.payload = create\n\nreturn msg;\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -17563,7 +17729,7 @@
         "z": "df2aa561a3e2a544",
         "g": "2f81b499732e56f1",
         "name": "create chroma collection",
-        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME') });\n//fill collection\nconst question = msg.input\nconst result = msg.input\nmsg.emb = msg.payload.data[0].embedding\n\nlet collection2 = await client.getCollection({ name: msg.nameBase})\nconst create = await collection2.add({\n    ids: [msg.ids],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.input, result: result, id: msg.ids }],\n    documents: msg.old.link \n})\nnode.warn([{ question: question, result: result }])\nmsg.payload = create\n\nreturn msg;\n\n\n",
+        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME') });\n//fill collection\nconst question = msg.input\nconst result = msg.input\nmsg.emb = msg.payload.data[0].embedding\n\nlet collection2 = await client.getCollection({ name: msg.nameBase})\nconst create = await collection2.add({\n    ids: [msg.ids],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.input, result: result, id: msg.ids }],\n    documents: msg.old.link \n})\nnode.warn([{ question: question, result: result }])\nmsg.payload = create\n\nreturn msg;\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -17676,7 +17842,7 @@
         "z": "df2aa561a3e2a544",
         "g": "7c54a342551d3143",
         "name": "from Chroma",
-        "func": "const { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME') });\nconst vector = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\n\n\nlet collection2 = await client.getCollection({ name: msg.payload.typeName, })\nconst result = await collection2.query({\n    queryEmbeddings: vector,\n    nResults:100\n})\nmsg.payload = result\nreturn msg;",
+        "func": "const { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME') });\nconst vector = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\n\n\nlet collection2 = await client.getCollection({ name: msg.payload.typeName, })\nconst result = await collection2.query({\n    queryEmbeddings: vector,\n    nResults:100\n})\nmsg.payload = result\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -17691,7 +17857,7 @@
                 "module": "openai"
             }
         ],
-        "x": 2830,
+        "x": 2790,
         "y": 540,
         "wires": [
             [
@@ -17708,7 +17874,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 2990,
+        "x": 2950,
         "y": 540,
         "wires": []
     },
@@ -17724,7 +17890,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2630,
+        "x": 2590,
         "y": 520,
         "wires": [
             [
@@ -17824,7 +17990,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2610,
+        "x": 2570,
         "y": 480,
         "wires": []
     },
@@ -17842,7 +18008,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3210,
+        "x": 3170,
         "y": 520,
         "wires": []
     },
@@ -17878,7 +18044,7 @@
         "z": "df2aa561a3e2a544",
         "g": "7c54a342551d3143",
         "name": "create chroma collection",
-        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME') });\n//fill collection\n\nmsg.emb = msg.payload.data[0].embedding\nconst question = msg.fromApp.question;\nconst result = msg.fromApp.result;\nconst id = msg.fromApp.id;\nconst url = msg.fromApp.url;\n\nlet collection2 = await client.getCollection({ name: msg.fromApp.nameBase})\nconst create = await collection2.upsert({\n    ids: id,\n    embeddings: msg.emb,\n    metadatas: [{ question: question, result: result, id:id}],\n    documents: url \n})\nnode.warn([{ question: question, result: result, id: id }])\nmsg.payload = create\n\nreturn msg;\n\n\n",
+        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME') });\n//fill collection\n\nmsg.emb = msg.payload.data[0].embedding\nconst question = msg.fromApp.question;\nconst result = msg.fromApp.result;\nconst id = msg.fromApp.id;\nconst url = msg.fromApp.url;\n\nlet collection2 = await client.getCollection({ name: msg.fromApp.nameBase})\nconst create = await collection2.upsert({\n    ids: id,\n    embeddings: msg.emb,\n    metadatas: [{ question: question, result: result, id:id}],\n    documents: url \n})\nnode.warn([{ question: question, result: result, id: id }])\nmsg.payload = create\n\nreturn msg;\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -17932,7 +18098,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2750,
+        "x": 2670,
         "y": 980,
         "wires": [
             [
@@ -17951,7 +18117,7 @@
         "z": "df2aa561a3e2a544",
         "g": "7c54a342551d3143",
         "name": "delete chroma vector",
-        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME') });\n//fill collection\n\nlet collection = await client.getCollection({ name: msg.req.query.nameBase})\nconst deleted = await collection.delete({\n    ids: [msg.ids]\n})\n\nmsg.payload = deleted;\n\n\nreturn msg\n// const collection = await client.getCollection({ name: msg.knowledgeBaseInfo[0].knowledgeBase.name, })\n// const result = await collection.delete({\n//     ids: [msg.fromApp.id],\n\n// })\n// node.warn(result)\n// msg.payload = result;\n\n\n",
+        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME') });\n//fill collection\n\nlet collection = await client.getCollection({ name: msg.req.query.nameBase})\nconst deleted = await collection.delete({\n    ids: [msg.ids]\n})\n\nmsg.payload = deleted;\n\n\nreturn msg\n// const collection = await client.getCollection({ name: msg.knowledgeBaseInfo[0].knowledgeBase.name, })\n// const result = await collection.delete({\n//     ids: [msg.fromApp.id],\n\n// })\n// node.warn(result)\n// msg.payload = result;\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -17966,7 +18132,7 @@
                 "module": "openai"
             }
         ],
-        "x": 2960,
+        "x": 2880,
         "y": 1020,
         "wires": [
             [
@@ -17989,7 +18155,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3170,
+        "x": 3090,
         "y": 1060,
         "wires": []
     },
