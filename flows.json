@@ -500,9 +500,7 @@
             "28efd2464c3c839c"
         ],
         "x": 14,
-        "y": 459,
-        "w": 1592,
-        "h": 262
+        "y": 459
     },
     {
         "id": "40d09c6e6df96683",
@@ -542,9 +540,7 @@
             "9592d313e2e286eb"
         ],
         "x": 14,
-        "y": 759,
-        "w": 1812,
-        "h": 342
+        "y": 759
     },
     {
         "id": "7f86806a4ca0c715",
@@ -582,9 +578,7 @@
             "e0933beca89886f4"
         ],
         "x": 14,
-        "y": 1139,
-        "w": 1812,
-        "h": 302
+        "y": 1139
     },
     {
         "id": "945706dce188c905",
@@ -837,9 +831,7 @@
             "762d9f30ef250e1b"
         ],
         "x": 14,
-        "y": 39,
-        "w": 2312,
-        "h": 382
+        "y": 39
     },
     {
         "id": "4f917968caad45c9",
@@ -1030,12 +1022,221 @@
             "9ab30a33d00ab6bb",
             "197ddac07fb97f41",
             "b529d8e658743593",
-            "b99ed7693344b4e8"
+            "b99ed7693344b4e8",
+            "c50de6491b4a27e0",
+            "a6bfe94147d55465"
         ],
-        "x": -6,
-        "y": -1,
-        "w": 2312,
-        "h": 1042
+        "x": 14,
+        "y": 19,
+        "w": 2292,
+        "h": 1202
+    },
+    {
+        "id": "7c54a342551d3143",
+        "type": "group",
+        "z": "df2aa561a3e2a544",
+        "name": "actions with vectors",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "label": true
+        },
+        "nodes": [
+            "96c1bdbd809158b2",
+            "35e529c498ccc475",
+            "073696f30ba48b0c",
+            "3d08ab26f56301a4",
+            "e1564e0bac2bc4fe",
+            "7ea889a5d9689169",
+            "2ddd088dcb4769e9",
+            "0ff109002d8ca038",
+            "34b6a3b909980fcd",
+            "dc9cab65c0f25ec5",
+            "2c597503a894bd69",
+            "1291b91ac974f1d4",
+            "8d2790d4ed18e804",
+            "0c99c6ba6180f278",
+            "87ee9334e7c9f7c7",
+            "4272ff394c6d56f4",
+            "4f44449fa5949a05",
+            "78bbd76856efd261",
+            "ada440c38565b8f4",
+            "f1844046e6750a88",
+            "bc41e09d38be7d9b",
+            "17ec2396daa3bd93",
+            "a99ff7d34a8accef",
+            "994d919613307ffa",
+            "0b31507d427983f4",
+            "9db4eb820bc88220",
+            "6e0b8be9b2494341",
+            "10a5750f96e8e75c",
+            "26a9a34a05348ec4",
+            "faf4a7ad02472906",
+            "f15811423029775f",
+            "34de11cd6320d6e8",
+            "42a76277d3a4647e",
+            "a19e64030a636e85",
+            "515372f09b077652"
+        ],
+        "x": 2344,
+        "y": 399,
+        "w": 1312,
+        "h": 702
+    },
+    {
+        "id": "07cfba7089cf4e34",
+        "type": "group",
+        "z": "df2aa561a3e2a544",
+        "name": "actions with knowledge base",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": true
+        },
+        "nodes": [
+            "1548ea64a5af0d11",
+            "1532078cf2e51076",
+            "ec802408a48559c2",
+            "00983e8d306f487e",
+            "aa7bbf253a9e56c5",
+            "4076e91adb7ba1e1",
+            "8acd821ec9412fe8",
+            "5169a3b397c77fa2",
+            "03577d3e65c49253",
+            "e8912347ef762b39",
+            "22e9278b86d77ed0",
+            "103c3eae1b7d9a14",
+            "354bb91442b64392",
+            "4c3dcdffe1ee6fdd",
+            "b5653932b67a5d5e",
+            "4f17f5f8c5a757bc",
+            "45d074c05757b404",
+            "9e01084a541acbf4",
+            "92665368cc0c4eb6",
+            "c7d7a1de5b04eded",
+            "425202f145256de1",
+            "0e50bd4a8768bf45",
+            "2f363e0e8737e49c",
+            "2cdaef03b02c23dc"
+        ],
+        "x": 2334,
+        "y": 19,
+        "w": 1352,
+        "h": 362
+    },
+    {
+        "id": "2f81b499732e56f1",
+        "type": "group",
+        "z": "df2aa561a3e2a544",
+        "name": "save to pinecone/chroma",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "61fce65d2e80cdd0",
+            "c628f153957d967c",
+            "bb3f64cac60a443a",
+            "df81f5ec5c1cb68a",
+            "273e1a8bd3e5b444",
+            "5212d8595280be57",
+            "f93069837c464951",
+            "b998787872399d35",
+            "acf5d51075f4597b",
+            "7a3427453b019d6d",
+            "4ce84407fea4ca51",
+            "d7f6c09f6a753965",
+            "988e9d2a468df775",
+            "19219ee2823481a5",
+            "f2e00cbe027dd0d9",
+            "e13242f009d69ef6",
+            "57ce93a45ff6e724",
+            "c44befbfdf56cee0",
+            "747c01635faa9b3c",
+            "ae95ec54aaec86fb",
+            "1dc9fe9f06214c70",
+            "8055afeac4dc4202",
+            "fb2677b66d5a1ed1",
+            "65d0d59cca39208b",
+            "7df843730479ed5c",
+            "4a667a0da071a186",
+            "d83ceb4afed0cb78",
+            "62d2d4fe64f26961",
+            "b8c55f9527566c39",
+            "e6049f3a5b4163d6",
+            "4dbaeae635fa81c9",
+            "e6c106065bbaf93c",
+            "6848c15d6bd1a239",
+            "6f0c4dd2146c72b8",
+            "aa66b962ae4fa3ae",
+            "9bb22b20612f227c",
+            "fdfa457870546056",
+            "3ecfb208b155d002",
+            "7d12334896a5e45a",
+            "9b6cf8e23eb36b02",
+            "cf5dbeca5eb5b893",
+            "cba01ec76243b180",
+            "7165716ec6403de1",
+            "d93b784dab102523",
+            "aa33f3a825458e2e",
+            "33ba0bb276397c69",
+            "85941f72e751e5fd",
+            "cc5bc95b089ef2a4",
+            "f697f4d065bdfc25",
+            "fd81c20af73d94a6",
+            "2edac485484180ac",
+            "444dfd902c66d107",
+            "9e1c22b6f865ec7f",
+            "37c17ae6e89c99e4",
+            "4803b64c62c581af",
+            "118d0dd2c69b79e9",
+            "b7a2cf10c540c5ca",
+            "b100106e5cd2c406",
+            "94598da3051a3dc5",
+            "6f6a5c13aa870df0",
+            "baa2eb8c05ae75f8",
+            "07de504bad65aa0c",
+            "498ccd55288b5495",
+            "886a4c2b49765806",
+            "8bb80afb7f45ea44",
+            "9dc12b07ecea897d",
+            "1935fa9621fdcad7",
+            "923d6d9274ba70ef",
+            "13970f4ff168dc20",
+            "999bcde02248f87a",
+            "57371eba09b0b86b",
+            "da88bbf77856e756",
+            "ba65f6843de011c6",
+            "3d49c880df1d8f39",
+            "e9f5dc6dc1cb4adb",
+            "b6454f4e5248451e",
+            "759d0b1506252708",
+            "d8abb10093385a4b",
+            "1bdf3f9883e4b928",
+            "64fea4912b05cbe8",
+            "6a4463fd907f7fec",
+            "55abc98108396c2d",
+            "b8be35b0f9ad3995",
+            "65177ebd4cb740e7",
+            "d588fb7df42e8356",
+            "87b081a75c5ae10b",
+            "fd375ebb8ea97984",
+            "4aea7eed115c4516",
+            "dbb1f7927cb4b2ef",
+            "14c4f29db6f28641",
+            "0e05ada7c7a89582",
+            "bba98a28e4f62603",
+            "66d435338ad10528",
+            "ce1e0b0a99ee006f",
+            "1d4a7c41c1638c3d",
+            "49bb90cf406e7ffe",
+            "17f717c5a41b74ea"
+        ],
+        "x": 14,
+        "y": 1259,
+        "w": 1312,
+        "h": 1462
     },
     {
         "id": "4b07803a52e468f5",
@@ -12981,13 +13182,14 @@
         "id": "96c1bdbd809158b2",
         "type": "http in",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "",
         "url": "/getVectors2",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 1480,
-        "y": 1220,
+        "x": 2480,
+        "y": 520,
         "wires": [
             [
                 "10a5750f96e8e75c",
@@ -12999,6 +13201,7 @@
         "id": "35e529c498ccc475",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "update",
         "func": "const question = msg.fromApp.question;\nconst result = msg.fromApp.result;\nconst id = msg.fromApp.id;\nconst url = msg.fromApp.url;\n\nlet updatedData = { url: url, question: question, result }; // Введіть тут нові дані для оновлення\nmsg.collection = \"knowledgeObjects\"\n\nmsg.query = { \"vectors.id\": id };\nmsg.payload = {\n    \"$set\": {\n        \"vectors.$\": {\n            id: id,\n            metadata: updatedData\n        }\n    }\n};\n\n\nreturn msg;\n",
         "outputs": 1,
@@ -13011,8 +13214,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 2300,
-        "y": 1380,
+        "x": 3300,
+        "y": 680,
         "wires": [
             [
                 "e1564e0bac2bc4fe",
@@ -13024,13 +13227,14 @@
         "id": "073696f30ba48b0c",
         "type": "http in",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "",
         "url": "/updateVector",
         "method": "put",
         "upload": false,
         "swaggerDoc": "",
-        "x": 1460,
-        "y": 1420,
+        "x": 2460,
+        "y": 720,
         "wires": [
             [
                 "8d2790d4ed18e804",
@@ -13042,17 +13246,19 @@
         "id": "3d08ab26f56301a4",
         "type": "http response",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 2580,
-        "y": 1400,
+        "x": 3580,
+        "y": 700,
         "wires": []
     },
     {
         "id": "e1564e0bac2bc4fe",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "status",
         "func": "msg.payload = {\n    \"success\": true,\n    \"payload\": \"Successfully updated\"\n};\n\nreturn msg;",
         "outputs": 1,
@@ -13060,8 +13266,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2440,
-        "y": 1400,
+        "x": 3440,
+        "y": 700,
         "wires": [
             [
                 "3d08ab26f56301a4"
@@ -13072,13 +13278,14 @@
         "id": "7ea889a5d9689169",
         "type": "http in",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "",
         "url": "/deleteVector",
         "method": "delete",
         "upload": false,
         "swaggerDoc": "",
-        "x": 1400,
-        "y": 1720,
+        "x": 2560,
+        "y": 980,
         "wires": [
             [
                 "0c99c6ba6180f278",
@@ -13090,6 +13297,7 @@
         "id": "2ddd088dcb4769e9",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "delete",
         "func": "\n\nconst process_env = global.get(\"pinecone\")\nmsg.PINECONE_URL = process_env.PINECONE_URL\nmsg.PINECONE_API = process_env.PINECONE_API\n\nmsg.headers = {\n    'Api-Key': msg.PINECONE_API,\n    'Content-Type': 'application/json'\n};\n\nmsg.url = `${msg.PINECONE_URL}/vectors/delete`;\nmsg.payload = { ids: msg.ids };\n\n\n\nreturn msg;\n\n\n\n",
         "outputs": 1,
@@ -13102,8 +13310,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1730,
-        "y": 1680,
+        "x": 2890,
+        "y": 940,
         "wires": [
             [
                 "dc9cab65c0f25ec5"
@@ -13114,17 +13322,19 @@
         "id": "0ff109002d8ca038",
         "type": "http response",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 2270,
-        "y": 1660,
+        "x": 3430,
+        "y": 920,
         "wires": []
     },
     {
         "id": "34b6a3b909980fcd",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "the end",
         "func": "const id = msg.req.query.id;\nmsg.collection = \"knowledgeObjects\"\n\nmsg.query = { \"vectors.id\": id };\nmsg.payload = {\n    \"$pull\": {\n        \"vectors\": {\n            \"id\": msg.ids\n        }\n    }\n};\n\nreturn msg;\n",
         "outputs": 1,
@@ -13137,8 +13347,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 2060,
-        "y": 1680,
+        "x": 3220,
+        "y": 940,
         "wires": [
             [
                 "1291b91ac974f1d4",
@@ -13150,6 +13360,7 @@
         "id": "dc9cab65c0f25ec5",
         "type": "http request",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "",
         "method": "DELETE",
         "ret": "txt",
@@ -13162,8 +13373,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1890,
-        "y": 1680,
+        "x": 3050,
+        "y": 940,
         "wires": [
             [
                 "34b6a3b909980fcd"
@@ -13174,14 +13385,15 @@
         "id": "2c597503a894bd69",
         "type": "link call",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "",
         "links": [
             "d1949ed8cdf3c5ed"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2470,
-        "y": 1360,
+        "x": 3470,
+        "y": 660,
         "wires": [
             []
         ]
@@ -13190,14 +13402,15 @@
         "id": "1291b91ac974f1d4",
         "type": "link call",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "",
         "links": [
             "d1949ed8cdf3c5ed"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2220,
-        "y": 1700,
+        "x": 3380,
+        "y": 960,
         "wires": [
             []
         ]
@@ -13206,6 +13419,7 @@
         "id": "8d2790d4ed18e804",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "debug 436",
         "active": true,
         "tosidebar": true,
@@ -13215,14 +13429,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1610,
-        "y": 1480,
+        "x": 2610,
+        "y": 780,
         "wires": []
     },
     {
         "id": "0c99c6ba6180f278",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "debug 437",
         "active": true,
         "tosidebar": true,
@@ -13232,14 +13447,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1750,
-        "y": 1640,
+        "x": 2910,
+        "y": 900,
         "wires": []
     },
     {
         "id": "87ee9334e7c9f7c7",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "create vector",
         "func": "\nmsg.fromApp = msg.payload\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = `${msg.payload.result}, ${msg.payload.question}`;\n\n\nif (msg.payload.typeBase === \"chroma\") { return [null, msg] }\nelse {\n    return [msg, null]\n}\n",
         "outputs": 2,
@@ -13247,8 +13463,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1660,
-        "y": 1420,
+        "x": 2660,
+        "y": 720,
         "wires": [
             [
                 "78bbd76856efd261"
@@ -13262,12 +13478,13 @@
         "id": "4272ff394c6d56f4",
         "type": "pinecone-vector-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "demoversion",
         "actionType": "update",
         "apiKey": "",
         "environment": "",
-        "x": 2140,
-        "y": 1380,
+        "x": 3140,
+        "y": 680,
         "wires": [
             [
                 "35e529c498ccc475",
@@ -13279,6 +13496,7 @@
         "id": "4f44449fa5949a05",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "function 372",
         "func": "msg.PINECONE_API_KEY = global.get(\"pinecone\").PINECONE_API\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\").PINECONE_ENV\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\").PINECONE_URL\n\nconst vector = msg.payload.data[0].embedding\nconst question = msg.fromApp.question;\nconst result = msg.fromApp.result;\nconst id = msg.fromApp.id;\nconst url = msg.fromApp.url;\nmsg.actionType='update'\nmsg.payload = {\n    id: id,\n    name: global.get(\"pinecone\").PINECONE_INDEX,\n    setMetadata: { url: url, question: question, result: result },\n    values: vector,\n    namespase:''\n};\n\nreturn msg;",
         "outputs": 1,
@@ -13291,8 +13509,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 2015,
-        "y": 1380,
+        "x": 3015,
+        "y": 680,
         "wires": [
             [
                 "4272ff394c6d56f4",
@@ -13305,6 +13523,7 @@
         "id": "78bbd76856efd261",
         "type": "openai-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "",
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
@@ -13318,8 +13537,8 @@
             "value": "[]"
         },
         "OPENAI_API_KEY": "",
-        "x": 1890,
-        "y": 1380,
+        "x": 2890,
+        "y": 680,
         "wires": [
             [
                 "4f44449fa5949a05"
@@ -13330,6 +13549,7 @@
         "id": "ada440c38565b8f4",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "debug 502",
         "active": true,
         "tosidebar": true,
@@ -13339,14 +13559,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2280,
-        "y": 1420,
+        "x": 3280,
+        "y": 720,
         "wires": []
     },
     {
         "id": "f1844046e6750a88",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "debug 504",
         "active": true,
         "tosidebar": true,
@@ -13356,14 +13577,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2040,
-        "y": 1440,
+        "x": 3040,
+        "y": 740,
         "wires": []
     },
     {
         "id": "bc41e09d38be7d9b",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "d2",
         "active": true,
         "tosidebar": true,
@@ -13373,14 +13595,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2190,
-        "y": 1180,
+        "x": 3190,
+        "y": 480,
         "wires": []
     },
     {
         "id": "17ec2396daa3bd93",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "from pinecone",
         "func": "const vector = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\n\nmsg.payload = {\n    name: global.get(\"pinecone\").PINECONE_INDEX,\n    \"topK\": 100,\n    \"includeMetadata\": true,\n    // \"includeValues\": true,\n    vector\n};\n\nmsg.PINECONE_API_KEY = global.get(\"pinecone\").PINECONE_API\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\").PINECONE_ENV\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\").PINECONE_URL\nreturn msg;",
         "outputs": 1,
@@ -13388,8 +13611,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1800,
-        "y": 1180,
+        "x": 2800,
+        "y": 480,
         "wires": [
             [
                 "994d919613307ffa"
@@ -13400,23 +13623,25 @@
         "id": "a99ff7d34a8accef",
         "type": "http response",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 2190,
-        "y": 1140,
+        "x": 3190,
+        "y": 440,
         "wires": []
     },
     {
         "id": "994d919613307ffa",
         "type": "pinecone-vector-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "demoversion",
         "actionType": "query",
         "apiKey": "",
         "environment": "",
-        "x": 1990,
-        "y": 1180,
+        "x": 2990,
+        "y": 480,
         "wires": [
             [
                 "a99ff7d34a8accef",
@@ -13428,13 +13653,14 @@
         "id": "61fce65d2e80cdd0",
         "type": "http in",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "url": "/divideFile",
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
         "x": 120,
-        "y": 1160,
+        "y": 1320,
         "wires": [
             [
                 "c628f153957d967c"
@@ -13445,6 +13671,7 @@
         "id": "c628f153957d967c",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "check type",
         "func": "msg.collection = \"knowledgeObjects\";\nmsg.oldPayload = msg.payload;\nmsg.type = msg.payload.type;\nmsg.urlName = msg.oldPayload.link;\nmsg.fileType = msg.payload.file_type;\nmsg._id = objectid(msg.payload.id);\n\n\nif (msg.fileType ===\"Link\"){\n    msg.url = env.get(\"nodered\") + `/getLinkInfo`;\n\n    return msg\n}\nif (msg.fileType === \"File\" && msg.type !== 'Question-Answer'){\n    msg.url = env.get(\"nodered\") + `/getFileInfo`;\n\n    return msg\n}\nif (msg.fileType === \"File\" && msg.type ==='Question-Answer'){\n    msg.url = env.get(\"nodered\") + `/FAQ`;\n\n    return msg\n}\n",
         "outputs": 1,
@@ -13458,7 +13685,7 @@
             }
         ],
         "x": 330,
-        "y": 1160,
+        "y": 1320,
         "wires": [
             [
                 "bb3f64cac60a443a",
@@ -13470,8 +13697,9 @@
         "id": "bb3f64cac60a443a",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "reset Vectors",
-        "func": "msg.collection = \"knowledgeObjects\"\n\nmsg.query = {\n    _id: objectid(msg.oldPayload.id)\n}\nmsg.payload ={\n    $set:{\n        vectors:[],\n        status:\"Dividing in process\"\n    }\n}\nreturn msg;",
+        "func": "msg.collection = \"knowledgeObjects\"\n\nmsg.query = {\n    _id: objectid(msg.oldPayload.id)\n}\nmsg.payload ={\n    $set:{\n        vectors:[],\n        status:\"Saved\"\n    }\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -13483,7 +13711,7 @@
             }
         ],
         "x": 550,
-        "y": 1180,
+        "y": 1340,
         "wires": [
             [
                 "273e1a8bd3e5b444",
@@ -13495,26 +13723,28 @@
         "id": "df81f5ec5c1cb68a",
         "type": "http response",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "statusCode": "",
         "headers": {},
         "x": 910,
-        "y": 1180,
+        "y": 1340,
         "wires": []
     },
     {
         "id": "273e1a8bd3e5b444",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "status",
-        "func": "msg.payload = {\n    \"success\": true,\n    \"payload\":\"Dividing in process\"\n};\n\nreturn msg;",
+        "func": "msg.payload = {\n    \"success\": true,\n    \"payload\":\"Saved\"\n};\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 730,
-        "y": 1180,
+        "y": 1340,
         "wires": [
             [
                 "5212d8595280be57"
@@ -13525,6 +13755,7 @@
         "id": "5212d8595280be57",
         "type": "delay",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "pauseType": "delay",
         "timeout": "15",
@@ -13539,7 +13770,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 825,
-        "y": 1180,
+        "y": 1340,
         "wires": [
             [
                 "df81f5ec5c1cb68a"
@@ -13551,6 +13782,7 @@
         "id": "f93069837c464951",
         "type": "link call",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "links": [
             "d1949ed8cdf3c5ed"
@@ -13558,7 +13790,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 760,
-        "y": 1220,
+        "y": 1380,
         "wires": [
             []
         ]
@@ -13567,13 +13799,14 @@
         "id": "b998787872399d35",
         "type": "http in",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "url": "/getLinkInfo",
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
         "x": 130,
-        "y": 1300,
+        "y": 1460,
         "wires": [
             [
                 "7a3427453b019d6d",
@@ -13585,6 +13818,7 @@
         "id": "acf5d51075f4597b",
         "type": "http request",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "Get Link Info",
         "method": "GET",
         "ret": "txt",
@@ -13598,7 +13832,7 @@
         "senderr": false,
         "headers": [],
         "x": 490,
-        "y": 1300,
+        "y": 1460,
         "wires": [
             [
                 "4ce84407fea4ca51"
@@ -13609,6 +13843,7 @@
         "id": "7a3427453b019d6d",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "func": "msg.old=msg.payload\nmsg.url = msg.payload.link;\nreturn msg",
         "outputs": 1,
@@ -13622,7 +13857,7 @@
             }
         ],
         "x": 320,
-        "y": 1300,
+        "y": 1460,
         "wires": [
             [
                 "acf5d51075f4597b"
@@ -13633,6 +13868,7 @@
         "id": "4ce84407fea4ca51",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "Scrape",
         "func": "const { JSDOM } = jsdom;\n\nconst html = msg.payload;\n\nconst dom = new JSDOM(`${html}`);\ndom.window.document.querySelectorAll('style').forEach(link => {\n    link.remove();\n});\ndom.window.document.querySelectorAll('script').forEach(link => {\n    link.remove();\n});\nconst document = dom.window.document;\nconst pageText = document.body.textContent;\nmsg.text = pageText;\n\n\nlet table = dom.window.document.querySelector('table');\n\nlet ckeckTable = table?.textContent ? true : false;\n\n\nif (ckeckTable) {\n    const headers = Array.from(table.querySelectorAll('tr:first-child th, tr:first-child td')).map(td => {\n        const text = td.textContent.trim();\n        return text !== \"\" ? text : undefined;\n    }).filter(Boolean);\n\n    const rows = Array.from(table.querySelectorAll('tr:not(:first-child)'));\n    const tableData = rows.map(row => {\n        const rowData = Array.from(row.querySelectorAll('td')).map(td => td.textContent.trim());\n        return Object.fromEntries(headers.map((header, index) => [header, rowData[index]]));\n    });\n\n    let tables = JSON.stringify(tableData);\n    node.warn(tables)\n    msg.pageContent = pageText + '\\n\\n' + tables;\n} else {\n     msg.pageContent = pageText;\n}\n\n\n    const MAX_LENGTH = 500;\n\n   msg.result = [];\n    let currentParagraph = '';\n\n    const sentences = msg.pageContent.replace(/\\s+/g, ' ').split(/([.?!])+/).filter(sentence => sentence.trim() !== '');\n\n    for (const sentence of sentences) {\n        if (currentParagraph.length + sentence.length <= MAX_LENGTH) {\n            currentParagraph += sentence;\n        } else {\n            msg.result.push(currentParagraph.trim());\n            currentParagraph = sentence;\n        }\n    }\n\n    if (currentParagraph.trim() !== '') {\n        msg.result.push(currentParagraph.trim());\n    }\n\n\n\nmsg.payload={...msg.old,\n    text: msg.result}\n\n\n\nmsg.url = env.get(\"nodered\") + `/createVector`\nreturn msg;\n",
         "outputs": 1,
@@ -13646,7 +13882,7 @@
             }
         ],
         "x": 660,
-        "y": 1300,
+        "y": 1460,
         "wires": [
             [
                 "9bb22b20612f227c"
@@ -13657,13 +13893,14 @@
         "id": "d7f6c09f6a753965",
         "type": "http in",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "url": "/getFileInfo",
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
         "x": 120,
-        "y": 1400,
+        "y": 1560,
         "wires": [
             [
                 "e6049f3a5b4163d6",
@@ -13675,6 +13912,7 @@
         "id": "988e9d2a468df775",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "decodedFilename ",
         "func": "const decodedFilename = `/${msg.old.link}`;\n\nconst outputString = decodedFilename.replace(/י/g, '`')\nmsg.urlName = outputString\nmsg.filepath = outputString;\nreturn msg;",
         "outputs": 1,
@@ -13683,7 +13921,7 @@
         "finalize": "",
         "libs": [],
         "x": 570,
-        "y": 1420,
+        "y": 1580,
         "wires": [
             [
                 "57ce93a45ff6e724"
@@ -13694,6 +13932,7 @@
         "id": "19219ee2823481a5",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "check .pdf other",
         "func": "msg.old=msg.payload\nif (msg.payload.link.includes(\".pdf\")){\n    return[msg, null]\n}else{\n    return[null, msg]\n}\n",
         "outputs": 2,
@@ -13702,7 +13941,7 @@
         "finalize": "",
         "libs": [],
         "x": 360,
-        "y": 1400,
+        "y": 1560,
         "wires": [
             [
                 "f2e00cbe027dd0d9"
@@ -13716,6 +13955,7 @@
         "id": "f2e00cbe027dd0d9",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "read pdf",
         "func": "const decodedFilename = `${msg.old.link}`;\n\nconst outputString = decodedFilename.replace(/י/g, '`')\n\nmsg.path =  outputString;\nreturn msg;",
         "outputs": 1,
@@ -13724,7 +13964,7 @@
         "finalize": "",
         "libs": [],
         "x": 540,
-        "y": 1380,
+        "y": 1540,
         "wires": [
             [
                 "b7a2cf10c540c5ca"
@@ -13735,6 +13975,7 @@
         "id": "e13242f009d69ef6",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "function 373",
         "func": "msg.pageContent = msg.payload.text\n\n\n    const MAX_LENGTH = 500;\n\n    msg.result = [];\n    let currentParagraph = '';\n\n    const sentences = msg.pageContent.replace(/\\s+/g, ' ').split(/([.?!])+/).filter(sentence => sentence.trim() !== '');\n\n    for (const sentence of sentences) {\n        if (currentParagraph.length + sentence.length <= MAX_LENGTH) {\n            currentParagraph += sentence;\n        } else {\n            msg.result.push(currentParagraph.trim());\n            currentParagraph = sentence;\n        }\n    }\n\n    if (currentParagraph.trim() !== '') {\n        msg.result.push(currentParagraph.trim());\n    }\n\n\nmsg.payload = msg.old\nmsg.payload.text = msg.result\n\nmsg.url = env.get(\"nodered\") + `/createVector`;\nreturn msg;\n",
         "outputs": 1,
@@ -13743,7 +13984,7 @@
         "finalize": "",
         "libs": [],
         "x": 815,
-        "y": 1380,
+        "y": 1540,
         "wires": [
             [
                 "4dbaeae635fa81c9"
@@ -13755,6 +13996,7 @@
         "id": "57ce93a45ff6e724",
         "type": "file in",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "filename": "filepath",
         "filenameType": "msg",
@@ -13764,7 +14006,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 760,
-        "y": 1420,
+        "y": 1580,
         "wires": [
             [
                 "747c01635faa9b3c"
@@ -13775,13 +14017,14 @@
         "id": "c44befbfdf56cee0",
         "type": "http in",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "url": "/createVector",
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
         "x": 170,
-        "y": 1620,
+        "y": 1780,
         "wires": [
             [
                 "6848c15d6bd1a239",
@@ -13794,6 +14037,7 @@
         "id": "747c01635faa9b3c",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "Create Pages",
         "func": "msg.pageContent = msg.payload\n\n\n    const MAX_LENGTH = 500;\n\n    msg.result = [];\n    let currentParagraph = '';\n\n    const sentences = msg.pageContent.replace(/\\s+/g, ' ').split(/([.?!])+/).filter(sentence => sentence.trim() !== '');\n\n    for (const sentence of sentences) {\n        if (currentParagraph.length + sentence.length <= MAX_LENGTH) {\n            currentParagraph += sentence;\n        } else {\n            msg.result.push(currentParagraph.trim());\n            currentParagraph = sentence;\n        }\n    }\n\n    if (currentParagraph.trim() !== '') {\n        msg.result.push(currentParagraph.trim());\n    }\n\n\nmsg.payload = msg.old\nmsg.payload.text = msg.result\n\nmsg.url = env.get(\"nodered\") + `/createVector`;\nreturn msg;\n",
         "outputs": 1,
@@ -13802,7 +14046,7 @@
         "finalize": "",
         "libs": [],
         "x": 940,
-        "y": 1420,
+        "y": 1580,
         "wires": [
             [
                 "e6c106065bbaf93c"
@@ -13813,6 +14057,7 @@
         "id": "ae95ec54aaec86fb",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "FAQ",
         "func": "msg._id = objectid(msg.payload._id);\n\nmsg.old = msg.payload\nmsg.typeBase = msg.payload.typeBase.replace(/\\\\\"/g, '');\nmsg.nameBase = msg.payload.nameBase.replace(/\\\\\"/g, '');\nconst decodedFilename = `/${msg.old.link}`;\n\nconst outputString = decodedFilename.replace(/י/g, '`')\n\nmsg.filepath = outputString;\nreturn msg;",
         "outputs": 1,
@@ -13826,7 +14071,7 @@
             }
         ],
         "x": 310,
-        "y": 1840,
+        "y": 2000,
         "wires": [
             [
                 "1dc9fe9f06214c70"
@@ -13837,6 +14082,7 @@
         "id": "1dc9fe9f06214c70",
         "type": "file in",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "filename": "filepath",
         "filenameType": "msg",
@@ -13846,7 +14092,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 460,
-        "y": 1840,
+        "y": 2000,
         "wires": [
             [
                 "8055afeac4dc4202"
@@ -13857,6 +14103,7 @@
         "id": "8055afeac4dc4202",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "encoding file",
         "func": "\nlet text = msg.payload\n\nlet parts = text.split(/\\n/g).map(part => part.trim()).filter(part => part.length > 0);\n\nlet result = [];\nlet obj = {};\nfor (let i = 0; i < parts.length; i++) {\n    if (parts[i].endsWith(\"?\")) {\n        if (Object.keys(obj).length > 0) { // if 'obj' has keys\n            result.push(obj);\n            // @ts-ignore\n            obj = {};\n        }\n        obj[\"A\"] = parts[i];\n    } else {\n        if (obj[\"B\"]) {\n            obj[\"B\"] += ' ' + parts[i];\n        } else {\n            obj[\"B\"] = parts[i];\n        }\n    }\n}\n\nif (Object.keys(obj).length > 0) {\n    result.push(obj);\n}\n\nmsg.array= result;\n\nreturn msg;",
         "outputs": 1,
@@ -13865,7 +14112,7 @@
         "finalize": "",
         "libs": [],
         "x": 650,
-        "y": 1840,
+        "y": 2000,
         "wires": [
             [
                 "4803b64c62c581af"
@@ -13876,6 +14123,7 @@
         "id": "fb2677b66d5a1ed1",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "create vector",
         "func": "\n\nmsg.collection = \"knowledgeObjects\"\n\nlet question = msg.tobase.A;\nlet result = msg.tobase.B;\n\nlet url = msg.old.link\n\n\nmsg.query = { \"_id\": msg.old._id }\nmsg.payload = {\n\n   \"$push\": {\n      \"vectors\": {\n         id: msg.ids,\n         pinecone: true,\n         metadata: { url: msg.old.link, question:question, result:result },\n      }\n   }\n\n};\nreturn msg;",
         "outputs": 1,
@@ -13884,7 +14132,7 @@
         "finalize": "",
         "libs": [],
         "x": 915,
-        "y": 1940,
+        "y": 2100,
         "wires": [
             [
                 "7df843730479ed5c"
@@ -13896,8 +14144,9 @@
         "id": "65d0d59cca39208b",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "reset Vectors",
-        "func": "msg.collection = \"knowledgeObjects\"\n\nmsg.query = {\n    _id: objectid(msg.old._id)\n}\nmsg.payload ={\n    $set:{\n        status:\"Divided\"\n    }\n}\nreturn msg;",
+        "func": "msg.collection = \"knowledgeObjects\"\n\nmsg.query = {\n    _id: objectid(msg.old._id)\n}\nmsg.payload ={\n    $set:{\n        status:\"Saved\"\n    }\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -13909,7 +14158,7 @@
             }
         ],
         "x": 1030,
-        "y": 1840,
+        "y": 2000,
         "wires": [
             [
                 "4a667a0da071a186"
@@ -13920,6 +14169,7 @@
         "id": "7df843730479ed5c",
         "type": "link call",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "links": [
             "d1949ed8cdf3c5ed"
@@ -13927,7 +14177,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1060,
-        "y": 1960,
+        "y": 2120,
         "wires": [
             []
         ]
@@ -13936,6 +14186,7 @@
         "id": "4a667a0da071a186",
         "type": "link call",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "links": [
             "d1949ed8cdf3c5ed"
@@ -13943,7 +14194,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1220,
-        "y": 1840,
+        "y": 2000,
         "wires": [
             []
         ]
@@ -13952,13 +14203,14 @@
         "id": "d83ceb4afed0cb78",
         "type": "http in",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "url": "/FAQ",
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
         "x": 110,
-        "y": 1860,
+        "y": 2020,
         "wires": [
             [
                 "ae95ec54aaec86fb",
@@ -13971,6 +14223,7 @@
         "id": "62d2d4fe64f26961",
         "type": "http request",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "method": "POST",
         "ret": "obj",
@@ -13984,7 +14237,7 @@
         "senderr": false,
         "headers": [],
         "x": 550,
-        "y": 1140,
+        "y": 1300,
         "wires": [
             []
         ]
@@ -13993,28 +14246,31 @@
         "id": "b8c55f9527566c39",
         "type": "http response",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "statusCode": "",
         "headers": {},
         "x": 310,
-        "y": 1260,
+        "y": 1420,
         "wires": []
     },
     {
         "id": "e6049f3a5b4163d6",
         "type": "http response",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "statusCode": "",
         "headers": {},
         "x": 330,
-        "y": 1360,
+        "y": 1520,
         "wires": []
     },
     {
         "id": "4dbaeae635fa81c9",
         "type": "http request",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "method": "POST",
         "ret": "obj",
@@ -14028,7 +14284,7 @@
         "senderr": false,
         "headers": [],
         "x": 930,
-        "y": 1380,
+        "y": 1540,
         "wires": [
             []
         ]
@@ -14037,6 +14293,7 @@
         "id": "e6c106065bbaf93c",
         "type": "http request",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "method": "POST",
         "ret": "obj",
@@ -14050,7 +14307,7 @@
         "senderr": false,
         "headers": [],
         "x": 1110,
-        "y": 1420,
+        "y": 1580,
         "wires": [
             []
         ]
@@ -14059,6 +14316,7 @@
         "id": "6848c15d6bd1a239",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "function 374",
         "func": "msg._id = objectid(msg.payload._id);\nmsg.typeBase = msg.payload.typeBase.replace(/\\\\\"/g, '');\nmsg.nameBase = msg.payload.nameBase.replace(/\\\\\"/g, '');\nmsg.old = msg.payload\nmsg.array = msg.payload.text\nreturn msg;",
         "outputs": 1,
@@ -14072,7 +14330,7 @@
             }
         ],
         "x": 390,
-        "y": 1620,
+        "y": 1780,
         "wires": [
             [
                 "118d0dd2c69b79e9"
@@ -14083,28 +14341,31 @@
         "id": "6f0c4dd2146c72b8",
         "type": "http response",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "statusCode": "",
         "headers": {},
         "x": 370,
-        "y": 1580,
+        "y": 1740,
         "wires": []
     },
     {
         "id": "aa66b962ae4fa3ae",
         "type": "http response",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "statusCode": "",
         "headers": {},
         "x": 310,
-        "y": 1880,
+        "y": 2040,
         "wires": []
     },
     {
         "id": "9bb22b20612f227c",
         "type": "http request",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "method": "POST",
         "ret": "obj",
@@ -14118,7 +14379,7 @@
         "senderr": false,
         "headers": [],
         "x": 830,
-        "y": 1300,
+        "y": 1460,
         "wires": [
             []
         ]
@@ -14127,12 +14388,13 @@
         "id": "fdfa457870546056",
         "type": "pinecone-vector-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "demoversion",
         "actionType": "upsert",
         "apiKey": "",
         "environment": "",
         "x": 1050,
-        "y": 1660,
+        "y": 1820,
         "wires": [
             [
                 "118d0dd2c69b79e9"
@@ -14143,6 +14405,7 @@
         "id": "3ecfb208b155d002",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "function 380",
         "func": "const vector = msg.payload.data[0].embedding\nmsg.vector = msg.payload.data[0].embedding\nconst question = msg.input\nconst result = msg.input\nconst url = msg.old.link\nmsg.ids = Date.now().toString(),\nmsg.payload = {\n    name: global.get(\"pinecone\").PINECONE_INDEX,\n    vectors: [{\n        id: msg.ids,\n        pinecone: true,\n        values: vector,\n        metadata: { url: url, question: question, result: result }\n    }]\n};\n\nmsg.PINECONE_API_KEY = global.get(\"pinecone\").PINECONE_API\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\").PINECONE_ENV\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\").PINECONE_URL\n\nreturn msg;",
         "outputs": 1,
@@ -14156,7 +14419,7 @@
             }
         ],
         "x": 925,
-        "y": 1660,
+        "y": 1820,
         "wires": [
             [
                 "fdfa457870546056",
@@ -14169,6 +14432,7 @@
         "id": "7d12334896a5e45a",
         "type": "openai-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
@@ -14183,7 +14447,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 800,
-        "y": 1660,
+        "y": 1820,
         "wires": [
             [
                 "3ecfb208b155d002"
@@ -14194,8 +14458,9 @@
         "id": "9b6cf8e23eb36b02",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "post",
-        "func": "msg.collection = \"knowledgeObjects\"\n\nmsg.query = { \"_id\": objectid(msg.old._id)}\nmsg.payload = {\n    $set: {\n     status:\"Saved in Pinecone\"\n    }\n}\nreturn msg;",
+        "func": "msg.collection = \"knowledgeObjects\"\n\nmsg.query = { \"_id\": objectid(msg.old._id)}\nmsg.payload = {\n    $set: {\n     status:\"Saved\"\n    }\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -14207,7 +14472,7 @@
             }
         ],
         "x": 750,
-        "y": 1600,
+        "y": 1760,
         "wires": [
             [
                 "d93b784dab102523"
@@ -14218,6 +14483,7 @@
         "id": "cf5dbeca5eb5b893",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "create vector",
         "func": "\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = `${msg.payload}, ${msg.payload}`\n\nmsg.ids = Date.now().toString()\nif (msg.typeBase === \"chroma\") { return [null, msg] }\nelse {\n    return [msg, null]\n}",
         "outputs": 2,
@@ -14226,7 +14492,7 @@
         "finalize": "",
         "libs": [],
         "x": 530,
-        "y": 1700,
+        "y": 1860,
         "wires": [
             [
                 "7d12334896a5e45a"
@@ -14240,6 +14506,7 @@
         "id": "cba01ec76243b180",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "create vector",
         "func": "\nmsg.collection = \"knowledgeObjects\"\n\n\nmsg.query = { \"_id\": msg.old._id }\n\n\nmsg.payload = {\n\n   \"$push\": {\n      \"vectors\": {\n         id: msg.ids,\n         pinecone: true,\n         metadata: { url: msg.old.link, result: msg.input, question: msg.input},\n      }\n   }\n\n};\nreturn msg;",
         "outputs": 1,
@@ -14248,7 +14515,7 @@
         "finalize": "",
         "libs": [],
         "x": 985,
-        "y": 1700,
+        "y": 1860,
         "wires": [
             [
                 "7165716ec6403de1"
@@ -14260,6 +14527,7 @@
         "id": "7165716ec6403de1",
         "type": "link call",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "links": [
             "d1949ed8cdf3c5ed"
@@ -14267,7 +14535,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1100,
-        "y": 1700,
+        "y": 1860,
         "wires": [
             []
         ]
@@ -14276,6 +14544,7 @@
         "id": "d93b784dab102523",
         "type": "link call",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "links": [
             "d1949ed8cdf3c5ed"
@@ -14283,7 +14552,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 900,
-        "y": 1600,
+        "y": 1760,
         "wires": [
             []
         ]
@@ -14292,12 +14561,13 @@
         "id": "aa33f3a825458e2e",
         "type": "pinecone-vector-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "demoversion",
         "actionType": "upsert",
         "apiKey": "",
         "environment": "",
         "x": 1050,
-        "y": 1920,
+        "y": 2080,
         "wires": [
             [
                 "4803b64c62c581af"
@@ -14308,6 +14578,7 @@
         "id": "33ba0bb276397c69",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "function 381",
         "func": "const vector = msg.payload.data[0].embedding\nmsg.vector = msg.payload.data[0].embedding\nconst question = msg.tobase.A\nconst result = msg.tobase.B\nconst url = msg.old.link\n\nmsg.payload = {\n    name: global.get(\"pinecone\").PINECONE_INDEX,\n    vectors: [{\n        id: msg.ids,\n        pinecone: true,\n        values: vector,\n        metadata: { url: url, question: question, result: result }\n    }]\n};\n\nmsg.PINECONE_API_KEY = global.get(\"pinecone\").PINECONE_API\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\").PINECONE_ENV\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\").PINECONE_URL\n\nreturn msg;",
         "outputs": 1,
@@ -14321,7 +14592,7 @@
             }
         ],
         "x": 835,
-        "y": 1920,
+        "y": 2080,
         "wires": [
             [
                 "fb2677b66d5a1ed1",
@@ -14334,6 +14605,7 @@
         "id": "85941f72e751e5fd",
         "type": "openai-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
@@ -14348,7 +14620,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 700,
-        "y": 1920,
+        "y": 2080,
         "wires": [
             [
                 "33ba0bb276397c69"
@@ -14359,6 +14631,7 @@
         "id": "cc5bc95b089ef2a4",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "create vector",
         "func": "\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.tobase = msg.payload\nmsg.input = `${msg.payload.A}, ${msg.payload.B}`\nmsg.ids = Date.now().toString()\nif (msg.typeBase === \"chroma\") { return [null, msg] }\nelse {\n    return [msg, null]\n}",
         "outputs": 2,
@@ -14367,7 +14640,7 @@
         "finalize": "",
         "libs": [],
         "x": 510,
-        "y": 1920,
+        "y": 2080,
         "wires": [
             [
                 "85941f72e751e5fd",
@@ -14382,6 +14655,7 @@
         "id": "f697f4d065bdfc25",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "debug 526",
         "active": true,
         "tosidebar": true,
@@ -14392,20 +14666,21 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 190,
-        "y": 1580,
+        "y": 1740,
         "wires": []
     },
     {
         "id": "fd81c20af73d94a6",
         "type": "http in",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "url": "/FAQmanualy",
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
         "x": 210,
-        "y": 2500,
+        "y": 2660,
         "wires": [
             [
                 "2edac485484180ac"
@@ -14416,6 +14691,7 @@
         "id": "2edac485484180ac",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "create vector",
         "func": "msg.tobase = msg.payload;\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = `${msg.payload.A}, ${msg.payload.B}`\n\n\n\nif (msg.payload.typeBase === \"chroma\"){\n    return [null,msg]\n}else{\n    return[msg,null]\n}",
         "outputs": 2,
@@ -14424,7 +14700,7 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 2500,
+        "y": 2660,
         "wires": [
             [
                 "444dfd902c66d107"
@@ -14438,6 +14714,7 @@
         "id": "444dfd902c66d107",
         "type": "openai-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
@@ -14452,7 +14729,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 580,
-        "y": 2480,
+        "y": 2640,
         "wires": [
             [
                 "9e1c22b6f865ec7f"
@@ -14463,6 +14740,7 @@
         "id": "9e1c22b6f865ec7f",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "function 387",
         "func": "const vector = msg.payload.data[0].embedding\nmsg.vector = msg.payload.data[0].embedding\nconst question = msg.tobase.A\nconst result = msg.tobase.B\nconst url = msg.tobase.name\nmsg.ids = Date.now().toString()\nmsg.payload = {\n    name: global.get(\"pinecone\").PINECONE_INDEX,\n    vectors: [{\n        id: msg.ids,\n        pinecone: true,\n        values: vector,\n        metadata: { url: url, question: question, result: result }\n    }]\n};\n\nmsg.PINECONE_API_KEY = global.get(\"pinecone\").PINECONE_API\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\").PINECONE_ENV\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\").PINECONE_URL\n\nreturn msg;",
         "outputs": 1,
@@ -14476,7 +14754,7 @@
             }
         ],
         "x": 745,
-        "y": 2480,
+        "y": 2640,
         "wires": [
             [
                 "37c17ae6e89c99e4"
@@ -14488,12 +14766,13 @@
         "id": "37c17ae6e89c99e4",
         "type": "pinecone-vector-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "demoversion",
         "actionType": "upsert",
         "apiKey": "",
         "environment": "",
         "x": 870,
-        "y": 2480,
+        "y": 2640,
         "wires": [
             []
         ]
@@ -14502,6 +14781,7 @@
         "id": "4803b64c62c581af",
         "type": "array-loop",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "key": "count",
         "keyType": "msg",
@@ -14510,7 +14790,7 @@
         "array": "array",
         "arrayType": "msg",
         "x": 860,
-        "y": 1840,
+        "y": 2000,
         "wires": [
             [
                 "65d0d59cca39208b"
@@ -14524,6 +14804,7 @@
         "id": "118d0dd2c69b79e9",
         "type": "array-loop",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "key": "amount",
         "keyType": "msg",
@@ -14532,7 +14813,7 @@
         "array": "array",
         "arrayType": "msg",
         "x": 600,
-        "y": 1620,
+        "y": 1780,
         "wires": [
             [
                 "9b6cf8e23eb36b02"
@@ -14546,10 +14827,11 @@
         "id": "b7a2cf10c540c5ca",
         "type": "pdfparse",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "path": "",
         "x": 700,
-        "y": 1380,
+        "y": 1540,
         "wires": [
             [
                 "e13242f009d69ef6"
@@ -14560,6 +14842,7 @@
         "id": "b100106e5cd2c406",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "xlsx",
         "func": "msg._id = objectid(msg.payload._id);\n\nmsg.typeBase  = msg.payload.typeBase.replace(/\\\\\"/g, '');\nmsg.nameBase  = msg.payload.nameBase.replace(/\\\\\"/g, '');\nmsg.old = msg.payload\nconst decodedFilename = `/${msg.old.link}`;\n\nconst outputString = decodedFilename.replace(/י/g, '`')\n\nmsg.filepath = outputString;\nreturn msg;",
         "outputs": 1,
@@ -14573,7 +14856,7 @@
             }
         ],
         "x": 270,
-        "y": 2180,
+        "y": 2340,
         "wires": [
             [
                 "94598da3051a3dc5",
@@ -14585,6 +14868,7 @@
         "id": "94598da3051a3dc5",
         "type": "file in",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "filename": "filepath",
         "filenameType": "msg",
@@ -14594,7 +14878,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 400,
-        "y": 2180,
+        "y": 2340,
         "wires": [
             [
                 "ba65f6843de011c6",
@@ -14606,6 +14890,7 @@
         "id": "6f6a5c13aa870df0",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "encoding file",
         "func": "msg.array= msg.payload;\n\nreturn msg;",
         "outputs": 1,
@@ -14614,7 +14899,7 @@
         "finalize": "",
         "libs": [],
         "x": 670,
-        "y": 2180,
+        "y": 2340,
         "wires": [
             [
                 "57371eba09b0b86b",
@@ -14626,6 +14911,7 @@
         "id": "baa2eb8c05ae75f8",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "create vector",
         "func": "msg.collection = \"knowledgeObjects\"\n\nconst question = msg.input\nconst result = msg.input\n\nlet url = msg.old.link\n\n\nmsg.query = { \"_id\": msg.old._id }\nmsg.payload = {\n\n   \"$push\": {\n      \"vectors\": {\n         id: msg.ids,\n         pinecone: true,\n         metadata: { url: msg.old.link, question:question, result:result },\n      }\n   }\n\n};\nreturn msg;",
         "outputs": 1,
@@ -14634,7 +14920,7 @@
         "finalize": "",
         "libs": [],
         "x": 955,
-        "y": 2300,
+        "y": 2460,
         "wires": [
             [
                 "498ccd55288b5495"
@@ -14646,6 +14932,7 @@
         "id": "07de504bad65aa0c",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "reset Vectors",
         "func": "msg.collection = \"knowledgeObjects\"\n\nmsg.query = {\n    _id: objectid(msg.old._id)\n}\nmsg.payload ={\n    $set:{\n        status:\"Saved\"\n    }\n}\nreturn msg;",
         "outputs": 1,
@@ -14659,7 +14946,7 @@
             }
         ],
         "x": 1010,
-        "y": 2160,
+        "y": 2320,
         "wires": [
             [
                 "886a4c2b49765806"
@@ -14670,6 +14957,7 @@
         "id": "498ccd55288b5495",
         "type": "link call",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "links": [
             "d1949ed8cdf3c5ed"
@@ -14677,7 +14965,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1080,
-        "y": 2300,
+        "y": 2460,
         "wires": [
             []
         ]
@@ -14686,6 +14974,7 @@
         "id": "886a4c2b49765806",
         "type": "link call",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "links": [
             "d1949ed8cdf3c5ed"
@@ -14693,7 +14982,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1180,
-        "y": 2160,
+        "y": 2320,
         "wires": [
             []
         ]
@@ -14702,13 +14991,14 @@
         "id": "8bb80afb7f45ea44",
         "type": "http in",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "url": "/Excel",
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
         "x": 130,
-        "y": 2180,
+        "y": 2340,
         "wires": [
             [
                 "b100106e5cd2c406",
@@ -14721,23 +15011,25 @@
         "id": "9dc12b07ecea897d",
         "type": "http response",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "statusCode": "",
         "headers": {},
         "x": 270,
-        "y": 2220,
+        "y": 2380,
         "wires": []
     },
     {
         "id": "1935fa9621fdcad7",
         "type": "pinecone-vector-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "demoversion",
         "actionType": "upsert",
         "apiKey": "",
         "environment": "",
         "x": 1010,
-        "y": 2260,
+        "y": 2420,
         "wires": [
             [
                 "57371eba09b0b86b"
@@ -14748,6 +15040,7 @@
         "id": "923d6d9274ba70ef",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "function 401",
         "func": "const vector = msg.payload.data[0].embedding\nmsg.vector = msg.payload.data[0].embedding\nconst question = msg.input\nconst result = msg.input\nconst url = msg.old.link\n\nmsg.payload = {\n    name: global.get(\"pinecone\").PINECONE_INDEX,\n    vectors: [{\n        id: msg.ids,\n        pinecone: true,\n        values: vector,\n        metadata: { url: url, question: question, result: result }\n    }]\n};\n\nmsg.PINECONE_API_KEY = global.get(\"pinecone\").PINECONE_API\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\").PINECONE_ENV\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\").PINECONE_URL\n\nreturn msg;",
         "outputs": 1,
@@ -14761,7 +15054,7 @@
             }
         ],
         "x": 895,
-        "y": 2260,
+        "y": 2420,
         "wires": [
             [
                 "baa2eb8c05ae75f8",
@@ -14774,6 +15067,7 @@
         "id": "13970f4ff168dc20",
         "type": "openai-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
@@ -14788,7 +15082,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 780,
-        "y": 2260,
+        "y": 2420,
         "wires": [
             [
                 "923d6d9274ba70ef"
@@ -14799,6 +15093,7 @@
         "id": "999bcde02248f87a",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "create vector",
         "func": "msg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.tobase = JSON.stringify(msg.payload)\nmsg.input = JSON.stringify(msg.payload)\nmsg.ids = Date.now().toString()\n\nif (msg.typeBase === \"chroma\") { return [null, msg] }\nelse {\n    return [msg, null]\n}",
         "outputs": 2,
@@ -14807,7 +15102,7 @@
         "finalize": "",
         "libs": [],
         "x": 490,
-        "y": 2300,
+        "y": 2460,
         "wires": [
             [
                 "13970f4ff168dc20",
@@ -14822,6 +15117,7 @@
         "id": "57371eba09b0b86b",
         "type": "array-loop",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "key": "count",
         "keyType": "msg",
@@ -14830,7 +15126,7 @@
         "array": "array",
         "arrayType": "msg",
         "x": 860,
-        "y": 2180,
+        "y": 2340,
         "wires": [
             [
                 "07de504bad65aa0c"
@@ -14844,6 +15140,7 @@
         "id": "da88bbf77856e756",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "transform rows to objects",
         "func": "node.warn(msg.payload);\nconst inputArray = msg.payload;\nconst keys = inputArray[0];\n\ninputArray.shift();\nconst outputArray = inputArray.map(row => {\n    const obj = {};\n    keys.forEach((key, index) => {\n        obj[key] = row[index];\n    });\n    return obj;\n});\n\nmsg.payload = outputArray;\n\n\nreturn msg",
         "outputs": 1,
@@ -14852,7 +15149,7 @@
         "finalize": "",
         "libs": [],
         "x": 555,
-        "y": 2180,
+        "y": 2340,
         "wires": [
             [
                 "6f6a5c13aa870df0",
@@ -14865,13 +15162,14 @@
         "id": "ba65f6843de011c6",
         "type": "xlsx",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "sheets": "first",
         "multi": "one",
         "parse": "rows",
         "map": "{\"Питання\":\"question\",\"Тип\":\"type\",\"а\":\"a\",\"б\":\"b\",\"в\":\"c\",\"г\":\"d\",\"Правильна відповідь\":\"correctAnswer\"}",
         "x": 495,
-        "y": 2180,
+        "y": 2340,
         "wires": [
             [
                 "da88bbf77856e756"
@@ -14883,6 +15181,7 @@
         "id": "3d49c880df1d8f39",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "1",
         "active": true,
         "tosidebar": true,
@@ -14893,13 +15192,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 450,
-        "y": 2140,
+        "y": 2300,
         "wires": []
     },
     {
         "id": "e9f5dc6dc1cb4adb",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "2",
         "active": true,
         "tosidebar": true,
@@ -14910,13 +15210,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 750,
-        "y": 2140,
+        "y": 2300,
         "wires": []
     },
     {
         "id": "b6454f4e5248451e",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "3",
         "active": true,
         "tosidebar": true,
@@ -14927,20 +15228,21 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 830,
-        "y": 2300,
+        "y": 2460,
         "wires": []
     },
     {
         "id": "1548ea64a5af0d11",
         "type": "http in",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "",
         "url": "/createNewBase",
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 2580,
-        "y": 160,
+        "x": 2460,
+        "y": 180,
         "wires": [
             [
                 "4f17f5f8c5a757bc",
@@ -14952,6 +15254,7 @@
         "id": "1532078cf2e51076",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "create new knowlegebase",
         "func": "msg.collection = \"knowlegebase\"\n\nmsg.payload ={\n    _id: objectid(),\n    select:msg.payload.select,\n    type:msg.payload.type,\n    name: msg.payload.name,\n    deleted:false\n}\nmsg.old = msg.payload\nreturn msg;",
         "outputs": 1,
@@ -14964,8 +15267,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 2990,
-        "y": 140,
+        "x": 2870,
+        "y": 160,
         "wires": [
             [
                 "ec802408a48559c2"
@@ -14976,14 +15279,15 @@
         "id": "ec802408a48559c2",
         "type": "link call",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "",
         "links": [
             "8771d95b528d34d0"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 3210,
-        "y": 140,
+        "x": 3090,
+        "y": 160,
         "wires": [
             [
                 "aa7bbf253a9e56c5"
@@ -14994,17 +15298,19 @@
         "id": "00983e8d306f487e",
         "type": "http response",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 3470,
-        "y": 80,
+        "x": 3350,
+        "y": 100,
         "wires": []
     },
     {
         "id": "aa7bbf253a9e56c5",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": ">",
         "func": "if (msg.old.select === true) {\n    return [msg, null]\n} \nelse{\n    return[null,msg]\n}\n",
         "outputs": 2,
@@ -15012,8 +15318,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3350,
-        "y": 140,
+        "x": 3230,
+        "y": 160,
         "wires": [
             [
                 "103c3eae1b7d9a14"
@@ -15027,6 +15333,7 @@
         "id": "4076e91adb7ba1e1",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "status",
         "func": "msg.payload = {\n    \"success\": true,\n    \"payload\": \"Successfully created\"\n};\n\nreturn msg;",
         "outputs": 1,
@@ -15034,8 +15341,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3490,
-        "y": 180,
+        "x": 3370,
+        "y": 200,
         "wires": [
             [
                 "8acd821ec9412fe8"
@@ -15046,24 +15353,26 @@
         "id": "8acd821ec9412fe8",
         "type": "http response",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 3610,
-        "y": 180,
+        "x": 3490,
+        "y": 200,
         "wires": []
     },
     {
         "id": "5169a3b397c77fa2",
         "type": "http in",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "",
         "url": "changeMainbase",
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 2590,
-        "y": 80,
+        "x": 2470,
+        "y": 100,
         "wires": [
             [
                 "03577d3e65c49253",
@@ -15075,6 +15384,7 @@
         "id": "03577d3e65c49253",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "fromApp",
         "func": "msg.old = msg.payload\nmsg.collection = \"knowlegebase\"\n\nmsg.query={\n    _id:objectid(msg.old._id)\n}\nmsg.payload={\n$set:{\n    select:true\n}\n}\nreturn msg;",
         "outputs": 1,
@@ -15087,8 +15397,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 2860,
-        "y": 80,
+        "x": 2740,
+        "y": 100,
         "wires": [
             [
                 "e8912347ef762b39"
@@ -15099,14 +15409,15 @@
         "id": "e8912347ef762b39",
         "type": "link call",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "",
         "links": [
             "d1949ed8cdf3c5ed"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 3040,
-        "y": 80,
+        "x": 2920,
+        "y": 100,
         "wires": [
             [
                 "22e9278b86d77ed0"
@@ -15117,9 +15428,10 @@
         "id": "22e9278b86d77ed0",
         "type": "subflow:52166c6adc5d5d26",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "",
-        "x": 3280,
-        "y": 80,
+        "x": 3160,
+        "y": 100,
         "wires": [
             [
                 "00983e8d306f487e",
@@ -15131,9 +15443,10 @@
         "id": "103c3eae1b7d9a14",
         "type": "subflow:52166c6adc5d5d26",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "",
-        "x": 3540,
-        "y": 120,
+        "x": 3420,
+        "y": 140,
         "wires": [
             [
                 "354bb91442b64392"
@@ -15144,17 +15457,19 @@
         "id": "354bb91442b64392",
         "type": "http response",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 3730,
-        "y": 140,
+        "x": 3610,
+        "y": 160,
         "wires": []
     },
     {
         "id": "4c3dcdffe1ee6fdd",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "create chroma collection",
         "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: global.get('openai').OPENAI_API })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME')});\nconst collection = await client.createCollection({ name: msg.payload.name , embeddingFunction: embedder }) \n\nreturn msg;\n\n",
         "outputs": 1,
@@ -15171,8 +15486,8 @@
                 "module": "openai"
             }
         ],
-        "x": 2950,
-        "y": 200,
+        "x": 2830,
+        "y": 220,
         "wires": [
             [
                 "b5653932b67a5d5e"
@@ -15183,6 +15498,7 @@
         "id": "b5653932b67a5d5e",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "debug 547",
         "active": true,
         "tosidebar": true,
@@ -15192,14 +15508,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3210,
-        "y": 200,
+        "x": 3090,
+        "y": 220,
         "wires": []
     },
     {
         "id": "4f17f5f8c5a757bc",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": ">",
         "func": "if (msg.payload.type ==='chroma'){\n    return [msg,msg]\n}else{\n    return [msg,null]\n}\n",
         "outputs": 2,
@@ -15207,8 +15524,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2750,
-        "y": 160,
+        "x": 2630,
+        "y": 180,
         "wires": [
             [
                 "1532078cf2e51076"
@@ -15222,6 +15539,7 @@
         "id": "45d074c05757b404",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "to mongoDB select",
         "func": "msg.collection = \"knowlegebase\"\nmsg.payload = {\n    deleted: false\n}\nreturn msg;",
         "outputs": 1,
@@ -15234,8 +15552,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 2830,
-        "y": 260,
+        "x": 2710,
+        "y": 280,
         "wires": [
             [
                 "92665368cc0c4eb6"
@@ -15246,13 +15564,14 @@
         "id": "9e01084a541acbf4",
         "type": "http in",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "",
         "url": "/getBaseKnowlege",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 2580,
-        "y": 260,
+        "x": 2460,
+        "y": 280,
         "wires": [
             [
                 "45d074c05757b404"
@@ -15263,14 +15582,15 @@
         "id": "92665368cc0c4eb6",
         "type": "link call",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "",
         "links": [
             "2677414dc3b763e4"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 3010,
-        "y": 260,
+        "x": 2890,
+        "y": 280,
         "wires": [
             [
                 "c7d7a1de5b04eded",
@@ -15282,17 +15602,19 @@
         "id": "c7d7a1de5b04eded",
         "type": "http response",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 3210,
-        "y": 260,
+        "x": 3090,
+        "y": 280,
         "wires": []
     },
     {
         "id": "425202f145256de1",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "debug 548",
         "active": true,
         "tosidebar": true,
@@ -15302,14 +15624,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2630,
-        "y": 220,
+        "x": 2510,
+        "y": 240,
         "wires": []
     },
     {
         "id": "759d0b1506252708",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "debug 550",
         "active": true,
         "tosidebar": true,
@@ -15320,13 +15643,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 310,
-        "y": 1780,
+        "y": 1940,
         "wires": []
     },
     {
         "id": "d8abb10093385a4b",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "debug 551",
         "active": true,
         "tosidebar": true,
@@ -15337,13 +15661,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 270,
-        "y": 2140,
+        "y": 2300,
         "wires": []
     },
     {
         "id": "1bdf3f9883e4b928",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "create chroma collection",
         "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME') });\n//fill collection\nmsg.emb = msg.payload.data[0].embedding\nlet id = Date.now().toString()\nlet collection2 = await client.getCollection({ name: msg.tobase.nameBase})\nconst create = await collection2.add({\n    ids: [id],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.tobase.A, result: msg.tobase.B, id: msg.ids}],\n    documents: msg.tobase.name \n})\nnode.warn([{ question: msg.tobase.A, result: msg.tobase.B }])\nmsg.payload = create\n\nreturn msg;",
         "outputs": 1,
@@ -15361,7 +15686,7 @@
             }
         ],
         "x": 810,
-        "y": 2520,
+        "y": 2680,
         "wires": [
             [
                 "6a4463fd907f7fec"
@@ -15372,6 +15697,7 @@
         "id": "64fea4912b05cbe8",
         "type": "openai-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
@@ -15386,7 +15712,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 580,
-        "y": 2520,
+        "y": 2680,
         "wires": [
             [
                 "1bdf3f9883e4b928"
@@ -15397,6 +15723,7 @@
         "id": "6a4463fd907f7fec",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "debug 553",
         "active": true,
         "tosidebar": true,
@@ -15407,13 +15734,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1030,
-        "y": 2520,
+        "y": 2680,
         "wires": []
     },
     {
         "id": "0e50bd4a8768bf45",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "debug 554",
         "active": true,
         "tosidebar": true,
@@ -15423,14 +15751,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3030,
-        "y": 40,
+        "x": 2910,
+        "y": 60,
         "wires": []
     },
     {
         "id": "2f363e0e8737e49c",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "debug 555",
         "active": true,
         "tosidebar": true,
@@ -15440,14 +15769,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 3430,
-        "y": 40,
+        "x": 3310,
+        "y": 60,
         "wires": []
     },
     {
         "id": "2cdaef03b02c23dc",
         "type": "inject",
         "z": "df2aa561a3e2a544",
+        "g": "07cfba7089cf4e34",
         "name": "",
         "props": [
             {
@@ -15465,8 +15795,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 2620,
-        "y": 320,
+        "x": 2500,
+        "y": 340,
         "wires": [
             [
                 "45d074c05757b404"
@@ -15490,8 +15820,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 275,
-        "y": 40,
+        "x": 295,
+        "y": 60,
         "wires": [
             [
                 "b529d8e658743593",
@@ -15511,8 +15841,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 385,
-        "y": 40,
+        "x": 405,
+        "y": 60,
         "wires": [
             [
                 "cac42cca79b3e26d"
@@ -15530,12 +15860,11 @@
         "method": "post",
         "upload": true,
         "swaggerDoc": "",
-        "x": 130,
-        "y": 340,
+        "x": 150,
+        "y": 360,
         "wires": [
             [
-                "6e45768a5057994e",
-                "c6bac41964040f7a"
+                "6e45768a5057994e"
             ]
         ]
     },
@@ -15552,7 +15881,7 @@
         "finalize": "",
         "libs": [],
         "x": 710,
-        "y": 680,
+        "y": 840,
         "wires": [
             [
                 "ac1e332f09825540"
@@ -15572,7 +15901,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 880,
-        "y": 680,
+        "y": 840,
         "wires": [
             [
                 "4e2bacc2829ef766",
@@ -15590,8 +15919,8 @@
         "method": "delete",
         "upload": false,
         "swaggerDoc": "",
-        "x": 150,
-        "y": 920,
+        "x": 210,
+        "y": 1100,
         "wires": [
             [
                 "c6952962dff82cdd",
@@ -15617,8 +15946,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 460,
-        "y": 880,
+        "x": 520,
+        "y": 1060,
         "wires": [
             [
                 "a08780ba082a085f"
@@ -15642,8 +15971,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 440,
-        "y": 920,
+        "x": 500,
+        "y": 1100,
         "wires": [
             [
                 "1fa0fa0f880d742a"
@@ -15661,8 +15990,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 680,
-        "y": 880,
+        "x": 740,
+        "y": 1060,
         "wires": [
             []
         ]
@@ -15678,8 +16007,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 650,
-        "y": 920,
+        "x": 710,
+        "y": 1100,
         "wires": [
             [
                 "a50150ae05ab8dfb"
@@ -15703,8 +16032,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 940,
-        "y": 880,
+        "x": 1000,
+        "y": 1060,
         "wires": [
             [
                 "f52f17e0e50aa5b0"
@@ -15731,8 +16060,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1170,
-        "y": 860,
+        "x": 1230,
+        "y": 1040,
         "wires": [
             [
                 "54ce5acd1e468193"
@@ -15754,7 +16083,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1030,
-        "y": 640,
+        "y": 800,
         "wires": []
     },
     {
@@ -15774,8 +16103,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 540,
-        "y": 340,
+        "x": 560,
+        "y": 360,
         "wires": [
             [
                 "16dd42bfdefad70a"
@@ -15793,8 +16122,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 690,
-        "y": 340,
+        "x": 710,
+        "y": 360,
         "wires": [
             [
                 "21c1160e3cc8e951"
@@ -15813,8 +16142,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 850,
-        "y": 340,
+        "x": 870,
+        "y": 360,
         "wires": [
             [
                 "33ea7989f718a490"
@@ -15841,8 +16170,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1000,
-        "y": 280,
+        "x": 1020,
+        "y": 300,
         "wires": [
             [
                 "76ab8415e76f7d1a",
@@ -15868,8 +16197,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 990,
-        "y": 440,
+        "x": 1010,
+        "y": 460,
         "wires": [
             [
                 "2316decd9a0118f5",
@@ -15889,8 +16218,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1170,
-        "y": 400,
+        "x": 1190,
+        "y": 420,
         "wires": [
             [
                 "5d792176d61e9833"
@@ -15909,8 +16238,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1350,
-        "y": 400,
+        "x": 1370,
+        "y": 420,
         "wires": [
             [
                 "3d8319074e4f40f2"
@@ -15925,8 +16254,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1490,
-        "y": 400,
+        "x": 1510,
+        "y": 420,
         "wires": []
     },
     {
@@ -15940,8 +16269,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1180,
-        "y": 340,
+        "x": 1200,
+        "y": 360,
         "wires": [
             [
                 "f48c5055c04bdff2"
@@ -15960,8 +16289,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1350,
-        "y": 340,
+        "x": 1370,
+        "y": 360,
         "wires": [
             [
                 "0db55ca790cd41fc"
@@ -15976,8 +16305,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1490,
-        "y": 340,
+        "x": 1510,
+        "y": 360,
         "wires": []
     },
     {
@@ -15994,8 +16323,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 400,
-        "y": 960,
+        "x": 460,
+        "y": 1140,
         "wires": []
     },
     {
@@ -16004,20 +16333,24 @@
         "z": "df2aa561a3e2a544",
         "g": "15ae03457991775b",
         "name": "check type",
-        "func": "msg.collection = \"knowledgeObjects\";\nmsg.typeBase = msg.payload.typeBase;\nmsg.nameBase = msg.payload.nameBase;\nmsg.oldPayloadforlink = msg.payload\n\nmsg.oldPayload = msg.req.query\n\nmsg.type = msg.payload.type ? msg.payload.type : \"\"\n\n\nif (msg.type === \"Link\") {\n    return [msg, null, null]\n}\nif (msg.type === \"Manual\") {\n    return [null, msg, null]\n}\n    else{\n    return [null,null,msg]\n}\n\n",
-        "outputs": 3,
+        "func": "msg.collection = \"knowledgeObjects\";\nmsg.typeBase = msg.payload.typeBase;\nmsg.nameBase = msg.payload.nameBase;\nmsg.oldPayloadforlink = msg.payload\nmsg.contentPayload = msg.payload \nmsg.oldPayload = msg.req.query \n\nmsg.type = msg.payload.type ? msg.payload.type : \"\"\n\n\nif (msg.type === \"Link\") {\n    return [msg, null, null,null]\n}\nif (msg.type === \"Manual\") {\n    return [null, msg, null,null]\n}\nif(msg.type === \"Text\") {\n    return [null, null, msg,null]\n}\n    else{\n    return [null,null,null,msg]\n}\n\n",
+        "outputs": 4,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 340,
+        "x": 390,
+        "y": 360,
         "wires": [
             [
                 "58cbd72b6aa0f79f"
             ],
             [
                 "b9cb08ede5e95ac9"
+            ],
+            [
+                "c6bac41964040f7a",
+                "c50de6491b4a27e0"
             ],
             [
                 "e4bd4844a17b2fd5"
@@ -16037,7 +16370,7 @@
         "finalize": "",
         "libs": [],
         "x": 550,
-        "y": 680,
+        "y": 840,
         "wires": [
             [
                 "7b57414c5e0a360f"
@@ -16061,8 +16394,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 550,
-        "y": 100,
+        "x": 570,
+        "y": 120,
         "wires": [
             [
                 "306c190cafa25f5f"
@@ -16080,8 +16413,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 710,
-        "y": 100,
+        "x": 730,
+        "y": 120,
         "wires": [
             [
                 "a06961e8dea40913"
@@ -16106,7 +16439,7 @@
             }
         ],
         "x": 1210,
-        "y": 780,
+        "y": 940,
         "wires": [
             [
                 "28fa779fcc717590"
@@ -16127,7 +16460,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 1380,
-        "y": 780,
+        "y": 940,
         "wires": [
             [
                 "c706df4f6ffea383"
@@ -16147,7 +16480,7 @@
         "finalize": "",
         "libs": [],
         "x": 1570,
-        "y": 780,
+        "y": 940,
         "wires": [
             [
                 "d94b01bcc45cee99"
@@ -16172,7 +16505,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1750,
-        "y": 700,
+        "y": 860,
         "wires": []
     },
     {
@@ -16190,7 +16523,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1750,
-        "y": 860,
+        "y": 1020,
         "wires": []
     },
     {
@@ -16211,7 +16544,7 @@
             }
         ],
         "x": 1750,
-        "y": 740,
+        "y": 900,
         "wires": [
             [
                 "92e80531a17854ea",
@@ -16226,7 +16559,7 @@
         "z": "df2aa561a3e2a544",
         "g": "15ae03457991775b",
         "name": "FILES",
-        "func": "msg.payload = {\n    _id: objectid(),\n    knowledgeBaseId: objectid(msg.oldPayload.id),\n    name: msg.req.files[0].originalname,\n    type: \"Files\",\n    file: msg.req.files[0].originalname,\n    vectors: [],\n    status: \"Source saved\",\n    deleted: false,\n    createdAt: new Date(),\n    totaCharacters: msg.totaCharacters\n};\nreturn msg;",
+        "func": "msg.payload = {\n    _id: objectid(),\n    knowledgeBaseId: objectid(msg.oldPayload?.id),\n    name: msg.req?.files[0]?.originalname,\n    type: \"Files\",\n    file: msg.req?.files[0]?.originalname,\n    vectors: [],\n    status: \"Source saved\",\n    deleted: false,\n    createdAt: new Date(),\n    totaCharacters: msg.totaCharacters\n};\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -16238,7 +16571,7 @@
             }
         ],
         "x": 1750,
-        "y": 820,
+        "y": 980,
         "wires": [
             [
                 "2d0f8404ffafb91e",
@@ -16260,7 +16593,7 @@
         "finalize": "",
         "libs": [],
         "x": 2110,
-        "y": 780,
+        "y": 940,
         "wires": [
             [
                 "d2bf8aa85084dae2"
@@ -16276,7 +16609,7 @@
         "statusCode": "",
         "headers": {},
         "x": 2230,
-        "y": 780,
+        "y": 940,
         "wires": []
     },
     {
@@ -16291,7 +16624,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1930,
-        "y": 780,
+        "y": 940,
         "wires": [
             [
                 "de3839185f040596"
@@ -16310,8 +16643,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 870,
-        "y": 100,
+        "x": 890,
+        "y": 120,
         "wires": [
             [
                 "a644aea457eb893b",
@@ -16328,8 +16661,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1070,
-        "y": 160,
+        "x": 1090,
+        "y": 180,
         "wires": []
     },
     {
@@ -16349,8 +16682,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1250,
-        "y": 80,
+        "x": 1270,
+        "y": 100,
         "wires": [
             []
         ]
@@ -16367,8 +16700,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1070,
-        "y": 80,
+        "x": 1090,
+        "y": 100,
         "wires": [
             [
                 "2111b356dae493b0"
@@ -16393,7 +16726,7 @@
         "senderr": false,
         "headers": [],
         "x": 2110,
-        "y": 860,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -16404,14 +16737,14 @@
         "z": "df2aa561a3e2a544",
         "g": "15ae03457991775b",
         "name": "getLinkInfo",
-        "func": "\n\nmsg.payload ={\n    _id: msg.payload._id,\n    knowledgeBaseId: msg.payload.knowledgeBaseId,\n    link: msg.decodedFilename,\n    typeBase: msg.oldPayload.typeBase,\n    nameBase: msg.oldPayload.nameBase\n}\n\nmsg.url = env.get(\"nodered\") + `/getFileInfo`\nreturn msg;",
+        "func": "\n\nmsg.payload ={\n    _id: msg.payload._id,\n    knowledgeBaseId: msg.payload.knowledgeBaseId ,\n    link: msg.decodedFilename,\n    typeBase: msg.oldPayload.typeBase,\n    nameBase: msg.oldPayload.nameBase\n}\n\nmsg.url = env.get(\"nodered\") + `/getFileInfo`\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 1930,
-        "y": 860,
+        "y": 1020,
         "wires": [
             [
                 "0c873b8eec59e7b7"
@@ -16436,7 +16769,7 @@
         "senderr": false,
         "headers": [],
         "x": 2110,
-        "y": 700,
+        "y": 860,
         "wires": [
             []
         ]
@@ -16454,7 +16787,7 @@
         "finalize": "",
         "libs": [],
         "x": 1930,
-        "y": 700,
+        "y": 860,
         "wires": [
             [
                 "6b0127a271910ed9"
@@ -16469,8 +16802,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1330,
-        "y": 860,
+        "x": 1390,
+        "y": 1040,
         "wires": []
     },
     {
@@ -16481,8 +16814,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1150,
-        "y": 900,
+        "x": 1210,
+        "y": 1080,
         "wires": []
     },
     {
@@ -16502,8 +16835,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1390,
-        "y": 480,
+        "x": 1410,
+        "y": 500,
         "wires": [
             []
         ]
@@ -16520,8 +16853,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1170,
-        "y": 480,
+        "x": 1190,
+        "y": 500,
         "wires": [
             [
                 "c51ee5ee9d9b6cd5"
@@ -16545,8 +16878,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1370,
-        "y": 220,
+        "x": 1390,
+        "y": 240,
         "wires": [
             []
         ]
@@ -16563,8 +16896,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1180,
-        "y": 220,
+        "x": 1200,
+        "y": 240,
         "wires": [
             [
                 "d8783321c9f5fd59"
@@ -16585,8 +16918,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 360,
-        "y": 400,
+        "x": 380,
+        "y": 420,
         "wires": []
     },
     {
@@ -16602,7 +16935,7 @@
         "finalize": "",
         "libs": [],
         "x": 1050,
-        "y": 680,
+        "y": 840,
         "wires": [
             [
                 "0511e829bb6d8786"
@@ -16630,7 +16963,7 @@
             }
         ],
         "x": 1210,
-        "y": 600,
+        "y": 760,
         "wires": [
             [
                 "17e109b11c877ed7",
@@ -16651,7 +16984,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1370,
-        "y": 560,
+        "y": 720,
         "wires": [
             [
                 "b746d8916198c204"
@@ -16671,7 +17004,7 @@
         "finalize": "",
         "libs": [],
         "x": 1510,
-        "y": 560,
+        "y": 720,
         "wires": [
             [
                 "560b09cbe9fe0040"
@@ -16687,7 +17020,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1630,
-        "y": 560,
+        "y": 720,
         "wires": []
     },
     {
@@ -16708,7 +17041,7 @@
         "senderr": false,
         "headers": [],
         "x": 1550,
-        "y": 660,
+        "y": 820,
         "wires": [
             []
         ]
@@ -16726,7 +17059,7 @@
         "finalize": "",
         "libs": [],
         "x": 1370,
-        "y": 660,
+        "y": 820,
         "wires": [
             [
                 "1382fe989cc941b7",
@@ -16749,7 +17082,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1350,
-        "y": 600,
+        "y": 760,
         "wires": []
     },
     {
@@ -16762,8 +17095,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 130,
-        "y": 40,
+        "x": 150,
+        "y": 60,
         "wires": [
             [
                 "482db8d8fa3da10f"
@@ -16787,8 +17120,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 530,
-        "y": 40,
+        "x": 550,
+        "y": 60,
         "wires": [
             [
                 "887aa27eaee312f0"
@@ -16806,8 +17139,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 730,
-        "y": 40,
+        "x": 750,
+        "y": 60,
         "wires": [
             [
                 "fad099a744cfcb2f"
@@ -16822,8 +17155,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1050,
-        "y": 40,
+        "x": 1070,
+        "y": 60,
         "wires": []
     },
     {
@@ -16838,8 +17171,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
-        "y": 40,
+        "x": 900,
+        "y": 60,
         "wires": [
             [
                 "8bae16bbe3673d52",
@@ -16861,8 +17194,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1160,
-        "y": 280,
+        "x": 1180,
+        "y": 300,
         "wires": []
     },
     {
@@ -16879,8 +17212,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1150,
-        "y": 440,
+        "x": 1170,
+        "y": 460,
         "wires": []
     },
     {
@@ -16897,8 +17230,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1070,
-        "y": 120,
+        "x": 1090,
+        "y": 140,
         "wires": []
     },
     {
@@ -16913,8 +17246,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 790,
-        "y": 920,
+        "x": 850,
+        "y": 1100,
         "wires": [
             [
                 "8567ae67182cb1a4"
@@ -16945,8 +17278,8 @@
                 "module": "openai"
             }
         ],
-        "x": 960,
-        "y": 980,
+        "x": 1020,
+        "y": 1160,
         "wires": [
             [
                 "02cb5d9e3d72324f"
@@ -16964,8 +17297,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1130,
-        "y": 1000,
+        "x": 1190,
+        "y": 1180,
         "wires": []
     },
     {
@@ -16976,14 +17309,15 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1130,
-        "y": 960,
+        "x": 1190,
+        "y": 1140,
         "wires": []
     },
     {
         "id": "55abc98108396c2d",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "create chroma collection",
         "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME') });\n//fill collection\nmsg.emb = msg.payload.data[0].embedding\n\nlet collection2 = await client.getCollection({ name: msg.nameBase})\nconst create = await collection2.add({\n    ids: [msg.ids],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.input, result: msg.input, id: msg.ids}],\n    documents: msg.old.link \n})\nnode.warn([{ question: msg.input, result: msg.input }])\nmsg.payload = create\n\nreturn msg;\n\n\n",
         "outputs": 1,
@@ -17001,7 +17335,7 @@
             }
         ],
         "x": 990,
-        "y": 2380,
+        "y": 2540,
         "wires": [
             [
                 "65177ebd4cb740e7",
@@ -17013,6 +17347,7 @@
         "id": "b8be35b0f9ad3995",
         "type": "openai-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
@@ -17027,7 +17362,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 760,
-        "y": 2380,
+        "y": 2540,
         "wires": [
             [
                 "55abc98108396c2d",
@@ -17039,6 +17374,7 @@
         "id": "65177ebd4cb740e7",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "debug 556",
         "active": true,
         "tosidebar": true,
@@ -17049,13 +17385,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1210,
-        "y": 2380,
+        "y": 2540,
         "wires": []
     },
     {
         "id": "d588fb7df42e8356",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "create vector",
         "func": "msg.collection = \"knowledgeObjects\"\n\nconst question = msg.input\nconst result = msg.input\n\nlet url = msg.old.link\n\n\nmsg.query = { \"_id\": msg.old._id }\nmsg.payload = {\n\n   \"$push\": {\n      \"vectors\": {\n         id: msg.ids,\n         chroma: true,\n         metadata: { url: msg.old.link, question:question, result:result },\n      }\n   }\n\n};\nreturn msg;",
         "outputs": 1,
@@ -17064,7 +17401,7 @@
         "finalize": "",
         "libs": [],
         "x": 915,
-        "y": 2440,
+        "y": 2600,
         "wires": [
             [
                 "87b081a75c5ae10b"
@@ -17076,6 +17413,7 @@
         "id": "87b081a75c5ae10b",
         "type": "link call",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "links": [
             "d1949ed8cdf3c5ed"
@@ -17083,7 +17421,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1040,
-        "y": 2440,
+        "y": 2600,
         "wires": [
             []
         ]
@@ -17092,6 +17430,7 @@
         "id": "fd375ebb8ea97984",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "create chroma collection",
         "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME') });\n//fill collection\nconst question = msg.tobase.A\nconst result = msg.tobase.B\nmsg.emb = msg.payload.data[0].embedding\n\nlet collection2 = await client.getCollection({ name: msg.nameBase})\nconst create = await collection2.add({\n    ids: [msg.ids],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.input, result: result, id: msg.ids}],\n    documents: msg.old.link \n})\nnode.warn([{ question: question, result: result }])\nmsg.payload = create\n\nreturn msg;\n\n\n",
         "outputs": 1,
@@ -17109,7 +17448,7 @@
             }
         ],
         "x": 810,
-        "y": 2020,
+        "y": 2180,
         "wires": [
             [
                 "dbb1f7927cb4b2ef",
@@ -17121,6 +17460,7 @@
         "id": "4aea7eed115c4516",
         "type": "openai-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
@@ -17135,7 +17475,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 580,
-        "y": 2020,
+        "y": 2180,
         "wires": [
             [
                 "fd375ebb8ea97984",
@@ -17147,6 +17487,7 @@
         "id": "dbb1f7927cb4b2ef",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "chroma",
         "active": true,
         "tosidebar": true,
@@ -17157,13 +17498,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1020,
-        "y": 2020,
+        "y": 2180,
         "wires": []
     },
     {
         "id": "14c4f29db6f28641",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "create vector",
         "func": "msg.collection = \"knowledgeObjects\"\n\nlet question = msg.tobase.A;\nlet result = msg.tobase.B;\n\nlet url = msg.old.link\n\n\nmsg.query = { \"_id\": msg.old._id }\nmsg.payload = {\n\n   \"$push\": {\n      \"vectors\": {\n         id: msg.ids,\n         pinecone: true,\n         metadata: { url: msg.old.link, question: question, result: result },\n      }\n   }\n\n};\nreturn msg;",
         "outputs": 1,
@@ -17172,7 +17514,7 @@
         "finalize": "",
         "libs": [],
         "x": 735,
-        "y": 1980,
+        "y": 2140,
         "wires": [
             [
                 "0e05ada7c7a89582"
@@ -17184,6 +17526,7 @@
         "id": "0e05ada7c7a89582",
         "type": "link call",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "links": [
             "d1949ed8cdf3c5ed"
@@ -17191,7 +17534,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 860,
-        "y": 1980,
+        "y": 2140,
         "wires": [
             []
         ]
@@ -17200,6 +17543,7 @@
         "id": "bba98a28e4f62603",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "pincone",
         "active": true,
         "tosidebar": true,
@@ -17210,13 +17554,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 740,
-        "y": 1960,
+        "y": 2120,
         "wires": []
     },
     {
         "id": "66d435338ad10528",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "create chroma collection",
         "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME') });\n//fill collection\nconst question = msg.input\nconst result = msg.input\nmsg.emb = msg.payload.data[0].embedding\n\nlet collection2 = await client.getCollection({ name: msg.nameBase})\nconst create = await collection2.add({\n    ids: [msg.ids],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.input, result: result, id: msg.ids }],\n    documents: msg.old.link \n})\nnode.warn([{ question: question, result: result }])\nmsg.payload = create\n\nreturn msg;\n\n\n",
         "outputs": 1,
@@ -17234,7 +17579,7 @@
             }
         ],
         "x": 870,
-        "y": 1740,
+        "y": 1900,
         "wires": [
             [
                 "1d4a7c41c1638c3d",
@@ -17246,6 +17591,7 @@
         "id": "ce1e0b0a99ee006f",
         "type": "openai-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
@@ -17260,7 +17606,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 640,
-        "y": 1740,
+        "y": 1900,
         "wires": [
             [
                 "66d435338ad10528",
@@ -17272,6 +17618,7 @@
         "id": "1d4a7c41c1638c3d",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "chroma",
         "active": true,
         "tosidebar": true,
@@ -17282,13 +17629,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1080,
-        "y": 1740,
+        "y": 1900,
         "wires": []
     },
     {
         "id": "49bb90cf406e7ffe",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "create vector",
         "func": "msg.collection = \"knowledgeObjects\"\n\nconst question = msg.input\nconst result = msg.input\n\nlet url = msg.old.link\n\n\nmsg.query = { \"_id\": msg.old._id }\nmsg.payload = {\n\n   \"$push\": {\n      \"vectors\": {\n         id: msg.ids,\n         pinecone: true,\n         metadata: { url: msg.old.link, question: question, result: result },\n      }\n   }\n\n};\nreturn msg;",
         "outputs": 1,
@@ -17297,7 +17645,7 @@
         "finalize": "",
         "libs": [],
         "x": 795,
-        "y": 1780,
+        "y": 1940,
         "wires": [
             [
                 "17f717c5a41b74ea"
@@ -17309,6 +17657,7 @@
         "id": "17f717c5a41b74ea",
         "type": "link call",
         "z": "df2aa561a3e2a544",
+        "g": "2f81b499732e56f1",
         "name": "",
         "links": [
             "d1949ed8cdf3c5ed"
@@ -17316,7 +17665,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 920,
-        "y": 1780,
+        "y": 1940,
         "wires": [
             []
         ]
@@ -17325,6 +17674,7 @@
         "id": "0b31507d427983f4",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "from Chroma",
         "func": "const { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME') });\nconst vector = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\n\n\nlet collection2 = await client.getCollection({ name: msg.payload.typeName, })\nconst result = await collection2.query({\n    queryEmbeddings: vector,\n    nResults:100\n})\nmsg.payload = result\nreturn msg;",
         "outputs": 1,
@@ -17341,8 +17691,8 @@
                 "module": "openai"
             }
         ],
-        "x": 1830,
-        "y": 1240,
+        "x": 2830,
+        "y": 540,
         "wires": [
             [
                 "9db4eb820bc88220",
@@ -17354,17 +17704,19 @@
         "id": "9db4eb820bc88220",
         "type": "http response",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1990,
-        "y": 1240,
+        "x": 2990,
+        "y": 540,
         "wires": []
     },
     {
         "id": "6e0b8be9b2494341",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": ">",
         "func": "\nif (msg.payload.typeBase === \"chroma\") { return [null, msg] }\nelse {\n    return [msg, null]\n}\n",
         "outputs": 2,
@@ -17372,8 +17724,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1630,
-        "y": 1220,
+        "x": 2630,
+        "y": 520,
         "wires": [
             [
                 "17ec2396daa3bd93"
@@ -17405,8 +17757,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 340,
-        "y": 100,
+        "x": 360,
+        "y": 120,
         "wires": [
             [
                 "cac42cca79b3e26d"
@@ -17431,8 +17783,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 325,
-        "y": 40,
+        "x": 345,
+        "y": 60,
         "wires": [
             [
                 "9ab30a33d00ab6bb"
@@ -17454,14 +17806,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 310,
-        "y": 160,
+        "x": 330,
+        "y": 180,
         "wires": []
     },
     {
         "id": "10a5750f96e8e75c",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "debug 559",
         "active": true,
         "tosidebar": true,
@@ -17471,14 +17824,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1610,
-        "y": 1180,
+        "x": 2610,
+        "y": 480,
         "wires": []
     },
     {
         "id": "26a9a34a05348ec4",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "debug 560",
         "active": true,
         "tosidebar": true,
@@ -17488,14 +17842,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2210,
-        "y": 1220,
+        "x": 3210,
+        "y": 520,
         "wires": []
     },
     {
         "id": "faf4a7ad02472906",
         "type": "openai-ubos",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "",
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
@@ -17509,8 +17864,8 @@
             "value": "[]"
         },
         "OPENAI_API_KEY": "",
-        "x": 1860,
-        "y": 1480,
+        "x": 2860,
+        "y": 780,
         "wires": [
             [
                 "f15811423029775f"
@@ -17521,8 +17876,9 @@
         "id": "f15811423029775f",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "create chroma collection",
-        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME') });\n//fill collection\n\nmsg.emb = msg.payload.data[0].embedding\nconst question = msg.fromApp.question;\nconst result = msg.fromApp.result;\nconst id = msg.fromApp.id;\nconst url = msg.fromApp.url;\n\nlet collection2 = await client.getCollection({ name: msg.fromApp.nameBase})\nconst create = await collection2.upsert({\n    ids: id,\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.input, result: result, id:id}],\n    documents: url \n})\nnode.warn([{ question: question, result: result }])\nmsg.payload = create\n\nreturn msg;\n\n\n",
+        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME') });\n//fill collection\n\nmsg.emb = msg.payload.data[0].embedding\nconst question = msg.fromApp.question;\nconst result = msg.fromApp.result;\nconst id = msg.fromApp.id;\nconst url = msg.fromApp.url;\n\nlet collection2 = await client.getCollection({ name: msg.fromApp.nameBase})\nconst create = await collection2.upsert({\n    ids: id,\n    embeddings: msg.emb,\n    metadatas: [{ question: question, result: result, id:id}],\n    documents: url \n})\nnode.warn([{ question: question, result: result, id: id }])\nmsg.payload = create\n\nreturn msg;\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -17537,8 +17893,8 @@
                 "module": "openai"
             }
         ],
-        "x": 2070,
-        "y": 1500,
+        "x": 3070,
+        "y": 800,
         "wires": [
             [
                 "34de11cd6320d6e8",
@@ -17550,6 +17906,7 @@
         "id": "34de11cd6320d6e8",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "debug 561",
         "active": true,
         "tosidebar": true,
@@ -17559,14 +17916,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2290,
-        "y": 1500,
+        "x": 3290,
+        "y": 800,
         "wires": []
     },
     {
         "id": "42a76277d3a4647e",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": ">",
         "func": "let vectorIds = [msg.req.query.id];\nmsg.ids = msg.req.query.id\n\nif (msg.req.query.typeBase === \"chroma\") { return [null, msg] }\nelse {\n    return [msg, null]\n}\n",
         "outputs": 2,
@@ -17574,8 +17932,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1590,
-        "y": 1720,
+        "x": 2750,
+        "y": 980,
         "wires": [
             [
                 "2ddd088dcb4769e9",
@@ -17591,6 +17949,7 @@
         "id": "a19e64030a636e85",
         "type": "function",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "delete chroma vector",
         "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openai-key') })\nconst client = new ChromaClient({ path: env.get('AIBOTDB-CHROMA-HOST-NAME') });\n//fill collection\n\nlet collection = await client.getCollection({ name: msg.req.query.nameBase})\nconst deleted = await collection.delete({\n    ids: [msg.ids]\n})\n\nmsg.payload = deleted;\n\n\nreturn msg\n// const collection = await client.getCollection({ name: msg.knowledgeBaseInfo[0].knowledgeBase.name, })\n// const result = await collection.delete({\n//     ids: [msg.fromApp.id],\n\n// })\n// node.warn(result)\n// msg.payload = result;\n\n\n",
         "outputs": 1,
@@ -17607,8 +17966,8 @@
                 "module": "openai"
             }
         ],
-        "x": 1800,
-        "y": 1760,
+        "x": 2960,
+        "y": 1020,
         "wires": [
             [
                 "34b6a3b909980fcd",
@@ -17620,6 +17979,7 @@
         "id": "515372f09b077652",
         "type": "debug",
         "z": "df2aa561a3e2a544",
+        "g": "7c54a342551d3143",
         "name": "debug 562",
         "active": true,
         "tosidebar": true,
@@ -17629,8 +17989,330 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2010,
-        "y": 1800,
+        "x": 3170,
+        "y": 1060,
         "wires": []
+    },
+    {
+        "id": "a6bfe94147d55465",
+        "type": "file",
+        "z": "df2aa561a3e2a544",
+        "g": "15ae03457991775b",
+        "name": "Save to .txt",
+        "filename": "decodedFilename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 930,
+        "y": 580,
+        "wires": [
+            [
+                "f341a34a40111eac"
+            ]
+        ]
+    },
+    {
+        "id": "c50de6491b4a27e0",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "g": "15ae03457991775b",
+        "name": "TEXT",
+        "func": "msg.payload = msg.contentPayload.text\nnode.warn(msg.payload)\nmsg.decodedFilename  = `/data/storage/${msg.contentPayload.name}.txt`\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 580,
+        "wires": [
+            [
+                "a6bfe94147d55465"
+            ]
+        ]
+    },
+    {
+        "id": "f341a34a40111eac",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "name": "get file",
+        "func": "msg.filepath = msg.decodedFilename\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 1090,
+        "y": 580,
+        "wires": [
+            [
+                "12f35e75a888e5a0"
+            ]
+        ]
+    },
+    {
+        "id": "12f35e75a888e5a0",
+        "type": "file in",
+        "z": "df2aa561a3e2a544",
+        "name": "",
+        "filename": "filepath",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 1260,
+        "y": 580,
+        "wires": [
+            [
+                "7bb03f72d1aa59a7"
+            ]
+        ]
+    },
+    {
+        "id": "7bb03f72d1aa59a7",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "name": "encoding file",
+        "func": "\nlet text = msg.payload\n\nmsg.totaCharacters = msg.payload.length\nlet parts = text.split(/\\n/g).map(part => part.trim()).filter(part => part.length > 0);\n\nlet result = [];\nlet obj = {};\nfor (let i = 0; i < parts.length; i++) {\n    if (parts[i].endsWith(\"?\")) {\n        if (Object.keys(obj).length > 0) { // if 'obj' has keys\n            result.push(obj);\n            // @ts-ignore\n            obj = {};\n        }\n        obj[\"A\"] = parts[i];\n    } else {\n        if (obj[\"B\"]) {\n            obj[\"B\"] += ' ' + parts[i];\n        } else {\n            obj[\"B\"] = parts[i];\n        }\n    }\n}\n\nif (Object.keys(obj).length > 0) {\n    result.push(obj);\n}\n\nmsg.array = result;\n\nif (msg.array.length > 1 && !msg.req.files[0].originalname.includes(\".pdf\")){\n    return [msg,null]\n}else{\n    return [null,msg]\n}\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 580,
+        "wires": [
+            [
+                "93fea5b6304a797c"
+            ],
+            [
+                "44bc3ea86636e87e"
+            ]
+        ]
+    },
+    {
+        "id": "f4932644b455c37a",
+        "type": "debug",
+        "z": "df2aa561a3e2a544",
+        "name": "FAQ",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1670,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "625b0c0fbb96d81f",
+        "type": "debug",
+        "z": "df2aa561a3e2a544",
+        "name": "FILES",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1670,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "93fea5b6304a797c",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "name": "FAQ",
+        "func": "msg.buffer = msg.req.files[0].buffer\n\nmsg.decodedFilename = '/data/storage/' + `${msg.contentPayload.name}.txt`;\n\n\n\nmsg.payload = {\n    _id: objectid(),\n    knowledgeBaseId: objectid(msg.contentPayload.id),\n    name: msg.contentPayload.name,\n    type: \"FAQ\",\n    file: `${msg.contentPayload.name}.txt`,\n    vectors: [],\n    status: \"Source saved\",\n    deleted: false,\n    createdAt: new Date(),\n    totaCharacters: msg.totaCharacters\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 1670,
+        "y": 540,
+        "wires": [
+            [
+                "f4932644b455c37a",
+                "46fff4fcbc34ab29",
+                "2ded6078d3ed7472"
+            ]
+        ]
+    },
+    {
+        "id": "44bc3ea86636e87e",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "name": "FILES",
+        "func": "msg.payload = {\n    _id: objectid(),\n    knowledgeBaseId: objectid(msg.contentPayload.id),\n    name: msg.contentPayload.name,\n    type: \"Files\",\n    file: `${msg.contentPayload.name}.txt`,\n    vectors: [],\n    status: \"Source saved\",\n    deleted: false,\n    createdAt: new Date(),\n    totaCharacters: msg.totaCharacters\n};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 1670,
+        "y": 620,
+        "wires": [
+            [
+                "625b0c0fbb96d81f",
+                "46fff4fcbc34ab29",
+                "d2232a84452b3f73"
+            ]
+        ]
+    },
+    {
+        "id": "686220bac8f06fe2",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "name": "status",
+        "func": "msg.payload = {\n    \"success\": true,\n    \"payload\": \"Successfully updated\"\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2030,
+        "y": 580,
+        "wires": [
+            [
+                "fad10f299fd501f4"
+            ]
+        ]
+    },
+    {
+        "id": "fad10f299fd501f4",
+        "type": "http response",
+        "z": "df2aa561a3e2a544",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 2150,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "46fff4fcbc34ab29",
+        "type": "link call",
+        "z": "df2aa561a3e2a544",
+        "name": "",
+        "links": [
+            "8771d95b528d34d0"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1850,
+        "y": 580,
+        "wires": [
+            [
+                "686220bac8f06fe2"
+            ]
+        ]
+    },
+    {
+        "id": "e94ba7e8bf5a5c9f",
+        "type": "http request",
+        "z": "df2aa561a3e2a544",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 2030,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d2232a84452b3f73",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "name": "getLinkInfo",
+        "func": "\n\nmsg.payload ={\n    _id: msg.payload._id,\n    knowledgeBaseId: msg.payload.knowledgeBaseId ,\n    link: msg.decodedFilename,\n    typeBase: msg.contentPayload.typeBase,\n    nameBase: msg.contentPayload.nameBase\n}\n\nmsg.url = env.get(\"nodered\") + `/getFileInfo`\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1850,
+        "y": 660,
+        "wires": [
+            [
+                "e94ba7e8bf5a5c9f"
+            ]
+        ]
+    },
+    {
+        "id": "939e41923e16385a",
+        "type": "http request",
+        "z": "df2aa561a3e2a544",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 2030,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2ded6078d3ed7472",
+        "type": "function",
+        "z": "df2aa561a3e2a544",
+        "name": "getLinkInfo",
+        "func": "msg.payload ={\n    _id: msg.payload._id,\n    knowledgeBaseId: msg.payload.knowledgeBaseId,\n    link: msg.decodedFilename,\n    typeBase: msg.contentPayload.typeBase,\n    nameBase: msg.contentPayload.nameBase\n}\n\nmsg.url = env.get(\"nodered\") + `/FAQ`\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1850,
+        "y": 500,
+        "wires": [
+            [
+                "939e41923e16385a"
+            ]
+        ]
     }
 ]
