@@ -14272,7 +14272,7 @@
         "z": "df2aa561a3e2a544",
         "g": "2f81b499732e56f1",
         "name": "",
-        "func": "msg.old=msg.payload\nmsg.url = msg.payload.link;\nreturn msg",
+        "func": "msg.old=msg.payload\nmsg.url = msg.payload.link.trim();\nreturn msg",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
