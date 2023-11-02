@@ -497,10 +497,16 @@
             "a47dc852f2a3d493",
             "6ea0bca567f98258",
             "a65aaa50a45d0252",
-            "28efd2464c3c839c"
+            "28efd2464c3c839c",
+            "b8af4f0f3fd180b2",
+            "4a1ef9a5867de123",
+            "57619437348535b3",
+            "0027302e94e9402a"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 1592,
+        "h": 342
     },
     {
         "id": "40d09c6e6df96683",
@@ -537,10 +543,16 @@
             "96fdc9ebf7f8fd4d",
             "44b9e0968d17375a",
             "8bddac81611d93ed",
-            "9592d313e2e286eb"
+            "9592d313e2e286eb",
+            "4d09a1d69dc6cf63",
+            "c70fdc0b39a25ae7",
+            "2cc192fa61e9ae1c",
+            "d462c346101f63bd"
         ],
         "x": 14,
-        "y": 759
+        "y": 839,
+        "w": 1812,
+        "h": 342
     },
     {
         "id": "7f86806a4ca0c715",
@@ -575,10 +587,17 @@
             "beeff7858c8e1db1",
             "947b8cf521fa8b81",
             "641684d8ce0a590f",
-            "e0933beca89886f4"
+            "e0933beca89886f4",
+            "8bbbf3db55d9fe93",
+            "5c05a0ea71e76988",
+            "995209e61c4042fc",
+            "6a750ef1960a070f",
+            "c08efe0db52feeb3"
         ],
         "x": 14,
-        "y": 1139
+        "y": 1279,
+        "w": 1812,
+        "h": 382
     },
     {
         "id": "945706dce188c905",
@@ -831,10 +850,14 @@
             "762d9f30ef250e1b",
             "c9c1333a16ccdec7",
             "0d6c11d99a575e6e",
-            "e6c0fd344aef33cd"
+            "e6c0fd344aef33cd",
+            "87345e8c7770a1c7",
+            "cfc94b2373409431"
         ],
         "x": 14,
-        "y": 39
+        "y": 39,
+        "w": 2312,
+        "h": 402
     },
     {
         "id": "4f917968caad45c9",
@@ -10719,7 +10742,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 120,
-        "y": 900,
+        "y": 980,
         "wires": [
             [
                 "a5f2c2ab21518eb7"
@@ -10739,7 +10762,7 @@
         "finalize": "",
         "libs": [],
         "x": 320,
-        "y": 900,
+        "y": 980,
         "wires": [
             [
                 "3e397bf3b91a5907",
@@ -10760,7 +10783,7 @@
         "statusCode": "",
         "headers": {},
         "x": 510,
-        "y": 880,
+        "y": 960,
         "wires": []
     },
     {
@@ -10776,7 +10799,7 @@
         "finalize": "",
         "libs": [],
         "x": 1220,
-        "y": 920,
+        "y": 1000,
         "wires": [
             [
                 "0a2e4892c4e243c2",
@@ -10815,7 +10838,7 @@
             }
         ],
         "x": 1410,
-        "y": 920,
+        "y": 1000,
         "wires": [
             [
                 "201d52af1c42d0e7",
@@ -10834,7 +10857,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 120,
-        "y": 1020,
+        "y": 1100,
         "wires": [
             [
                 "09ed5a18c5e2572d",
@@ -10855,7 +10878,7 @@
         "finalize": "",
         "libs": [],
         "x": 320,
-        "y": 1020,
+        "y": 1100,
         "wires": [
             [
                 "56f20785fda555c8"
@@ -10877,7 +10900,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 320,
-        "y": 1060,
+        "y": 1140,
         "wires": []
     },
     {
@@ -10889,7 +10912,7 @@
         "statusCode": "",
         "headers": {},
         "x": 490,
-        "y": 1020,
+        "y": 1100,
         "wires": []
     },
     {
@@ -10905,7 +10928,7 @@
         "finalize": "",
         "libs": [],
         "x": 520,
-        "y": 800,
+        "y": 880,
         "wires": [
             [
                 "f08426907c45fac4"
@@ -10930,7 +10953,7 @@
         "senderr": false,
         "headers": [],
         "x": 690,
-        "y": 800,
+        "y": 880,
         "wires": [
             [
                 "f5be53459c334004",
@@ -10951,7 +10974,7 @@
         "finalize": "",
         "libs": [],
         "x": 870,
-        "y": 800,
+        "y": 880,
         "wires": [
             [
                 "8855b83b6672aa0a"
@@ -10977,7 +11000,7 @@
         "senderr": false,
         "headers": [],
         "x": 1030,
-        "y": 800,
+        "y": 880,
         "wires": [
             []
         ]
@@ -10995,7 +11018,7 @@
         "finalize": "",
         "libs": [],
         "x": 1570,
-        "y": 920,
+        "y": 1000,
         "wires": [
             [
                 "12444a1783ffbd19"
@@ -11020,7 +11043,7 @@
         "senderr": false,
         "headers": [],
         "x": 1730,
-        "y": 920,
+        "y": 1000,
         "wires": [
             []
         ]
@@ -11040,7 +11063,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1490,
-        "y": 980,
+        "y": 1060,
         "wires": []
     },
     {
@@ -11058,7 +11081,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 870,
-        "y": 840,
+        "y": 920,
         "wires": []
     },
     {
@@ -11076,7 +11099,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 530,
-        "y": 840,
+        "y": 920,
         "wires": []
     },
     {
@@ -11094,7 +11117,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1410,
-        "y": 880,
+        "y": 960,
         "wires": []
     },
     {
@@ -11127,7 +11150,7 @@
         "finalize": "",
         "libs": [],
         "x": 360,
-        "y": 1180,
+        "y": 1320,
         "wires": [
             [
                 "9901b6a7a9032582",
@@ -11144,7 +11167,7 @@
         "statusCode": "",
         "headers": {},
         "x": 530,
-        "y": 1180,
+        "y": 1320,
         "wires": []
     },
     {
@@ -11158,7 +11181,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 130,
-        "y": 1300,
+        "y": 1440,
         "wires": [
             [
                 "92213ea20ab9b1ef",
@@ -11179,7 +11202,7 @@
         "finalize": "",
         "libs": [],
         "x": 360,
-        "y": 1300,
+        "y": 1440,
         "wires": [
             [
                 "8ba088e5adc829b1"
@@ -11200,7 +11223,7 @@
         "statusCode": "",
         "headers": {},
         "x": 570,
-        "y": 1300,
+        "y": 1440,
         "wires": []
     },
     {
@@ -11216,7 +11239,7 @@
         "finalize": "",
         "libs": [],
         "x": 1200,
-        "y": 1360,
+        "y": 1500,
         "wires": [
             [
                 "a8cba982ca4f9115",
@@ -11255,7 +11278,7 @@
             }
         ],
         "x": 1370,
-        "y": 1360,
+        "y": 1500,
         "wires": [
             [
                 "bcf5974f2cef9cba",
@@ -11276,7 +11299,7 @@
         "finalize": "",
         "libs": [],
         "x": 560,
-        "y": 1240,
+        "y": 1380,
         "wires": [
             [
                 "5eac3e8dfce81d88"
@@ -11301,7 +11324,7 @@
         "senderr": false,
         "headers": [],
         "x": 710,
-        "y": 1240,
+        "y": 1380,
         "wires": [
             [
                 "51b3787563ee1a38",
@@ -11322,7 +11345,7 @@
         "finalize": "",
         "libs": [],
         "x": 890,
-        "y": 1240,
+        "y": 1380,
         "wires": [
             [
                 "693d79d4423ce154",
@@ -11349,7 +11372,7 @@
         "senderr": false,
         "headers": [],
         "x": 1050,
-        "y": 1240,
+        "y": 1380,
         "wires": [
             []
         ]
@@ -11367,7 +11390,7 @@
         "finalize": "",
         "libs": [],
         "x": 1530,
-        "y": 1360,
+        "y": 1500,
         "wires": [
             [
                 "99caac847f5df515",
@@ -11393,7 +11416,7 @@
         "senderr": false,
         "headers": [],
         "x": 1730,
-        "y": 1360,
+        "y": 1500,
         "wires": [
             []
         ]
@@ -11409,7 +11432,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 130,
-        "y": 1180,
+        "y": 1320,
         "wires": [
             [
                 "dba0f7ab6e4b919d"
@@ -11430,7 +11453,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 690,
-        "y": 1180,
+        "y": 1320,
         "wires": []
     },
     {
@@ -11448,7 +11471,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 810,
-        "y": 1320,
+        "y": 1460,
         "wires": []
     },
     {
@@ -11466,7 +11489,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1350,
-        "y": 1400,
+        "y": 1540,
         "wires": []
     },
     {
@@ -11484,7 +11507,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1550,
-        "y": 1320,
+        "y": 1460,
         "wires": []
     },
     {
@@ -11501,7 +11524,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 350,
-        "y": 1260,
+        "y": 1400,
         "wires": []
     },
     {
@@ -11536,7 +11559,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 910,
-        "y": 1280,
+        "y": 1420,
         "wires": []
     },
     {
@@ -11548,8 +11571,8 @@
         "actionType": "query",
         "apiKey": "",
         "environment": "",
-        "x": 830,
-        "y": 640,
+        "x": 850,
+        "y": 600,
         "wires": [
             [
                 "28efd2464c3c839c"
@@ -11568,8 +11591,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 705,
-        "y": 640,
+        "x": 735,
+        "y": 600,
         "wires": [
             [
                 "6ea0bca567f98258"
@@ -11596,10 +11619,10 @@
         },
         "OPENAI_API_KEY": "",
         "x": 580,
-        "y": 640,
+        "y": 660,
         "wires": [
             [
-                "a47dc852f2a3d493"
+                "4a1ef9a5867de123"
             ]
         ]
     },
@@ -11609,14 +11632,14 @@
         "z": "c8208e6a65d3c2af",
         "g": "ebee837ffce65a75",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nconst process_env = global.get(\"process_env\")\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL;\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}`;\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\":''},\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload.matches[1].metadata.result },\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n}\n  return msg;",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nconst process_env = global.get(\"process_env\")\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL;\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\":''},\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + msg.payload?.matches[0]?.metadata?.result + \", \" + msg.payload?.matches[1]?.metadata?.result },\n    { \"role\": \"user\", \"content\": msg.old?.entry[0]?.messaging[0]?.message.text }\n  ]\n}\n  return msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 990,
-        "y": 640,
+        "x": 1010,
+        "y": 600,
         "wires": [
             [
                 "a65aaa50a45d0252"
@@ -11660,7 +11683,7 @@
         "apiKey": "",
         "environment": "",
         "x": 790,
-        "y": 940,
+        "y": 960,
         "wires": [
             [
                 "96fdc9ebf7f8fd4d",
@@ -11681,7 +11704,7 @@
         "finalize": "",
         "libs": [],
         "x": 655,
-        "y": 940,
+        "y": 960,
         "wires": [
             [
                 "ec114b44f0f2b0e3"
@@ -11708,10 +11731,10 @@
         },
         "OPENAI_API_KEY": "",
         "x": 520,
-        "y": 940,
+        "y": 1020,
         "wires": [
             [
-                "9592d313e2e286eb"
+                "4d09a1d69dc6cf63"
             ]
         ]
     },
@@ -11721,14 +11744,14 @@
         "z": "c8208e6a65d3c2af",
         "g": "40d09c6e6df96683",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = PROMPT !== \"undefined\" && PROMPT ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\n\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": \"\" },\n    { \"role\": \"user\", \"content\": msg.old.entry[0].changes[0].value.messages[0].text.body }\n  ]\n} else {\n  msg.messages = [\n  { \"role\": \"system\", \"content\":  totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload.matches[1].metadata.result},\n  { \"role\": \"user\", \"content\": msg.old.entry[0].changes[0].value.messages[0].text.body }]\n\n\n}\n\nreturn msg;\n\n\n\n\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\n\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": \"\" },\n    { \"role\": \"user\", \"content\": msg.old.entry[0].changes[0].value.messages[0].text.body }\n  ]\n} else {\n  msg.messages = [\n  { \"role\": \"system\", \"content\":  totalPrompt + msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata?.result},\n  { \"role\": \"user\", \"content\": msg.old.entry[0]?.changes[0].value?.messages[0]?.text.body }]\n\n\n}\n\nreturn msg;\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 990,
-        "y": 940,
+        "y": 980,
         "wires": [
             [
                 "44b9e0968d17375a"
@@ -11754,7 +11777,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 1105,
-        "y": 940,
+        "y": 1020,
         "wires": [
             [
                 "72c0f7facf326866"
@@ -11772,7 +11795,7 @@
         "apiKey": "",
         "environment": "",
         "x": 790,
-        "y": 1360,
+        "y": 1500,
         "wires": [
             [
                 "641684d8ce0a590f"
@@ -11804,6 +11827,7 @@
         "id": "8bbbf3db55d9fe93",
         "type": "openai-ubos",
         "z": "c8208e6a65d3c2af",
+        "g": "7f86806a4ca0c715",
         "name": "",
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
@@ -11817,11 +11841,11 @@
             "value": "[]"
         },
         "OPENAI_API_KEY": "",
-        "x": 550,
-        "y": 1360,
+        "x": 400,
+        "y": 1540,
         "wires": [
             [
-                "ea1f64a48c2abd72"
+                "5c05a0ea71e76988"
             ]
         ]
     },
@@ -11831,14 +11855,14 @@
         "z": "c8208e6a65d3c2af",
         "g": "7f86806a4ca0c715",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}`;\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n  msg.messages = [\n    { \"role\": \"system\", \"content\":''},\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload.matches[1].metadata.result },\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n\n\n}\n\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n  msg.messages = [\n    { \"role\": \"system\", \"content\":''},\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": msg.old.entry[0]?.messaging[0]?.message.text }\n  ]\n\n\n}\n\n\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 950,
-        "y": 1360,
+        "y": 1500,
         "wires": [
             [
                 "e0933beca89886f4"
@@ -11864,7 +11888,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 1065,
-        "y": 1360,
+        "y": 1500,
         "wires": [
             [
                 "627bfa9d93208c59"
@@ -12152,18 +12176,18 @@
         "z": "c8208e6a65d3c2af",
         "g": "cbd9c53fe26c3884",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT !== \"undefined\" && PROMPT  ?`Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}`: \"Answer as friend\";\n\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ? msg.fromTG.content.replace(`@${msg.BOT_NAME }`, '') : msg.fromTG.content;\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": ''},\n    { \"role\": \"user\", \"content\": content }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + msg.payload.matches[0].metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": content }\n  ]\n}\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT &&  PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !==\"\"  ?`Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}`: \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ? msg.fromTG.content.replace(`@${msg.BOT_NAME }`, '') : msg.fromTG.content;\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": ''},\n    { \"role\": \"user\", \"content\": content }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": content }\n  ]\n}\nnode.warn(msg.payload.matches )\n\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1310,
-        "y": 280,
+        "x": 1290,
+        "y": 260,
         "wires": [
             [
-                "62ddf71e3259e377",
-                "c1577d630be65884"
+                "c1577d630be65884",
+                "62ddf71e3259e377"
             ]
         ]
     },
@@ -12459,8 +12483,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1030,
-        "y": 900,
+        "x": 1050,
+        "y": 940,
         "wires": []
     },
     {
@@ -12574,75 +12598,6 @@
         "l": false
     },
     {
-        "id": "9ef829e70028018d",
-        "type": "function",
-        "z": "c8208e6a65d3c2af",
-        "name": "from Chroma",
-        "func": "const { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: \"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\" })\n\nconst client = new ChromaClient({ path: 'http://chroma-8978-ubos-qhgcq-chromadb:8000' });\n\nmsg.emb = msg.payload.data[0].embedding\nlet collection2 = await client.getCollection({ name: \"default\", })\nconst result = await collection2.query({\n    queryEmbeddings: msg.emb,\n    query_text: [msg.input],\n    nResults: 2\n})\nmsg.payload = result\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "chromadb",
-                "module": "chromadb"
-            },
-            {
-                "var": "openai",
-                "module": "openai"
-            }
-        ],
-        "x": 490,
-        "y": 40,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "69dbb79e79fbc12d",
-        "type": "function",
-        "z": "c8208e6a65d3c2af",
-        "name": "function 579",
-        "func": "msg.payload ={};\nmsg.payload.metadata={};\nmsg.payload.metadata.question = \"What is UBOS?\";\nmsg.payload.metadata.result =\"gdfajgfkajfg\";\nmsg.payload.url=\"test\"\n\nmsg.input =`Ubos?`\n\nmsg.oldpayload = msg.payload;\nmsg.url = `https://api.openai.com/v1/embeddings`;\nmsg.headers = {\n    'Content-Type': 'application/json',\n    'Authorization': 'Bearer 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'\n    //'Authorization': 'Bearer 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'\n};\nmsg.payload = {\n    // //prompt:` Draw me Postcard for thema :${msg.payload.content}`,\n    // prompt: msg.payload.choices[0].message.content,\n    // n:8\n    input: msg.input,\n    model: \"text-embedding-ada-002\"\n}\n//msg.oldpayload = msg.payload;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 150,
-        "y": 40,
-        "wires": [
-            [
-                "1c9e9dd88d5e1f28"
-            ]
-        ]
-    },
-    {
-        "id": "1c9e9dd88d5e1f28",
-        "type": "http request",
-        "z": "c8208e6a65d3c2af",
-        "name": "",
-        "method": "POST",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 310,
-        "y": 40,
-        "wires": [
-            [
-                "9ef829e70028018d"
-            ]
-        ]
-    },
-    {
         "id": "c9c1333a16ccdec7",
         "type": "function",
         "z": "c8208e6a65d3c2af",
@@ -12664,10 +12619,11 @@
             }
         ],
         "x": 1020,
-        "y": 340,
+        "y": 360,
         "wires": [
             [
-                "e6c0fd344aef33cd"
+                "e6c0fd344aef33cd",
+                "87345e8c7770a1c7"
             ]
         ]
     },
@@ -12677,7 +12633,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "cbd9c53fe26c3884",
         "name": ">",
-        "func": "let TYPE_BASE = global.get(\"knowledgebase\").TYPE_BASE;\nif (TYPE_BASE === \"chroma\"){\n    return[null,msg]\n}else{\n    return[msg,null]\n}\n",
+        "func": "let TYPE_BASE = global.get(\"prompts\").TYPE_BASE;\nif (TYPE_BASE === \"chroma\"){\n    return[null,msg]\n}else{\n    return[msg,null]\n}\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -12700,7 +12656,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "cbd9c53fe26c3884",
         "name": "chroma",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -12711,6 +12667,318 @@
         "x": 1180,
         "y": 360,
         "wires": []
+    },
+    {
+        "id": "87345e8c7770a1c7",
+        "type": "function",
+        "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
+        "name": "create vector",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ? msg.fromTG.content.replace(`@${msg.BOT_NAME}`, '') : msg.fromTG.content;\nlet result = msg.payload.metadatas[0].map(e => e.result)\nnode.warn(result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + result[0] + \", \" + result[1] },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 300,
+        "wires": [
+            [
+                "cfc94b2373409431",
+                "62ddf71e3259e377"
+            ]
+        ]
+    },
+    {
+        "id": "cfc94b2373409431",
+        "type": "debug",
+        "z": "c8208e6a65d3c2af",
+        "g": "cbd9c53fe26c3884",
+        "name": "to GPT",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "4d09a1d69dc6cf63",
+        "type": "function",
+        "z": "c8208e6a65d3c2af",
+        "g": "40d09c6e6df96683",
+        "name": ">",
+        "func": "let TYPE_BASE = global.get(\"prompts\").TYPE_BASE;\nif (TYPE_BASE === \"chroma\"){\n    return[null,msg]\n}else{\n    return[msg,null]\n}\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 1020,
+        "wires": [
+            [
+                "9592d313e2e286eb"
+            ],
+            [
+                "c70fdc0b39a25ae7"
+            ]
+        ]
+    },
+    {
+        "id": "c70fdc0b39a25ae7",
+        "type": "function",
+        "z": "c8208e6a65d3c2af",
+        "g": "40d09c6e6df96683",
+        "name": "chroma",
+        "func": "const { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: global.get('openai').OPENAI_API })\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME') });\n\n\nmsg.emb = msg.payload.data[0].embedding\n\nlet collection = await client.getCollection({ name: global.get(\"prompts\").NAME_BASE })\nconst result = await collection.query({\n    queryEmbeddings: msg.emb,\n    query_text: [msg.input],\n    nResults: 2\n})\nmsg.payload = result\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "chromadb",
+                "module": "chromadb"
+            },
+            {
+                "var": "openai",
+                "module": "openai"
+            }
+        ],
+        "x": 840,
+        "y": 1060,
+        "wires": [
+            [
+                "2cc192fa61e9ae1c",
+                "d462c346101f63bd"
+            ]
+        ]
+    },
+    {
+        "id": "2cc192fa61e9ae1c",
+        "type": "debug",
+        "z": "c8208e6a65d3c2af",
+        "g": "40d09c6e6df96683",
+        "name": "chroma",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "d462c346101f63bd",
+        "type": "function",
+        "z": "c8208e6a65d3c2af",
+        "g": "40d09c6e6df96683",
+        "name": "create vector",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ? msg.fromTG.content.replace(`@${msg.BOT_NAME}`, '') : msg.fromTG.content;\nlet result = msg.payload.metadatas[0].map(e => e.result)\nnode.warn(result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + result[0] + \", \" + result[1] },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 1060,
+        "wires": [
+            [
+                "44b9e0968d17375a"
+            ]
+        ]
+    },
+    {
+        "id": "5c05a0ea71e76988",
+        "type": "function",
+        "z": "c8208e6a65d3c2af",
+        "g": "7f86806a4ca0c715",
+        "name": ">",
+        "func": "let TYPE_BASE = global.get(\"prompts\").TYPE_BASE;\nif (TYPE_BASE === \"chroma\"){\n    return[null,msg]\n}else{\n    return[msg,null]\n}\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 1540,
+        "wires": [
+            [
+                "ea1f64a48c2abd72"
+            ],
+            [
+                "995209e61c4042fc"
+            ]
+        ]
+    },
+    {
+        "id": "995209e61c4042fc",
+        "type": "function",
+        "z": "c8208e6a65d3c2af",
+        "g": "7f86806a4ca0c715",
+        "name": "chroma",
+        "func": "const { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: global.get('openai').OPENAI_API })\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME') });\n\n\nmsg.emb = msg.payload.data[0].embedding\n\nlet collection = await client.getCollection({ name: global.get(\"prompts\").NAME_BASE })\nconst result = await collection.query({\n    queryEmbeddings: msg.emb,\n    query_text: [msg.input],\n    nResults: 2\n})\nmsg.payload = result\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "chromadb",
+                "module": "chromadb"
+            },
+            {
+                "var": "openai",
+                "module": "openai"
+            }
+        ],
+        "x": 700,
+        "y": 1560,
+        "wires": [
+            [
+                "c08efe0db52feeb3",
+                "6a750ef1960a070f"
+            ]
+        ]
+    },
+    {
+        "id": "c08efe0db52feeb3",
+        "type": "debug",
+        "z": "c8208e6a65d3c2af",
+        "g": "7f86806a4ca0c715",
+        "name": "chroma",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "6a750ef1960a070f",
+        "type": "function",
+        "z": "c8208e6a65d3c2af",
+        "g": "7f86806a4ca0c715",
+        "name": "create vector",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ? msg.fromTG.content.replace(`@${msg.BOT_NAME}`, '') : msg.fromTG.content;\nlet result = msg.payload.metadatas[0].map(e => e.result)\nnode.warn(result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + result[0] + \", \" + result[1] },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 1560,
+        "wires": [
+            [
+                "e0933beca89886f4"
+            ]
+        ]
+    },
+    {
+        "id": "4a1ef9a5867de123",
+        "type": "function",
+        "z": "c8208e6a65d3c2af",
+        "g": "ebee837ffce65a75",
+        "name": ">",
+        "func": "let TYPE_BASE = global.get(\"prompts\").TYPE_BASE;\nif (TYPE_BASE === \"chroma\"){\n    return[null,msg]\n}else{\n    return[msg,null]\n}\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 660,
+        "wires": [
+            [
+                "a47dc852f2a3d493"
+            ],
+            [
+                "0027302e94e9402a"
+            ]
+        ]
+    },
+    {
+        "id": "0027302e94e9402a",
+        "type": "function",
+        "z": "c8208e6a65d3c2af",
+        "g": "ebee837ffce65a75",
+        "name": "chroma",
+        "func": "const { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: global.get('openai').OPENAI_API })\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME') });\n\n\nmsg.emb = msg.payload.data[0].embedding\n\nlet collection = await client.getCollection({ name: global.get(\"prompts\").NAME_BASE })\nconst result = await collection.query({\n    queryEmbeddings: msg.emb,\n    query_text: [msg.input],\n    nResults: 2\n})\nmsg.payload = result\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "chromadb",
+                "module": "chromadb"
+            },
+            {
+                "var": "openai",
+                "module": "openai"
+            }
+        ],
+        "x": 860,
+        "y": 700,
+        "wires": [
+            [
+                "b8af4f0f3fd180b2",
+                "57619437348535b3"
+            ]
+        ]
+    },
+    {
+        "id": "b8af4f0f3fd180b2",
+        "type": "debug",
+        "z": "c8208e6a65d3c2af",
+        "g": "ebee837ffce65a75",
+        "name": "chroma",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "57619437348535b3",
+        "type": "function",
+        "z": "c8208e6a65d3c2af",
+        "g": "ebee837ffce65a75",
+        "name": "create vector",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ? msg.fromTG.content.replace(`@${msg.BOT_NAME}`, '') : msg.fromTG.content;\nlet result = msg.payload.metadatas[0].map(e => e.result)\nnode.warn(result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + result[0] + \", \" + result[1] },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 680,
+        "wires": [
+            [
+                "a65aaa50a45d0252"
+            ]
+        ]
     },
     {
         "id": "b1cbc1d37577fdbd",
