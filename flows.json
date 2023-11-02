@@ -592,7 +592,8 @@
             "5c05a0ea71e76988",
             "995209e61c4042fc",
             "6a750ef1960a070f",
-            "c08efe0db52feeb3"
+            "c08efe0db52feeb3",
+            "ea1f64a48c2abd72"
         ],
         "x": 14,
         "y": 1279,
@@ -11798,6 +11799,7 @@
         "id": "ea1f64a48c2abd72",
         "type": "function",
         "z": "c8208e6a65d3c2af",
+        "g": "7f86806a4ca0c715",
         "name": "function 368",
         "func": "const vector = msg.payload.data[0].embedding\n\nmsg.payload = {\n    name: global.get(\"pinecone\").PINECONE_INDEX,\n    \"topK\": 2,\n    \"includeMetadata\": true,\n    vector\n};\n\nmsg.PINECONE_API_KEY = global.get(\"pinecone\").PINECONE_API\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\").PINECONE_ENV\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\").PINECONE_URL\nreturn msg;",
         "outputs": 1,
@@ -11805,8 +11807,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 675,
-        "y": 1360,
+        "x": 655,
+        "y": 1480,
         "wires": [
             [
                 "947b8cf521fa8b81",
