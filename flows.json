@@ -7538,7 +7538,7 @@
         "id": "e3826507190f2779",
         "type": "file in",
         "z": "71360979efaa1719",
-        "name": "",
+        "name": "get_logoFile",
         "filename": "/data/storage/icons/logos.png",
         "filenameType": "str",
         "format": "utf8",
@@ -7546,7 +7546,7 @@
         "sendError": false,
         "encoding": "binary",
         "allProps": false,
-        "x": 340,
+        "x": 280,
         "y": 180,
         "wires": [
             [
@@ -7596,8 +7596,8 @@
         "sendError": false,
         "encoding": "binary",
         "allProps": false,
-        "x": 280,
-        "y": 240,
+        "x": 300,
+        "y": 280,
         "wires": [
             [
                 "b4b1f74b1f92e251"
@@ -7613,8 +7613,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 100,
-        "y": 240,
+        "x": 80,
+        "y": 300,
         "wires": [
             [
                 "1fddeb1d0f1aa246"
@@ -7630,8 +7630,8 @@
         "headers": {
             "Content-Type": "image/png"
         },
-        "x": 660,
-        "y": 240,
+        "x": 700,
+        "y": 280,
         "wires": []
     },
     {
@@ -7645,8 +7645,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 490,
-        "y": 240,
+        "x": 510,
+        "y": 280,
         "wires": [
             [
                 "1f263028b189f117"
@@ -7662,8 +7662,8 @@
             "1fddeb1d0f1aa246"
         ],
         "uncaught": false,
-        "x": 210,
-        "y": 280,
+        "x": 270,
+        "y": 360,
         "wires": [
             [
                 "5d87e404bc2aadfc"
@@ -7681,8 +7681,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 280,
+        "x": 410,
+        "y": 360,
         "wires": [
             [
                 "b4b1f74b1f92e251"
@@ -7695,7 +7695,7 @@
         "z": "71360979efaa1719",
         "name": "",
         "scope": [
-            "1fddeb1d0f1aa246"
+            "e3826507190f2779"
         ],
         "uncaught": false,
         "x": 270,
