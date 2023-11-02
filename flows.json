@@ -633,7 +633,9 @@
             "13a0b7d44f1afb32"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 1932,
+        "h": 222
     },
     {
         "id": "152119097abe3c6c",
@@ -668,7 +670,9 @@
             "baf069bd70255c7f"
         ],
         "x": 34,
-        "y": 299
+        "y": 299,
+        "w": 1932,
+        "h": 222
     },
     {
         "id": "c479b9fa6206f5f0",
@@ -695,7 +699,9 @@
             "c32d2d5b2f208e74"
         ],
         "x": 34,
-        "y": 539
+        "y": 539,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "32d3112d56e6b1ab",
@@ -722,7 +728,9 @@
             "3513b2ea589bb4a4"
         ],
         "x": 34,
-        "y": 759
+        "y": 759,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "faa44c8af53ff52c",
@@ -749,7 +757,9 @@
             "0dc15aa186445a0f"
         ],
         "x": 34,
-        "y": 979
+        "y": 979,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "649b2f424f00fcf7",
@@ -776,7 +786,9 @@
             "e9e2f318883d6af3"
         ],
         "x": 34,
-        "y": 1199
+        "y": 1199,
+        "w": 1012,
+        "h": 202
     },
     {
         "id": "e40f1639481a93e5",
@@ -803,7 +815,9 @@
             "8a7b40691c947077"
         ],
         "x": 34,
-        "y": 1439
+        "y": 1439,
+        "w": 972,
+        "h": 202
     },
     {
         "id": "cbd9c53fe26c3884",
@@ -879,7 +893,9 @@
             "2dbe218776fe3204"
         ],
         "x": 34,
-        "y": 1679
+        "y": 1679,
+        "w": 572,
+        "h": 162
     },
     {
         "id": "22baf3437ddf891a",
@@ -9715,7 +9731,7 @@
         "z": "4cba6f8219137af4",
         "g": "c479b9fa6206f5f0",
         "name": "ENV",
-        "func": "const data = msg.payload\nlet words = data?.knowledge_base.split(' ');\n\nlet nameBase = words[0];\n\nlet typeBase = words[1];\n\nlet process_env = {\n    ANSWER_LENGTH: data.answer_length ? data.answer_length :\"\",\n    ANSWER_AS: data.answer_as ? data.answer_as : \"\",\n    TONE: data.tone ? data.tone : \"\",\n    LANGUAGE: data.language ? data.language : \"\",\n    PROMPT_CUSTOM: data.prompt_custom ? data.prompt_custom: \"\",\n    TYPE_BASE: typeBase ? typeBase:\"\",\n    NAME_BASE: nameBase ? nameBase:\"\"\n}\n\nglobal.set(\"prompts\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\nlet words = data?.knowledge_base.split(' ');\n\nlet nameBase = words[0];\n\nlet typeBase = words[1];\n\nlet process_env = {\n    ANSWER_LENGTH: data.answer_length ? data.answer_length :\"\",\n    ANSWER_AS: data.answer_as ? data.answer_as : \"\",\n    TONE: data.tone ? data.tone : \"\",\n    LANGUAGE: data.language ? data.language : \"\",\n    PROMPT_CUSTOM: data.prompt_custom ? data.prompt_custom: \"\",\n    TYPE_BASE: typeBase ? typeBase:\"\",\n    NAME_BASE: nameBase ? nameBase:\"\",\n    ID: data.id_base ? data.id_base : \"\"\n}\n\nglobal.set(\"prompts\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
