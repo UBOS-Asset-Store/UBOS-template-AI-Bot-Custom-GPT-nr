@@ -504,7 +504,9 @@
             "0027302e94e9402a"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 1592,
+        "h": 342
     },
     {
         "id": "40d09c6e6df96683",
@@ -548,7 +550,9 @@
             "d462c346101f63bd"
         ],
         "x": 14,
-        "y": 839
+        "y": 839,
+        "w": 1812,
+        "h": 342
     },
     {
         "id": "7f86806a4ca0c715",
@@ -592,7 +596,9 @@
             "ea1f64a48c2abd72"
         ],
         "x": 14,
-        "y": 1279
+        "y": 1279,
+        "w": 1812,
+        "h": 382
     },
     {
         "id": "945706dce188c905",
@@ -627,9 +633,7 @@
             "13a0b7d44f1afb32"
         ],
         "x": 34,
-        "y": 39,
-        "w": 1932,
-        "h": 222
+        "y": 39
     },
     {
         "id": "152119097abe3c6c",
@@ -664,9 +668,7 @@
             "baf069bd70255c7f"
         ],
         "x": 34,
-        "y": 299,
-        "w": 1932,
-        "h": 222
+        "y": 299
     },
     {
         "id": "c479b9fa6206f5f0",
@@ -693,9 +695,7 @@
             "c32d2d5b2f208e74"
         ],
         "x": 34,
-        "y": 539,
-        "w": 992,
-        "h": 182
+        "y": 539
     },
     {
         "id": "32d3112d56e6b1ab",
@@ -722,9 +722,7 @@
             "3513b2ea589bb4a4"
         ],
         "x": 34,
-        "y": 759,
-        "w": 992,
-        "h": 182
+        "y": 759
     },
     {
         "id": "faa44c8af53ff52c",
@@ -751,9 +749,7 @@
             "0dc15aa186445a0f"
         ],
         "x": 34,
-        "y": 979,
-        "w": 992,
-        "h": 182
+        "y": 979
     },
     {
         "id": "649b2f424f00fcf7",
@@ -780,9 +776,7 @@
             "e9e2f318883d6af3"
         ],
         "x": 34,
-        "y": 1199,
-        "w": 1012,
-        "h": 202
+        "y": 1199
     },
     {
         "id": "e40f1639481a93e5",
@@ -809,9 +803,7 @@
             "8a7b40691c947077"
         ],
         "x": 34,
-        "y": 1439,
-        "w": 972,
-        "h": 202
+        "y": 1439
     },
     {
         "id": "cbd9c53fe26c3884",
@@ -864,7 +856,9 @@
             "cfc94b2373409431"
         ],
         "x": 14,
-        "y": 39
+        "y": 39,
+        "w": 2312,
+        "h": 402
     },
     {
         "id": "4f917968caad45c9",
@@ -885,9 +879,7 @@
             "2dbe218776fe3204"
         ],
         "x": 34,
-        "y": 1679,
-        "w": 572,
-        "h": 162
+        "y": 1679
     },
     {
         "id": "22baf3437ddf891a",
@@ -12671,7 +12663,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "cbd9c53fe26c3884",
         "name": ">",
-        "func": "let TYPE_BASE = global.get(\"prompts\").TYPE_BASE;\nif (TYPE_BASE === \"chroma\"){\n    return[null,msg]\n}else{\n    return[msg,null]\n}\n",
+        "func": "let TYPE_BASE = global.get(\"prompts\")?.TYPE_BASE ? global.get(\"prompts\")?.TYPE_BASE : global.get(\"knowledgebase\")?.TYPE_BASE;\nif (TYPE_BASE === \"chroma\"){\n    return[null,msg]\n}else{\n    return[msg,null]\n}\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -12751,7 +12743,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "40d09c6e6df96683",
         "name": ">",
-        "func": "let TYPE_BASE = global.get(\"prompts\").TYPE_BASE;\nif (TYPE_BASE === \"chroma\"){\n    return[null,msg]\n}else{\n    return[msg,null]\n}\n",
+        "func": "let TYPE_BASE = global.get(\"prompts\")?.TYPE_BASE ? global.get(\"prompts\")?.TYPE_BASE : global.get(\"knowledgebase\")?.TYPE_BASE;\nif (TYPE_BASE === \"chroma\"){\n    return[null,msg]\n}else{\n    return[msg,null]\n}\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -12842,7 +12834,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "7f86806a4ca0c715",
         "name": ">",
-        "func": "let TYPE_BASE = global.get(\"prompts\").TYPE_BASE;\nif (TYPE_BASE === \"chroma\"){\n    return[null,msg]\n}else{\n    return[msg,null]\n}\n",
+        "func": "let TYPE_BASE = global.get(\"prompts\")?.TYPE_BASE ? global.get(\"prompts\")?.TYPE_BASE : global.get(\"knowledgebase\")?.TYPE_BASE;\nif (TYPE_BASE === \"chroma\"){\n    return[null,msg]\n}else{\n    return[msg,null]\n}\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -12933,7 +12925,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "ebee837ffce65a75",
         "name": ">",
-        "func": "let TYPE_BASE = global.get(\"prompts\").TYPE_BASE;\nif (TYPE_BASE === \"chroma\"){\n    return[null,msg]\n}else{\n    return[msg,null]\n}\n",
+        "func": "let TYPE_BASE = global.get(\"prompts\")?.TYPE_BASE ? global.get(\"prompts\")?.TYPE_BASE : global.get(\"knowledgebase\")?.TYPE_BASE;\nif (TYPE_BASE === \"chroma\"){\n    return[null,msg]\n}else{\n    return[msg,null]\n}\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
