@@ -633,9 +633,7 @@
             "13a0b7d44f1afb32"
         ],
         "x": 34,
-        "y": 39,
-        "w": 1932,
-        "h": 222
+        "y": 39
     },
     {
         "id": "152119097abe3c6c",
@@ -670,9 +668,7 @@
             "baf069bd70255c7f"
         ],
         "x": 34,
-        "y": 299,
-        "w": 1932,
-        "h": 222
+        "y": 299
     },
     {
         "id": "c479b9fa6206f5f0",
@@ -699,9 +695,7 @@
             "c32d2d5b2f208e74"
         ],
         "x": 34,
-        "y": 539,
-        "w": 992,
-        "h": 182
+        "y": 539
     },
     {
         "id": "32d3112d56e6b1ab",
@@ -728,9 +722,7 @@
             "3513b2ea589bb4a4"
         ],
         "x": 34,
-        "y": 759,
-        "w": 992,
-        "h": 182
+        "y": 759
     },
     {
         "id": "faa44c8af53ff52c",
@@ -757,9 +749,7 @@
             "0dc15aa186445a0f"
         ],
         "x": 34,
-        "y": 979,
-        "w": 992,
-        "h": 182
+        "y": 979
     },
     {
         "id": "649b2f424f00fcf7",
@@ -786,9 +776,7 @@
             "e9e2f318883d6af3"
         ],
         "x": 34,
-        "y": 1199,
-        "w": 1012,
-        "h": 202
+        "y": 1199
     },
     {
         "id": "e40f1639481a93e5",
@@ -815,9 +803,7 @@
             "8a7b40691c947077"
         ],
         "x": 34,
-        "y": 1439,
-        "w": 972,
-        "h": 202
+        "y": 1439
     },
     {
         "id": "cbd9c53fe26c3884",
@@ -893,9 +879,7 @@
             "2dbe218776fe3204"
         ],
         "x": 34,
-        "y": 1679,
-        "w": 572,
-        "h": 162
+        "y": 1679
     },
     {
         "id": "22baf3437ddf891a",
@@ -12087,7 +12071,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "cbd9c53fe26c3884",
         "name": "save/update",
-        "func": "if(msg.payload.length > 0){\n   return[null,msg]\n}\n\nelse{\n    msg.method=\"POST\"\n    msg.url = env.get(\"nodered\") +`/saveUser`;\n    msg.payload = {\n        first_name: msg.originalMessage.from.first_name ? msg.originalMessage.from.first_name :'',\n        last_name: msg.originalMessage.from.last_name ? msg.originalMessage.from.last_name : '',\n        username: msg.originalMessage.from.username,\n        chat_id: msg.originalMessage.from.id,\n        language_code: msg.originalMessage.from.language_code,\n        type: 'telegram'\n    }\n    \nreturn[msg,null]\n}\n\n",
+        "func": "if(msg.payload.length > 0){\n   return[null,msg]\n}\n\nelse{\n    msg.method=\"POST\"\n    msg.url = env.get(\"nodered\") +`/saveUser`;\n    msg.payload = {\n        deleted:false,\n        first_name: msg.originalMessage.from.first_name ? msg.originalMessage.from.first_name :'',\n        last_name: msg.originalMessage.from.last_name ? msg.originalMessage.from.last_name : '',\n        username: msg.originalMessage.from.username,\n        chat_id: msg.originalMessage.from.id,\n        language_code: msg.originalMessage.from.language_code,\n        type: 'telegram'\n    }\n    \nreturn[msg,null]\n}\n\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -13280,7 +13264,7 @@
         "type": "function",
         "z": "4004e7d2fbdbf6a9",
         "name": "save users",
-        "func": "msg.payload.deleted = false\nmsg.collection = 'users'\n\n\nreturn msg;",
+        "func": "\nmsg.collection = 'users'\nmsg.payload=msg.payload\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -13530,7 +13514,7 @@
         "type": "function",
         "z": "4004e7d2fbdbf6a9",
         "name": "get users",
-        "func": "msg.collection = 'users'\nmsg.payload = {}\nreturn msg;",
+        "func": "  msg.collection = 'users'\n// msg.collection = 'users_messages'\nmsg.payload = {}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -13595,7 +13579,55 @@
         "y": 360,
         "wires": [
             [
-                "93858da710ccfe98"
+                "93858da710ccfe98",
+                "770c462284852ac8"
+            ]
+        ]
+    },
+    {
+        "id": "770c462284852ac8",
+        "type": "debug",
+        "z": "4004e7d2fbdbf6a9",
+        "name": "debug 564",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "6ce04db2a495c7ca",
+        "type": "inject",
+        "z": "4004e7d2fbdbf6a9",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 400,
+        "wires": [
+            [
+                "c5818e7815a34e57",
+                "31a716a792e6a4c0"
             ]
         ]
     },
