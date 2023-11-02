@@ -18566,7 +18566,7 @@
         "type": "function",
         "z": "df2aa561a3e2a544",
         "name": "FAQ",
-        "func": "msg.buffer = msg.req.files[0].buffer\n\nmsg.decodedFilename = '/data/storage/' + `${msg.contentPayload.name}.txt`;\n\n\n\nmsg.payload = {\n    _id: objectid(),\n    knowledgeBaseId: objectid(msg.contentPayload.id),\n    name: msg.contentPayload.name,\n    type: \"FAQ\",\n    file: `${msg.contentPayload.name}.txt`,\n    vectors: [],\n    status: \"Source saved\",\n    deleted: false,\n    createdAt: new Date(),\n    totaCharacters: msg.totaCharacters\n};\n\nreturn msg;",
+        "func": "// msg.buffer = msg.req.files[0].buffer\n\nmsg.decodedFilename = '/data/storage/' + `${msg.contentPayload.name}.txt`;\n\n\n\nmsg.payload = {\n    _id: objectid(),\n    knowledgeBaseId: objectid(msg.contentPayload.id),\n    name: msg.contentPayload.name,\n    type: \"FAQ\",\n    file: `${msg.contentPayload.name}.txt`,\n    vectors: [],\n    status: \"Source saved\",\n    deleted: false,\n    createdAt: new Date(),\n    totaCharacters: msg.totaCharacters\n};\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
