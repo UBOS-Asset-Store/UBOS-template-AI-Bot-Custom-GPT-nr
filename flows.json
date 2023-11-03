@@ -186,7 +186,9 @@
             "881a3a438a261f6f"
         ],
         "x": 14,
-        "y": 679
+        "y": 679,
+        "w": 672,
+        "h": 642
     },
     {
         "id": "d47c4baf98dd7d3b",
@@ -208,7 +210,9 @@
             "4ca2aafdce75631b"
         ],
         "x": 714,
-        "y": 679
+        "y": 679,
+        "w": 1012,
+        "h": 122
     },
     {
         "id": "b69c8ee37e3e0852",
@@ -248,7 +252,9 @@
             "cda158a3d19d64d9"
         ],
         "x": 714,
-        "y": 879
+        "y": 879,
+        "w": 1452,
+        "h": 442
     },
     {
         "id": "1c10aa09f2bae3b6",
@@ -284,7 +290,9 @@
             "b8b946c615b8106b"
         ],
         "x": 854,
-        "y": 1359
+        "y": 1359,
+        "w": 1172,
+        "h": 402
     },
     {
         "id": "a89d39ed625d493a",
@@ -333,7 +341,9 @@
             "aed0f134a3d46198"
         ],
         "x": 14,
-        "y": 1359
+        "y": 1359,
+        "w": 812,
+        "h": 642
     },
     {
         "id": "ebee837ffce65a75",
@@ -817,7 +827,9 @@
             "c14fab2f5871ae4c"
         ],
         "x": 14,
-        "y": 2059
+        "y": 2059,
+        "w": 3712,
+        "h": 722
     },
     {
         "id": "15ae03457991775b",
@@ -1253,7 +1265,9 @@
             "8cbf4dcd5bda929e"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 1912,
+        "h": 622
     },
     {
         "id": "90cc95e0240e9048",
@@ -1280,9 +1294,6 @@
             "fd6379cb31404638",
             "108f67f6c7289131",
             "27289d926d3a2b25",
-            "87dbe29697f2e5c1",
-            "6e5657b56e44ccaf",
-            "eefe631abc8cde08",
             "9de68b716677dfcd",
             "946838aa6a2c923d",
             "44bd463107561a17",
@@ -1297,16 +1308,16 @@
             "d522fbbfff81ae43",
             "f5a82bc844496abf",
             "2ca3887f8000c42e",
-            "16223ecf470a223f",
             "31a716a792e6a4c0",
             "c5818e7815a34e57",
             "76404382f2b1732b",
             "7dce76ede6c5ac60",
-            "9e73142cfd50b560"
+            "9e73142cfd50b560",
+            "2db3f6c15f576a57"
         ],
         "x": 34,
         "y": 19,
-        "w": 872,
+        "w": 892,
         "h": 562
     },
     {
@@ -11756,56 +11767,6 @@
         "wires": []
     },
     {
-        "id": "87dbe29697f2e5c1",
-        "type": "http in",
-        "z": "4004e7d2fbdbf6a9",
-        "g": "90cc95e0240e9048",
-        "name": "",
-        "url": "/getChatHIstory3",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 160,
-        "y": 540,
-        "wires": [
-            [
-                "6e5657b56e44ccaf"
-            ]
-        ]
-    },
-    {
-        "id": "6e5657b56e44ccaf",
-        "type": "function",
-        "z": "4004e7d2fbdbf6a9",
-        "g": "90cc95e0240e9048",
-        "name": "get users_messages",
-        "func": "msg.payload = {\n    chat_id: Number(msg.payload.id)\n}\nmsg.collection = 'users_messages'\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 360,
-        "y": 540,
-        "wires": [
-            [
-                "16223ecf470a223f"
-            ]
-        ]
-    },
-    {
-        "id": "eefe631abc8cde08",
-        "type": "http response",
-        "z": "4004e7d2fbdbf6a9",
-        "g": "90cc95e0240e9048",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 730,
-        "y": 540,
-        "wires": []
-    },
-    {
         "id": "9de68b716677dfcd",
         "type": "http in",
         "z": "4004e7d2fbdbf6a9",
@@ -12050,25 +12011,6 @@
         ]
     },
     {
-        "id": "16223ecf470a223f",
-        "type": "link call",
-        "z": "4004e7d2fbdbf6a9",
-        "g": "90cc95e0240e9048",
-        "name": "",
-        "links": [
-            "2677414dc3b763e4"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 570,
-        "y": 540,
-        "wires": [
-            [
-                "eefe631abc8cde08"
-            ]
-        ]
-    },
-    {
         "id": "31a716a792e6a4c0",
         "type": "function",
         "z": "4004e7d2fbdbf6a9",
@@ -12175,11 +12117,10 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 110,
-        "y": 700,
+        "x": 150,
+        "y": 540,
         "wires": [
             [
-                "4becc375390fdac4",
                 "bd3cf24e1e63236f"
             ]
         ]
@@ -12195,12 +12136,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 440,
-        "y": 700,
+        "x": 360,
+        "y": 540,
         "wires": [
             [
-                "88509ec15b4fc0ef",
-                "4becc375390fdac4"
+                "88509ec15b4fc0ef"
             ]
         ]
     },
@@ -12208,11 +12148,12 @@
         "id": "2db3f6c15f576a57",
         "type": "http response",
         "z": "4004e7d2fbdbf6a9",
+        "g": "90cc95e0240e9048",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1170,
-        "y": 720,
+        "x": 850,
+        "y": 540,
         "wires": []
     },
     {
@@ -12225,8 +12166,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 790,
-        "y": 720,
+        "x": 590,
+        "y": 540,
         "wires": [
             [
                 "d68171f5857c3dbd"
@@ -12237,7 +12178,7 @@
         "id": "d68171f5857c3dbd",
         "type": "function",
         "z": "4004e7d2fbdbf6a9",
-        "name": "function 402",
+        "name": "to app",
         "func": "function transformData(data) {\n    const result = [];\n\n    data.forEach(item => {\n        if (item.type === 'telegram') {\n            result.push({\n                type: item.user_name,\n                message: item.requestText,\n                date: moment(item.startDate).format('LLL')\n            });\n\n            result.push({\n                type: 'BOT',\n                message: item.answer,\n                date: moment(item.endDate).format('LLL')\n            });\n        }\n    });\n\n    return result;\n}\n\nconst data = msg.payload\n\n\nconst result = transformData(data);\nif (result.length> msg.length){\n    msg.payload = result.slice(msg.length)\n}else{\n    msg.statusCode=400\n}\nmsg.payload =result\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
@@ -12249,31 +12190,13 @@
                 "module": "moment"
             }
         ],
-        "x": 990,
-        "y": 720,
+        "x": 730,
+        "y": 540,
         "wires": [
             [
-                "2db3f6c15f576a57",
-                "8a67552e20de87a8"
+                "2db3f6c15f576a57"
             ]
         ]
-    },
-    {
-        "id": "8a67552e20de87a8",
-        "type": "debug",
-        "z": "4004e7d2fbdbf6a9",
-        "name": "debug 564",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1170,
-        "y": 780,
-        "wires": []
     },
     {
         "id": "f6c03e50fd4b8d8d",
@@ -12291,23 +12214,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "4becc375390fdac4",
-        "type": "debug",
-        "z": "4004e7d2fbdbf6a9",
-        "name": "debug 565",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 570,
-        "y": 760,
-        "wires": []
     },
     {
         "id": "96c1bdbd809158b2",
