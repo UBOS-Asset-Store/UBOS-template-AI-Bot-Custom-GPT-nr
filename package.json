@@ -13,7 +13,8 @@
         "node-red-contrib-pinecone": "1.0.5",
         "@martip/node-red-xlsx": "1.0.2",
         "chromadb": "1.5.11",
-        "openai": "4.14.2"
+        "openai": "4.14.2",
+        "moment": "2.29.4"
     },
     "node-red": {
         "settings": {
