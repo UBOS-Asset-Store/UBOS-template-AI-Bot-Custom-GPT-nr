@@ -64,6 +64,14 @@
         "env": []
     },
     {
+        "id": "ebf7c602310ae1c1",
+        "type": "tab",
+        "label": "Demo",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "6a6d2afa5b0c7ec9",
         "type": "subflow",
         "name": "icons",
@@ -386,7 +394,9 @@
             "0027302e94e9402a"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 1592,
+        "h": 342
     },
     {
         "id": "40d09c6e6df96683",
@@ -430,7 +440,9 @@
             "d462c346101f63bd"
         ],
         "x": 14,
-        "y": 839
+        "y": 839,
+        "w": 1812,
+        "h": 342
     },
     {
         "id": "7f86806a4ca0c715",
@@ -474,7 +486,9 @@
             "ea1f64a48c2abd72"
         ],
         "x": 14,
-        "y": 1279
+        "y": 1279,
+        "w": 1812,
+        "h": 382
     },
     {
         "id": "945706dce188c905",
@@ -732,7 +746,9 @@
             "cfc94b2373409431"
         ],
         "x": 14,
-        "y": 39
+        "y": 39,
+        "w": 2312,
+        "h": 402
     },
     {
         "id": "4f917968caad45c9",
@@ -923,7 +939,9 @@
             "a6bfe94147d55465"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 2292,
+        "h": 1202
     },
     {
         "id": "7c54a342551d3143",
@@ -973,7 +991,9 @@
             "515372f09b077652"
         ],
         "x": 2334,
-        "y": 399
+        "y": 399,
+        "w": 1322,
+        "h": 702
     },
     {
         "id": "07cfba7089cf4e34",
@@ -1012,7 +1032,9 @@
             "2cdaef03b02c23dc"
         ],
         "x": 2334,
-        "y": 19
+        "y": 19,
+        "w": 1352,
+        "h": 362
     },
     {
         "id": "2f81b499732e56f1",
@@ -1125,7 +1147,9 @@
             "0636c47adaf07594"
         ],
         "x": 14,
-        "y": 1259
+        "y": 1259,
+        "w": 1312,
+        "h": 1462
     },
     {
         "id": "a599b3138f375738",
@@ -1319,6 +1343,52 @@
         "y": 19,
         "w": 892,
         "h": 562
+    },
+    {
+        "id": "775c610e93b238e5",
+        "type": "group",
+        "z": "ebf7c602310ae1c1",
+        "name": "Demo",
+        "style": {
+            "stroke": "#ffC000",
+            "fill": "#ffefbf",
+            "label": true
+        },
+        "nodes": [
+            "6a8ed9cc40220ef6",
+            "a686b4808141bbf4",
+            "1c959c0c2ef18143",
+            "4ffa7ffb17e31d4a",
+            "115b6a6e49c7d907",
+            "d3f7cd56b598e030",
+            "799d6c364fd958a3",
+            "1ec03fa7f5706e3c",
+            "6bb6f9da9ca35481",
+            "e22820cde5205764",
+            "8f54a8723714f093",
+            "1fab2b9e3f00c362",
+            "fb8d053a3b5bce04",
+            "3bfe821b04adb8f0",
+            "4428e5add7634014",
+            "fd9d2dd08a4a9010",
+            "78abb0e5610ea532",
+            "3c6063a3b18dcff2",
+            "861e75c24068d0f5",
+            "6036eefb0213f2e0",
+            "c01e31a770cf53d3",
+            "bef6bc48b7afaf33",
+            "da3676cf2033b1f2",
+            "e46d259e57f67fee",
+            "e1c44635873b6780",
+            "8f4de284d9322260",
+            "26d2ce8c1abde652",
+            "8765bb44b27bb4e6",
+            "8d05251422a11bb5"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 1492,
+        "h": 442
     },
     {
         "id": "4b07803a52e468f5",
@@ -3905,7 +3975,7 @@
         "z": "f4036141cc030bcf",
         "g": "22baf3437ddf891a",
         "name": "admin_modules",
-        "func": "if(msg.payload.length===0){\n     msg.payload = [\n          { \"name\": \"Dashboard\", \"position\": 1, \"icon\": msg.icon.iconDashboard, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"Training\", \"position\": 2, \"icon\": msg.icon.iconTraining, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"User Chats\", \"position\": 3, \"icon\": msg.icon.iconUsers, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"Bot Setup\", \"position\": 4, \"icon\": msg.icon.iconBots, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"AI Setup\", \"position\": 5, \"icon\": msg.icon.iconSetup, \"deleted\": false, \"isParent\": false }, \n          { \"name\": \"Admin\", \"position\": 6, \"icon\": msg.icon.iconManagment, \"deleted\": false, \"isParent\": true, \"childModules\": [{ \"name\": \"Modules\", \"page_id\": \"Modules\", \"position\": 1 }, { \"name\": \"AdminRoles\", \"page_id\": \"AdminRoles\", \"position\": 2 }, { \"name\": \"User Management\", \"page_id\": \"User Management\", \"position\": 3 }, { \"name\": \"App settings\", \"page_id\": \"App settings\", \"position\": 4 }] }\n     ]\nmsg.collection = \"admin_modules\"\n\nreturn msg;\n}",
+        "func": "if(msg.payload.length===0){\n     msg.payload = [\n          { \"name\": \"Dashboard\", \"position\": 1, \"icon\": msg.icon.iconDashboard, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"Training\", \"position\": 2, \"icon\": msg.icon.iconTraining, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"User Chats\", \"position\": 3, \"icon\": msg.icon.iconUsers, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"Bot Setup\", \"position\": 4, \"icon\": msg.icon.iconBots, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"AI Setup\", \"position\": 5, \"icon\": msg.icon.iconSetup, \"deleted\": false, \"isParent\": false },\n          { \"name\": \"Demo\", \"position\": 6, \"icon\": msg.icon.iconSetup, \"deleted\": false, \"isParent\": false },  \n          { \"name\": \"Admin\", \"position\": 7, \"icon\": msg.icon.iconManagment, \"deleted\": false, \"isParent\": true, \"childModules\": [{ \"name\": \"Modules\", \"page_id\": \"Modules\", \"position\": 1 }, { \"name\": \"AdminRoles\", \"page_id\": \"AdminRoles\", \"position\": 2 }, { \"name\": \"User Management\", \"page_id\": \"User Management\", \"position\": 3 }, { \"name\": \"App settings\", \"page_id\": \"App settings\", \"position\": 4 }] }\n     ]\nmsg.collection = \"admin_modules\"\n\nreturn msg;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3983,7 +4053,7 @@
         "z": "f4036141cc030bcf",
         "g": "22baf3437ddf891a",
         "name": "admin_roles",
-        "func": "if(msg.payload.length>0){\nmsg.payload=\n        { \"name\": \"admin\", \"deleted\": false, \"permissions\": [\n            { \"module\": \"Dashboard\", \"moduleId\": msg.payload.filter(e => e.name ==='Dashboard')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }, \n            { \"module\": \"Bot Setup\", \"moduleId\": msg.payload.filter(e => e.name === \"Bot Setup\")[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }, \n            { \"module\": \"Training\", \"moduleId\": msg.payload.filter(e => e.name === 'Training')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }, \n            { \"module\": \"User Chats\", \"moduleId\": msg.payload.filter(e => e.name === \"User Chats\")[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true },\n            { \"module\": \"AI Setup\", \"moduleId\": msg.payload.filter(e => e.name === \"AI Setup\")[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true },  \n            { \"module\": \"Admin\", \"moduleId\": msg.payload.filter(e => e.name === 'Admin')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }], \n        \"createdAt\":Date.now() }\n        \nmsg.collection = \"admin_roles\"\n    return [msg,null];\n}\nelse{\n    return[null,msg]\n}",
+        "func": "if(msg.payload.length>0){\nmsg.payload=\n        { \"name\": \"admin\", \"deleted\": false, \"permissions\": [\n            { \"module\": \"Dashboard\", \"moduleId\": msg.payload.filter(e => e.name ==='Dashboard')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }, \n            { \"module\": \"Bot Setup\", \"moduleId\": msg.payload.filter(e => e.name === \"Bot Setup\")[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }, \n            { \"module\": \"Training\", \"moduleId\": msg.payload.filter(e => e.name === 'Training')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }, \n            { \"module\": \"User Chats\", \"moduleId\": msg.payload.filter(e => e.name === \"User Chats\")[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true },\n            { \"module\": \"AI Setup\", \"moduleId\": msg.payload.filter(e => e.name === \"AI Setup\")[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true },\n            { \"module\": \"Demo\", \"moduleId\": msg.payload.filter(e => e.name === \"Demo\")[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }, \n            { \"module\": \"Admin\", \"moduleId\": msg.payload.filter(e => e.name === 'Admin')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }], \n        \"createdAt\":Date.now() }\n        \nmsg.collection = \"admin_roles\"\n    return [msg,null];\n}\nelse{\n    return[null,msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -11088,7 +11158,7 @@
         "haserroroutput": false,
         "outputs": 1,
         "x": 620,
-        "y": 180,
+        "y": 200,
         "wires": [
             []
         ]
@@ -17370,5 +17440,604 @@
         "x": 910,
         "y": 2500,
         "wires": []
+    },
+    {
+        "id": "6a8ed9cc40220ef6",
+        "type": "function",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "check command",
+        "func": "msg.fromApp = msg.payload\n\n\nmsg.OPENAI_API_KEY = global.get(\"openai\")?.OPENAI_API;\nmsg.BOT_NAME = global.get('telegram')?.BOT_NAME;\nmsg.PINECONE_INDEX = global.get(\"pinecone\")?.PINECONE_INDEX;\nmsg.PINECONE_API_KEY = global.get(\"pinecone\")?.PINECONE_API;\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\")?.PINECONE_ENV;\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\")?.PINECONE_URL;\nmsg.id= new Date()\n\n\nmsg.history = {\n    requestText: msg.payload.message.toLowerCase(),\n    startDate: Date.now(),\n    type: 'demo'\n}\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = msg.payload.message;\nmsg.content = msg.payload.message;\nreturn msg\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 200,
+        "wires": [
+            [
+                "1c959c0c2ef18143",
+                "8f4de284d9322260"
+            ]
+        ]
+    },
+    {
+        "id": "a686b4808141bbf4",
+        "type": "http in",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "",
+        "url": "/demo",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 200,
+        "wires": [
+            [
+                "6bb6f9da9ca35481",
+                "6a8ed9cc40220ef6"
+            ]
+        ]
+    },
+    {
+        "id": "1c959c0c2ef18143",
+        "type": "openai-ubos",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "prompt": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 360,
+        "y": 340,
+        "wires": [
+            [
+                "861e75c24068d0f5"
+            ]
+        ]
+    },
+    {
+        "id": "4ffa7ffb17e31d4a",
+        "type": "http in",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "",
+        "url": "/demo",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 60,
+        "wires": [
+            [
+                "115b6a6e49c7d907"
+            ]
+        ]
+    },
+    {
+        "id": "115b6a6e49c7d907",
+        "type": "function",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "get users_messages",
+        "func": "msg.payload = {\ntype:\"demo\"\n}\n\nmsg.length = Number(msg.req.query[\"number\"]);\n\n\nmsg.collection = 'users_messages'\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 60,
+        "wires": [
+            [
+                "d3f7cd56b598e030"
+            ]
+        ]
+    },
+    {
+        "id": "d3f7cd56b598e030",
+        "type": "link call",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "",
+        "links": [
+            "2677414dc3b763e4"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 530,
+        "y": 60,
+        "wires": [
+            [
+                "799d6c364fd958a3"
+            ]
+        ]
+    },
+    {
+        "id": "799d6c364fd958a3",
+        "type": "function",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "to app",
+        "func": "function transformData(data) {\n    const result = [];\n\n    data.forEach(item => {\n        if (item.type === 'demo') {\n            result.push({\n                type: item.user_name,\n                message: item.requestText,\n                date: moment(item.startDate).format('LLL')\n            });\n\n            result.push({\n                type: 'BOT',\n                message: item.answer,\n                date: moment(item.endDate).format('LLL')\n            });\n        }\n    });\n\n    return result;\n}\n\nconst data = msg.payload\n\n\nconst result = transformData(data);\nif (result.length> msg.length){\n    msg.payload = result.slice(msg.length)\n}else{\n    msg.statusCode=400\n}\nmsg.payload =result\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "moment",
+                "module": "moment"
+            }
+        ],
+        "x": 690,
+        "y": 60,
+        "wires": [
+            [
+                "1ec03fa7f5706e3c"
+            ]
+        ]
+    },
+    {
+        "id": "1ec03fa7f5706e3c",
+        "type": "http response",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 850,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "6bb6f9da9ca35481",
+        "type": "debug",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "debug 564",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 150,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "e22820cde5205764",
+        "type": "debug",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "from P",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "8f54a8723714f093",
+        "type": "debug",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "to P",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "1fab2b9e3f00c362",
+        "type": "function",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "create vector",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT &&  PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !==\"\"  ?`Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}`: \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.content;\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": ''},\n    { \"role\": \"user\", \"content\": content }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + \". \" +  msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": content }\n  ]\n}\nnode.warn(msg.payload.matches )\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 300,
+        "wires": [
+            [
+                "3bfe821b04adb8f0",
+                "fb8d053a3b5bce04"
+            ]
+        ]
+    },
+    {
+        "id": "fb8d053a3b5bce04",
+        "type": "openai-ubos",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "genarate unswer",
+        "model": "gpt-3.5-turbo",
+        "temperature": 0.02,
+        "max_tokens": 2000,
+        "prompt": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 1055,
+        "y": 320,
+        "wires": [
+            [
+                "4428e5add7634014",
+                "e46d259e57f67fee"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3bfe821b04adb8f0",
+        "type": "debug",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "to GPT",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "4428e5add7634014",
+        "type": "debug",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "from GPT",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "fd9d2dd08a4a9010",
+        "type": "function",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "pinecone",
+        "func": "const vector = msg.payload.data[0].embedding\n\nmsg.payload = {\n    name: msg.PINECONE_INDEX,\n    \"topK\": 2,\n    \"includeMetadata\": true,\n    vector\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 240,
+        "wires": [
+            [
+                "8f54a8723714f093",
+                "78abb0e5610ea532"
+            ]
+        ]
+    },
+    {
+        "id": "78abb0e5610ea532",
+        "type": "pinecone-vector-ubos",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "demoversion",
+        "actionType": "query",
+        "apiKey": "",
+        "environment": "",
+        "x": 790,
+        "y": 240,
+        "wires": [
+            [
+                "e22820cde5205764",
+                "1fab2b9e3f00c362"
+            ]
+        ]
+    },
+    {
+        "id": "3c6063a3b18dcff2",
+        "type": "function",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "chroma",
+        "func": "const { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: global.get('openai').OPENAI_API })\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME') });\n\n\nmsg.emb = msg.payload.data[0].embedding\n\nlet collection = await client.getCollection({ name: global.get(\"prompts\").NAME_BASE })\nconst result = await collection.query({\n    queryEmbeddings: msg.emb,\n    query_text: [msg.input],\n    nResults: 2\n})\nmsg.payload = result\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "chromadb",
+                "module": "chromadb"
+            },
+            {
+                "var": "openai",
+                "module": "openai"
+            }
+        ],
+        "x": 640,
+        "y": 400,
+        "wires": [
+            [
+                "6036eefb0213f2e0",
+                "c01e31a770cf53d3"
+            ]
+        ]
+    },
+    {
+        "id": "861e75c24068d0f5",
+        "type": "function",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": ">",
+        "func": "let TYPE_BASE = global.get(\"prompts\")?.TYPE_BASE ? global.get(\"prompts\")?.TYPE_BASE : global.get(\"knowledgebase\")?.TYPE_BASE;\nif (TYPE_BASE === \"chroma\"){\n    return[null,msg]\n}else{\n    return[msg,null]\n}\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 340,
+        "wires": [
+            [
+                "fd9d2dd08a4a9010"
+            ],
+            [
+                "3c6063a3b18dcff2"
+            ]
+        ]
+    },
+    {
+        "id": "6036eefb0213f2e0",
+        "type": "debug",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "chroma",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "c01e31a770cf53d3",
+        "type": "function",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "create vector",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.content\nlet result = msg.payload.metadatas[0].map(e => e.result)\nnode.warn(result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" +  result[0] + \", \" + result[1] },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 340,
+        "wires": [
+            [
+                "bef6bc48b7afaf33",
+                "fb8d053a3b5bce04"
+            ]
+        ]
+    },
+    {
+        "id": "bef6bc48b7afaf33",
+        "type": "debug",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "to GPT",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "da3676cf2033b1f2",
+        "type": "debug",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "debug 565",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1390,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "e46d259e57f67fee",
+        "type": "function",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "save history ",
+        "func": "msg.history.endDate = Date.now()\n\nmsg.history = {}\nmsg.history.requestText = msg.content\nmsg.history.answer = msg.payload.choices[0].message.content;\nmsg.history.date = Date.now()\nmsg.history.chat_id = msg.id\nmsg.history.user_name = 'you'\nmsg.history.type = 'demo'\nmsg.payload = msg.history\nmsg.url = env.get(\"nodered\") + `/saveUserMessage`;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1210,
+        "y": 320,
+        "wires": [
+            [
+                "e1c44635873b6780",
+                "da3676cf2033b1f2"
+            ]
+        ]
+    },
+    {
+        "id": "e1c44635873b6780",
+        "type": "http request",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1390,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8f4de284d9322260",
+        "type": "function",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "chek user",
+        "func": "msg.url = env.get(\"nodered\") + `/checkUser`;\n\n\nmsg.payload = {\n    chat_id: msg.id\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 160,
+        "wires": [
+            [
+                "26d2ce8c1abde652"
+            ]
+        ]
+    },
+    {
+        "id": "26d2ce8c1abde652",
+        "type": "http request",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 690,
+        "y": 160,
+        "wires": [
+            [
+                "8765bb44b27bb4e6"
+            ]
+        ]
+    },
+    {
+        "id": "8765bb44b27bb4e6",
+        "type": "function",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "save/update",
+        "func": "if(msg.payload.length > 0){\n   return[null,msg]\n}\n\nelse{\n    msg.method=\"POST\"\n    msg.url = env.get(\"nodered\") +`/saveUser`;\n    msg.payload = {\n        deleted:false,\n        first_name: 'you',\n        last_name: 'you',\n        username:'you',\n        chat_id: msg.user_id,\n        language_code: '',\n        type: 'demo'\n    }\n    \nreturn[msg,null]\n}\n\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 160,
+        "wires": [
+            [
+                "8d05251422a11bb5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "8d05251422a11bb5",
+        "type": "http request",
+        "z": "ebf7c602310ae1c1",
+        "g": "775c610e93b238e5",
+        "name": "",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1090,
+        "y": 140,
+        "wires": [
+            []
+        ]
     }
 ]
