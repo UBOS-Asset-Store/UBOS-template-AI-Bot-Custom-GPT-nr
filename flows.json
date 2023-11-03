@@ -491,41 +491,6 @@
         "h": 382
     },
     {
-        "id": "945706dce188c905",
-        "type": "group",
-        "z": "4cba6f8219137af4",
-        "name": "Pinecone",
-        "style": {
-            "stroke": "#92d04f",
-            "fill": "#e3f3d3",
-            "label": true
-        },
-        "nodes": [
-            "2cd32bbc5f43b1e9",
-            "e3b8c26d52822ba0",
-            "219438abb376baad",
-            "5ed03305ad9ca676",
-            "8fe2f86059898917",
-            "22c15a24c4d0adfa",
-            "bb22e8b17e29062f",
-            "d856683ca512796f",
-            "1b7e83724c91c6e7",
-            "8113cddbb6aa4825",
-            "bdf49e277f064e52",
-            "8f308e031c38ea89",
-            "49144ed0f7859f63",
-            "76ae71b5431d5418",
-            "830545b6295c1a92",
-            "4c74ec1dd6830bda",
-            "30a581e7169ce66b",
-            "e608cb0aed9c3293",
-            "90852342350e7d53",
-            "13a0b7d44f1afb32"
-        ],
-        "x": 34,
-        "y": 39
-    },
-    {
         "id": "152119097abe3c6c",
         "type": "group",
         "z": "4cba6f8219137af4",
@@ -555,10 +520,23 @@
             "bf8257455d77acac",
             "67c979cecf8bb16c",
             "0e9818cbfac7e687",
-            "baf069bd70255c7f"
+            "baf069bd70255c7f",
+            "e409e096e31ace53",
+            "94bf37ee3132ef6d",
+            "c1b0ed8caf6f54b5",
+            "cbf3a3250fb4f13a",
+            "f489d7a6e1121d20",
+            "8c5ec0a5190b9305",
+            "d3b28d09c8bcb274",
+            "a8a0ef3147c433ad",
+            "732edd41e0cd69b5",
+            "de8a5792c00ad6cb",
+            "1a100f111ff758e3"
         ],
         "x": 34,
-        "y": 299
+        "y": 279,
+        "w": 3112,
+        "h": 262
     },
     {
         "id": "c479b9fa6206f5f0",
@@ -585,7 +563,9 @@
             "c32d2d5b2f208e74"
         ],
         "x": 34,
-        "y": 539
+        "y": 559,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "32d3112d56e6b1ab",
@@ -612,7 +592,9 @@
             "3513b2ea589bb4a4"
         ],
         "x": 34,
-        "y": 759
+        "y": 759,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "faa44c8af53ff52c",
@@ -639,7 +621,9 @@
             "0dc15aa186445a0f"
         ],
         "x": 34,
-        "y": 979
+        "y": 979,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "649b2f424f00fcf7",
@@ -666,7 +650,9 @@
             "e9e2f318883d6af3"
         ],
         "x": 34,
-        "y": 1199
+        "y": 1199,
+        "w": 1012,
+        "h": 202
     },
     {
         "id": "e40f1639481a93e5",
@@ -693,7 +679,9 @@
             "8a7b40691c947077"
         ],
         "x": 34,
-        "y": 1439
+        "y": 1439,
+        "w": 972,
+        "h": 202
     },
     {
         "id": "cbd9c53fe26c3884",
@@ -769,7 +757,9 @@
             "2dbe218776fe3204"
         ],
         "x": 34,
-        "y": 1679
+        "y": 1679,
+        "w": 572,
+        "h": 162
     },
     {
         "id": "22baf3437ddf891a",
@@ -819,8 +809,6 @@
             "fa153787f093eb1a",
             "a4cd87d790402f29",
             "518dcf3da9d61b4b",
-            "2314198868e16314",
-            "14d0f2d253716bf1",
             "ff0be0a77672bf4c",
             "473eed3ec8b60522",
             "4b64b056edd4d705",
@@ -835,16 +823,11 @@
             "a7b7d011e14c597c",
             "3c94a80004b47b76",
             "c63c83cda1186b6e",
-            "6f0d8b9321ada868",
-            "ffdc24d22a239897",
-            "2090c14893b8081d",
-            "093cdc96e4632e8c",
-            "3d871d53d6363cf1",
-            "c14fab2f5871ae4c"
+            "6f0d8b9321ada868"
         ],
         "x": 14,
         "y": 2059,
-        "w": 3712,
+        "w": 3632,
         "h": 722
     },
     {
@@ -1229,13 +1212,15 @@
             "b033bb0c16d50512"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 812,
+        "h": 382
     },
     {
         "id": "4eae9dfe783940c7",
         "type": "group",
         "z": "f4036141cc030bcf",
-        "name": "auth",
+        "name": "Auth",
         "style": {
             "stroke": "#ffff00",
             "fill": "#ffffbf",
@@ -1389,6 +1374,43 @@
         "y": 19,
         "w": 1492,
         "h": 442
+    },
+    {
+        "id": "945706dce188c905",
+        "type": "group",
+        "z": "4cba6f8219137af4",
+        "name": "Pinecone",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "2cd32bbc5f43b1e9",
+            "e3b8c26d52822ba0",
+            "219438abb376baad",
+            "5ed03305ad9ca676",
+            "8fe2f86059898917",
+            "22c15a24c4d0adfa",
+            "bb22e8b17e29062f",
+            "d856683ca512796f",
+            "1b7e83724c91c6e7",
+            "8113cddbb6aa4825",
+            "bdf49e277f064e52",
+            "8f308e031c38ea89",
+            "49144ed0f7859f63",
+            "76ae71b5431d5418",
+            "830545b6295c1a92",
+            "4c74ec1dd6830bda",
+            "30a581e7169ce66b",
+            "e608cb0aed9c3293",
+            "90852342350e7d53",
+            "13a0b7d44f1afb32"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 1932,
+        "h": 222
     },
     {
         "id": "4b07803a52e468f5",
@@ -3811,78 +3833,6 @@
         ]
     },
     {
-        "id": "3d871d53d6363cf1",
-        "type": "function",
-        "z": "f4036141cc030bcf",
-        "g": "22baf3437ddf891a",
-        "name": "create chroma collection",
-        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: env.get('openaiKey') })\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME')});\nconst collection = await client.createCollection({ name: \"default\", embeddingFunction: embedder }) \n\n//fill collection\nmsg.emb = msg.payload.data[0].embedding\nlet id = Date.now()\nlet collection2 = await client.getCollection({ name: \"default\"})\nconst create = await collection2.add({\n    ids: [`${msg.oldpayload.id}`],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.oldpayload.metadata.question, result: msg.oldpayload.metadata.result }],\n    documents: msg.oldpayload.url \n})\n\nmsg.payload = create\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "chromadb",
-                "module": "chromadb"
-            },
-            {
-                "var": "openai",
-                "module": "openai"
-            }
-        ],
-        "x": 3350,
-        "y": 2280,
-        "wires": [
-            [
-                "c14fab2f5871ae4c"
-            ]
-        ]
-    },
-    {
-        "id": "c14fab2f5871ae4c",
-        "type": "debug",
-        "z": "f4036141cc030bcf",
-        "g": "22baf3437ddf891a",
-        "name": "debug 545",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 3570,
-        "y": 2280,
-        "wires": []
-    },
-    {
-        "id": "093cdc96e4632e8c",
-        "type": "http request",
-        "z": "f4036141cc030bcf",
-        "g": "22baf3437ddf891a",
-        "name": "",
-        "method": "POST",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 3150,
-        "y": 2280,
-        "wires": [
-            [
-                "3d871d53d6363cf1"
-            ]
-        ]
-    },
-    {
         "id": "4d6a17c73d546732",
         "type": "http in",
         "z": "f4036141cc030bcf",
@@ -4226,9 +4176,7 @@
         "wires": [
             [
                 "e4d439733f677236",
-                "491d19d33c172e92",
-                "2314198868e16314",
-                "ffdc24d22a239897"
+                "491d19d33c172e92"
             ],
             [
                 "a4cd87d790402f29"
@@ -4665,48 +4613,6 @@
         ]
     },
     {
-        "id": "2314198868e16314",
-        "type": "function",
-        "z": "f4036141cc030bcf",
-        "g": "22baf3437ddf891a",
-        "name": "create default knowlegebase",
-        "func": "msg.collection = \"knowlegebase\"\nmsg.payload ={\n    _id: objectid(),\n    select:true,\n    type:\"chroma\",\n    name: \"default\",\n    deleted:false\n}\nlet process_env = {\n    TYPE_BASE: msg.payload.type.trim(),\n    NAME_BASE: msg.payload.name.trim()\n}\n\nglobal.set(\"knowledgebase\", process_env)\nglobal.set('base',1)\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "objectid",
-                "module": "objectid"
-            }
-        ],
-        "x": 3400,
-        "y": 2200,
-        "wires": [
-            [
-                "14d0f2d253716bf1"
-            ]
-        ]
-    },
-    {
-        "id": "14d0f2d253716bf1",
-        "type": "link call",
-        "z": "f4036141cc030bcf",
-        "g": "22baf3437ddf891a",
-        "name": "",
-        "links": [
-            "8771d95b528d34d0"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 3630,
-        "y": 2200,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "ff0be0a77672bf4c",
         "type": "subflow:6a6d2afa5b0c7ec9",
         "z": "f4036141cc030bcf",
@@ -4982,56 +4888,6 @@
             [
                 "6347ff05c60783c4",
                 "90f58c6cb8c49015"
-            ]
-        ]
-    },
-    {
-        "id": "ffdc24d22a239897",
-        "type": "function",
-        "z": "f4036141cc030bcf",
-        "g": "22baf3437ddf891a",
-        "name": "create data for collection",
-        "func": "msg.payload ={};\nmsg.payload.metadata={};\nmsg.payload.metadata.question = \"What is UBOS2?\";\nmsg.payload.metadata.result =\"A cool company2\";\nmsg.payload.url=\"aboutUbos\"\n\nmsg.input=`${msg.payload.metadata.question}  ${msg.payload.metadata.result}`\n\nmsg.oldpayload = msg.payload;\nmsg.url = `https://api.openai.com/v1/embeddings`;\nmsg.headers = {\n    'Content-Type': 'application/json',\n    'Authorization': `Bearer ${env.get('openai-key')}`\n};\nmsg.payload = {\n    input: msg.input,\n    model: \"text-embedding-ada-002\"\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2950,
-        "y": 2280,
-        "wires": [
-            [
-                "093cdc96e4632e8c"
-            ]
-        ]
-    },
-    {
-        "id": "2090c14893b8081d",
-        "type": "inject",
-        "z": "f4036141cc030bcf",
-        "g": "22baf3437ddf891a",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 2740,
-        "y": 2280,
-        "wires": [
-            [
-                "ffdc24d22a239897"
             ]
         ]
     },
@@ -6035,7 +5891,7 @@
         "fieldType": "msg",
         "format": "css",
         "syntax": "mustache",
-        "template": "@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,200&display=swap');\n\nbody{\n    font-family: 'Titillium Web', sans-serif!important;\n   \n}\n\n.header{\ntop: 0px !important;\nheight: 66px !important;\npadding: 0px !important;\nborder-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n.menu_section{\nbox-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\nheight: 100vh !important;\npadding: 0px !important;\nleft: 0px !important;\nborder-right: 2px solid rgb(241, 243, 244) !important;\n}\n\n.main_section{\npadding: 0px !important;\nheight: 100vh !important;\nposition: fixed !important;\ntop: 66px !important; \n}\n\n.tab_login>div>div>div>div{\nbox-shadow: none !important;\n}\n\n.tab_login>div>div>div>div>div{\nbackground: transparent !important;\n}\n\n.frame_section{\nheight: 100vh !important;\nposition: fixed !important;\ntop: 16px !important; \n}\n\n.scroll_section{\n   height: 100vh !important; \n    top: 66px !important; \n    padding: 0px !important;\n\n}\n\n.image{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n    height: 75px !important;\n}\n\n\n.menu .active span{\ncolor: #2a2f36 !important;\n}\n\n.menu .active {\n    background: #ebf1fb !important;\n}\n\n.menu button:hover{\nbackground: #ebf1fb;\n}\n\n.menu span[role=\"img\"]{\nmargin-left: 8px !important;\nmargin-top: 3px !important;\n\n}\n.menu .bp3-collapse-body .sub_category {\n    padding: 5px 5px 5px 20px !important;\n}\n.menu button{\n    box-shadow: none !important;\n}\n\n.menu span{\n    font-size: 16px !important;\n    font-weight: 400 !important;\n    color: #00000099 !important;\n}\n\n.menu {\n    left: 0px !important;\n    width: 100% !important;\n    padding: 0 !important;\n}\n\n.menu_wrap{\n    position: fixed !important;\n    left: 0px!important;\n    top: 0px !important;\n    height: 100vh !important;\n    /* width: 178.312px!important; */\n    padding: 0px!important;\n    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\n}\n\n.menu button {\n    justify-content: start !important;\n    padding: 5px 10px 5px 15px !important;\n    margin-bottom: 5px !important;\n}\n\n.setting_title{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n\n.setting_text{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important; \n}\n\n.setting_text .bp3-ui-text {\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n.setting_title .bp3-ui-text {\n    font-weight: 600 !important;\n    font-size: 18px !important;\n}\n\n.telegramList {\n    padding: 10px 20px !important;\n}\n\n.telegramList .custom-wrapper-canvas-list{\n    display: flex;\n    flex-direction: column !important;\n}\n.telegramList .custom-wrapper-canvas-list button {\n    display: none !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget{\n    width: 90% !important;\n    position: static !important;\n    border-radius: 8px!important;\n    padding: 0 !important;\n    margin-bottom: 7px;\n    margin-right: auto !important;\n    margin-left: 0 !important;\n    background-color: #cfcfdb !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd){\n    margin-right: 0 !important;\n    margin-left: auto !important;\n    background-color: #e5e5e6 !important;\n}\n.telegramList .t--widget-textwidget{\n    width: auto !important;\n    position: static !important;\n    padding: 5px 15px !important;\n    height: 100% !important;\n}\n.telegramList .t--widget-textwidget span{\n    font-weight: 500; \n    font-size: 16px;\n    line-height: 125%;\n}\n\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd) .t--widget-textwidget span{\n    text-align: end;\n}\n\n.telegramWrap{\n    padding: 0!important;\n}\n\n.container{\n    min-height: 100vh;\n}\n\n.selectedTab{\n    box-shadow: rgb(235, 239, 242) -1px 0px 0px inset, rgb(235, 239, 242) 0px 0px 0px inset, rgb(55 169 235) 0px 4px 0px inset !important;\n}\n\n.icon >div>div>div>div>div>div>div{\n   background-position: center right!important;\n}\n\n.title >div>div>div>div>div>div>div span {\nfont-size:22px!important; \n}\n.title >div>div>div>div>div>div>div >span >span.training_span {color:#118cfc!important; font-size: 28px!important;  font-weight: 700!important;}\n.tabs >div>div>div>div>div>div {\nfont-size:20px!important;\ntext-transform: uppercase!important;\nfont-weight: 500!important;\n}\n.training_wrap >div>div>div>div>div>div>div>div>div>div>div>div>div{\n    display: inline-flex!important;\n    justify-content: space-between!important;\n}\n.table{\nfont-size:14px!important;\ntext-transform: lowercase!important;\nfont-weight: 400!important; \n}\n.table >div>div>div>div>div>div{\n    font-size:14px!important;\ntext-transform: uppercase!important;\n}\n.tr>div>div>div>div>div>div>div>div{\n    border-right: none!important;\n}\n\n\n\n.title >div>div>div>div>div>div>div >span >span {\nfont-size:14px!important;\nfont-weight: 400!important; \n}\n\n/**/\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    margin-bottom: 20px!important;\n}\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    position: initial !important;\n}\n\n.hide{\n    display: none;\n       height: 20px!important;\n}\n\n.activ{\n    display: block;\n    /* height: 270px!important; */\n}\n.activ_setup{\n    display: block;\n    /* height: 500px!important; */\n}\n.btn_right>div>div>div>div>button>span>svg {\n    transform: rotate(180deg)!important;\n    transition: all 0.5s ease 0s !important;\n}\n.btn_left>div>div>div>div>button>span>svg {\n        transform: translateY(0px)!important;\n    transition: none 0s ease 0s!important;\n}\n\n/* За замовчуванням */\n.btn_left>div>div>div>div>button,\n.btn_right>div>div>div>div>button {\n    background-color: #ccc;  \n    transition: background-color 0.3s ease, transform 0.3s ease !important;\n \n}\n\n\n.btn_left>div>div>div>div>button:hover:enabled,\n.btn_right>div>div>div>div>button:hover:enabled {\n    background: #9991 !important; \n    transform: translateY(-5px) !important; \n}\n.bp3-input  {\nborder-radius: 10px!important;\n}\n.select_input button.select-button {\n    border-radius: 10px!important;\n}\n.dashboard_text>div>div>div>div>div>div>div{\n    font-size:32px!important;\nfont-weight: 700!important; \n}\n.t--widget-progresswidget>div>div>div>div{\n   height: 68%!important; \n  border-radius:10px!important; \n    background: #fec518;\n    overflow: hidden!important;\n    \n\n}\n\n.t--widget-progresswidget>div>div>div>div>div{\n    height: 100%!important; \n    background-color: #fec518!important;\n    padding-right: 4px!important;\n    font-size: 20px!important;\n    font-weight: 600!important;\n    text-align: center!important;\n    padding-top: 2px!important;\n  \n   \n   \n} \n.text_cross{\n    text-decoration: line-through!important;\n}\n.text_cross span{\n    text-decoration: none!important;\n}\n.done{\n    opacity: 0.3!important;\n}\n.scroll_section{\n     overflow-y: hidden!important;\n}\n\n\n.users_tabs{\n    border-radius: 10px!important;\n}\n.upload_img .bp3-button {\n    background:#215484!important;\n    border-radius: 5px !important;\n}\n.upload_img .bp3-button:hover,\n.upload_img >div>div>div>div:hover > button, \n.upload_img >div>div>div>div:active > button{\nbackground: #123a5e!important;\ntransition: background-color 0.3s ease, transform 0.3s ease !important;\n}\n.text_aisetup{\n    top:0 px!important;\n}\n.text_aisetup>div>div>div>div>div>div>div>span{\ngap: 5px!important;\ndisplay: flex!important;\nwidth: 100%!important;\nline-height: 1.2!important;\nwhite-space: normal!important;\n}\n",
+        "template": "@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,200&display=swap');\n\nbody{\n    font-family: 'Titillium Web', sans-serif!important;\n   \n}\n\n.header{\ntop: 0px !important;\nheight: 66px !important;\npadding: 0px !important;\nborder-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n.menu_section{\nbox-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\nheight: 100vh !important;\npadding: 0px !important;\nleft: 0px !important;\nborder-right: 2px solid rgb(241, 243, 244) !important;\n}\n\n.main_section{\npadding: 0px !important;\nheight: 100vh !important;\nposition: fixed !important;\ntop: 66px !important; \n}\n\n.tab_login>div>div>div>div{\nbox-shadow: none !important;\n}\n\n.tab_login>div>div>div>div>div{\nbackground: transparent !important;\n}\n\n.frame_section{\nheight: 100vh !important;\nposition: fixed !important;\ntop: 16px !important; \n}\n\n.scroll_section{\n   height: 100vh !important; \n    top: 66px !important; \n    padding: 0px !important;\n\n}\n\n.image{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n    height: 75px !important;\n}\n\n\n.menu .active span{\ncolor: #2a2f36 !important;\n}\n\n.menu .active {\n    background: #ebf1fb !important;\n}\n\n.menu button:hover{\nbackground: #ebf1fb;\n}\n\n.menu span[role=\"img\"]{\nmargin-left: 8px !important;\nmargin-top: 3px !important;\n\n}\n.menu .bp3-collapse-body .sub_category {\n    padding: 5px 5px 5px 20px !important;\n}\n.menu button{\n    box-shadow: none !important;\n}\n\n.menu span{\n    font-size: 16px !important;\n    font-weight: 400 !important;\n    color: #00000099 !important;\n}\n\n.menu {\n    left: 0px !important;\n    width: 100% !important;\n    padding: 0 !important;\n}\n\n.menu_wrap{\n    position: fixed !important;\n    left: 0px!important;\n    top: 0px !important;\n    height: 100vh !important;\n    /* width: 178.312px!important; */\n    padding: 0px!important;\n    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\n}\n\n.menu button {\n    justify-content: start !important;\n    padding: 5px 10px 5px 15px !important;\n    margin-bottom: 5px !important;\n}\n\n.setting_title{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n\n.setting_text{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important; \n}\n\n.setting_text .bp3-ui-text {\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n.setting_title .bp3-ui-text {\n    font-weight: 600 !important;\n    font-size: 18px !important;\n}\n\n.telegramList {\n    padding: 10px 20px !important;\n}\n\n.telegramList .custom-wrapper-canvas-list{\n    display: flex;\n    flex-direction: column !important;\n}\n.telegramList .custom-wrapper-canvas-list button {\n    display: none !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget{\n    width: 90% !important;\n    position: static !important;\n    border-radius: 8px!important;\n    padding: 0 !important;\n    margin-bottom: 7px;\n    margin-right: auto !important;\n    margin-left: 0 !important;\n    background-color: #cfcfdb !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd){\n    margin-right: 0 !important;\n    margin-left: auto !important;\n    background-color: #e5e5e6 !important;\n}\n.telegramList .t--widget-textwidget{\n    width: auto !important;\n    position: static !important;\n    padding: 5px 15px !important;\n    height: 100% !important;\n}\n.telegramList .t--widget-textwidget span{\n    font-weight: 500; \n    font-size: 16px;\n    line-height: 125%;\n}\n\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd) .t--widget-textwidget span{\n    text-align: end;\n}\n\n.telegramWrap{\n    padding: 0!important;\n}\n\n.container{\n    min-height: 100vh;\n}\n\n.selectedTab{\n    box-shadow: rgb(235, 239, 242) -1px 0px 0px inset, rgb(235, 239, 242) 0px 0px 0px inset, rgb(55 169 235) 0px 4px 0px inset !important;\n}\n\n.icon >div>div>div>div>div>div>div{\n   background-position: center right!important;\n}\n\n.title >div>div>div>div>div>div>div span {\nfont-size:22px!important; \n}\n.title >div>div>div>div>div>div>div >span >span.training_span {color:#118cfc!important; font-size: 28px!important;  font-weight: 700!important;}\n.tabs >div>div>div>div>div>div {\nfont-size:20px!important;\ntext-transform: uppercase!important;\nfont-weight: 500!important;\n}\n.training_wrap >div>div>div>div>div>div>div>div>div>div>div>div>div{\n    display: inline-flex!important;\n    justify-content: space-between!important;\n}\n.table{\nfont-size:14px!important;\ntext-transform: lowercase!important;\nfont-weight: 400!important; \n}\n.table >div>div>div>div>div>div{\n    font-size:14px!important;\ntext-transform: uppercase!important;\n}\n.tr>div>div>div>div>div>div>div>div{\n    border-right: none!important;\n}\n\n\n\n.title >div>div>div>div>div>div>div >span >span {\nfont-size:14px!important;\nfont-weight: 400!important; \n}\n\n/**/\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    margin-bottom: 20px!important;\n}\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    position: initial !important;\n}\n\n.hide{\n    display: none;\n       height: 20px!important;\n}\n\n.activ{\n    display: block;\n    /* height: 270px!important; */\n}\n.activ_setup{\n    display: block;\n    /* height: 500px!important; */\n}\n.btn_right>div>div>div>div>button>span>svg {\n    transform: rotate(180deg)!important;\n    transition: all 0.5s ease 0s !important;\n}\n.btn_left>div>div>div>div>button>span>svg {\n        transform: translateY(0px)!important;\n    transition: none 0s ease 0s!important;\n}\n\n/* За замовчуванням */\n.btn_left>div>div>div>div>button,\n.btn_right>div>div>div>div>button {\n    background-color: #ccc;  \n    transition: background-color 0.3s ease, transform 0.3s ease !important;\n \n}\n\n\n.btn_left>div>div>div>div>button:hover:enabled,\n.btn_right>div>div>div>div>button:hover:enabled {\n    background: #9991 !important; \n    transform: translateY(-5px) !important; \n}\n.bp3-input  {\nborder-radius: 10px!important;\n}\n.select_input button.select-button {\n    border-radius: 10px!important;\n}\n.dashboard_text>div>div>div>div>div>div>div{\n    font-size:32px!important;\nfont-weight: 700!important; \n}\n.t--widget-progresswidget>div>div>div>div{\n   height: 68%!important; \n  border-radius:10px!important; \n    background: #fec518;\n    overflow: hidden!important;\n    \n\n}\n\n.t--widget-progresswidget>div>div>div>div>div{\n    height: 100%!important; \n    background-color: #fec518!important;\n    padding-right: 4px!important;\n    font-size: 20px!important;\n    font-weight: 600!important;\n    text-align: center!important;\n    padding-top: 2px!important;\n  \n   \n   \n} \n.text_cross{\n    text-decoration: line-through!important;\n}\n.text_cross span{\n    text-decoration: none!important;\n}\n.done{\n    opacity: 0.3!important;\n}\n.scroll_section{\n     overflow-y: hidden!important;\n}\n\n\n.users_tabs{\n    border-radius: 10px!important;\n}\n.upload_img .bp3-button {\n    background:#215484!important;\n    border-radius: 5px !important;\n}\n.upload_img .bp3-button:hover,\n.upload_img >div>div>div>div:hover > button, \n.upload_img >div>div>div>div:active > button{\nbackground: #123a5e!important;\ntransition: background-color 0.3s ease, transform 0.3s ease !important;\n}\n.text_aisetup{\n    top:0 px!important;\n}\n.text_aisetup>div>div>div>div>div>div>div>span{\ngap: 5px!important;\ndisplay: flex!important;\nwidth: 100%!important;\nline-height: 1.2!important;\nwhite-space: normal!important;\n}\n.table_vectors .table .td{height: 250px!important;\n}\n.table_vectors .table .td>div>div{\n    white-space: initial!important;\n    align-items: baseline!important;\n}",
         "output": "str",
         "x": 260,
         "y": 60,
@@ -6953,131 +6809,6 @@
         "wires": []
     },
     {
-        "id": "2cd32bbc5f43b1e9",
-        "type": "inject",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 150,
-        "y": 120,
-        "wires": [
-            [
-                "5ed03305ad9ca676"
-            ]
-        ]
-    },
-    {
-        "id": "e3b8c26d52822ba0",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n    PINECONE_API: data.pinecone_api ? data.pinecone_api.trim():\"\",\n    PINECONE_ENV: data.pinecone_env ? data.pinecone_env.trim() : \"\",\n    PINECONE_INDEX: data.pinecone_index ? data.pinecone_index.trim() :\"\",\n    PINECONE_URL: data.pinecone_url ? data.pinecone_url.trim()  :\"\",\n}\n\nglobal.set(\"pinecone\", process_env)\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 690,
-        "y": 100,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "219438abb376baad",
-        "type": "complete",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "",
-        "scope": [
-            "0225b679b27c7cb6"
-        ],
-        "uncaught": false,
-        "x": 130,
-        "y": 80,
-        "wires": [
-            [
-                "5ed03305ad9ca676"
-            ]
-        ]
-    },
-    {
-        "id": "5ed03305ad9ca676",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "getEnvs",
-        "func": "msg.filename = '/data/credentialsPinecone.json'\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 320,
-        "y": 100,
-        "wires": [
-            [
-                "8fe2f86059898917"
-            ]
-        ]
-    },
-    {
-        "id": "8fe2f86059898917",
-        "type": "file in",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "",
-        "filename": "filename",
-        "filenameType": "msg",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 480,
-        "y": 100,
-        "wires": [
-            [
-                "22c15a24c4d0adfa"
-            ]
-        ]
-    },
-    {
-        "id": "22c15a24c4d0adfa",
-        "type": "json",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 605,
-        "y": 100,
-        "wires": [
-            [
-                "e3b8c26d52822ba0"
-            ]
-        ],
-        "l": false
-    },
-    {
         "id": "bb96d23ed888929e",
         "type": "http in",
         "z": "4cba6f8219137af4",
@@ -7542,268 +7273,6 @@
         "l": false
     },
     {
-        "id": "bb22e8b17e29062f",
-        "type": "http in",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "",
-        "url": "/saveCredentialsPinecone",
-        "method": "post",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 190,
-        "y": 180,
-        "wires": [
-            [
-                "d856683ca512796f"
-            ]
-        ]
-    },
-    {
-        "id": "d856683ca512796f",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "set filename",
-        "func": "msg.filename = '/data/credentialsPinecone.json'\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 430,
-        "y": 180,
-        "wires": [
-            [
-                "8113cddbb6aa4825"
-            ]
-        ]
-    },
-    {
-        "id": "1b7e83724c91c6e7",
-        "type": "file",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "",
-        "filename": "filename",
-        "filenameType": "msg",
-        "appendNewline": true,
-        "createDir": true,
-        "overwriteFile": "true",
-        "encoding": "none",
-        "x": 700,
-        "y": 180,
-        "wires": [
-            [
-                "8f308e031c38ea89"
-            ]
-        ]
-    },
-    {
-        "id": "8113cddbb6aa4825",
-        "type": "json",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 570,
-        "y": 180,
-        "wires": [
-            [
-                "1b7e83724c91c6e7"
-            ]
-        ]
-    },
-    {
-        "id": "bdf49e277f064e52",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n    PINECONE_API: data.pinecone_api,\n    PINECONE_ENV: data.pinecone_env,\n    PINECONE_INDEX: data.pinecone_index,\n    PINECONE_URL: data.pinecone_url,\n}\n\nglobal.set(\"pinecone\", process_env)\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1150,
-        "y": 180,
-        "wires": [
-            [
-                "830545b6295c1a92"
-            ]
-        ]
-    },
-    {
-        "id": "8f308e031c38ea89",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "getEnvs",
-        "func": "msg.filename = '/data/credentialsPinecone.json'\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 840,
-        "y": 180,
-        "wires": [
-            [
-                "49144ed0f7859f63"
-            ]
-        ]
-    },
-    {
-        "id": "49144ed0f7859f63",
-        "type": "file in",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "",
-        "filename": "filename",
-        "filenameType": "msg",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 980,
-        "y": 180,
-        "wires": [
-            [
-                "76ae71b5431d5418"
-            ]
-        ]
-    },
-    {
-        "id": "76ae71b5431d5418",
-        "type": "json",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 1075,
-        "y": 180,
-        "wires": [
-            [
-                "bdf49e277f064e52"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "830545b6295c1a92",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "function 388",
-        "func": "const vector = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\n\nmsg.payload = {\n    name: global.get(\"pinecone\").PINECONE_INDEX,\n    \"topK\": 1,\n    \"includeMetadata\": true,\n    vector\n};\n\nmsg.PINECONE_API_KEY = global.get(\"pinecone\").PINECONE_API\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\").PINECONE_ENV\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\").PINECONE_URL\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1350,
-        "y": 180,
-        "wires": [
-            [
-                "30a581e7169ce66b"
-            ]
-        ]
-    },
-    {
-        "id": "4c74ec1dd6830bda",
-        "type": "http response",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 1890,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "30a581e7169ce66b",
-        "type": "pinecone-vector-ubos",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "demoversion1",
-        "actionType": "query",
-        "apiKey": "",
-        "environment": "",
-        "x": 1540,
-        "y": 180,
-        "wires": [
-            [
-                "e608cb0aed9c3293"
-            ]
-        ]
-    },
-    {
-        "id": "e608cb0aed9c3293",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "response",
-        "func": "msg.payload = msg.payload && msg.statusCode === 200 ? \"Data saved successfully\" : msg.payload\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1720,
-        "y": 180,
-        "wires": [
-            [
-                "4c74ec1dd6830bda"
-            ]
-        ]
-    },
-    {
-        "id": "90852342350e7d53",
-        "type": "catch",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "testPinecone",
-        "scope": [
-            "30a581e7169ce66b"
-        ],
-        "uncaught": false,
-        "x": 1790,
-        "y": 220,
-        "wires": [
-            [
-                "13a0b7d44f1afb32"
-            ]
-        ]
-    },
-    {
-        "id": "13a0b7d44f1afb32",
-        "type": "function",
-        "z": "4cba6f8219137af4",
-        "g": "945706dce188c905",
-        "name": "function 389",
-        "func": "// id: ${ msg.error.source.id }\n// name: ${ msg.error.source.name }`\nmsg.payload = msg.error.message\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1915,
-        "y": 220,
-        "wires": [
-            [
-                "4c74ec1dd6830bda"
-            ]
-        ],
-        "l": false
-    },
-    {
         "id": "43f21d182d12a289",
         "type": "inject",
         "z": "4cba6f8219137af4",
@@ -7826,7 +7295,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 150,
-        "y": 380,
+        "y": 400,
         "wires": [
             [
                 "2345d5259ca0ca0c"
@@ -7846,7 +7315,7 @@
         "finalize": "",
         "libs": [],
         "x": 690,
-        "y": 360,
+        "y": 380,
         "wires": [
             []
         ]
@@ -7862,7 +7331,7 @@
         ],
         "uncaught": false,
         "x": 130,
-        "y": 340,
+        "y": 360,
         "wires": [
             [
                 "2345d5259ca0ca0c"
@@ -7882,7 +7351,7 @@
         "finalize": "",
         "libs": [],
         "x": 320,
-        "y": 360,
+        "y": 380,
         "wires": [
             [
                 "9e829c9ae4e26d49"
@@ -7903,7 +7372,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 480,
-        "y": 360,
+        "y": 380,
         "wires": [
             [
                 "c00caad6107d0484"
@@ -7920,7 +7389,7 @@
         "action": "",
         "pretty": false,
         "x": 605,
-        "y": 360,
+        "y": 380,
         "wires": [
             [
                 "a047e4ad8f719e8b"
@@ -7939,7 +7408,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 180,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
                 "0ab166afbc6563b7"
@@ -7959,7 +7428,7 @@
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
                 "e81089882f4d82a4"
@@ -7979,7 +7448,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 700,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
                 "54cbaf6226b86ab6"
@@ -7996,7 +7465,7 @@
         "action": "",
         "pretty": false,
         "x": 570,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
                 "02eef43416926f09"
@@ -8016,7 +7485,7 @@
         "finalize": "",
         "libs": [],
         "x": 1190,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
                 "1173e7cfd78aea8a"
@@ -8036,7 +7505,7 @@
         "finalize": "",
         "libs": [],
         "x": 840,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
                 "b714b761bc107b2b"
@@ -8057,7 +7526,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 980,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
                 "9b518f139d898786"
@@ -8074,7 +7543,7 @@
         "action": "",
         "pretty": false,
         "x": 1075,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
                 "2ba640ea2406a74b"
@@ -8095,7 +7564,7 @@
         "finalize": "",
         "libs": [],
         "x": 1350,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
                 "baf069bd70255c7f"
@@ -8111,7 +7580,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1890,
-        "y": 440,
+        "y": 460,
         "wires": []
     },
     {
@@ -8127,10 +7596,11 @@
         "finalize": "",
         "libs": [],
         "x": 1720,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
-                "e6400901da94405f"
+                "e6400901da94405f",
+                "e409e096e31ace53"
             ]
         ]
     },
@@ -8145,7 +7615,7 @@
         ],
         "uncaught": false,
         "x": 1790,
-        "y": 480,
+        "y": 500,
         "wires": [
             [
                 "0e9818cbfac7e687"
@@ -8165,7 +7635,7 @@
         "finalize": "",
         "libs": [],
         "x": 1915,
-        "y": 480,
+        "y": 500,
         "wires": [
             [
                 "e6400901da94405f"
@@ -8192,7 +7662,7 @@
         },
         "OPENAI_API_KEY": "",
         "x": 1540,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
                 "bf8257455d77acac"
@@ -8210,7 +7680,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 190,
-        "y": 680,
+        "y": 700,
         "wires": [
             [
                 "0a706b8b32d3e3b0"
@@ -8226,7 +7696,7 @@
         "statusCode": "",
         "headers": {},
         "x": 950,
-        "y": 680,
+        "y": 700,
         "wires": []
     },
     {
@@ -8242,7 +7712,7 @@
         "finalize": "",
         "libs": [],
         "x": 410,
-        "y": 680,
+        "y": 700,
         "wires": [
             [
                 "615cc22704b7c6e6"
@@ -8262,7 +7732,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 680,
-        "y": 680,
+        "y": 700,
         "wires": [
             [
                 "01eeca7d59048bc0"
@@ -8282,7 +7752,7 @@
         "finalize": "",
         "libs": [],
         "x": 820,
-        "y": 680,
+        "y": 700,
         "wires": [
             [
                 "dfe977bd7a67f872"
@@ -8299,7 +7769,7 @@
         "action": "",
         "pretty": false,
         "x": 550,
-        "y": 680,
+        "y": 700,
         "wires": [
             [
                 "f2c81b34257ed170"
@@ -8329,7 +7799,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 150,
-        "y": 620,
+        "y": 640,
         "wires": [
             [
                 "e084f337475f802b"
@@ -8349,7 +7819,7 @@
         "finalize": "",
         "libs": [],
         "x": 650,
-        "y": 600,
+        "y": 620,
         "wires": [
             []
         ]
@@ -8365,7 +7835,7 @@
         ],
         "uncaught": false,
         "x": 130,
-        "y": 580,
+        "y": 600,
         "wires": [
             [
                 "e084f337475f802b"
@@ -8385,7 +7855,7 @@
         "finalize": "",
         "libs": [],
         "x": 320,
-        "y": 600,
+        "y": 620,
         "wires": [
             [
                 "23e0235bad59815e"
@@ -8406,7 +7876,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 460,
-        "y": 600,
+        "y": 620,
         "wires": [
             [
                 "c32d2d5b2f208e74"
@@ -8423,7 +7893,7 @@
         "action": "",
         "pretty": false,
         "x": 565,
-        "y": 600,
+        "y": 620,
         "wires": [
             [
                 "f1df07e95244e6fc"
@@ -8993,6 +8463,627 @@
         "headers": {},
         "x": 530,
         "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "f489d7a6e1121d20",
+        "type": "function",
+        "z": "4cba6f8219137af4",
+        "g": "152119097abe3c6c",
+        "name": "create chroma collection",
+        "func": "//create collection\nconst { ChromaClient } = chromadb;\nconst { OpenAIEmbeddingFunction } = chromadb;\nconst embedder = new OpenAIEmbeddingFunction({ openai_api_key: global.get(\"openai\")?.OPENAI_API})\nconst client = new ChromaClient({ path: env.get('VECTORDB-CHROMA-HOST-NAME')});\nconst collection = await client.createCollection({ name: \"default\", embeddingFunction: embedder }) \n\n//fill collection\nmsg.emb = msg.payload.data[0].embedding\nlet id = Date.now()\nlet collection2 = await client.getCollection({ name: \"default\"})\nconst create = await collection2.add({\n    ids: [`${msg.oldpayload.id}`],\n    embeddings: msg.emb,\n    metadatas: [{ question: msg.oldpayload.metadata.question, result: msg.oldpayload.metadata.result }],\n    documents: msg.oldpayload.url \n})\n\nmsg.payload = create\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "chromadb",
+                "module": "chromadb"
+            },
+            {
+                "var": "openai",
+                "module": "openai"
+            }
+        ],
+        "x": 2810,
+        "y": 400,
+        "wires": [
+            [
+                "8c5ec0a5190b9305"
+            ]
+        ]
+    },
+    {
+        "id": "8c5ec0a5190b9305",
+        "type": "debug",
+        "z": "4cba6f8219137af4",
+        "g": "152119097abe3c6c",
+        "name": "debug 567",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3030,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "a8a0ef3147c433ad",
+        "type": "http request",
+        "z": "4cba6f8219137af4",
+        "g": "152119097abe3c6c",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 2590,
+        "y": 400,
+        "wires": [
+            [
+                "f489d7a6e1121d20"
+            ]
+        ]
+    },
+    {
+        "id": "732edd41e0cd69b5",
+        "type": "function",
+        "z": "4cba6f8219137af4",
+        "g": "152119097abe3c6c",
+        "name": "create data for collection",
+        "func": "msg.payload ={};\nmsg.payload.metadata={};\nmsg.payload.metadata.question = \"What is UBOS2?\";\nmsg.payload.metadata.result =\"A cool company2\";\nmsg.payload.url=\"aboutUbos\"\n\nmsg.input=`${msg.payload.metadata.question}  ${msg.payload.metadata.result}`\n\nmsg.oldpayload = msg.payload;\nmsg.url = `https://api.openai.com/v1/embeddings`;\nmsg.headers = {\n    'Content-Type': 'application/json',\n    'Authorization': `Bearer ${global.get(\"openai\")?.OPENAI_API}`\n};\nmsg.payload = {\n    input: msg.input,\n    model: \"text-embedding-ada-002\"\n}\nreturn msg; ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2370,
+        "y": 400,
+        "wires": [
+            [
+                "a8a0ef3147c433ad"
+            ]
+        ]
+    },
+    {
+        "id": "c1b0ed8caf6f54b5",
+        "type": "function",
+        "z": "4cba6f8219137af4",
+        "g": "152119097abe3c6c",
+        "name": "create default knowlegebase",
+        "func": "msg.collection = \"knowlegebase\"\nmsg.payload ={\n    _id: objectid(),\n    select:true,\n    type:\"chroma\",\n    name: \"default\",\n    deleted:false\n}\nlet process_env = {\n    TYPE_BASE: msg.payload.type.trim(),\n    NAME_BASE: msg.payload.name.trim()\n}\n\nglobal.set(\"knowledgebase\", process_env)\nglobal.set('base',1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 2380,
+        "y": 360,
+        "wires": [
+            [
+                "cbf3a3250fb4f13a"
+            ]
+        ]
+    },
+    {
+        "id": "cbf3a3250fb4f13a",
+        "type": "link call",
+        "z": "4cba6f8219137af4",
+        "g": "152119097abe3c6c",
+        "name": "",
+        "links": [
+            "8771d95b528d34d0"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2630,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "de8a5792c00ad6cb",
+        "type": "function",
+        "z": "4cba6f8219137af4",
+        "g": "152119097abe3c6c",
+        "name": ">",
+        "func": "if(msg.payload?.length <= 0){\n    return [msg,null]\n}{\n    return [null,msg]  \n}\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2130,
+        "y": 380,
+        "wires": [
+            [
+                "732edd41e0cd69b5",
+                "c1b0ed8caf6f54b5",
+                "1a100f111ff758e3"
+            ],
+            [
+                "d3b28d09c8bcb274"
+            ]
+        ]
+    },
+    {
+        "id": "1a100f111ff758e3",
+        "type": "debug",
+        "z": "4cba6f8219137af4",
+        "g": "152119097abe3c6c",
+        "name": "+",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2270,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "e409e096e31ace53",
+        "type": "function",
+        "z": "4cba6f8219137af4",
+        "g": "152119097abe3c6c",
+        "name": "Check is  default exists",
+        "func": "msg.collection = \"knowlegebase\";\n\nmsg.payload = {\n    type: \"chroma\",\n    name: \"default\",\n    deleted: false\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1800,
+        "y": 380,
+        "wires": [
+            [
+                "94bf37ee3132ef6d"
+            ]
+        ]
+    },
+    {
+        "id": "94bf37ee3132ef6d",
+        "type": "link call",
+        "z": "4cba6f8219137af4",
+        "g": "152119097abe3c6c",
+        "name": "",
+        "links": [
+            "2677414dc3b763e4"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1990,
+        "y": 380,
+        "wires": [
+            [
+                "de8a5792c00ad6cb"
+            ]
+        ]
+    },
+    {
+        "id": "2cd32bbc5f43b1e9",
+        "type": "inject",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "5ed03305ad9ca676"
+            ]
+        ]
+    },
+    {
+        "id": "e3b8c26d52822ba0",
+        "type": "function",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "ENV",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    PINECONE_API: data.pinecone_api ? data.pinecone_api.trim():\"\",\n    PINECONE_ENV: data.pinecone_env ? data.pinecone_env.trim() : \"\",\n    PINECONE_INDEX: data.pinecone_index ? data.pinecone_index.trim() :\"\",\n    PINECONE_URL: data.pinecone_url ? data.pinecone_url.trim()  :\"\",\n}\n\nglobal.set(\"pinecone\", process_env)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "219438abb376baad",
+        "type": "complete",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "",
+        "scope": [
+            "0225b679b27c7cb6"
+        ],
+        "uncaught": false,
+        "x": 130,
+        "y": 80,
+        "wires": [
+            [
+                "5ed03305ad9ca676"
+            ]
+        ]
+    },
+    {
+        "id": "5ed03305ad9ca676",
+        "type": "function",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "getEnvs",
+        "func": "msg.filename = '/data/credentialsPinecone.json'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 100,
+        "wires": [
+            [
+                "8fe2f86059898917"
+            ]
+        ]
+    },
+    {
+        "id": "8fe2f86059898917",
+        "type": "file in",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 480,
+        "y": 100,
+        "wires": [
+            [
+                "22c15a24c4d0adfa"
+            ]
+        ]
+    },
+    {
+        "id": "22c15a24c4d0adfa",
+        "type": "json",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 605,
+        "y": 100,
+        "wires": [
+            [
+                "e3b8c26d52822ba0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "bb22e8b17e29062f",
+        "type": "http in",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "",
+        "url": "/saveCredentialsPinecone",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 180,
+        "wires": [
+            [
+                "d856683ca512796f"
+            ]
+        ]
+    },
+    {
+        "id": "d856683ca512796f",
+        "type": "function",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "set filename",
+        "func": "msg.filename = '/data/credentialsPinecone.json'\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 180,
+        "wires": [
+            [
+                "8113cddbb6aa4825"
+            ]
+        ]
+    },
+    {
+        "id": "1b7e83724c91c6e7",
+        "type": "file",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 700,
+        "y": 180,
+        "wires": [
+            [
+                "8f308e031c38ea89"
+            ]
+        ]
+    },
+    {
+        "id": "8113cddbb6aa4825",
+        "type": "json",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 570,
+        "y": 180,
+        "wires": [
+            [
+                "1b7e83724c91c6e7"
+            ]
+        ]
+    },
+    {
+        "id": "bdf49e277f064e52",
+        "type": "function",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "ENV",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    PINECONE_API: data.pinecone_api,\n    PINECONE_ENV: data.pinecone_env,\n    PINECONE_INDEX: data.pinecone_index,\n    PINECONE_URL: data.pinecone_url,\n}\n\nglobal.set(\"pinecone\", process_env)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 180,
+        "wires": [
+            [
+                "830545b6295c1a92"
+            ]
+        ]
+    },
+    {
+        "id": "8f308e031c38ea89",
+        "type": "function",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "getEnvs",
+        "func": "msg.filename = '/data/credentialsPinecone.json'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 180,
+        "wires": [
+            [
+                "49144ed0f7859f63"
+            ]
+        ]
+    },
+    {
+        "id": "49144ed0f7859f63",
+        "type": "file in",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 980,
+        "y": 180,
+        "wires": [
+            [
+                "76ae71b5431d5418"
+            ]
+        ]
+    },
+    {
+        "id": "76ae71b5431d5418",
+        "type": "json",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1075,
+        "y": 180,
+        "wires": [
+            [
+                "bdf49e277f064e52"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "830545b6295c1a92",
+        "type": "function",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "function 388",
+        "func": "const vector = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];\n\nmsg.payload = {\n    name: global.get(\"pinecone\").PINECONE_INDEX,\n    \"topK\": 1,\n    \"includeMetadata\": true,\n    vector\n};\n\nmsg.PINECONE_API_KEY = global.get(\"pinecone\").PINECONE_API\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\").PINECONE_ENV\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\").PINECONE_URL\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1350,
+        "y": 180,
+        "wires": [
+            [
+                "30a581e7169ce66b"
+            ]
+        ]
+    },
+    {
+        "id": "4c74ec1dd6830bda",
+        "type": "http response",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1890,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "30a581e7169ce66b",
+        "type": "pinecone-vector-ubos",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "demoversion1",
+        "actionType": "query",
+        "apiKey": "",
+        "environment": "",
+        "x": 1540,
+        "y": 180,
+        "wires": [
+            [
+                "e608cb0aed9c3293"
+            ]
+        ]
+    },
+    {
+        "id": "e608cb0aed9c3293",
+        "type": "function",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "response",
+        "func": "msg.payload = msg.payload && msg.statusCode === 200 ? \"Data saved successfully\" : msg.payload\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1720,
+        "y": 180,
+        "wires": [
+            [
+                "4c74ec1dd6830bda"
+            ]
+        ]
+    },
+    {
+        "id": "90852342350e7d53",
+        "type": "catch",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "testPinecone",
+        "scope": [
+            "30a581e7169ce66b"
+        ],
+        "uncaught": false,
+        "x": 1790,
+        "y": 220,
+        "wires": [
+            [
+                "13a0b7d44f1afb32"
+            ]
+        ]
+    },
+    {
+        "id": "13a0b7d44f1afb32",
+        "type": "function",
+        "z": "4cba6f8219137af4",
+        "g": "945706dce188c905",
+        "name": "function 389",
+        "func": "// id: ${ msg.error.source.id }\n// name: ${ msg.error.source.name }`\nmsg.payload = msg.error.message\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1915,
+        "y": 220,
+        "wires": [
+            [
+                "4c74ec1dd6830bda"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d3b28d09c8bcb274",
+        "type": "debug",
+        "z": "4cba6f8219137af4",
+        "g": "152119097abe3c6c",
+        "name": "-",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2170,
+        "y": 440,
         "wires": []
     },
     {
