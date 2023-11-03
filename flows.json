@@ -1584,7 +1584,7 @@
         "type": "function",
         "z": "52166c6adc5d5d26",
         "name": "find all",
-        "func": "msg.collection = \"knowlegebase\"\nlet process_env = {\n    TYPE_BASE: msg.old.type,\n    NAME_BASE: msg.old.name\n}\n\nglobal.set(\"knowledgebase\", process_env)\n\n\nmsg.payload = {\n    _id: { $ne: objectid(msg.old._id) },\n    deleted: false\n}\nreturn msg;",
+        "func": "msg.collection = \"knowlegebase\"\nlet process_env = {\n    TYPE_BASE: msg.old.type,\n    NAME_BASE: msg.old.name\n}\n\nglobal.set(\"prompts\", process_env)\n\n\nmsg.payload = {\n    _id: { $ne: objectid(msg.old._id) },\n    deleted: false\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
