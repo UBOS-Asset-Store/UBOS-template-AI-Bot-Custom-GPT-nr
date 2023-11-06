@@ -397,9 +397,7 @@
             "0027302e94e9402a"
         ],
         "x": 14,
-        "y": 459,
-        "w": 1592,
-        "h": 342
+        "y": 459
     },
     {
         "id": "40d09c6e6df96683",
@@ -443,9 +441,7 @@
             "d462c346101f63bd"
         ],
         "x": 14,
-        "y": 839,
-        "w": 1812,
-        "h": 342
+        "y": 839
     },
     {
         "id": "7f86806a4ca0c715",
@@ -489,9 +485,7 @@
             "ea1f64a48c2abd72"
         ],
         "x": 14,
-        "y": 1279,
-        "w": 1812,
-        "h": 382
+        "y": 1279
     },
     {
         "id": "152119097abe3c6c",
@@ -537,7 +531,9 @@
             "1a100f111ff758e3"
         ],
         "x": 34,
-        "y": 279
+        "y": 279,
+        "w": 3112,
+        "h": 262
     },
     {
         "id": "c479b9fa6206f5f0",
@@ -564,7 +560,9 @@
             "c32d2d5b2f208e74"
         ],
         "x": 34,
-        "y": 559
+        "y": 559,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "32d3112d56e6b1ab",
@@ -591,7 +589,9 @@
             "3513b2ea589bb4a4"
         ],
         "x": 34,
-        "y": 759
+        "y": 759,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "faa44c8af53ff52c",
@@ -618,7 +618,9 @@
             "0dc15aa186445a0f"
         ],
         "x": 34,
-        "y": 979
+        "y": 979,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "649b2f424f00fcf7",
@@ -645,7 +647,9 @@
             "e9e2f318883d6af3"
         ],
         "x": 34,
-        "y": 1199
+        "y": 1199,
+        "w": 1012,
+        "h": 202
     },
     {
         "id": "e40f1639481a93e5",
@@ -672,7 +676,9 @@
             "8a7b40691c947077"
         ],
         "x": 34,
-        "y": 1439
+        "y": 1439,
+        "w": 972,
+        "h": 202
     },
     {
         "id": "cbd9c53fe26c3884",
@@ -725,9 +731,7 @@
             "cfc94b2373409431"
         ],
         "x": 14,
-        "y": 39,
-        "w": 2312,
-        "h": 402
+        "y": 39
     },
     {
         "id": "4f917968caad45c9",
@@ -748,7 +752,9 @@
             "2dbe218776fe3204"
         ],
         "x": 34,
-        "y": 1679
+        "y": 1679,
+        "w": 572,
+        "h": 162
     },
     {
         "id": "22baf3437ddf891a",
@@ -1043,7 +1049,9 @@
             "13a0b7d44f1afb32"
         ],
         "x": 34,
-        "y": 39
+        "y": 39,
+        "w": 1932,
+        "h": 222
     },
     {
         "id": "8777f3383a4d7bd4",
@@ -1081,9 +1089,7 @@
             "f403f1d7aac80823"
         ],
         "x": 54,
-        "y": 59,
-        "w": 1472,
-        "h": 422
+        "y": 59
     },
     {
         "id": "c87d755a788d45a5",
@@ -8033,7 +8039,7 @@
         "z": "4cba6f8219137af4",
         "g": "32d3112d56e6b1ab",
         "name": "ENV",
-        "func": "const data = msg.payload\n\nlet process_env = {\n    WELCOME: data.welcome ? data.welcome :\"\",\n    UNABLE: data.unable ? data.unable : \"\",\n    RESPOND: data.respond ? data.respond : \"\"\n}\n\nglobal.set(\"messages\", process_env)\nreturn msg;",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    WELCOME: data.welcome ? data.welcome :\"\",\n    UNABLE: data.unable ? data.unable : \"\"\n}\n\nglobal.set(\"messages\", process_env)\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -8378,7 +8384,7 @@
         "z": "4cba6f8219137af4",
         "g": "4f917968caad45c9",
         "name": "get settings",
-        "func": "\nmsg.payload = {\n    pinecone: global.get('pinecone') ? global.get('pinecone') : {\n        PINECONE_API:  \"\",\n        PINECONE_ENV: \"\",\n        PINECONE_INDEX: \"\",\n        PINECONE_URL: \"\",\n    },\n    messages: global.set(\"messages\") ? global.set(\"messages\") : {\n        WELCOME: \"\",\n        UNABLE:  \"\",\n        RESPOND: \"\"\n    },\n    openai: global.get('openai') ? global.get('openai') : {\n        OPENAI_API: \"\",\n        OPENAI_MODEL: \"\",\n    },\n    prompts: global.get(\"prompts\") ? global.get(\"prompts\") : {\n        ANSWER_LENGTH: \"\",\n        ANSWER_AS:  \"\",\n        TONE: \"\",\n        LANGUAGE: \"\",\n        PROMPT_CUSTOM: \"\",\n        TYPE_BASE: \"\",\n        NAME_BASE: \"\"\n    }\n\n    \n};\nreturn msg",
+        "func": "\nmsg.payload = {\n    pinecone: global.get('pinecone') ? global.get('pinecone') : {\n        PINECONE_API:  \"\",\n        PINECONE_ENV: \"\",\n        PINECONE_INDEX: \"\",\n        PINECONE_URL: \"\",\n    },\n    messages: global.get(\"messages\") ? global.get(\"messages\") : {\n        WELCOME: \"\",\n        UNABLE:  \"\"\n    },\n    openai: global.get('openai') ? global.get('openai') : {\n        OPENAI_API: \"\",\n        OPENAI_MODEL: \"\",\n    },\n    prompts: global.get(\"prompts\") ? global.get(\"prompts\") : {\n        ANSWER_LENGTH: \"\",\n        ANSWER_AS:  \"\",\n        TONE: \"\",\n        LANGUAGE: \"\",\n        PROMPT_CUSTOM: \"\",\n        TYPE_BASE: \"\",\n        NAME_BASE: \"\"\n    }\n\n    \n};\nreturn msg",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
