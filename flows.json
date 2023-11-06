@@ -1083,7 +1083,9 @@
             "1f5b95c54824dff7"
         ],
         "x": 54,
-        "y": 59
+        "y": 59,
+        "w": 1492,
+        "h": 582
     },
     {
         "id": "c87d755a788d45a5",
@@ -10944,7 +10946,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "cbd9c53fe26c3884",
         "name": "send to user from chat",
-        "func": "const responseChatGPT = msg.statusCode < 400 ? msg.payload.choices[0].message.content : `statusCode: ${msg.statusCode} \\npayload: ${typeof msg.payload === 'string' ? msg.payload : msg.payload?.error.message}`\nlet history = global.get(`history${msg.fromTG.chatId}`) || [];\nmsg.history.answer= responseChatGPT\n\nconst date = msg.originalMessage.date\nmsg.payload = {\n    ...msg.fromTG,\n    content: responseChatGPT,\n    type: \"message\",\n    options: {\n        parse_mode: 'Markdown'\n    }\n}\n\nglobal.set(`typing${date}`, undefined)\n\n return msg;\n",
+        "func": "const responseChatGPT = msg.statusCode < 400 ? msg.payload.choices[0].message.content : global.get(\"messages\") ? global.get(\"messages\").UNABLE : `statusCode: ${msg.statusCode} \\npayload: ${typeof msg.payload === 'string' ? msg.payload : msg.payload?.error.message}`\nlet history = global.get(`history${msg.fromTG.chatId}`) || [];\nmsg.history.answer= responseChatGPT\n\nconst date = msg.originalMessage.date\nmsg.payload = {\n    ...msg.fromTG,\n    content: responseChatGPT,\n    type: \"message\",\n    options: {\n        parse_mode: 'Markdown'\n    }\n}\n\nglobal.set(`typing${date}`, undefined)\n\n return msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -12371,7 +12373,7 @@
         "z": "ebf7c602310ae1c1",
         "g": "8777f3383a4d7bd4",
         "name": "check command",
-        "func": "msg.fromApp = msg.payload\n\n\nmsg.OPENAI_API_KEY = global.get(\"openai\")?.OPENAI_API;\nmsg.BOT_NAME = global.get('telegram')?.BOT_NAME;\nmsg.PINECONE_INDEX = global.get(\"pinecone\")?.PINECONE_INDEX;\nmsg.PINECONE_API_KEY = global.get(\"pinecone\")?.PINECONE_API;\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\")?.PINECONE_ENV;\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\")?.PINECONE_URL;\nmsg.id = Date.now()\n\n\nmsg.history = {\n    requestText: msg.payload.message.toLowerCase(),\n    startDate: Date.now(),\n    type: 'demo'\n}\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = msg.payload.message;\nmsg.content = msg.payload.message;\nreturn msg\n",
+        "func": "msg.fromApp = msg.payload\n\n\nmsg.OPENAI_API_KEY = global.get(\"openai\")?.OPENAI_API;\nmsg.BOT_NAME = global.get('telegram')?.BOT_NAME;\nmsg.PINECONE_INDEX = global.get(\"pinecone\")?.PINECONE_INDEX;\nmsg.PINECONE_API_KEY = global.get(\"pinecone\")?.PINECONE_API;\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\")?.PINECONE_ENV;\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\")?.PINECONE_URL;\nmsg.id = 1111111;\n\n\nmsg.history = {\n    requestText: msg.payload.message.toLowerCase(),\n    startDate: Date.now(),\n    type: 'demo'\n}\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = msg.payload.message;\nmsg.content = msg.payload.message;\nreturn msg\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -12832,7 +12834,7 @@
         "z": "ebf7c602310ae1c1",
         "g": "8777f3383a4d7bd4",
         "name": "save/update",
-        "func": "if(msg.payload.length > 0){\n   return[null,msg]\n}\n\nelse{\n    msg.method=\"POST\"\n    msg.url = env.get(\"nodered\") +`/saveUser`;\n    msg.payload = {\n        deleted:false,\n        first_name: 'you',\n        last_name: 'you',\n        username:'you',\n        chat_id: msg.user_id,\n        language_code: '',\n        type: 'demo'\n    }\n    \nreturn[msg,null]\n}\n\n",
+        "func": "if(msg.payload.length > 0){\n   return[null,msg]\n}\n\nelse{\n    msg.method=\"POST\"\n    msg.url = env.get(\"nodered\") +`/saveUser`;\n    msg.payload = {\n        deleted:false,\n        first_name: 'you',\n        last_name: 'you',\n        username:'you',\n        chat_id: msg.id,\n        language_code: '',\n        type: 'demo'\n    }\n    \nreturn[msg,null]\n}\n\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
