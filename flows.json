@@ -397,7 +397,9 @@
             "0027302e94e9402a"
         ],
         "x": 14,
-        "y": 459
+        "y": 459,
+        "w": 1592,
+        "h": 342
     },
     {
         "id": "40d09c6e6df96683",
@@ -441,7 +443,9 @@
             "d462c346101f63bd"
         ],
         "x": 14,
-        "y": 839
+        "y": 839,
+        "w": 1812,
+        "h": 342
     },
     {
         "id": "7f86806a4ca0c715",
@@ -485,7 +489,9 @@
             "ea1f64a48c2abd72"
         ],
         "x": 14,
-        "y": 1279
+        "y": 1279,
+        "w": 1812,
+        "h": 382
     },
     {
         "id": "152119097abe3c6c",
@@ -719,7 +725,9 @@
             "cfc94b2373409431"
         ],
         "x": 14,
-        "y": 39
+        "y": 39,
+        "w": 2312,
+        "h": 402
     },
     {
         "id": "4f917968caad45c9",
@@ -1051,21 +1059,13 @@
             "6a8ed9cc40220ef6",
             "a686b4808141bbf4",
             "1c959c0c2ef18143",
-            "6bb6f9da9ca35481",
-            "e22820cde5205764",
-            "8f54a8723714f093",
             "1fab2b9e3f00c362",
             "fb8d053a3b5bce04",
-            "3bfe821b04adb8f0",
-            "4428e5add7634014",
             "fd9d2dd08a4a9010",
             "78abb0e5610ea532",
             "3c6063a3b18dcff2",
             "861e75c24068d0f5",
-            "6036eefb0213f2e0",
             "c01e31a770cf53d3",
-            "bef6bc48b7afaf33",
-            "da3676cf2033b1f2",
             "e46d259e57f67fee",
             "e1c44635873b6780",
             "8f4de284d9322260",
@@ -1074,18 +1074,16 @@
             "8d05251422a11bb5",
             "de2ae46883aa3706",
             "d561ca9e05b7fd98",
-            "c579b21c855ac680",
-            "c849deadc4c6d977",
             "e733208bc19a1f4d",
             "4d6d7721ae96e441",
-            "ce1bc141251b36b2",
-            "97da8b62aeec1d22",
-            "1f5b95c54824dff7"
+            "1f5b95c54824dff7",
+            "84ed1859965bbcfb",
+            "f403f1d7aac80823"
         ],
         "x": 54,
         "y": 59,
-        "w": 1492,
-        "h": 582
+        "w": 1472,
+        "h": 422
     },
     {
         "id": "c87d755a788d45a5",
@@ -9172,7 +9170,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "ebee837ffce65a75",
         "name": "send response",
-        "func": "msg.answer = msg.payload.choices[0].message.content\nconst process_env = global.get(\"META\")\nmsg.url = `https://graph.facebook.com/v17.0/${process_env.META_PAGEID}/messages` \nmsg.token = `Bearer ${process_env.META_TOKEN}`\n\nconst senderID = msg.old.entry[0].messaging[0].sender.id;\nconst recipientID = msg.old.entry[0].messaging[0].recipient.id;\nmsg.payload={\n    \n    \"recipient\": {\n        \"id\": senderID\n    },\n    \"messaging_type\": \"RESPONSE\",\n        \"message\": {\n            \"text\": msg.payload.choices[0].message.content,\n    }\n}\nreturn msg;",
+        "func": "msg.answer = msg.statusCode < 400 ? msg.payload.choices[0].message.content : global.get(\"messages\") ? global.get(\"messages\").UNABLE : `error`;\n\nconst process_env = global.get(\"META\")\nmsg.url = `https://graph.facebook.com/v17.0/${process_env.META_PAGEID}/messages` \nmsg.token = `Bearer ${process_env.META_TOKEN}`\n\nconst senderID = msg.old.entry[0].messaging[0].sender.id;\nconst recipientID = msg.old.entry[0].messaging[0].recipient.id;\nmsg.payload={\n    \n    \"recipient\": {\n        \"id\": senderID\n    },\n    \"messaging_type\": \"RESPONSE\",\n        \"message\": {\n            \"text\": msg.answer,\n    }\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -9494,7 +9492,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "40d09c6e6df96683",
         "name": "send response",
-        "func": "msg.answer = msg.payload.choices[0].message.content\nconst process_env = global.get(\"WHATSAPP\")\nmsg.url = `https://graph.facebook.com/v17.0/${process_env.WHATSAPP_PHONEID}/messages` //урлу самостійно створюємо + Phone ID \nmsg.token = `Bearer ${process_env.WHATSAPP_TOKEN}`// токін\nmsg.payload = {\n    \"messaging_product\": \"whatsapp\", \"to\": msg.old.entry[0].changes[0].value.contacts[0].wa_id, \"type\": \"text\", \"text\": { \"body\": msg.payload.choices[0].message.content, preview_url: false}\n}\n\nreturn msg;",
+        "func": "\nmsg.answer = msg.statusCode < 400 ? msg.payload.choices[0].message.content : global.get(\"messages\") ? global.get(\"messages\").UNABLE : `error`;\nconst process_env = global.get(\"WHATSAPP\")\nmsg.url = `https://graph.facebook.com/v17.0/${process_env.WHATSAPP_PHONEID}/messages` //урлу самостійно створюємо + Phone ID \nmsg.token = `Bearer ${process_env.WHATSAPP_TOKEN}`// токін\nmsg.payload = {\n    \"messaging_product\": \"whatsapp\", \"to\": msg.old.entry[0].changes[0].value.contacts[0].wa_id, \"type\": \"text\", \"text\": { \"body\": msg.answer, preview_url: false}\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -9934,7 +9932,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "7f86806a4ca0c715",
         "name": "send response",
-        "func": "msg.answer = msg.payload.choices[0].message.content\nconst process_env = global.get(\"META\")\nmsg.url =`https://graph.facebook.com/v17.0/${process_env.META_PAGEID}/messages` //page ID !!!!!!!!!\nmsg.token = `Bearer ${process_env.META_TOKEN}`\n\nmsg.senderID = msg.old.entry[0].messaging[0].sender.id;\n\nmsg.payload={\n    \n    \"recipient\": {\n        \"id\": msg.senderID\n    },\n    \"messaging_type\": \"RESPONSE\",\n        \"message\": {\n            \"text\": msg.payload.choices[0].message.content,\n    }\n}\nreturn msg;",
+        "func": "\nmsg.answer = msg.statusCode < 400 ? msg.payload.choices[0].message.content : global.get(\"messages\") ? global.get(\"messages\").UNABLE : `error`;\nconst process_env = global.get(\"META\")\nmsg.url =`https://graph.facebook.com/v17.0/${process_env.META_PAGEID}/messages` //page ID !!!!!!!!!\nmsg.token = `Bearer ${process_env.META_TOKEN}`\n\nmsg.senderID = msg.old.entry[0].messaging[0].sender.id;\n\nmsg.payload={\n    \n    \"recipient\": {\n        \"id\": msg.senderID\n    },\n    \"messaging_type\": \"RESPONSE\",\n        \"message\": {\n            \"text\": msg.answer,\n    }\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -10334,7 +10332,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "ebee837ffce65a75",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nconst process_env = global.get(\"process_env\")\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL;\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\":''},\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + \". \" +  msg.payload?.matches[0]?.metadata?.result + \", \" + msg.payload?.matches[1]?.metadata?.result },\n    { \"role\": \"user\", \"content\": msg.old?.entry[0]?.messaging[0]?.message.text }\n  ]\n}\n  return msg;",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nconst process_env = global.get(\"process_env\")\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL;\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = (\n  PROMPT &&\n  PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n  PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n  PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n  PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n  `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n  \"Answer as friend\";\n\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\":''},\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + \". \" +  msg.payload?.matches[0]?.metadata?.result + \", \" + msg.payload?.matches[1]?.metadata?.result },\n    { \"role\": \"user\", \"content\": msg.old?.entry[0]?.messaging[0]?.message.text }\n  ]\n}\n  return msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -10446,7 +10444,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "40d09c6e6df96683",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\n\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": \"\" },\n    { \"role\": \"user\", \"content\": msg.old.entry[0].changes[0].value.messages[0].text.body }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + \". \" +  msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata?.result},\n  { \"role\": \"user\", \"content\": msg.old.entry[0]?.changes[0].value?.messages[0]?.text.body }]\n\n\n}\n\nreturn msg;\n\n\n\n\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = (\n  PROMPT &&\n  PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n  PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n  PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n  PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n  `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n  \"Answer as friend\";\n\n\n\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": \"\" },\n    { \"role\": \"user\", \"content\": msg.old.entry[0].changes[0].value.messages[0].text.body }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + \". \" +  msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata?.result},\n  { \"role\": \"user\", \"content\": msg.old.entry[0]?.changes[0].value?.messages[0]?.text.body }]\n\n\n}\n\nreturn msg;\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -10558,7 +10556,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "7f86806a4ca0c715",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n  msg.messages = [\n    { \"role\": \"system\", \"content\":''},\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + \". \" +  msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": msg.old.entry[0]?.messaging[0]?.message.text }\n  ]\n\n\n}\n\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nmsg.model = global.get(\"openai\").OPENAI_MODEL\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = (\n  PROMPT &&\n  PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n  PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n  PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n  PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n  `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n  \"Answer as friend\";\n\n\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND query : http:///query\") {\n  msg.messages = [\n    { \"role\": \"system\", \"content\":''},\n    { \"role\": \"user\", \"content\": msg.old.entry[0].messaging[0].message.text }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + \". \" +  msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": msg.old.entry[0]?.messaging[0]?.message.text }\n  ]\n\n\n}\n\n\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -10879,7 +10877,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "cbd9c53fe26c3884",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT &&  PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !==\"\"  ?`Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}`: \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ? msg.fromTG.content.replace(`@${msg.BOT_NAME }`, '') : msg.fromTG.content;\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": ''},\n    { \"role\": \"user\", \"content\": content }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + \". \" +  msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": content }\n  ]\n}\nnode.warn(msg.payload.matches )\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = (\n  PROMPT &&\n  PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n  PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n  PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n  PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n  `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n  \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ? msg.fromTG.content.replace(`@${msg.BOT_NAME }`, '') : msg.fromTG.content;\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": ''},\n    { \"role\": \"user\", \"content\": content }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + \". \" +  msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": content }\n  ]\n}\nnode.warn(msg.payload.matches )\n\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -11377,7 +11375,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "cbd9c53fe26c3884",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ? msg.fromTG.content.replace(`@${msg.BOT_NAME}`, '') : msg.fromTG.content;\nlet result = msg.payload.metadatas[0].map(e => e.result)\nnode.warn(result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" +  result[0] + \", \" + result[1] },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\n\nlet totalPrompt = (\n    PROMPT &&\n    PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n    PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n    PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n    PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n    `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n    \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ? msg.fromTG.content.replace(`@${msg.BOT_NAME}`, '') : msg.fromTG.content;\nlet result = msg.payload.metadatas[0].filter(e => e !== null).map(e => e.result)\nnode.warn(result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" + JSON.stringify(result) },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -11487,7 +11485,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "40d09c6e6df96683",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.old.entry[0].changes[0].value.messages[0].text.body;\nlet result = msg.payload.metadatas[0].map(e => e.result)\nnode.warn(result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" +  result[0] + \", \" + result[1] },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = (\n    PROMPT &&\n    PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n    PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n    PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n    PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n    `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n    \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.old.entry[0].changes[0].value.messages[0].text.body;\nlet result = msg.payload.metadatas[0].filter(e => e !== null).map(e => e.result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" + JSON.stringify(result)},\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -11578,7 +11576,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "7f86806a4ca0c715",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.old.entry[0].messaging[0].message.text;\nlet result = msg.payload.metadatas[0].map(e => e.result)\nnode.warn(result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" +  result[0] + \", \" + result[1] },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = (\n    PROMPT &&\n    PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n    PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n    PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n    PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n    `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n    \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.old.entry[0].messaging[0].message.text;\nlet result = msg.payload.metadatas[0].filter(e => e !== null).map(e => e.result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" + JSON.stringify(result) },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -11669,7 +11667,7 @@
         "z": "c8208e6a65d3c2af",
         "g": "ebee837ffce65a75",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.old.entry[0].messaging[0].message.text;\nlet result = msg.payload.metadatas[0].map(e => e.result)\nnode.warn(result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" + result[0] + \", \" + result[1] },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = (\n    PROMPT &&\n    PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n    PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n    PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n    PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n    `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n    \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.old.entry[0].messaging[0].message.text;\nlet result = msg.payload.metadatas[0].filter(e => e !== null).map(e => e.result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" + JSON.stringify(result) },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -12402,7 +12400,6 @@
         "y": 160,
         "wires": [
             [
-                "6bb6f9da9ca35481",
                 "6a8ed9cc40220ef6"
             ]
         ]
@@ -12425,7 +12422,7 @@
             "value": "[]"
         },
         "OPENAI_API_KEY": "",
-        "x": 400,
+        "x": 360,
         "y": 300,
         "wires": [
             [
@@ -12434,66 +12431,12 @@
         ]
     },
     {
-        "id": "6bb6f9da9ca35481",
-        "type": "debug",
-        "z": "ebf7c602310ae1c1",
-        "g": "8777f3383a4d7bd4",
-        "name": "debug 564",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 190,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "e22820cde5205764",
-        "type": "debug",
-        "z": "ebf7c602310ae1c1",
-        "g": "8777f3383a4d7bd4",
-        "name": "from P",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 970,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "8f54a8723714f093",
-        "type": "debug",
-        "z": "ebf7c602310ae1c1",
-        "g": "8777f3383a4d7bd4",
-        "name": "to P",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 810,
-        "y": 160,
-        "wires": []
-    },
-    {
         "id": "1fab2b9e3f00c362",
         "type": "function",
         "z": "ebf7c602310ae1c1",
         "g": "8777f3383a4d7bd4",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT &&  PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !==\"\"  ?`Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}`: \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.content;\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": ''},\n    { \"role\": \"user\", \"content\": content }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + \". \" +  msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": content }\n  ]\n}\nnode.warn(msg.payload.matches )\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = (\n  PROMPT &&\n  PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n  PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n  PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n  PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n  `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n  \"Answer as friend\";\n\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.content;\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": ''},\n    { \"role\": \"user\", \"content\": content }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + \". \" +  msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": content }\n  ]\n}\nnode.warn(msg.payload.matches )\n\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -12503,7 +12446,6 @@
         "y": 260,
         "wires": [
             [
-                "3bfe821b04adb8f0",
                 "fb8d053a3b5bce04"
             ]
         ]
@@ -12530,47 +12472,10 @@
         "y": 280,
         "wires": [
             [
-                "4428e5add7634014",
                 "e46d259e57f67fee"
             ]
         ],
         "l": false
-    },
-    {
-        "id": "3bfe821b04adb8f0",
-        "type": "debug",
-        "z": "ebf7c602310ae1c1",
-        "g": "8777f3383a4d7bd4",
-        "name": "to GPT",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1120,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "4428e5add7634014",
-        "type": "debug",
-        "z": "ebf7c602310ae1c1",
-        "g": "8777f3383a4d7bd4",
-        "name": "from GPT",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1200,
-        "y": 320,
-        "wires": []
     },
     {
         "id": "fd9d2dd08a4a9010",
@@ -12588,7 +12493,6 @@
         "y": 200,
         "wires": [
             [
-                "8f54a8723714f093",
                 "78abb0e5610ea532"
             ]
         ]
@@ -12606,7 +12510,6 @@
         "y": 200,
         "wires": [
             [
-                "e22820cde5205764",
                 "1fab2b9e3f00c362"
             ]
         ]
@@ -12636,8 +12539,8 @@
         "y": 360,
         "wires": [
             [
-                "6036eefb0213f2e0",
-                "c01e31a770cf53d3"
+                "c01e31a770cf53d3",
+                "f403f1d7aac80823"
             ]
         ]
     },
@@ -12665,30 +12568,12 @@
         ]
     },
     {
-        "id": "6036eefb0213f2e0",
-        "type": "debug",
-        "z": "ebf7c602310ae1c1",
-        "g": "8777f3383a4d7bd4",
-        "name": "chroma",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 840,
-        "y": 360,
-        "wires": []
-    },
-    {
         "id": "c01e31a770cf53d3",
         "type": "function",
         "z": "ebf7c602310ae1c1",
         "g": "8777f3383a4d7bd4",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nnode.warn(PROMPT)\nlet totalPrompt = PROMPT && PROMPT?.PROMPT_CUSTOM !== \"undefined\" && PROMPT?.PROMPT_CUSTOM !== \"\" ? `Answer as an ${PROMPT?.ANSWER_AS}, ${PROMPT?.TONE}, ${PROMPT?.LANGUAGE} , and the response should be ${PROMPT?.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT?.PROMPT_CUSTOM}` : \"Answer as friend\";\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.content\nlet result = msg.payload.metadatas[0].map(e => e.result)\nnode.warn(result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" +  result[0] + \", \" + result[1] },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"prompts\");\nlet totalPrompt = (\n    PROMPT &&\n    PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n    PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n    PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n    PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n    `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n    \"Answer as friend\";\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.content\nlet result = msg.payload.metadatas[0].filter(e => e !== null).map(e => e.result)\nnode.warn(result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" + JSON.stringify(result) },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -12698,46 +12583,10 @@
         "y": 300,
         "wires": [
             [
-                "bef6bc48b7afaf33",
-                "fb8d053a3b5bce04"
+                "fb8d053a3b5bce04",
+                "84ed1859965bbcfb"
             ]
         ]
-    },
-    {
-        "id": "bef6bc48b7afaf33",
-        "type": "debug",
-        "z": "ebf7c602310ae1c1",
-        "g": "8777f3383a4d7bd4",
-        "name": "to GPT",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1040,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "da3676cf2033b1f2",
-        "type": "debug",
-        "z": "ebf7c602310ae1c1",
-        "g": "8777f3383a4d7bd4",
-        "name": "debug 565",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1430,
-        "y": 320,
-        "wires": []
     },
     {
         "id": "e46d259e57f67fee",
@@ -12755,8 +12604,7 @@
         "y": 280,
         "wires": [
             [
-                "e1c44635873b6780",
-                "da3676cf2033b1f2"
+                "e1c44635873b6780"
             ]
         ]
     },
@@ -12883,11 +12731,10 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 170,
-        "y": 540,
+        "y": 440,
         "wires": [
             [
-                "d561ca9e05b7fd98",
-                "c579b21c855ac680"
+                "d561ca9e05b7fd98"
             ]
         ]
     },
@@ -12904,59 +12751,10 @@
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 540,
+        "y": 440,
         "wires": [
             [
-                "e733208bc19a1f4d",
-                "c579b21c855ac680"
-            ]
-        ]
-    },
-    {
-        "id": "c579b21c855ac680",
-        "type": "debug",
-        "z": "ebf7c602310ae1c1",
-        "g": "8777f3383a4d7bd4",
-        "name": "debug 708",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 330,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "c849deadc4c6d977",
-        "type": "inject",
-        "z": "ebf7c602310ae1c1",
-        "g": "8777f3383a4d7bd4",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 380,
-        "y": 480,
-        "wires": [
-            [
-                "d561ca9e05b7fd98"
+                "e733208bc19a1f4d"
             ]
         ]
     },
@@ -12972,11 +12770,10 @@
         "linkType": "static",
         "timeout": "30",
         "x": 620,
-        "y": 540,
+        "y": 440,
         "wires": [
             [
-                "4d6d7721ae96e441",
-                "ce1bc141251b36b2"
+                "4d6d7721ae96e441"
             ]
         ]
     },
@@ -12992,50 +12789,13 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 770,
-        "y": 540,
+        "x": 790,
+        "y": 440,
         "wires": [
             [
-                "97da8b62aeec1d22",
                 "1f5b95c54824dff7"
             ]
         ]
-    },
-    {
-        "id": "ce1bc141251b36b2",
-        "type": "debug",
-        "z": "ebf7c602310ae1c1",
-        "g": "8777f3383a4d7bd4",
-        "name": "debug 709",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 730,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "97da8b62aeec1d22",
-        "type": "debug",
-        "z": "ebf7c602310ae1c1",
-        "g": "8777f3383a4d7bd4",
-        "name": "debug 707",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1030,
-        "y": 540,
-        "wires": []
     },
     {
         "id": "1f5b95c54824dff7",
@@ -13045,8 +12805,44 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 950,
-        "y": 500,
+        "x": 930,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "84ed1859965bbcfb",
+        "type": "debug",
+        "z": "ebf7c602310ae1c1",
+        "g": "8777f3383a4d7bd4",
+        "name": "debug 711",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "f403f1d7aac80823",
+        "type": "debug",
+        "z": "ebf7c602310ae1c1",
+        "g": "8777f3383a4d7bd4",
+        "name": "debug 712",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 380,
         "wires": []
     },
     {
