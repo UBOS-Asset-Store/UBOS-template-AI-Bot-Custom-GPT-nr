@@ -258,7 +258,9 @@
             "ad6642159ff08086"
         ],
         "x": 14,
-        "y": 679
+        "y": 679,
+        "w": 672,
+        "h": 642
     },
     {
         "id": "23033541e553eb36",
@@ -280,7 +282,9 @@
             "39f863832fe14deb"
         ],
         "x": 714,
-        "y": 679
+        "y": 679,
+        "w": 1012,
+        "h": 122
     },
     {
         "id": "2bad0f12f5a9659f",
@@ -320,7 +324,9 @@
             "10d15004c30b1bb5"
         ],
         "x": 714,
-        "y": 839
+        "y": 839,
+        "w": 1452,
+        "h": 482
     },
     {
         "id": "7382602cc2b54357",
@@ -358,7 +364,9 @@
             "a42302c6b56d6335"
         ],
         "x": 854,
-        "y": 1359
+        "y": 1359,
+        "w": 1172,
+        "h": 402
     },
     {
         "id": "628c8aecc019f08b",
@@ -407,7 +415,9 @@
             "64fc4993e145d169"
         ],
         "x": 14,
-        "y": 1359
+        "y": 1359,
+        "w": 812,
+        "h": 642
     },
     {
         "id": "b2e9a721546c936c",
@@ -456,7 +466,9 @@
             "3422465e9d16734b"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 1072,
+        "h": 522
     },
     {
         "id": "d5f776f7723294b2",
@@ -489,7 +501,9 @@
             "53d5d61c6a1232fd"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 812,
+        "h": 422
     },
     {
         "id": "2e6e4e61c61cc1ec",
@@ -552,7 +566,9 @@
             "5e4b1f6bcc4fc94c"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 1912,
+        "h": 622
     },
     {
         "id": "c7c1d01c718f9fc8",
@@ -604,7 +620,9 @@
             "71cd22f3e06a84bc"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 892,
+        "h": 562
     },
     {
         "id": "9f3a08dadb8626c3",
@@ -656,7 +674,9 @@
             "83e748ec96c13946"
         ],
         "x": 2334,
-        "y": 559
+        "y": 559,
+        "w": 1332,
+        "h": 782
     },
     {
         "id": "d304cf774581307a",
@@ -702,7 +722,9 @@
             "04fe1fa2488772f8"
         ],
         "x": 2334,
-        "y": 39
+        "y": 39,
+        "w": 1332,
+        "h": 502
     },
     {
         "id": "1ad265cdd5feb53e",
@@ -823,8 +845,10 @@
             "a13ac4faa9787ceb",
             "2a6a66b31c5f460c"
         ],
-        "x": 34,
-        "y": 1259
+        "x": null,
+        "y": null,
+        "w": null,
+        "h": null
     },
     {
         "id": "42b214503281ca7c",
@@ -926,7 +950,9 @@
             "e2059985463b3624"
         ],
         "x": 14,
-        "y": -1
+        "y": -1,
+        "w": 2292,
+        "h": 1242
     },
     {
         "id": "4a77a41c6602f9d6",
@@ -975,7 +1001,9 @@
             "ea3c9a01daa0a075"
         ],
         "x": 34,
-        "y": 559
+        "y": 559,
+        "w": 1992,
+        "h": 402
     },
     {
         "id": "78ec20634862824d",
@@ -1050,8 +1078,10 @@
             "12953714d1fc22a0",
             "166fae3726e1c702"
         ],
-        "x": 34,
-        "y": 2059
+        "x": null,
+        "y": null,
+        "w": null,
+        "h": null
     },
     {
         "id": "96ff04cf0133a4da",
@@ -1070,7 +1100,9 @@
             "69d78287c809cd74"
         ],
         "x": 34,
-        "y": 2839
+        "y": 2839,
+        "w": 932,
+        "h": 82
     },
     {
         "id": "d5f3c34635f35708",
@@ -1103,8 +1135,10 @@
             "38fa734109685e32",
             "bb8dcd37c0b9c95b"
         ],
-        "x": 74,
-        "y": 39
+        "x": null,
+        "y": null,
+        "w": null,
+        "h": null
     },
     {
         "id": "d5a9a22192fa1989",
@@ -1138,7 +1172,9 @@
             "1532d34b97a987c7"
         ],
         "x": 74,
-        "y": 499
+        "y": 499,
+        "w": 1412,
+        "h": 362
     },
     {
         "id": "df739382769ae8ae",
@@ -1174,7 +1210,9 @@
             "5274b2fd8878f639"
         ],
         "x": 64,
-        "y": 1399
+        "y": 1399,
+        "w": 1412,
+        "h": 382
     },
     {
         "id": "9c9bc0ca2320ad1b",
@@ -1209,7 +1247,9 @@
             "f7307a19280a4d92"
         ],
         "x": 74,
-        "y": 919
+        "y": 919,
+        "w": 1412,
+        "h": 422
     },
     {
         "id": "dd4d6fdf1b601b09",
@@ -1263,7 +1303,9 @@
             "d2af17549ceaa392"
         ],
         "x": 74,
-        "y": 279
+        "y": 279,
+        "w": 3112,
+        "h": 302
     },
     {
         "id": "55b42f036281abed",
@@ -1290,7 +1332,9 @@
             "531a8a840209f5f5"
         ],
         "x": 1094,
-        "y": 1099
+        "y": 1099,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "44336aabd4cc8aba",
@@ -1317,7 +1361,9 @@
             "1a206d7e3e958251"
         ],
         "x": 64,
-        "y": 1099
+        "y": 1099,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "6f53df0634427ab8",
@@ -1347,7 +1393,9 @@
             "10c0cf87a1cbdb0a"
         ],
         "x": 54,
-        "y": 1299
+        "y": 1299,
+        "w": 1192,
+        "h": 222
     },
     {
         "id": "20f41552a8bf93e6",
@@ -1374,7 +1422,9 @@
             "d04767856f0cbf5a"
         ],
         "x": 54,
-        "y": 1559
+        "y": 1559,
+        "w": 1212,
+        "h": 202
     },
     {
         "id": "af65f71384d80c06",
@@ -1401,7 +1451,9 @@
             "c3b931f10ae5cf2b"
         ],
         "x": 54,
-        "y": 1799
+        "y": 1799,
+        "w": 1152,
+        "h": 202
     },
     {
         "id": "21ac3a19bfa57a66",
@@ -1422,7 +1474,9 @@
             "75a973c1530c1fe9"
         ],
         "x": 54,
-        "y": 2519
+        "y": 2519,
+        "w": 572,
+        "h": 162
     },
     {
         "id": "d5b48aa89e9f41a1",
@@ -1460,7 +1514,9 @@
             "0ec04c582bf41c8a"
         ],
         "x": 74,
-        "y": 19
+        "y": 19,
+        "w": 2152,
+        "h": 242
     },
     {
         "id": "fcdce1b1fa2970b8",
@@ -1490,7 +1546,9 @@
             "1566d559db5d95fb"
         ],
         "x": 54,
-        "y": 2039
+        "y": 2039,
+        "w": 1192,
+        "h": 202
     },
     {
         "id": "d8a434ae844324e0",
@@ -1517,7 +1575,9 @@
             "b13fea9ecd31d1f7"
         ],
         "x": 54,
-        "y": 2279
+        "y": 2279,
+        "w": 1232,
+        "h": 202
     },
     {
         "id": "7348d6f27f4f25e5",
@@ -1551,7 +1611,9 @@
             "9464348869bc10b2"
         ],
         "x": 74,
-        "y": 639
+        "y": 639,
+        "w": 1232,
+        "h": 422
     },
     {
         "id": "4aa44aa75910cb5b",
@@ -1596,7 +1658,9 @@
             "b5e7257a9c0d3132"
         ],
         "x": 44,
-        "y": 59
+        "y": 59,
+        "w": 1502,
+        "h": 462
     },
     {
         "id": "18e308d36025c38f",
@@ -1613,7 +1677,9 @@
             "d0b4fc85e5fed281"
         ],
         "x": 14,
-        "y": 2859
+        "y": 2859,
+        "w": 592,
+        "h": 82
     },
     {
         "id": "478d796d1a70f361",
@@ -1705,8 +1771,10 @@
             "6905d97ea2de0acf",
             "58b8200a69e4d828"
         ],
-        "x": 44,
-        "y": 39
+        "x": null,
+        "y": null,
+        "w": null,
+        "h": null
     },
     {
         "id": "905fd980afcc413b",
@@ -1733,7 +1801,9 @@
             "67465e3808e9e765"
         ],
         "x": 1334,
-        "y": 1619
+        "y": 1619,
+        "w": 1112,
+        "h": 122
     },
     {
         "id": "204e41e815b84721",
@@ -1758,8 +1828,10 @@
             "5cd31c58f735fafb",
             "32c0f876c2302cd8"
         ],
-        "x": 74,
-        "y": 959
+        "x": null,
+        "y": null,
+        "w": null,
+        "h": null
     },
     {
         "id": "d2fba984a07da085",
@@ -1786,6 +1858,11 @@
                 "61328cedf50576b3"
             ]
         ]
+    },
+    {
+        "id": "92b09c9cd170f8a8",
+        "type": "remote-server-collection",
+        "host": "${VECTORDB-CHROMA-HOST-NAME}"
     },
     {
         "id": "4b07803a52e468f5",
@@ -1836,11 +1913,6 @@
         "useselfsignedcertificate": false,
         "sslterminated": false,
         "verboselogging": false
-    },
-    {
-        "id": "92b09c9cd170f8a8",
-        "type": "remote-server-collection",
-        "host": "${VECTORDB-CHROMA-HOST-NAME}"
     },
     {
         "id": "7908a755f1520aa7",
@@ -2128,31 +2200,7 @@
         "x": 510,
         "y": 80,
         "wires": [
-            [
-                "f2ce323afb8655b3"
-            ]
-        ]
-    },
-    {
-        "id": "f2ce323afb8655b3",
-        "type": "array-loop",
-        "z": "52166c6adc5d5d26",
-        "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 700,
-        "y": 80,
-        "wires": [
-            [
-                "4da1b5bb2b2535c6"
-            ],
-            [
-                "a74508c2d541dd8a"
-            ]
+            []
         ]
     },
     {
@@ -2168,9 +2216,7 @@
         "x": 860,
         "y": 140,
         "wires": [
-            [
-                "f2ce323afb8655b3"
-            ]
+            []
         ]
     },
     {
@@ -2322,9 +2368,7 @@
         "x": 1000,
         "y": 240,
         "wires": [
-            [
-                "17c61ad43fed7c57"
-            ]
+            []
         ]
     },
     {
@@ -2359,22 +2403,6 @@
         "wires": [
             [
                 "efc2c7680dbc24cc"
-            ]
-        ]
-    },
-    {
-        "id": "17c61ad43fed7c57",
-        "type": "chromadb-collection",
-        "z": "27ce80b8fbcd825f",
-        "remoteServer": "92b09c9cd170f8a8",
-        "name": "",
-        "collection": "",
-        "operation": "query",
-        "x": 1180,
-        "y": 240,
-        "wires": [
-            [
-                "be9cfd37213efd9a"
             ]
         ]
     },
@@ -2478,7 +2506,6 @@
         "model": "gpt-3.5-turbo",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -2503,7 +2530,6 @@
         "model": "gpt-3.5-turbo",
         "temperature": 0.5,
         "max_tokens": 3000,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -3315,22 +3341,6 @@
         "wires": []
     },
     {
-        "id": "44e09f48c41f4dd9",
-        "type": "chromadb-collection",
-        "z": "71cb7453ba91face",
-        "remoteServer": "92b09c9cd170f8a8",
-        "name": "",
-        "collection": "",
-        "operation": "add",
-        "x": 1120,
-        "y": 600,
-        "wires": [
-            [
-                "db31f5dfa738f3d8"
-            ]
-        ]
-    },
-    {
         "id": "c40fbc0ab9da6820",
         "type": "subflow:27ce80b8fbcd825f",
         "z": "71cb7453ba91face",
@@ -3351,7 +3361,6 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -3365,6 +3374,22 @@
         "wires": [
             [
                 "de4dbe8bea29fd0d"
+            ]
+        ]
+    },
+    {
+        "id": "44e09f48c41f4dd9",
+        "type": "chromadb-collection",
+        "z": "71cb7453ba91face",
+        "remoteServer": "92b09c9cd170f8a8",
+        "name": "",
+        "collection": "",
+        "operation": "add",
+        "x": 1120,
+        "y": 600,
+        "wires": [
+            [
+                "db31f5dfa738f3d8"
             ]
         ]
     },
@@ -4045,6 +4070,78 @@
         ]
     },
     {
+        "id": "5824e30670745419",
+        "type": "openai-ubos",
+        "z": "a0451234ff05c29f",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 520,
+        "y": 80,
+        "wires": [
+            [
+                "e0a5c346aec729ad"
+            ]
+        ]
+    },
+    {
+        "id": "6e9ef3615f654361",
+        "type": "openai-ubos",
+        "z": "a0451234ff05c29f",
+        "name": "",
+        "model": "gpt-3.5-turbo",
+        "temperature": 0.5,
+        "max_tokens": 3000,
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 500,
+        "y": 240,
+        "wires": [
+            [
+                "9f7f20aceb1ee00b"
+            ]
+        ]
+    },
+    {
+        "id": "4fda29115b94df09",
+        "type": "openai-ubos",
+        "z": "a0451234ff05c29f",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 620,
+        "y": 420,
+        "wires": [
+            [
+                "76a204897ab25ee1"
+            ]
+        ]
+    },
+    {
         "id": "f7d50fe5a2a4faba",
         "type": "chromadb-collection",
         "z": "a0451234ff05c29f",
@@ -4073,81 +4170,6 @@
         "wires": [
             [
                 "2845070a3797067b"
-            ]
-        ]
-    },
-    {
-        "id": "5824e30670745419",
-        "type": "openai-ubos",
-        "z": "a0451234ff05c29f",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "messages": "",
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 520,
-        "y": 80,
-        "wires": [
-            [
-                "e0a5c346aec729ad"
-            ]
-        ]
-    },
-    {
-        "id": "6e9ef3615f654361",
-        "type": "openai-ubos",
-        "z": "a0451234ff05c29f",
-        "name": "",
-        "model": "gpt-3.5-turbo",
-        "temperature": 0.5,
-        "max_tokens": 3000,
-        "messages": "",
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 500,
-        "y": 240,
-        "wires": [
-            [
-                "9f7f20aceb1ee00b"
-            ]
-        ]
-    },
-    {
-        "id": "4fda29115b94df09",
-        "type": "openai-ubos",
-        "z": "a0451234ff05c29f",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "messages": "",
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 620,
-        "y": 420,
-        "wires": [
-            [
-                "76a204897ab25ee1"
             ]
         ]
     },
@@ -5373,7 +5395,6 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -5400,7 +5421,6 @@
         "model": "gpt-3.5-turbo",
         "temperature": 0.5,
         "max_tokens": 3000,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -5427,7 +5447,6 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -5453,7 +5472,6 @@
         "model": "gpt-3.5-turbo",
         "temperature": 0.5,
         "max_tokens": 3000,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -8057,29 +8075,6 @@
         "wires": []
     },
     {
-        "id": "cb08dd7787cf9f90",
-        "type": "array-loop",
-        "z": "f48a32dcae7a25f2",
-        "g": "478d796d1a70f361",
-        "name": "",
-        "key": "amount",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 1480,
-        "y": 760,
-        "wires": [
-            [
-                "d2f36279fd460b8e"
-            ],
-            [
-                "108d14ed5668c038"
-            ]
-        ]
-    },
-    {
         "id": "d2f36279fd460b8e",
         "type": "function",
         "z": "f48a32dcae7a25f2",
@@ -8119,29 +8114,6 @@
         "y": 720,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "6addb13fd1402595",
-        "type": "array-loop",
-        "z": "f48a32dcae7a25f2",
-        "g": "478d796d1a70f361",
-        "name": "",
-        "key": "amount",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 1460,
-        "y": 160,
-        "wires": [
-            [
-                "7ace8b2ff958d9ad"
-            ],
-            [
-                "a63face72ac6a46c"
-            ]
         ]
     },
     {
@@ -8271,29 +8243,6 @@
         "y": 300,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "12dacb4c5be15603",
-        "type": "array-loop",
-        "z": "f48a32dcae7a25f2",
-        "g": "478d796d1a70f361",
-        "name": "",
-        "key": "amount",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 1470,
-        "y": 460,
-        "wires": [
-            [
-                "e0a9c094315f9304"
-            ],
-            [
-                "2a923fd4d02519d8"
-            ]
         ]
     },
     {
@@ -8714,22 +8663,6 @@
         ]
     },
     {
-        "id": "d909a2f94071e9d9",
-        "type": "mongodb out",
-        "z": "f48a32dcae7a25f2",
-        "g": "204e41e815b84721",
-        "mongodb": "7908a755f1520aa7",
-        "name": "delete all knowlegebases",
-        "collection": "",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 790,
-        "y": 1080,
-        "wires": []
-    },
-    {
         "id": "39d64a121b1f0d72",
         "type": "function",
         "z": "f48a32dcae7a25f2",
@@ -9045,7 +8978,6 @@
         "model": "gpt-3.5-turbo",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -9072,7 +9004,6 @@
         "model": "gpt-3.5-turbo",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -9099,7 +9030,6 @@
         "model": "gpt-3.5-turbo",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -9114,6 +9044,87 @@
             [
                 "b09542bff4b17693",
                 "1c2e897da68dfde0"
+            ]
+        ]
+    },
+    {
+        "id": "d909a2f94071e9d9",
+        "type": "mongodb out",
+        "z": "f48a32dcae7a25f2",
+        "mongodb": "7908a755f1520aa7",
+        "name": "delete all knowlegebases",
+        "collection": "",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 790,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "cb08dd7787cf9f90",
+        "type": "array-loop",
+        "z": "f48a32dcae7a25f2",
+        "name": "",
+        "key": "amount",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 1480,
+        "y": 760,
+        "wires": [
+            [
+                "d2f36279fd460b8e"
+            ],
+            [
+                "108d14ed5668c038"
+            ]
+        ]
+    },
+    {
+        "id": "6addb13fd1402595",
+        "type": "array-loop",
+        "z": "f48a32dcae7a25f2",
+        "name": "",
+        "key": "amount",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 1460,
+        "y": 160,
+        "wires": [
+            [
+                "7ace8b2ff958d9ad"
+            ],
+            [
+                "a63face72ac6a46c"
+            ]
+        ]
+    },
+    {
+        "id": "12dacb4c5be15603",
+        "type": "array-loop",
+        "z": "f48a32dcae7a25f2",
+        "name": "",
+        "key": "amount",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 1470,
+        "y": 460,
+        "wires": [
+            [
+                "e0a9c094315f9304"
+            ],
+            [
+                "2a923fd4d02519d8"
             ]
         ]
     },
@@ -12975,7 +12986,6 @@
         "model": "gpt-3.5-turbo",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -17195,7 +17205,6 @@
         "id": "c67a5e3ed05701d0",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
-        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "admin_modules",
@@ -17211,7 +17220,6 @@
         "id": "64bd4da57cb0fb8e",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
-        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "admin_roles",
@@ -17227,7 +17235,6 @@
         "id": "fcc5a7d2ab3ca1a0",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
-        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "admins",
@@ -17243,7 +17250,6 @@
         "id": "3fa0f02696c20781",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
-        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "knowlegebase",
@@ -17259,7 +17265,6 @@
         "id": "538b9bc282c282a9",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
-        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "knowledgeObjects",
@@ -17275,7 +17280,6 @@
         "id": "14aa9473fb6a23c5",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
-        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "users_messages",
@@ -17291,7 +17295,6 @@
         "id": "dcac6d6ceb4d2a0f",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
-        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "users",
@@ -17307,7 +17310,6 @@
         "id": "9c2a0c75f3e7f927",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
-        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "AISettings",
@@ -18622,44 +18624,6 @@
         "l": false
     },
     {
-        "id": "adeafe8e156b21d7",
-        "type": "telegram sender",
-        "z": "7e6aa2730f443095",
-        "g": "d5f3c34635f35708",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 410,
-        "y": 380,
-        "wires": [
-            [
-                "3ac799522b65d1e3"
-            ]
-        ]
-    },
-    {
-        "id": "d9a9aec28a0e24f6",
-        "type": "while-loop",
-        "z": "7e6aa2730f443095",
-        "g": "d5f3c34635f35708",
-        "name": "",
-        "condi": "global.get(`${msg.typing}`) === true",
-        "limit": true,
-        "limitTime": "100",
-        "time": "counter",
-        "timeType": "msg",
-        "x": 375,
-        "y": 320,
-        "wires": [
-            [],
-            [
-                "770851c3f89211f4"
-            ]
-        ],
-        "l": false
-    },
-    {
         "id": "770851c3f89211f4",
         "type": "function",
         "z": "7e6aa2730f443095",
@@ -18701,25 +18665,6 @@
                 "d9a9aec28a0e24f6",
                 "f7e4d91fde1c6e68"
             ]
-        ]
-    },
-    {
-        "id": "26865e13ed50bd7c",
-        "type": "telegram receiver",
-        "z": "7e6aa2730f443095",
-        "g": "d5f3c34635f35708",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "saveDataDir": "",
-        "filterCommands": true,
-        "x": 180,
-        "y": 200,
-        "wires": [
-            [
-                "12d33bcda39c0668",
-                "877f2e04d71b4d11"
-            ],
-            []
         ]
     },
     {
@@ -18801,21 +18746,6 @@
                 "bad82f6476c7925c",
                 "368c6a39a3a41559"
             ]
-        ]
-    },
-    {
-        "id": "e8d6a2dbc6c40396",
-        "type": "telegram sender",
-        "z": "7e6aa2730f443095",
-        "g": "d5f3c34635f35708",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 740,
-        "y": 80,
-        "wires": [
-            []
         ]
     },
     {
@@ -18919,21 +18849,6 @@
                 "368c6a39a3a41559",
                 "38fa734109685e32"
             ],
-            []
-        ]
-    },
-    {
-        "id": "ca333a2f720b8f48",
-        "type": "telegram sender",
-        "z": "7e6aa2730f443095",
-        "g": "d5f3c34635f35708",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 1180,
-        "y": 260,
-        "wires": [
             []
         ]
     },
@@ -20187,6 +20102,88 @@
         "x": 840,
         "y": 300,
         "wires": []
+    },
+    {
+        "id": "26865e13ed50bd7c",
+        "type": "telegram receiver",
+        "z": "7e6aa2730f443095",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "saveDataDir": "",
+        "filterCommands": true,
+        "x": 180,
+        "y": 200,
+        "wires": [
+            [
+                "12d33bcda39c0668",
+                "877f2e04d71b4d11"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "adeafe8e156b21d7",
+        "type": "telegram sender",
+        "z": "7e6aa2730f443095",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 410,
+        "y": 380,
+        "wires": [
+            [
+                "3ac799522b65d1e3"
+            ]
+        ]
+    },
+    {
+        "id": "e8d6a2dbc6c40396",
+        "type": "telegram sender",
+        "z": "7e6aa2730f443095",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 740,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca333a2f720b8f48",
+        "type": "telegram sender",
+        "z": "7e6aa2730f443095",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1180,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d9a9aec28a0e24f6",
+        "type": "while-loop",
+        "z": "7e6aa2730f443095",
+        "name": "",
+        "condi": "global.get(`${msg.typing}`) === true",
+        "limit": true,
+        "limitTime": "100",
+        "time": "counter",
+        "timeType": "msg",
+        "x": 375,
+        "y": 320,
+        "wires": [
+            [],
+            [
+                "770851c3f89211f4"
+            ]
+        ],
+        "l": false
     },
     {
         "id": "8bcfa72a275e228d",
@@ -26001,110 +25998,6 @@
         ]
     },
     {
-        "id": "ec06091a7169454f",
-        "type": "xlsx",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "sheets": "first",
-        "multi": "one",
-        "parse": "rows",
-        "map": "{\"Питання\":\"question\",\"Тип\":\"type\",\"а\":\"a\",\"б\":\"b\",\"в\":\"c\",\"г\":\"d\",\"Правильна відповідь\":\"correctAnswer\"}",
-        "x": 515,
-        "y": 2380,
-        "wires": [
-            [
-                "cb9d6d7726422bdd"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "dd8eb35354758aac",
-        "type": "array-loop",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 880,
-        "y": 2040,
-        "wires": [
-            [
-                "b99349e3b1b3f3a3"
-            ],
-            [
-                "2b0d6af74c339f5f"
-            ]
-        ]
-    },
-    {
-        "id": "f94215791e094c88",
-        "type": "array-loop",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "key": "amount",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 720,
-        "y": 1680,
-        "wires": [
-            [
-                "d23ca9071f281b3b"
-            ],
-            [
-                "1b109b08caaf72bd",
-                "a4d5073f86bac61a"
-            ]
-        ]
-    },
-    {
-        "id": "986601d67845f75e",
-        "type": "array-loop",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 880,
-        "y": 2380,
-        "wires": [
-            [
-                "b3fdc18843d90360"
-            ],
-            [
-                "4df2bc0ad523211e"
-            ]
-        ]
-    },
-    {
-        "id": "b2937f4db9e9f46a",
-        "type": "pdfparse",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "path": "",
-        "x": 720,
-        "y": 1540,
-        "wires": [
-            [
-                "25f3c8bdb4610e04"
-            ]
-        ]
-    },
-    {
         "id": "94579d632128cd68",
         "type": "function",
         "z": "561be8df1dd04335",
@@ -26280,7 +26173,6 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -26306,7 +26198,6 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -26332,7 +26223,6 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -26359,7 +26249,6 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -26386,7 +26275,6 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -26412,7 +26300,6 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -26439,7 +26326,6 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -26465,7 +26351,6 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -26493,7 +26378,6 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -26519,7 +26403,6 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -26545,7 +26428,6 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
-        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -27130,5 +27012,104 @@
         "x": 930,
         "y": 40,
         "wires": []
+    },
+    {
+        "id": "b2937f4db9e9f46a",
+        "type": "pdfparse",
+        "z": "561be8df1dd04335",
+        "name": "",
+        "path": "",
+        "x": 720,
+        "y": 1540,
+        "wires": [
+            [
+                "25f3c8bdb4610e04"
+            ]
+        ]
+    },
+    {
+        "id": "dd8eb35354758aac",
+        "type": "array-loop",
+        "z": "561be8df1dd04335",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 880,
+        "y": 2040,
+        "wires": [
+            [
+                "b99349e3b1b3f3a3"
+            ],
+            [
+                "2b0d6af74c339f5f"
+            ]
+        ]
+    },
+    {
+        "id": "f94215791e094c88",
+        "type": "array-loop",
+        "z": "561be8df1dd04335",
+        "name": "",
+        "key": "amount",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 720,
+        "y": 1680,
+        "wires": [
+            [
+                "d23ca9071f281b3b"
+            ],
+            [
+                "1b109b08caaf72bd",
+                "a4d5073f86bac61a"
+            ]
+        ]
+    },
+    {
+        "id": "986601d67845f75e",
+        "type": "array-loop",
+        "z": "561be8df1dd04335",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 880,
+        "y": 2380,
+        "wires": [
+            [
+                "b3fdc18843d90360"
+            ],
+            [
+                "4df2bc0ad523211e"
+            ]
+        ]
+    },
+    {
+        "id": "ec06091a7169454f",
+        "type": "xlsx",
+        "z": "561be8df1dd04335",
+        "name": "",
+        "sheets": "first",
+        "multi": "one",
+        "parse": "rows",
+        "map": "{\"Питання\":\"question\",\"Тип\":\"type\",\"а\":\"a\",\"б\":\"b\",\"в\":\"c\",\"г\":\"d\",\"Правильна відповідь\":\"correctAnswer\"}",
+        "x": 515,
+        "y": 2380,
+        "wires": [
+            [
+                "cb9d6d7726422bdd"
+            ]
+        ],
+        "l": false
     }
 ]
