@@ -1,0 +1,12 @@
+{
+    "name": "AI-BOT-gpt-nr",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "AI-BOT_nr.json",
+            "credentialsFile": "AI-BOT_nr_cred.json"
+        }
+    }
+}
