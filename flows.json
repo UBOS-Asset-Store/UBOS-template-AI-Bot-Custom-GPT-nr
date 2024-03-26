@@ -258,9 +258,7 @@
             "ad6642159ff08086"
         ],
         "x": 14,
-        "y": 679,
-        "w": 672,
-        "h": 642
+        "y": 679
     },
     {
         "id": "23033541e553eb36",
@@ -282,9 +280,7 @@
             "39f863832fe14deb"
         ],
         "x": 714,
-        "y": 679,
-        "w": 1012,
-        "h": 122
+        "y": 679
     },
     {
         "id": "2bad0f12f5a9659f",
@@ -324,9 +320,7 @@
             "10d15004c30b1bb5"
         ],
         "x": 714,
-        "y": 839,
-        "w": 1452,
-        "h": 482
+        "y": 839
     },
     {
         "id": "7382602cc2b54357",
@@ -364,9 +358,7 @@
             "a42302c6b56d6335"
         ],
         "x": 854,
-        "y": 1359,
-        "w": 1172,
-        "h": 402
+        "y": 1359
     },
     {
         "id": "628c8aecc019f08b",
@@ -415,9 +407,7 @@
             "64fc4993e145d169"
         ],
         "x": 14,
-        "y": 1359,
-        "w": 812,
-        "h": 642
+        "y": 1359
     },
     {
         "id": "b2e9a721546c936c",
@@ -466,9 +456,7 @@
             "3422465e9d16734b"
         ],
         "x": 34,
-        "y": 19,
-        "w": 1072,
-        "h": 522
+        "y": 19
     },
     {
         "id": "d5f776f7723294b2",
@@ -501,9 +489,7 @@
             "53d5d61c6a1232fd"
         ],
         "x": 14,
-        "y": 19,
-        "w": 812,
-        "h": 422
+        "y": 19
     },
     {
         "id": "2e6e4e61c61cc1ec",
@@ -566,9 +552,7 @@
             "5e4b1f6bcc4fc94c"
         ],
         "x": 14,
-        "y": 19,
-        "w": 1912,
-        "h": 622
+        "y": 19
     },
     {
         "id": "c7c1d01c718f9fc8",
@@ -620,9 +604,7 @@
             "71cd22f3e06a84bc"
         ],
         "x": 34,
-        "y": 19,
-        "w": 892,
-        "h": 562
+        "y": 19
     },
     {
         "id": "9f3a08dadb8626c3",
@@ -668,15 +650,13 @@
             "8b3909912726c770",
             "585d9d6095d0ca5b",
             "e5114daa61488a15",
-            "0664e6c3fa1f6132",
-            "f58cc1c13181dcf1",
             "e44521ccd19c79c6",
-            "83e748ec96c13946"
+            "83e748ec96c13946",
+            "fbe908c58e49cc11",
+            "c5789583232edcec"
         ],
         "x": 2334,
-        "y": 559,
-        "w": 1332,
-        "h": 782
+        "y": 559
     },
     {
         "id": "d304cf774581307a",
@@ -722,9 +702,7 @@
             "04fe1fa2488772f8"
         ],
         "x": 2334,
-        "y": 39,
-        "w": 1332,
-        "h": 502
+        "y": 39
     },
     {
         "id": "1ad265cdd5feb53e",
@@ -828,27 +806,23 @@
             "5568b48503199d40",
             "a4d5073f86bac61a",
             "beb60e5c829cdb4d",
-            "1209cc0fb0a890cd",
             "f2de3aef43efb57a",
-            "c59352ee6aec7d0d",
-            "e656959b6bb65df8",
-            "a609f6927ac45615",
-            "d5550fe9f265b396",
-            "22f96893b0c97739",
-            "0b4ff76f2b117a6a",
             "42f4b904318f58db",
             "e153d69d12f7bf65",
-            "eabf87c97c2af554",
-            "76aba1958ede1343",
-            "2e9f40767ad997f4",
             "9535311b6e134e56",
             "a13ac4faa9787ceb",
-            "2a6a66b31c5f460c"
+            "2a6a66b31c5f460c",
+            "bb9dbef8cb45196e",
+            "5eda3b19b578b0ac",
+            "3260f265fa428202",
+            "3f3a21d3049ec80e",
+            "261006cbdbc71918",
+            "e114910054609b89",
+            "70759d96362c3dd0",
+            "6288f77b267af38e"
         ],
-        "x": null,
-        "y": null,
-        "w": null,
-        "h": null
+        "x": 34,
+        "y": 1259
     },
     {
         "id": "42b214503281ca7c",
@@ -950,9 +924,7 @@
             "e2059985463b3624"
         ],
         "x": 14,
-        "y": -1,
-        "w": 2292,
-        "h": 1242
+        "y": -1
     },
     {
         "id": "4a77a41c6602f9d6",
@@ -997,13 +969,11 @@
             "c65e3faa54f5bb92",
             "772eac6cc3a332be",
             "bd6c2ef535cd2431",
-            "4737e8eb4e3bf517",
-            "ea3c9a01daa0a075"
+            "3a2150871dc150d7",
+            "f335724ffaafefc1"
         ],
         "x": 34,
-        "y": 559,
-        "w": 1992,
-        "h": 402
+        "y": 559
     },
     {
         "id": "78ec20634862824d",
@@ -1078,10 +1048,8 @@
             "12953714d1fc22a0",
             "166fae3726e1c702"
         ],
-        "x": null,
-        "y": null,
-        "w": null,
-        "h": null
+        "x": 34,
+        "y": 2059
     },
     {
         "id": "96ff04cf0133a4da",
@@ -1100,9 +1068,7 @@
             "69d78287c809cd74"
         ],
         "x": 34,
-        "y": 2839,
-        "w": 932,
-        "h": 82
+        "y": 2839
     },
     {
         "id": "d5f3c34635f35708",
@@ -1133,12 +1099,13 @@
             "fdabb9a2863f4f8f",
             "ca333a2f720b8f48",
             "38fa734109685e32",
-            "bb8dcd37c0b9c95b"
+            "bb8dcd37c0b9c95b",
+            "b7408a0e68d108ab"
         ],
-        "x": null,
-        "y": null,
-        "w": null,
-        "h": null
+        "x": 74,
+        "y": 39,
+        "w": 1272,
+        "h": 382
     },
     {
         "id": "d5a9a22192fa1989",
@@ -1299,13 +1266,11 @@
             "4badd197346ea811",
             "eaaca9d693f47d9e",
             "eaf66c35a0857e01",
-            "ddd8ee138059b10f",
-            "d2af17549ceaa392"
+            "d2af17549ceaa392",
+            "7b2cb52638e4be02"
         ],
         "x": 74,
-        "y": 279,
-        "w": 3112,
-        "h": 302
+        "y": 279
     },
     {
         "id": "55b42f036281abed",
@@ -1332,9 +1297,7 @@
             "531a8a840209f5f5"
         ],
         "x": 1094,
-        "y": 1099,
-        "w": 992,
-        "h": 182
+        "y": 1099
     },
     {
         "id": "44336aabd4cc8aba",
@@ -1361,9 +1324,7 @@
             "1a206d7e3e958251"
         ],
         "x": 64,
-        "y": 1099,
-        "w": 992,
-        "h": 182
+        "y": 1099
     },
     {
         "id": "6f53df0634427ab8",
@@ -1393,9 +1354,7 @@
             "10c0cf87a1cbdb0a"
         ],
         "x": 54,
-        "y": 1299,
-        "w": 1192,
-        "h": 222
+        "y": 1299
     },
     {
         "id": "20f41552a8bf93e6",
@@ -1422,9 +1381,7 @@
             "d04767856f0cbf5a"
         ],
         "x": 54,
-        "y": 1559,
-        "w": 1212,
-        "h": 202
+        "y": 1559
     },
     {
         "id": "af65f71384d80c06",
@@ -1451,9 +1408,7 @@
             "c3b931f10ae5cf2b"
         ],
         "x": 54,
-        "y": 1799,
-        "w": 1152,
-        "h": 202
+        "y": 1799
     },
     {
         "id": "21ac3a19bfa57a66",
@@ -1474,9 +1429,7 @@
             "75a973c1530c1fe9"
         ],
         "x": 54,
-        "y": 2519,
-        "w": 572,
-        "h": 162
+        "y": 2519
     },
     {
         "id": "d5b48aa89e9f41a1",
@@ -1514,9 +1467,7 @@
             "0ec04c582bf41c8a"
         ],
         "x": 74,
-        "y": 19,
-        "w": 2152,
-        "h": 242
+        "y": 19
     },
     {
         "id": "fcdce1b1fa2970b8",
@@ -1546,9 +1497,7 @@
             "1566d559db5d95fb"
         ],
         "x": 54,
-        "y": 2039,
-        "w": 1192,
-        "h": 202
+        "y": 2039
     },
     {
         "id": "d8a434ae844324e0",
@@ -1575,9 +1524,7 @@
             "b13fea9ecd31d1f7"
         ],
         "x": 54,
-        "y": 2279,
-        "w": 1232,
-        "h": 202
+        "y": 2279
     },
     {
         "id": "7348d6f27f4f25e5",
@@ -1611,9 +1558,7 @@
             "9464348869bc10b2"
         ],
         "x": 74,
-        "y": 639,
-        "w": 1232,
-        "h": 422
+        "y": 639
     },
     {
         "id": "4aa44aa75910cb5b",
@@ -1653,14 +1598,12 @@
             "3324634c09c548bf",
             "3d046ba4c916941d",
             "98d191edffa2ef5e",
-            "a85ba356b00c51b0",
-            "3e35edc6870bb62a",
-            "b5e7257a9c0d3132"
+            "b5e7257a9c0d3132",
+            "f2494cd54995781c",
+            "ce920f2d4f224a0c"
         ],
         "x": 44,
-        "y": 59,
-        "w": 1502,
-        "h": 462
+        "y": 59
     },
     {
         "id": "18e308d36025c38f",
@@ -1677,9 +1620,7 @@
             "d0b4fc85e5fed281"
         ],
         "x": 14,
-        "y": 2859,
-        "w": 592,
-        "h": 82
+        "y": 2859
     },
     {
         "id": "478d796d1a70f361",
@@ -1767,14 +1708,12 @@
             "e4c8bd17eedcaeed",
             "42f5817a459be45e",
             "204e41e815b84721",
-            "f84c2cc6c68ba6a7",
-            "6905d97ea2de0acf",
-            "58b8200a69e4d828"
+            "a0ce9ee1febae5a6",
+            "38b4274e72f57864",
+            "3794164b8e8bf146"
         ],
-        "x": null,
-        "y": null,
-        "w": null,
-        "h": null
+        "x": 44,
+        "y": 39
     },
     {
         "id": "905fd980afcc413b",
@@ -1801,9 +1740,7 @@
             "67465e3808e9e765"
         ],
         "x": 1334,
-        "y": 1619,
-        "w": 1112,
-        "h": 122
+        "y": 1619
     },
     {
         "id": "204e41e815b84721",
@@ -1828,10 +1765,8 @@
             "5cd31c58f735fafb",
             "32c0f876c2302cd8"
         ],
-        "x": null,
-        "y": null,
-        "w": null,
-        "h": null
+        "x": 74,
+        "y": 959
     },
     {
         "id": "d2fba984a07da085",
@@ -1851,11 +1786,11 @@
         "id": "8161750f4f47fda0",
         "type": "junction",
         "z": "27ce80b8fbcd825f",
-        "x": 1500,
+        "x": 1520,
         "y": 280,
         "wires": [
             [
-                "61328cedf50576b3"
+                "59b43acb3a16e751"
             ]
         ]
     },
@@ -2200,7 +2135,31 @@
         "x": 510,
         "y": 80,
         "wires": [
-            []
+            [
+                "f2ce323afb8655b3"
+            ]
+        ]
+    },
+    {
+        "id": "f2ce323afb8655b3",
+        "type": "array-loop",
+        "z": "52166c6adc5d5d26",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 700,
+        "y": 80,
+        "wires": [
+            [
+                "4da1b5bb2b2535c6"
+            ],
+            [
+                "a74508c2d541dd8a"
+            ]
         ]
     },
     {
@@ -2216,7 +2175,9 @@
         "x": 860,
         "y": 140,
         "wires": [
-            []
+            [
+                "f2ce323afb8655b3"
+            ]
         ]
     },
     {
@@ -2275,7 +2236,7 @@
         "y": 280,
         "wires": [
             [
-                "37b26fc0aa550d90"
+                "2930500347b75ae1"
             ]
         ]
     },
@@ -2341,7 +2302,8 @@
         "y": 120,
         "wires": [
             [
-                "2bd82ed72cf97054"
+                "2bd82ed72cf97054",
+                "65404bb5e190d7d9"
             ]
         ]
     },
@@ -2368,7 +2330,10 @@
         "x": 1000,
         "y": 240,
         "wires": [
-            []
+            [
+                "17c61ad43fed7c57",
+                "c35b382786f52e43"
+            ]
         ]
     },
     {
@@ -2386,7 +2351,8 @@
         "y": 480,
         "wires": [
             [
-                "7f5f8f7f9a4f088d"
+                "7f5f8f7f9a4f088d",
+                "e30e04b5bc084fd8"
             ]
         ]
     },
@@ -2394,7 +2360,7 @@
         "id": "2bd82ed72cf97054",
         "type": "pinecone-vector-ubos",
         "z": "27ce80b8fbcd825f",
-        "name": "demoversion",
+        "name": "PineconeDB",
         "actionType": "query",
         "apiKey": "",
         "environment": "",
@@ -2403,6 +2369,22 @@
         "wires": [
             [
                 "efc2c7680dbc24cc"
+            ]
+        ]
+    },
+    {
+        "id": "17c61ad43fed7c57",
+        "type": "chromadb-collection",
+        "z": "27ce80b8fbcd825f",
+        "remoteServer": "92b09c9cd170f8a8",
+        "name": "ChromaDB",
+        "collection": "",
+        "operation": "query",
+        "x": 1170,
+        "y": 240,
+        "wires": [
+            [
+                "be9cfd37213efd9a"
             ]
         ]
     },
@@ -2429,18 +2411,19 @@
         "id": "efc2c7680dbc24cc",
         "type": "function",
         "z": "27ce80b8fbcd825f",
-        "name": "create vector",
+        "name": "create answer",
         "func": "node.warn(msg);\n\ndelete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nlet PROMPT = msg.UNIFIED_DATA.AI_SETTINGS;\nlet totalPrompt = `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}`;\n\nmsg.model = msg.UNIFIED_DATA.AI_SETTINGS.OPENAI_MODEL;\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt },\n    { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n  ]\n} else {\n  const vectorsForPrompt = msg.payload?.matches\n    .map(vector => vector.metadata.result)\n    .join(', ');\n\n  node.warn(msg.payload?.matches);\n  node.warn(vectorsForPrompt);\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": `${totalPrompt}. ${vectorsForPrompt}`},\n    { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n  ]\n}\n\nmsg.history.fullPromptToAI = msg.messages[0].content;\nmsg.history.vectors = msg.payload.matches.map((vector, i) => {\n  return {\n    question: vector.metadata.question,\n    result: vector.metadata.result,\n    distance: vector.score,\n    document: vector.metadata.url,\n  }\n})\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1350,
+        "x": 1360,
         "y": 120,
         "wires": [
             [
-                "8161750f4f47fda0"
+                "8161750f4f47fda0",
+                "c3c3a388b8f5670f"
             ]
         ]
     },
@@ -2448,18 +2431,19 @@
         "id": "be9cfd37213efd9a",
         "type": "function",
         "z": "27ce80b8fbcd825f",
-        "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nlet PROMPT = msg.UNIFIED_DATA.AI_SETTINGS;\nlet totalPrompt = `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}`;\n\nmsg.model = msg.UNIFIED_DATA.AI_SETTINGS.OPENAI_MODEL;\n\nlet result = msg.payload.metadatas[0].filter(e => e !== null).map(e => e.result)\n\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt },\n        { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" + JSON.stringify(result) },\n        { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n    ]\n}\n\nmsg.history.fullPromptToAI = msg.messages[0].content;\nmsg.history.vectors = msg.payload.metadatas[0].map((_, i) => {\n    return {\n        ...msg.payload.metadatas[0][i],\n        distance: msg.payload.distances[0][i],\n        document: msg.payload.documents[0][i],\n    }\n})\n\nreturn msg;\n",
+        "name": "create answer",
+        "func": "delete msg.url;\n\nlet PROMPT = msg.UNIFIED_DATA.AI_SETTINGS;\nlet totalPrompt = `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}`;\n\nmsg.model = msg.UNIFIED_DATA.AI_SETTINGS.OPENAI_MODEL;\n\nlet result = msg.payload.metadatas[0].filter(e => e !== null).map(e => e.result)\n\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt },\n        { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" + JSON.stringify(result) },\n        { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n    ]\n}\n\nmsg.history.fullPromptToAI = msg.messages[0].content;\nmsg.history.vectors = msg.payload.metadatas[0].map((_, i) => {\n    return {\n        ...msg.payload.metadatas[0][i],\n        distance: msg.payload.distances[0][i],\n        document: msg.payload.documents[0][i],\n    }\n})\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1370,
+        "x": 1360,
         "y": 240,
         "wires": [
             [
-                "8161750f4f47fda0"
+                "8161750f4f47fda0",
+                "8342d1bac7bf9e0e"
             ]
         ]
     },
@@ -2494,18 +2478,20 @@
         "y": 340,
         "wires": [
             [
-                "8161750f4f47fda0"
+                "8161750f4f47fda0",
+                "b905c9a287cad6e9"
             ]
         ]
     },
     {
-        "id": "37b26fc0aa550d90",
+        "id": "2930500347b75ae1",
         "type": "openai-ubos",
         "z": "27ce80b8fbcd825f",
         "name": "",
-        "model": "gpt-3.5-turbo",
+        "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -2523,13 +2509,14 @@
         ]
     },
     {
-        "id": "61328cedf50576b3",
+        "id": "59b43acb3a16e751",
         "type": "openai-ubos",
         "z": "27ce80b8fbcd825f",
         "name": "",
         "model": "gpt-3.5-turbo",
         "temperature": 0.5,
         "max_tokens": 3000,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -2542,9 +2529,128 @@
         "y": 280,
         "wires": [
             [
-                "3677128a83383333"
+                "3677128a83383333",
+                "b491d374e166c66f"
             ]
         ]
+    },
+    {
+        "id": "65404bb5e190d7d9",
+        "type": "debug",
+        "z": "27ce80b8fbcd825f",
+        "name": "pinecone",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "c35b382786f52e43",
+        "type": "debug",
+        "z": "27ce80b8fbcd825f",
+        "name": "chroma",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "b905c9a287cad6e9",
+        "type": "debug",
+        "z": "27ce80b8fbcd825f",
+        "name": "GPT only",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "b491d374e166c66f",
+        "type": "debug",
+        "z": "27ce80b8fbcd825f",
+        "name": "GPT Answer",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1830,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "e30e04b5bc084fd8",
+        "type": "debug",
+        "z": "27ce80b8fbcd825f",
+        "name": "result out",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "c3c3a388b8f5670f",
+        "type": "debug",
+        "z": "27ce80b8fbcd825f",
+        "name": "debug 812",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1570,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "8342d1bac7bf9e0e",
+        "type": "debug",
+        "z": "27ce80b8fbcd825f",
+        "name": "debug 813",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1570,
+        "y": 240,
+        "wires": []
     },
     {
         "id": "bf596eb6b97b1752",
@@ -2958,7 +3064,7 @@
         "y": 640,
         "wires": [
             [
-                "0e17791da17ef446"
+                "0acde57a56398a13"
             ]
         ]
     },
@@ -3341,6 +3447,22 @@
         "wires": []
     },
     {
+        "id": "44e09f48c41f4dd9",
+        "type": "chromadb-collection",
+        "z": "71cb7453ba91face",
+        "remoteServer": "92b09c9cd170f8a8",
+        "name": "",
+        "collection": "",
+        "operation": "add",
+        "x": 1120,
+        "y": 600,
+        "wires": [
+            [
+                "db31f5dfa738f3d8"
+            ]
+        ]
+    },
+    {
         "id": "c40fbc0ab9da6820",
         "type": "subflow:27ce80b8fbcd825f",
         "z": "71cb7453ba91face",
@@ -3354,13 +3476,14 @@
         ]
     },
     {
-        "id": "0e17791da17ef446",
+        "id": "0acde57a56398a13",
         "type": "openai-ubos",
         "z": "71cb7453ba91face",
         "name": "",
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -3374,22 +3497,6 @@
         "wires": [
             [
                 "de4dbe8bea29fd0d"
-            ]
-        ]
-    },
-    {
-        "id": "44e09f48c41f4dd9",
-        "type": "chromadb-collection",
-        "z": "71cb7453ba91face",
-        "remoteServer": "92b09c9cd170f8a8",
-        "name": "",
-        "collection": "",
-        "operation": "add",
-        "x": 1120,
-        "y": 600,
-        "wires": [
-            [
-                "db31f5dfa738f3d8"
             ]
         ]
     },
@@ -3466,7 +3573,7 @@
         "y": 240,
         "wires": [
             [
-                "6e9ef3615f654361"
+                "1f8abad405f202d8"
             ]
         ]
     },
@@ -3565,7 +3672,7 @@
         "y": 420,
         "wires": [
             [
-                "4fda29115b94df09"
+                "0517032d2eec7a52"
             ]
         ]
     },
@@ -3658,7 +3765,7 @@
         "y": 80,
         "wires": [
             [
-                "5824e30670745419"
+                "08dc9965958afe02"
             ]
         ]
     },
@@ -4065,79 +4172,7 @@
         "y": 300,
         "wires": [
             [
-                "6e9ef3615f654361"
-            ]
-        ]
-    },
-    {
-        "id": "5824e30670745419",
-        "type": "openai-ubos",
-        "z": "a0451234ff05c29f",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 520,
-        "y": 80,
-        "wires": [
-            [
-                "e0a5c346aec729ad"
-            ]
-        ]
-    },
-    {
-        "id": "6e9ef3615f654361",
-        "type": "openai-ubos",
-        "z": "a0451234ff05c29f",
-        "name": "",
-        "model": "gpt-3.5-turbo",
-        "temperature": 0.5,
-        "max_tokens": 3000,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 500,
-        "y": 240,
-        "wires": [
-            [
-                "9f7f20aceb1ee00b"
-            ]
-        ]
-    },
-    {
-        "id": "4fda29115b94df09",
-        "type": "openai-ubos",
-        "z": "a0451234ff05c29f",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 620,
-        "y": 420,
-        "wires": [
-            [
-                "76a204897ab25ee1"
+                "1f8abad405f202d8"
             ]
         ]
     },
@@ -4174,6 +4209,81 @@
         ]
     },
     {
+        "id": "08dc9965958afe02",
+        "type": "openai-ubos",
+        "z": "a0451234ff05c29f",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 520,
+        "y": 80,
+        "wires": [
+            [
+                "e0a5c346aec729ad"
+            ]
+        ]
+    },
+    {
+        "id": "1f8abad405f202d8",
+        "type": "openai-ubos",
+        "z": "a0451234ff05c29f",
+        "name": "",
+        "model": "gpt-3.5-turbo",
+        "temperature": 0.5,
+        "max_tokens": 3000,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 500,
+        "y": 240,
+        "wires": [
+            [
+                "9f7f20aceb1ee00b"
+            ]
+        ]
+    },
+    {
+        "id": "0517032d2eec7a52",
+        "type": "openai-ubos",
+        "z": "a0451234ff05c29f",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 620,
+        "y": 420,
+        "wires": [
+            [
+                "76a204897ab25ee1"
+            ]
+        ]
+    },
+    {
         "id": "a478b692e78a5971",
         "type": "function",
         "z": "88bba2923a31d3e7",
@@ -4190,7 +4300,7 @@
         "wires": [
             [
                 "3ab52837b239e540",
-                "4737e8eb4e3bf517"
+                "3a2150871dc150d7"
             ]
         ]
     },
@@ -4229,7 +4339,7 @@
         "y": 760,
         "wires": [
             [
-                "ea3c9a01daa0a075"
+                "f335724ffaafefc1"
             ]
         ]
     },
@@ -4319,7 +4429,7 @@
         "wires": [
             [
                 "a98cfb1e16cbe099",
-                "ea3c9a01daa0a075"
+                "f335724ffaafefc1"
             ]
         ]
     },
@@ -4542,7 +4652,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 960,
+        "x": 990,
         "y": 920,
         "wires": []
     },
@@ -4663,7 +4773,7 @@
         "y": 600,
         "wires": [
             [
-                "4737e8eb4e3bf517"
+                "3a2150871dc150d7"
             ],
             [
                 "1573008514834eb6"
@@ -4834,7 +4944,7 @@
         "wires": [
             [
                 "beae0f4b261933d2",
-                "a85ba356b00c51b0"
+                "f2494cd54995781c"
             ]
         ]
     },
@@ -4873,7 +4983,7 @@
         "y": 260,
         "wires": [
             [
-                "3e35edc6870bb62a"
+                "ce920f2d4f224a0c"
             ]
         ]
     },
@@ -4984,7 +5094,7 @@
         "wires": [
             [
                 "f60512750bf45925",
-                "3e35edc6870bb62a"
+                "ce920f2d4f224a0c"
             ]
         ]
     },
@@ -5387,7 +5497,25 @@
         "l": false
     },
     {
-        "id": "a85ba356b00c51b0",
+        "id": "b5e7257a9c0d3132",
+        "type": "debug",
+        "z": "88bba2923a31d3e7",
+        "g": "4aa44aa75910cb5b",
+        "name": "debug 811",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1310,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "f2494cd54995781c",
         "type": "openai-ubos",
         "z": "88bba2923a31d3e7",
         "g": "4aa44aa75910cb5b",
@@ -5395,6 +5523,7 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -5413,7 +5542,7 @@
         ]
     },
     {
-        "id": "3e35edc6870bb62a",
+        "id": "ce920f2d4f224a0c",
         "type": "openai-ubos",
         "z": "88bba2923a31d3e7",
         "g": "4aa44aa75910cb5b",
@@ -5421,6 +5550,7 @@
         "model": "gpt-3.5-turbo",
         "temperature": 0.5,
         "max_tokens": 3000,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -5439,7 +5569,7 @@
         ]
     },
     {
-        "id": "4737e8eb4e3bf517",
+        "id": "3a2150871dc150d7",
         "type": "openai-ubos",
         "z": "88bba2923a31d3e7",
         "g": "4a77a41c6602f9d6",
@@ -5447,6 +5577,7 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -5455,7 +5586,7 @@
             "value": "[]"
         },
         "OPENAI_API_KEY": "",
-        "x": 960,
+        "x": 980,
         "y": 800,
         "wires": [
             [
@@ -5464,7 +5595,7 @@
         ]
     },
     {
-        "id": "ea3c9a01daa0a075",
+        "id": "f335724ffaafefc1",
         "type": "openai-ubos",
         "z": "88bba2923a31d3e7",
         "g": "4a77a41c6602f9d6",
@@ -5472,6 +5603,7 @@
         "model": "gpt-3.5-turbo",
         "temperature": 0.5,
         "max_tokens": 3000,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -5488,24 +5620,6 @@
                 "c65e3faa54f5bb92"
             ]
         ]
-    },
-    {
-        "id": "b5e7257a9c0d3132",
-        "type": "debug",
-        "z": "88bba2923a31d3e7",
-        "g": "4aa44aa75910cb5b",
-        "name": "debug 811",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1310,
-        "y": 340,
-        "wires": []
     },
     {
         "id": "04e6e4279b387b31",
@@ -7555,7 +7669,7 @@
         "y": 860,
         "wires": [
             [
-                "58b8200a69e4d828"
+                "3794164b8e8bf146"
             ]
         ]
     },
@@ -7771,7 +7885,7 @@
         "y": 260,
         "wires": [
             [
-                "f84c2cc6c68ba6a7"
+                "a0ce9ee1febae5a6"
             ]
         ]
     },
@@ -8059,7 +8173,7 @@
         "y": 560,
         "wires": [
             [
-                "6905d97ea2de0acf"
+                "38b4274e72f57864"
             ]
         ]
     },
@@ -8073,6 +8187,29 @@
         "x": 150,
         "y": 420,
         "wires": []
+    },
+    {
+        "id": "cb08dd7787cf9f90",
+        "type": "array-loop",
+        "z": "f48a32dcae7a25f2",
+        "g": "478d796d1a70f361",
+        "name": "",
+        "key": "amount",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 1480,
+        "y": 760,
+        "wires": [
+            [
+                "d2f36279fd460b8e"
+            ],
+            [
+                "108d14ed5668c038"
+            ]
+        ]
     },
     {
         "id": "d2f36279fd460b8e",
@@ -8114,6 +8251,29 @@
         "y": 720,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "6addb13fd1402595",
+        "type": "array-loop",
+        "z": "f48a32dcae7a25f2",
+        "g": "478d796d1a70f361",
+        "name": "",
+        "key": "amount",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 1460,
+        "y": 160,
+        "wires": [
+            [
+                "7ace8b2ff958d9ad"
+            ],
+            [
+                "a63face72ac6a46c"
+            ]
         ]
     },
     {
@@ -8243,6 +8403,29 @@
         "y": 300,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "12dacb4c5be15603",
+        "type": "array-loop",
+        "z": "f48a32dcae7a25f2",
+        "g": "478d796d1a70f361",
+        "name": "",
+        "key": "amount",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 1470,
+        "y": 460,
+        "wires": [
+            [
+                "e0a9c094315f9304"
+            ],
+            [
+                "2a923fd4d02519d8"
+            ]
         ]
     },
     {
@@ -8663,6 +8846,22 @@
         ]
     },
     {
+        "id": "d909a2f94071e9d9",
+        "type": "mongodb out",
+        "z": "f48a32dcae7a25f2",
+        "g": "204e41e815b84721",
+        "mongodb": "7908a755f1520aa7",
+        "name": "delete all knowlegebases",
+        "collection": "",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 790,
+        "y": 1080,
+        "wires": []
+    },
+    {
         "id": "39d64a121b1f0d72",
         "type": "function",
         "z": "f48a32dcae7a25f2",
@@ -8970,14 +9169,15 @@
         "wires": []
     },
     {
-        "id": "f84c2cc6c68ba6a7",
+        "id": "a0ce9ee1febae5a6",
         "type": "openai-ubos",
         "z": "f48a32dcae7a25f2",
         "g": "478d796d1a70f361",
         "name": "",
-        "model": "gpt-3.5-turbo",
+        "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -8996,14 +9196,15 @@
         ]
     },
     {
-        "id": "6905d97ea2de0acf",
+        "id": "38b4274e72f57864",
         "type": "openai-ubos",
         "z": "f48a32dcae7a25f2",
         "g": "478d796d1a70f361",
         "name": "",
-        "model": "gpt-3.5-turbo",
+        "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -9022,14 +9223,15 @@
         ]
     },
     {
-        "id": "58b8200a69e4d828",
+        "id": "3794164b8e8bf146",
         "type": "openai-ubos",
         "z": "f48a32dcae7a25f2",
         "g": "478d796d1a70f361",
         "name": "",
-        "model": "gpt-3.5-turbo",
+        "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -9044,87 +9246,6 @@
             [
                 "b09542bff4b17693",
                 "1c2e897da68dfde0"
-            ]
-        ]
-    },
-    {
-        "id": "d909a2f94071e9d9",
-        "type": "mongodb out",
-        "z": "f48a32dcae7a25f2",
-        "mongodb": "7908a755f1520aa7",
-        "name": "delete all knowlegebases",
-        "collection": "",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 790,
-        "y": 1080,
-        "wires": []
-    },
-    {
-        "id": "cb08dd7787cf9f90",
-        "type": "array-loop",
-        "z": "f48a32dcae7a25f2",
-        "name": "",
-        "key": "amount",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 1480,
-        "y": 760,
-        "wires": [
-            [
-                "d2f36279fd460b8e"
-            ],
-            [
-                "108d14ed5668c038"
-            ]
-        ]
-    },
-    {
-        "id": "6addb13fd1402595",
-        "type": "array-loop",
-        "z": "f48a32dcae7a25f2",
-        "name": "",
-        "key": "amount",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 1460,
-        "y": 160,
-        "wires": [
-            [
-                "7ace8b2ff958d9ad"
-            ],
-            [
-                "a63face72ac6a46c"
-            ]
-        ]
-    },
-    {
-        "id": "12dacb4c5be15603",
-        "type": "array-loop",
-        "z": "f48a32dcae7a25f2",
-        "name": "",
-        "key": "amount",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 1470,
-        "y": 460,
-        "wires": [
-            [
-                "e0a9c094315f9304"
-            ],
-            [
-                "2a923fd4d02519d8"
             ]
         ]
     },
@@ -9809,7 +9930,7 @@
         "y": 460,
         "wires": [
             [
-                "ddd8ee138059b10f"
+                "7b2cb52638e4be02"
             ]
         ]
     },
@@ -12978,31 +13099,6 @@
         "wires": []
     },
     {
-        "id": "ddd8ee138059b10f",
-        "type": "openai-ubos",
-        "z": "5e7416993281e99d",
-        "g": "dd4d6fdf1b601b09",
-        "name": "",
-        "model": "gpt-3.5-turbo",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 1580,
-        "y": 460,
-        "wires": [
-            [
-                "89b9d71dd5b48135"
-            ]
-        ]
-    },
-    {
         "id": "0ec04c582bf41c8a",
         "type": "catch",
         "z": "5e7416993281e99d",
@@ -13035,6 +13131,32 @@
         "wires": [
             [
                 "89a3547980a3c139"
+            ]
+        ]
+    },
+    {
+        "id": "7b2cb52638e4be02",
+        "type": "openai-ubos",
+        "z": "5e7416993281e99d",
+        "g": "dd4d6fdf1b601b09",
+        "name": "",
+        "model": "gpt-3.5-turbo",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 1580,
+        "y": 460,
+        "wires": [
+            [
+                "89b9d71dd5b48135"
             ]
         ]
     },
@@ -17205,6 +17327,7 @@
         "id": "c67a5e3ed05701d0",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "admin_modules",
@@ -17220,6 +17343,7 @@
         "id": "64bd4da57cb0fb8e",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "admin_roles",
@@ -17235,6 +17359,7 @@
         "id": "fcc5a7d2ab3ca1a0",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "admins",
@@ -17250,6 +17375,7 @@
         "id": "3fa0f02696c20781",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "knowlegebase",
@@ -17265,6 +17391,7 @@
         "id": "538b9bc282c282a9",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "knowledgeObjects",
@@ -17280,6 +17407,7 @@
         "id": "14aa9473fb6a23c5",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "users_messages",
@@ -17295,6 +17423,7 @@
         "id": "dcac6d6ceb4d2a0f",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "users",
@@ -17310,6 +17439,7 @@
         "id": "9c2a0c75f3e7f927",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "AISettings",
@@ -18624,6 +18754,44 @@
         "l": false
     },
     {
+        "id": "adeafe8e156b21d7",
+        "type": "telegram sender",
+        "z": "7e6aa2730f443095",
+        "g": "d5f3c34635f35708",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 410,
+        "y": 380,
+        "wires": [
+            [
+                "3ac799522b65d1e3"
+            ]
+        ]
+    },
+    {
+        "id": "d9a9aec28a0e24f6",
+        "type": "while-loop",
+        "z": "7e6aa2730f443095",
+        "g": "d5f3c34635f35708",
+        "name": "",
+        "condi": "global.get(`${msg.typing}`) === true",
+        "limit": true,
+        "limitTime": "100",
+        "time": "counter",
+        "timeType": "msg",
+        "x": 375,
+        "y": 320,
+        "wires": [
+            [],
+            [
+                "770851c3f89211f4"
+            ]
+        ],
+        "l": false
+    },
+    {
         "id": "770851c3f89211f4",
         "type": "function",
         "z": "7e6aa2730f443095",
@@ -18665,6 +18833,25 @@
                 "d9a9aec28a0e24f6",
                 "f7e4d91fde1c6e68"
             ]
+        ]
+    },
+    {
+        "id": "26865e13ed50bd7c",
+        "type": "telegram receiver",
+        "z": "7e6aa2730f443095",
+        "g": "d5f3c34635f35708",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "saveDataDir": "",
+        "filterCommands": true,
+        "x": 180,
+        "y": 200,
+        "wires": [
+            [
+                "12d33bcda39c0668",
+                "877f2e04d71b4d11"
+            ],
+            []
         ]
     },
     {
@@ -18749,6 +18936,21 @@
         ]
     },
     {
+        "id": "e8d6a2dbc6c40396",
+        "type": "telegram sender",
+        "z": "7e6aa2730f443095",
+        "g": "d5f3c34635f35708",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 740,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "678ffade631009d6",
         "type": "debug",
         "z": "7e6aa2730f443095",
@@ -18822,7 +19024,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
+        "x": 1000,
         "y": 260,
         "wires": [
             [
@@ -18849,6 +19051,21 @@
                 "368c6a39a3a41559",
                 "38fa734109685e32"
             ],
+            []
+        ]
+    },
+    {
+        "id": "ca333a2f720b8f48",
+        "type": "telegram sender",
+        "z": "7e6aa2730f443095",
+        "g": "d5f3c34635f35708",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1200,
+        "y": 260,
+        "wires": [
             []
         ]
     },
@@ -20033,8 +20250,9 @@
         "id": "b7408a0e68d108ab",
         "type": "subflow:27ce80b8fbcd825f",
         "z": "7e6aa2730f443095",
+        "g": "d5f3c34635f35708",
         "name": "",
-        "x": 760,
+        "x": 780,
         "y": 260,
         "wires": [
             [
@@ -20099,91 +20317,9 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 840,
+        "x": 830,
         "y": 300,
         "wires": []
-    },
-    {
-        "id": "26865e13ed50bd7c",
-        "type": "telegram receiver",
-        "z": "7e6aa2730f443095",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "saveDataDir": "",
-        "filterCommands": true,
-        "x": 180,
-        "y": 200,
-        "wires": [
-            [
-                "12d33bcda39c0668",
-                "877f2e04d71b4d11"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "adeafe8e156b21d7",
-        "type": "telegram sender",
-        "z": "7e6aa2730f443095",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 410,
-        "y": 380,
-        "wires": [
-            [
-                "3ac799522b65d1e3"
-            ]
-        ]
-    },
-    {
-        "id": "e8d6a2dbc6c40396",
-        "type": "telegram sender",
-        "z": "7e6aa2730f443095",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 740,
-        "y": 80,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ca333a2f720b8f48",
-        "type": "telegram sender",
-        "z": "7e6aa2730f443095",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 1180,
-        "y": 260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d9a9aec28a0e24f6",
-        "type": "while-loop",
-        "z": "7e6aa2730f443095",
-        "name": "",
-        "condi": "global.get(`${msg.typing}`) === true",
-        "limit": true,
-        "limitTime": "100",
-        "time": "counter",
-        "timeType": "msg",
-        "x": 375,
-        "y": 320,
-        "wires": [
-            [],
-            [
-                "770851c3f89211f4"
-            ]
-        ],
-        "l": false
     },
     {
         "id": "8bcfa72a275e228d",
@@ -21264,10 +21400,10 @@
         "y": 980,
         "wires": [
             [
-                "0664e6c3fa1f6132"
+                "fbe908c58e49cc11"
             ],
             [
-                "f58cc1c13181dcf1"
+                "c5789583232edcec"
             ]
         ]
     },
@@ -22180,7 +22316,6 @@
         "wires": [
             [
                 "b7a031b77066e8f1",
-                "1209cc0fb0a890cd",
                 "f2de3aef43efb57a"
             ]
         ],
@@ -22227,10 +22362,12 @@
         "y": 1840,
         "wires": [
             [
-                "c59352ee6aec7d0d"
+                "a4d5073f86bac61a",
+                "bb9dbef8cb45196e"
             ],
             [
-                "e656959b6bb65df8"
+                "ff5ac9811d26fb42",
+                "5eda3b19b578b0ac"
             ]
         ]
     },
@@ -22350,11 +22487,11 @@
         "wires": [
             [
                 "d4569548a5f8f438",
-                "a609f6927ac45615"
+                "3260f265fa428202"
             ],
             [
-                "d5550fe9f265b396",
-                "9535311b6e134e56"
+                "9535311b6e134e56",
+                "3f3a21d3049ec80e"
             ]
         ]
     },
@@ -22411,10 +22548,10 @@
         "y": 2700,
         "wires": [
             [
-                "eabf87c97c2af554"
+                "70759d96362c3dd0"
             ],
             [
-                "76aba1958ede1343"
+                "6288f77b267af38e"
             ]
         ]
     },
@@ -22703,10 +22840,10 @@
         "wires": [
             [
                 "28ffaf7eb1fd26d1",
-                "22f96893b0c97739"
+                "261006cbdbc71918"
             ],
             [
-                "0b4ff76f2b117a6a"
+                "e114910054609b89"
             ]
         ]
     },
@@ -23522,8 +23659,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 680,
-        "y": 2100,
+        "x": 560,
+        "y": 2080,
         "wires": []
     },
     {
@@ -25507,7 +25644,7 @@
         "wires": [
             [
                 "894e526981ec3839",
-                "fb94efdd7c9a719e"
+                "832635a98d89b6c6"
             ]
         ]
     },
@@ -25998,6 +26135,109 @@
         ]
     },
     {
+        "id": "ec06091a7169454f",
+        "type": "xlsx",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "sheets": "first",
+        "multi": "one",
+        "parse": "rows",
+        "map": "{\"Питання\":\"question\",\"Тип\":\"type\",\"а\":\"a\",\"б\":\"b\",\"в\":\"c\",\"г\":\"d\",\"Правильна відповідь\":\"correctAnswer\"}",
+        "x": 515,
+        "y": 2380,
+        "wires": [
+            [
+                "cb9d6d7726422bdd"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "dd8eb35354758aac",
+        "type": "array-loop",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 880,
+        "y": 2040,
+        "wires": [
+            [
+                "b99349e3b1b3f3a3"
+            ],
+            [
+                "2b0d6af74c339f5f"
+            ]
+        ]
+    },
+    {
+        "id": "f94215791e094c88",
+        "type": "array-loop",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "key": "amount",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 720,
+        "y": 1680,
+        "wires": [
+            [
+                "d23ca9071f281b3b"
+            ],
+            [
+                "1b109b08caaf72bd"
+            ]
+        ]
+    },
+    {
+        "id": "986601d67845f75e",
+        "type": "array-loop",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 880,
+        "y": 2380,
+        "wires": [
+            [
+                "b3fdc18843d90360"
+            ],
+            [
+                "4df2bc0ad523211e"
+            ]
+        ]
+    },
+    {
+        "id": "b2937f4db9e9f46a",
+        "type": "pdfparse",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "path": "",
+        "x": 720,
+        "y": 1540,
+        "wires": [
+            [
+                "25f3c8bdb4610e04"
+            ]
+        ]
+    },
+    {
         "id": "94579d632128cd68",
         "type": "function",
         "z": "561be8df1dd04335",
@@ -26116,34 +26356,17 @@
         "type": "debug",
         "z": "561be8df1dd04335",
         "g": "1ad265cdd5feb53e",
-        "name": "debug 793",
+        "name": "pinecone",
         "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "payload",
+        "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1330,
-        "y": 1720,
-        "wires": []
-    },
-    {
-        "id": "1209cc0fb0a890cd",
-        "type": "debug",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "debug 797",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1330,
-        "y": 1680,
+        "x": 1160,
+        "y": 1760,
         "wires": []
     },
     {
@@ -26163,304 +26386,6 @@
                 "a4d5073f86bac61a"
             ]
         ]
-    },
-    {
-        "id": "0664e6c3fa1f6132",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "9f3a08dadb8626c3",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 2870,
-        "y": 940,
-        "wires": [
-            [
-                "beb68ab316d75f9f"
-            ]
-        ]
-    },
-    {
-        "id": "f58cc1c13181dcf1",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "9f3a08dadb8626c3",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 2870,
-        "y": 1060,
-        "wires": [
-            [
-                "7e6a176c53a30645"
-            ]
-        ]
-    },
-    {
-        "id": "c59352ee6aec7d0d",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 640,
-        "y": 1760,
-        "wires": [
-            [
-                "59a0473709ced9b7",
-                "2e9f40767ad997f4"
-            ]
-        ]
-    },
-    {
-        "id": "e656959b6bb65df8",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 640,
-        "y": 1900,
-        "wires": [
-            [
-                "f7da8a2810c6029e",
-                "f977661ebe071bce"
-            ]
-        ]
-    },
-    {
-        "id": "a609f6927ac45615",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 720,
-        "y": 2120,
-        "wires": [
-            [
-                "b32a68096d7a239f"
-            ]
-        ]
-    },
-    {
-        "id": "d5550fe9f265b396",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 600,
-        "y": 2180,
-        "wires": [
-            [
-                "62304227d13174c5",
-                "681a34d55bf0226b"
-            ]
-        ]
-    },
-    {
-        "id": "22f96893b0c97739",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 760,
-        "y": 2460,
-        "wires": [
-            [
-                "d3947bc6a74a55a6"
-            ]
-        ]
-    },
-    {
-        "id": "0b4ff76f2b117a6a",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 740,
-        "y": 2600,
-        "wires": [
-            [
-                "5568b48503199d40",
-                "e02e18afcd7b246a",
-                "20eb7f6487d550d0"
-            ]
-        ]
-    },
-    {
-        "id": "eabf87c97c2af554",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 540,
-        "y": 2680,
-        "wires": [
-            [
-                "5e27a3af0de4127f"
-            ]
-        ]
-    },
-    {
-        "id": "76aba1958ede1343",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 540,
-        "y": 2720,
-        "wires": [
-            [
-                "fd386349507dd91f",
-                "beb60e5c829cdb4d"
-            ]
-        ]
-    },
-    {
-        "id": "fb94efdd7c9a719e",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 1140,
-        "y": 3040,
-        "wires": [
-            [
-                "d4e3c0018b9a87d0"
-            ]
-        ]
-    },
-    {
-        "id": "2e9f40767ad997f4",
-        "type": "debug",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "debug 800",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 690,
-        "y": 1820,
-        "wires": []
     },
     {
         "id": "e44521ccd19c79c6",
@@ -27014,102 +26939,293 @@
         "wires": []
     },
     {
-        "id": "b2937f4db9e9f46a",
-        "type": "pdfparse",
+        "id": "bb9dbef8cb45196e",
+        "type": "openai-ubos",
         "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
         "name": "",
-        "path": "",
-        "x": 720,
-        "y": 1540,
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 640,
+        "y": 1760,
         "wires": [
             [
-                "25f3c8bdb4610e04"
+                "59a0473709ced9b7"
             ]
         ]
     },
     {
-        "id": "dd8eb35354758aac",
-        "type": "array-loop",
+        "id": "5eda3b19b578b0ac",
+        "type": "openai-ubos",
         "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
         "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 880,
-        "y": 2040,
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 640,
+        "y": 1940,
         "wires": [
             [
-                "b99349e3b1b3f3a3"
-            ],
-            [
-                "2b0d6af74c339f5f"
+                "f977661ebe071bce",
+                "f7da8a2810c6029e"
             ]
         ]
     },
     {
-        "id": "f94215791e094c88",
-        "type": "array-loop",
+        "id": "3260f265fa428202",
+        "type": "openai-ubos",
         "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
         "name": "",
-        "key": "amount",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 720,
-        "y": 1680,
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 740,
+        "y": 2120,
         "wires": [
             [
-                "d23ca9071f281b3b"
-            ],
-            [
-                "1b109b08caaf72bd",
-                "a4d5073f86bac61a"
+                "b32a68096d7a239f"
             ]
         ]
     },
     {
-        "id": "986601d67845f75e",
-        "type": "array-loop",
+        "id": "3f3a21d3049ec80e",
+        "type": "openai-ubos",
         "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
         "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 880,
-        "y": 2380,
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 620,
+        "y": 2180,
         "wires": [
             [
-                "b3fdc18843d90360"
-            ],
-            [
-                "4df2bc0ad523211e"
+                "681a34d55bf0226b",
+                "62304227d13174c5"
             ]
         ]
     },
     {
-        "id": "ec06091a7169454f",
-        "type": "xlsx",
+        "id": "261006cbdbc71918",
+        "type": "openai-ubos",
         "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
         "name": "",
-        "sheets": "first",
-        "multi": "one",
-        "parse": "rows",
-        "map": "{\"Питання\":\"question\",\"Тип\":\"type\",\"а\":\"a\",\"б\":\"b\",\"в\":\"c\",\"г\":\"d\",\"Правильна відповідь\":\"correctAnswer\"}",
-        "x": 515,
-        "y": 2380,
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 740,
+        "y": 2460,
         "wires": [
             [
-                "cb9d6d7726422bdd"
+                "d3947bc6a74a55a6"
             ]
-        ],
-        "l": false
+        ]
+    },
+    {
+        "id": "e114910054609b89",
+        "type": "openai-ubos",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 740,
+        "y": 2600,
+        "wires": [
+            [
+                "5568b48503199d40",
+                "e02e18afcd7b246a",
+                "20eb7f6487d550d0"
+            ]
+        ]
+    },
+    {
+        "id": "70759d96362c3dd0",
+        "type": "openai-ubos",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 540,
+        "y": 2680,
+        "wires": [
+            [
+                "5e27a3af0de4127f"
+            ]
+        ]
+    },
+    {
+        "id": "6288f77b267af38e",
+        "type": "openai-ubos",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 540,
+        "y": 2720,
+        "wires": [
+            [
+                "fd386349507dd91f",
+                "beb60e5c829cdb4d"
+            ]
+        ]
+    },
+    {
+        "id": "832635a98d89b6c6",
+        "type": "openai-ubos",
+        "z": "561be8df1dd04335",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 1140,
+        "y": 3040,
+        "wires": [
+            [
+                "d4e3c0018b9a87d0"
+            ]
+        ]
+    },
+    {
+        "id": "fbe908c58e49cc11",
+        "type": "openai-ubos",
+        "z": "561be8df1dd04335",
+        "g": "9f3a08dadb8626c3",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 2860,
+        "y": 940,
+        "wires": [
+            [
+                "beb68ab316d75f9f"
+            ]
+        ]
+    },
+    {
+        "id": "c5789583232edcec",
+        "type": "openai-ubos",
+        "z": "561be8df1dd04335",
+        "g": "9f3a08dadb8626c3",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 2860,
+        "y": 1060,
+        "wires": [
+            [
+                "7e6a176c53a30645"
+            ]
+        ]
     }
 ]
