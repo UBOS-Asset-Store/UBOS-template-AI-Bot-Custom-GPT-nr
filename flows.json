@@ -258,7 +258,9 @@
             "ad6642159ff08086"
         ],
         "x": 14,
-        "y": 679
+        "y": 679,
+        "w": 672,
+        "h": 642
     },
     {
         "id": "23033541e553eb36",
@@ -280,7 +282,9 @@
             "39f863832fe14deb"
         ],
         "x": 714,
-        "y": 679
+        "y": 679,
+        "w": 1012,
+        "h": 122
     },
     {
         "id": "2bad0f12f5a9659f",
@@ -320,7 +324,9 @@
             "10d15004c30b1bb5"
         ],
         "x": 714,
-        "y": 839
+        "y": 839,
+        "w": 1452,
+        "h": 482
     },
     {
         "id": "7382602cc2b54357",
@@ -358,7 +364,9 @@
             "a42302c6b56d6335"
         ],
         "x": 854,
-        "y": 1359
+        "y": 1359,
+        "w": 1172,
+        "h": 402
     },
     {
         "id": "628c8aecc019f08b",
@@ -407,7 +415,9 @@
             "64fc4993e145d169"
         ],
         "x": 14,
-        "y": 1359
+        "y": 1359,
+        "w": 812,
+        "h": 642
     },
     {
         "id": "b2e9a721546c936c",
@@ -434,7 +444,6 @@
             "a39c04b1a194abb2",
             "77f9a77fb339192c",
             "9c4b61a5066b93c2",
-            "1a8d8b8b1ebd8dfc",
             "4439c34b24b37c0f",
             "e370a5d5f2146b8e",
             "f13caa9f1432e301",
@@ -453,10 +462,14 @@
             "2710be5a8526ba3e",
             "d85d31f6e5e71638",
             "f42471de14bb6f8e",
-            "3422465e9d16734b"
+            "3422465e9d16734b",
+            "64a7e11abba8b2fa",
+            "a65b4c8075e49df2"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 1072,
+        "h": 542
     },
     {
         "id": "d5f776f7723294b2",
@@ -554,7 +567,9 @@
             "5e4b1f6bcc4fc94c"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 1912,
+        "h": 622
     },
     {
         "id": "c7c1d01c718f9fc8",
@@ -1051,7 +1066,9 @@
             "166fae3726e1c702"
         ],
         "x": 34,
-        "y": 2059
+        "y": 2059,
+        "w": 3652,
+        "h": 922
     },
     {
         "id": "96ff04cf0133a4da",
@@ -1264,7 +1281,9 @@
             "7b2cb52638e4be02"
         ],
         "x": 74,
-        "y": 279
+        "y": 279,
+        "w": 3112,
+        "h": 302
     },
     {
         "id": "55b42f036281abed",
@@ -1291,7 +1310,9 @@
             "531a8a840209f5f5"
         ],
         "x": 1094,
-        "y": 1099
+        "y": 1099,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "44336aabd4cc8aba",
@@ -1318,7 +1339,9 @@
             "1a206d7e3e958251"
         ],
         "x": 64,
-        "y": 1099
+        "y": 1099,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "6f53df0634427ab8",
@@ -1348,7 +1371,9 @@
             "10c0cf87a1cbdb0a"
         ],
         "x": 54,
-        "y": 1299
+        "y": 1299,
+        "w": 1192,
+        "h": 222
     },
     {
         "id": "20f41552a8bf93e6",
@@ -1372,10 +1397,13 @@
             "4c812ed941d51f84",
             "af191a7e64081653",
             "70118f402d0f03ac",
-            "d04767856f0cbf5a"
+            "d04767856f0cbf5a",
+            "31c1846a7132aa44"
         ],
         "x": 54,
-        "y": 1559
+        "y": 1539,
+        "w": 1212,
+        "h": 222
     },
     {
         "id": "af65f71384d80c06",
@@ -1402,7 +1430,9 @@
             "c3b931f10ae5cf2b"
         ],
         "x": 54,
-        "y": 1799
+        "y": 1799,
+        "w": 1152,
+        "h": 202
     },
     {
         "id": "21ac3a19bfa57a66",
@@ -1423,7 +1453,9 @@
             "75a973c1530c1fe9"
         ],
         "x": 54,
-        "y": 2519
+        "y": 2519,
+        "w": 572,
+        "h": 162
     },
     {
         "id": "d5b48aa89e9f41a1",
@@ -1461,7 +1493,9 @@
             "0ec04c582bf41c8a"
         ],
         "x": 74,
-        "y": 19
+        "y": 19,
+        "w": 2152,
+        "h": 242
     },
     {
         "id": "fcdce1b1fa2970b8",
@@ -1491,7 +1525,9 @@
             "1566d559db5d95fb"
         ],
         "x": 54,
-        "y": 2039
+        "y": 2039,
+        "w": 1192,
+        "h": 202
     },
     {
         "id": "d8a434ae844324e0",
@@ -1518,7 +1554,9 @@
             "b13fea9ecd31d1f7"
         ],
         "x": 54,
-        "y": 2279
+        "y": 2279,
+        "w": 1232,
+        "h": 202
     },
     {
         "id": "7348d6f27f4f25e5",
@@ -1552,7 +1590,9 @@
             "9464348869bc10b2"
         ],
         "x": 74,
-        "y": 639
+        "y": 639,
+        "w": 1232,
+        "h": 422
     },
     {
         "id": "4aa44aa75910cb5b",
@@ -11355,7 +11395,8 @@
         "y": 1620,
         "wires": [
             [
-                "81285fb22828f3a7"
+                "81285fb22828f3a7",
+                "31c1846a7132aa44"
             ]
         ],
         "l": false
@@ -11616,7 +11657,7 @@
         "z": "5e7416993281e99d",
         "g": "21ac3a19bfa57a66",
         "name": "get settings",
-        "func": "msg.payload = {\n    pinecone: global.get('pinecone') ? global.get('pinecone') : {\n        PINECONE_API: \"\",\n        PINECONE_ENV: \"\",\n        PINECONE_INDEX: \"\",\n        PINECONE_URL: \"\",\n    },\n    messages: global.get(\"messages\") ? global.get(\"messages\") : {\n        WELCOME: \"\",\n        UNABLE: \"\"\n    },\n    openai: global.get('openai') ? global.get('openai') : {\n        OPENAI_API: \"\",\n        OPENAI_MODEL: \"\",\n    },\n    // prompts: global.get(\"prompts\") ? global.get(\"prompts\") : {\n    //     ANSWER_LENGTH: \"\",\n    //     ANSWER_AS:  \"\",\n    //     TONE: \"\",\n    //     LANGUAGE: \"\",\n    //     PROMPT_CUSTOM: \"\",\n    //     TYPE_BASE: \"\",\n    //     NAME_BASE: \"\"\n    // },\n    otherTechVars: global.get(\"otherTechVars\"),\n};\n\nreturn msg;\n",
+        "func": "msg.payload = {\n    pinecone: global.get('pinecone') ? global.get('pinecone') : {\n        PINECONE_API: \"\",\n        PINECONE_ENV: \"\",\n        PINECONE_INDEX: \"\",\n        PINECONE_URL: \"\",\n    },\n    messages: global.get(\"messages\") ? global.get(\"messages\") : {\n        WELCOME: \"\",\n        UNABLE: \"\"\n    },\n    openai: global.get('openai') ? global.get('openai') : {\n        OPENAI_API: \"\",\n        OPENAI_MODEL: \"\",\n    },\n    otherTechVars: global.get(\"otherTechVars\"),\n};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -13153,6 +13194,23 @@
                 "89b9d71dd5b48135"
             ]
         ]
+    },
+    {
+        "id": "31c1846a7132aa44",
+        "type": "debug",
+        "z": "5e7416993281e99d",
+        "g": "20f41552a8bf93e6",
+        "name": "debug 815",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 1580,
+        "wires": []
     },
     {
         "id": "8e8669b0fb5ca927",
@@ -17995,7 +18053,6 @@
         "id": "1a8d8b8b1ebd8dfc",
         "type": "function",
         "z": "d41b21524ec70b11",
-        "g": "b2e9a721546c936c",
         "name": "get analytics",
         "func": "\nconst fieldsToCheck = [\n    'pinecone',\n    'WHATSAPP',\n    'telegram',\n    'openai',\n    'META',\n    'base',\n    'files'\n];\n\nconst payload = {};\n\nfieldsToCheck.forEach(field => {\n    payload[field] = global.get(field) || {};\n});\n\nfunction countEmptyAndFilledFields(obj) {\n    const result = {};\n\n    for (const key in obj) {\n        const subObj = obj[key];\n        const totalFields = Object.keys(subObj).length;\n        const filledFieldsForKey = Object.values(subObj).filter(value => value !== \"\").length;\n        const percentage = filledFieldsForKey === 0 ? 0 : ((filledFieldsForKey / totalFields) * 100).toFixed(0);\n\n        result[key] = {\n            filledFields: filledFieldsForKey,\n            totalFields: totalFields,\n            percentage: percentage\n        };\n    }\n\n    const totalFields = Object.values(result).reduce((acc, curr) => acc + curr.totalFields, 0);\n    const filledFields = Object.values(result).reduce((acc, curr) => acc + curr.filledFields, 0);\n    const totalPercentage = filledFields === 0 ? 0 : ((filledFields / totalFields) * 100).toFixed(0);\n\n    result[\"total\"] = {\n        filledFields: filledFields,\n        totalFields: totalFields,\n        percentage: totalPercentage\n    };\n\n    return result;\n}\n\nconst result = countEmptyAndFilledFields(payload);\n\nconst botsFilledFields = result.WHATSAPP.filledFields + result.telegram.filledFields + result.META.filledFields;\nconst botsTotalFields = 6;\nconst settingsFilledFields = result.pinecone.filledFields + result.openai.filledFields;\nconst settingsTotalFields = 6;\nconst baseTotalFields = global.get('base')?.total ? global.get('base')?.total : 0\nconst filesTotalFields = global.get('files')?.total ? global.get('files')?.total : 0\n\nconst total = parseFloat(((botsFilledFields + settingsFilledFields + baseTotalFields + filesTotalFields)/(botsTotalFields + settingsTotalFields + baseTotalFields + filesTotalFields)) * 100).toFixed(0);\n\nmsg.payload = {\n    openai: {\n        filledFields: result.openai.filledFields,\n        totalFields: 2,},\n    bots: {\n        filledFields: botsFilledFields,\n        totalFields: botsTotalFields,\n        percentage: botsFilledFields === 0 ? 0 : ((botsFilledFields/botsTotalFields) * 100).toFixed(0)\n    },\n    settings: {\n        filledFields: settingsFilledFields,\n        totalFields: 6,\n        percentage: settingsFilledFields === 0 ? 0 : ((settingsFilledFields/settingsTotalFields ) * 100).toFixed(0)\n    },\n    base: {\n        totalFields: baseTotalFields,\n        percentage: baseTotalFields === 0 ? 0 : 100\n    },\n    files: {\n        totalFields: filesTotalFields,\n        percentage: filesTotalFields === 0 ? 0 : 100\n    },\n    total\n};\n\nreturn msg;\n",
         "outputs": 1,
@@ -18003,13 +18060,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
-        "y": 440,
+        "x": 110,
+        "y": 600,
         "wires": [
-            [
-                "9c4b61a5066b93c2",
-                "3422465e9d16734b"
-            ]
+            []
         ]
     },
     {
@@ -18085,7 +18139,7 @@
             [
                 "607c806941f44991",
                 "4439c34b24b37c0f",
-                "1a8d8b8b1ebd8dfc"
+                "64a7e11abba8b2fa"
             ]
         ]
     },
@@ -18253,7 +18307,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 120,
-        "y": 500,
+        "y": 520,
         "wires": [
             [
                 "ac28fa444438740d"
@@ -18273,7 +18327,7 @@
         "finalize": "",
         "libs": [],
         "x": 850,
-        "y": 500,
+        "y": 520,
         "wires": [
             [
                 "d85d31f6e5e71638"
@@ -18293,7 +18347,7 @@
         "finalize": "",
         "libs": [],
         "x": 280,
-        "y": 500,
+        "y": 520,
         "wires": [
             [
                 "29e8cc38a78022ce"
@@ -18312,7 +18366,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 450,
-        "y": 500,
+        "y": 520,
         "wires": [
             [
                 "2710be5a8526ba3e"
@@ -18332,7 +18386,7 @@
         "finalize": "",
         "libs": [],
         "x": 630,
-        "y": 500,
+        "y": 520,
         "wires": [
             [
                 "aeaaab8a80debb93"
@@ -18348,7 +18402,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1030,
-        "y": 500,
+        "y": 520,
         "wires": []
     },
     {
@@ -18395,6 +18449,45 @@
             []
         ],
         "l": false
+    },
+    {
+        "id": "64a7e11abba8b2fa",
+        "type": "function",
+        "z": "d41b21524ec70b11",
+        "g": "b2e9a721546c936c",
+        "name": "get analytics",
+        "func": "const fieldsToCheck = [\n    'pinecone',\n    'WHATSAPP',\n    'telegram',\n    'openai',\n    'META',\n    'instagram',\n    'customChat',\n    'base',\n    'files'\n];\n\nconst payload = {};\n\nfieldsToCheck.forEach(field => {\n    payload[field] = global.get(field) || {};\n    // node.warn([global.get(field), 'global.get(field)']);\n    // node.warn([payload[field], 'payload[field]']);\n});\n\nfunction countEmptyAndFilledFields(obj) {\n    const result = {};\n\n    for (const key in obj) {\n        const subObj = obj[key];\n        const totalFields = Object.keys(subObj).length;\n        // const filledFieldsForKey = Object.values(subObj).filter(value => value !== \"\" && value !== null && value !== undefined).length;\n        const filledFieldsForKey = Object.values(subObj).filter(value => !!value).length;\n\n        // node.warn([Object.values(subObj).filter(value => value !== \"\"), 'uuu']);\n        // node.warn([filledFieldsForKey, 'filledFieldsForKey']);\n\n        const percentage = filledFieldsForKey === 0 ? 0 : ((filledFieldsForKey / totalFields) * 100).toFixed(0);\n\n        result[key] = {\n            filledFields: filledFieldsForKey,\n            totalFields: totalFields,\n            percentage: percentage\n        };\n    }\n\n    const totalFields = Object.values(result).reduce((acc, curr) => acc + curr.totalFields, 0);\n    const filledFields = Object.values(result).reduce((acc, curr) => acc + curr.filledFields, 0);\n    const totalPercentage = filledFields === 0 ? 0 : ((filledFields / totalFields) * 100).toFixed(0);\n\n    result[\"total\"] = {\n        filledFields: filledFields,\n        totalFields: totalFields,\n        percentage: totalPercentage\n    };\n\n    return result;\n}\n\nconst result = countEmptyAndFilledFields(payload);\n        node.warn([result, 'result']);\n\nconst botsFilledFields = result.WHATSAPP.filledFields + result.telegram.filledFields + result.META.filledFields + result.instagram.filledFields + result.customChat.filledFields;\nconst botsTotalFields = 23;\n\nconst settingsFilledFields = result.pinecone.filledFields + result.openai.filledFields;\nconst settingsTotalFields = 6;\n\nconst baseTotalFields = global.get('base')?.total ? global.get('base')?.total : 0;\nconst filesTotalFields = global.get('files')?.total ? global.get('files')?.total : 0;\n\nconst total = parseFloat(((botsFilledFields + settingsFilledFields + baseTotalFields + filesTotalFields) / (botsTotalFields + settingsTotalFields + baseTotalFields + filesTotalFields)) * 100).toFixed(0);\n\nmsg.payload = {\n    openai: {\n        filledFields: result.openai.filledFields,\n        totalFields: 2},\n    bots: {\n        filledFields: botsFilledFields,\n        totalFields: botsTotalFields,\n        percentage: botsFilledFields === 0 ? 0 : ((botsFilledFields/botsTotalFields) * 100).toFixed(0)\n    },\n    settings: {\n        filledFields: settingsFilledFields,\n        totalFields: settingsTotalFields,\n        percentage: settingsFilledFields === 0 ? 0 : ((settingsFilledFields/settingsTotalFields ) * 100).toFixed(0)\n    },\n    base: {\n        totalFields: baseTotalFields,\n        percentage: baseTotalFields === 0 ? 0 : 100\n    },\n    files: {\n        totalFields: filesTotalFields,\n        percentage: filesTotalFields === 0 ? 0 : 100\n    },\n    total\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 440,
+        "wires": [
+            [
+                "9c4b61a5066b93c2",
+                "3422465e9d16734b",
+                "a65b4c8075e49df2"
+            ]
+        ]
+    },
+    {
+        "id": "a65b4c8075e49df2",
+        "type": "debug",
+        "z": "d41b21524ec70b11",
+        "g": "b2e9a721546c936c",
+        "name": "debug 814",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 430,
+        "y": 480,
+        "wires": []
     },
     {
         "id": "1f3847a732f60a22",
