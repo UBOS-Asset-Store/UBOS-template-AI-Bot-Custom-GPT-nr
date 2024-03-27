@@ -449,14 +449,14 @@
             "aeaaab8a80debb93",
             "ac28fa444438740d",
             "29e8cc38a78022ce",
-            "2710be5a8526ba3e",
             "d85d31f6e5e71638",
             "f42471de14bb6f8e",
             "3422465e9d16734b",
             "a65b4c8075e49df2",
             "83adc08423912a66",
             "c3880fe0ab88d4f2",
-            "a0f3a2c3f09c319d"
+            "a0f3a2c3f09c319d",
+            "f441f88803387128"
         ],
         "x": 34,
         "y": 19,
@@ -1073,7 +1073,9 @@
             "69d78287c809cd74"
         ],
         "x": 34,
-        "y": 2839
+        "y": 2839,
+        "w": 932,
+        "h": 82
     },
     {
         "id": "d5f3c34635f35708",
@@ -1108,7 +1110,9 @@
             "b7408a0e68d108ab"
         ],
         "x": 74,
-        "y": 39
+        "y": 39,
+        "w": 1272,
+        "h": 382
     },
     {
         "id": "d5a9a22192fa1989",
@@ -1142,7 +1146,9 @@
             "1532d34b97a987c7"
         ],
         "x": 74,
-        "y": 499
+        "y": 499,
+        "w": 1412,
+        "h": 362
     },
     {
         "id": "df739382769ae8ae",
@@ -1178,7 +1184,9 @@
             "5274b2fd8878f639"
         ],
         "x": 64,
-        "y": 1399
+        "y": 1399,
+        "w": 1412,
+        "h": 382
     },
     {
         "id": "9c9bc0ca2320ad1b",
@@ -1213,7 +1221,9 @@
             "f7307a19280a4d92"
         ],
         "x": 74,
-        "y": 919
+        "y": 919,
+        "w": 1412,
+        "h": 422
     },
     {
         "id": "dd4d6fdf1b601b09",
@@ -1711,7 +1721,9 @@
             "3794164b8e8bf146"
         ],
         "x": 44,
-        "y": 39
+        "y": 39,
+        "w": 1922,
+        "h": 1168
     },
     {
         "id": "905fd980afcc413b",
@@ -1738,7 +1750,9 @@
             "67465e3808e9e765"
         ],
         "x": 1334,
-        "y": 1619
+        "y": 1619,
+        "w": 1112,
+        "h": 122
     },
     {
         "id": "204e41e815b84721",
@@ -1764,7 +1778,9 @@
             "32c0f876c2302cd8"
         ],
         "x": 74,
-        "y": 959
+        "y": 959,
+        "w": 852,
+        "h": 222
     },
     {
         "id": "d2fba984a07da085",
@@ -7207,7 +7223,7 @@
         "type": "function",
         "z": "f48a32dcae7a25f2",
         "name": "Prepare Data",
-        "func": "const customChatData = global.get('customChat');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst userIdx = msg.payload.inputs.userIdx;\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === customChatData.id_base);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: userIdx,\n        username: userIdx,\n        type: 'custom',\n        content: msg.payload.inputs.input,\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n}\n\nreturn msg;\n",
+        "func": "const customChatData = global.get('customChat');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst userIdx = msg.payload.inputs.userIdx;\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === customChatData.id_base);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: userIdx,\n        username: userIdx,\n        type: 'custom',\n        content: msg.payload.inputs.input,\n        messengerType: 'custom',\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n}\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -18349,27 +18365,7 @@
         "y": 520,
         "wires": [
             [
-                "2710be5a8526ba3e"
-            ]
-        ]
-    },
-    {
-        "id": "2710be5a8526ba3e",
-        "type": "function",
-        "z": "d41b21524ec70b11",
-        "g": "b2e9a721546c936c",
-        "name": "function 394",
-        "func": "msg.payload={\n    telegram: msg.payload.filter(e => e.type ==='telegram'),\n    messanger: msg.payload.filter(e => e.type === 'messanger'),\n    whatsApp: msg.payload.filter(e => e.type === 'whatsApp'),\n    instagram: msg.payload.filter(e => e.type === 'instagram'),\n    custom: msg.payload.filter(e => e.type === 'custom'),\n    total: msg.payload.length\n\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 630,
-        "y": 520,
-        "wires": [
-            [
-                "aeaaab8a80debb93"
+                "f441f88803387128"
             ]
         ]
     },
@@ -18533,6 +18529,43 @@
         "y": 720,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "2710be5a8526ba3e",
+        "type": "function",
+        "z": "d41b21524ec70b11",
+        "name": "function 394",
+        "func": "msg.payload={\n    telegram: msg.payload.filter(e => e.type ==='telegram'),\n    messanger: msg.payload.filter(e => e.type === 'messanger'),\n    whatsApp: msg.payload.filter(e => e.type === 'whatsApp'),\n    instagram: msg.payload.filter(e => e.type === 'instagram'),\n    custom: msg.payload.filter(e => e.type === 'custom'),\n    total: msg.payload.length\n\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f441f88803387128",
+        "type": "function",
+        "z": "d41b21524ec70b11",
+        "g": "b2e9a721546c936c",
+        "name": "function 394",
+        "func": "msg.payload = {\n    telegram: msg.payload.filter(e => e.messengerType === 'telegram'),\n    messanger: msg.payload.filter(e => e.messengerType === 'messanger'),\n    whatsApp: msg.payload.filter(e => e.messengerType === 'whatsApp'),\n    instagram: msg.payload.filter(e => e.messengerType === 'instagram'),\n    custom: msg.payload.filter(e => e.messengerType === 'custom'),\n    total: msg.payload.length,\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 520,
+        "wires": [
+            [
+                "aeaaab8a80debb93"
+            ]
         ]
     },
     {
@@ -19014,7 +19047,7 @@
         "z": "7e6aa2730f443095",
         "g": "d5f3c34635f35708",
         "name": "Prepare Data",
-        "func": "const telegramData = global.get('telegram');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === telegramData.id_base)\n\nnode.warn(data);\n\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ?\n    msg.fromTG.content.replace(`@${msg.BOT_NAME}`, '') :\n    msg.fromTG.content;\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.fromTG.chatId,\n        username: msg.fromTG.username ? msg.fromTG.username : msg.originalMessage.from.first_name,\n        type: msg.fromTG.type,\n        content,\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nreturn msg;\n",
+        "func": "const telegramData = global.get('telegram');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === telegramData.id_base)\n\nnode.warn(data);\n\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ?\n    msg.fromTG.content.replace(`@${msg.BOT_NAME}`, '') :\n    msg.fromTG.content;\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.fromTG.chatId,\n        username: msg.fromTG.username ? msg.fromTG.username : msg.originalMessage.from.first_name,\n        type: msg.fromTG.type,\n        content,\n        messengerType: msg.history.type,\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -19521,7 +19554,7 @@
         "z": "7e6aa2730f443095",
         "g": "d5a9a22192fa1989",
         "name": "Prepare Data",
-        "func": "const whatsAppData = global.get('WHATSAPP');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === whatsAppData.id_base);\n\nnode.warn(data);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.fromWhatsApp.entry[0].changes[0].value.contacts[0].wa_id.toString(),\n        username: msg.fromWhatsApp.entry[0].changes[0].value.contacts[0].profile.name,\n        type: msg.fromWhatsApp.entry[0].changes[0].value.messages[0].type,\n        content: msg.fromWhatsApp.entry[0].changes[0].value.messages[0].text.body,\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nnode.warn(msg.payload);\n\nreturn msg;\n",
+        "func": "const whatsAppData = global.get('WHATSAPP');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === whatsAppData.id_base);\n\nnode.warn(data);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.fromWhatsApp.entry[0].changes[0].value.contacts[0].wa_id.toString(),\n        username: msg.fromWhatsApp.entry[0].changes[0].value.contacts[0].profile.name,\n        type: msg.fromWhatsApp.entry[0].changes[0].value.messages[0].type,\n        content: msg.fromWhatsApp.entry[0].changes[0].value.messages[0].text.body,\n        messengerType: 'whatsApp',\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nnode.warn(msg.payload);\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -19848,7 +19881,7 @@
         "z": "7e6aa2730f443095",
         "g": "df739382769ae8ae",
         "name": "Prepare Data",
-        "func": "const instagramData = global.get('instagram');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === instagramData.id_base);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM + 'Answer length maximum 800 characters!',\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.old.entry[0].messaging[0].sender.id,\n        username: msg.old.entry[0].messaging[0].sender.id,\n        content: msg.old.entry[0].messaging[0].message.text,\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nnode.warn(msg.payload);\n\nreturn msg;\n",
+        "func": "const instagramData = global.get('instagram');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === instagramData.id_base);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM + 'Answer length maximum 800 characters!',\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.old.entry[0].messaging[0].sender.id,\n        username: msg.old.entry[0].messaging[0].sender.id,\n        content: msg.old.entry[0].messaging[0].message.text,\n        messengerType: 'instagram',\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nnode.warn(msg.payload);\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -20308,7 +20341,7 @@
         "z": "7e6aa2730f443095",
         "g": "9c9bc0ca2320ad1b",
         "name": "Prepare Data",
-        "func": "const messengerData = global.get('META');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === messengerData.id_base);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.old.entry[0].messaging[0].sender.id,\n        username: msg.old.entry[0].messaging[0].sender.id,\n        // type: msg.old.entry[0].changes[0]?.value.messages[0].type && 'TYPETESTTESTEST',\n        content: msg.old.entry[0].messaging[0].message.text\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nnode.warn(msg.payload);\n\nreturn msg;\n",
+        "func": "const messengerData = global.get('META');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === messengerData.id_base);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.old.entry[0].messaging[0].sender.id,\n        username: msg.old.entry[0].messaging[0].sender.id,\n        // type: msg.old.entry[0].changes[0]?.value.messages[0].type && 'TYPETESTTESTEST',\n        content: msg.old.entry[0].messaging[0].message.text,\n        messengerType: 'messanger',\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nnode.warn(msg.payload);\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
