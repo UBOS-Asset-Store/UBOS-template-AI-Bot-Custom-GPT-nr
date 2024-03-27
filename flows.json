@@ -459,9 +459,7 @@
             "9b7f854b6d10a072"
         ],
         "x": 34,
-        "y": 19,
-        "w": 1252,
-        "h": 582
+        "y": 19
     },
     {
         "id": "d5f776f7723294b2",
@@ -494,9 +492,7 @@
             "53d5d61c6a1232fd"
         ],
         "x": 14,
-        "y": 19,
-        "w": 812,
-        "h": 422
+        "y": 19
     },
     {
         "id": "2e6e4e61c61cc1ec",
@@ -611,9 +607,7 @@
             "499f061480815403"
         ],
         "x": 34,
-        "y": 19,
-        "w": 1032,
-        "h": 562
+        "y": 19
     },
     {
         "id": "9f3a08dadb8626c3",
@@ -982,7 +976,9 @@
             "f335724ffaafefc1"
         ],
         "x": 34,
-        "y": 559
+        "y": 559,
+        "w": 1992,
+        "h": 402
     },
     {
         "id": "78ec20634862824d",
@@ -1112,9 +1108,7 @@
             "b7408a0e68d108ab"
         ],
         "x": 74,
-        "y": 39,
-        "w": 1272,
-        "h": 382
+        "y": 39
     },
     {
         "id": "d5a9a22192fa1989",
@@ -1148,9 +1142,7 @@
             "1532d34b97a987c7"
         ],
         "x": 74,
-        "y": 499,
-        "w": 1412,
-        "h": 362
+        "y": 499
     },
     {
         "id": "df739382769ae8ae",
@@ -1186,9 +1178,7 @@
             "5274b2fd8878f639"
         ],
         "x": 64,
-        "y": 1399,
-        "w": 1412,
-        "h": 382
+        "y": 1399
     },
     {
         "id": "9c9bc0ca2320ad1b",
@@ -1223,9 +1213,7 @@
             "f7307a19280a4d92"
         ],
         "x": 74,
-        "y": 919,
-        "w": 1412,
-        "h": 422
+        "y": 919
     },
     {
         "id": "dd4d6fdf1b601b09",
@@ -1613,7 +1601,9 @@
             "ce920f2d4f224a0c"
         ],
         "x": 44,
-        "y": 59
+        "y": 59,
+        "w": 1502,
+        "h": 462
     },
     {
         "id": "18e308d36025c38f",
@@ -4988,7 +4978,7 @@
         "z": "88bba2923a31d3e7",
         "g": "4aa44aa75910cb5b",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"customPrompts\").find(e => e.ID === msg.reqFromApp.idDB);\nlet totalPrompt = (\n  PROMPT &&\n  PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n  PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n  PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n  PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n  `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n  \"Answer as friend\";\n\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.content;\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": ''},\n    { \"role\": \"user\", \"content\": content }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + \". \" +  msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": content }\n  ]\n}\nnode.warn(msg.payload.matches )\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\ndelete msg.url;\n\nlet PROMPT = global.get(\"customPrompts\").find(e => e.ID === msg.reqFromApp.idDB);\nlet totalPrompt = (\n  PROMPT &&\n  PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n  PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n  PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n  PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n  `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n  \"Answer as friend\";\n\nmsg.model = global.get('openai').OPENAI_MODEL;\n\nconst content = msg.content;\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": ''},\n    { \"role\": \"user\", \"content\": content }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + \". \" +  msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": content }\n  ]\n}\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -5098,7 +5088,7 @@
         "z": "88bba2923a31d3e7",
         "g": "4aa44aa75910cb5b",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"customPrompts\").find(e => e.ID === msg.reqFromApp.idDB);\nnode.warn(PROMPT);\nlet totalPrompt = (\n    PROMPT &&\n    PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n    PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n    PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n    PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n    `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n    \"Answer as friend\";\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.content\nlet result = msg.payload.metadatas[0].filter(e => e !== null).map(e => e.result)\nnode.warn(result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" + JSON.stringify(result) },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\ndelete msg.url;\n\nlet PROMPT = global.get(\"customPrompts\").find(e => e.ID === msg.reqFromApp.idDB);\nnode.warn(PROMPT);\nlet totalPrompt = (\n    PROMPT &&\n    PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n    PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n    PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n    PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n    `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n    \"Answer as friend\";\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.content\nlet result = msg.payload.metadatas[0].filter(e => e !== null).map(e => e.result)\n\n\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" + JSON.stringify(result) },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
