@@ -6,9 +6,6 @@
     "4b07803a52e468f5": {
         "token": "{global.get('telegram').BOT_TOKEN}"
     },
-    "a32b312f472ff9d3": {
-        "token": "6851144846:AAFN9436UTwqQRcevfxhLM-nVHoo8gvk_Sg"
-    },
     "0acde57a56398a13": {},
     "08dc9965958afe02": {},
     "1f8abad405f202d8": {},
