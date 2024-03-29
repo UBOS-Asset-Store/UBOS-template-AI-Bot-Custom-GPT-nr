@@ -444,7 +444,6 @@
             "a39c04b1a194abb2",
             "77f9a77fb339192c",
             "9c4b61a5066b93c2",
-            "1a8d8b8b1ebd8dfc",
             "4439c34b24b37c0f",
             "e370a5d5f2146b8e",
             "f13caa9f1432e301",
@@ -460,15 +459,19 @@
             "aeaaab8a80debb93",
             "ac28fa444438740d",
             "29e8cc38a78022ce",
-            "2710be5a8526ba3e",
             "d85d31f6e5e71638",
             "f42471de14bb6f8e",
-            "3422465e9d16734b"
+            "3422465e9d16734b",
+            "83adc08423912a66",
+            "a0f3a2c3f09c319d",
+            "f441f88803387128",
+            "37e79a6bf6aad79b",
+            "9b7f854b6d10a072"
         ],
         "x": 34,
         "y": 19,
-        "w": 1072,
-        "h": 522
+        "w": 1252,
+        "h": 582
     },
     {
         "id": "d5f776f7723294b2",
@@ -615,13 +618,13 @@
             "bef28f2fe23088bd",
             "a1df828fad87161e",
             "e5800b24f11dd243",
-            "5cd893ede34c2edb",
             "1b07b671b402e285",
-            "71cd22f3e06a84bc"
+            "71cd22f3e06a84bc",
+            "499f061480815403"
         ],
         "x": 34,
         "y": 19,
-        "w": 892,
+        "w": 1032,
         "h": 562
     },
     {
@@ -668,10 +671,10 @@
             "8b3909912726c770",
             "585d9d6095d0ca5b",
             "e5114daa61488a15",
-            "0664e6c3fa1f6132",
-            "f58cc1c13181dcf1",
             "e44521ccd19c79c6",
-            "83e748ec96c13946"
+            "83e748ec96c13946",
+            "fbe908c58e49cc11",
+            "c5789583232edcec"
         ],
         "x": 2334,
         "y": 559,
@@ -828,27 +831,25 @@
             "5568b48503199d40",
             "a4d5073f86bac61a",
             "beb60e5c829cdb4d",
-            "1209cc0fb0a890cd",
             "f2de3aef43efb57a",
-            "c59352ee6aec7d0d",
-            "e656959b6bb65df8",
-            "a609f6927ac45615",
-            "d5550fe9f265b396",
-            "22f96893b0c97739",
-            "0b4ff76f2b117a6a",
             "42f4b904318f58db",
             "e153d69d12f7bf65",
-            "eabf87c97c2af554",
-            "76aba1958ede1343",
-            "2e9f40767ad997f4",
             "9535311b6e134e56",
             "a13ac4faa9787ceb",
-            "2a6a66b31c5f460c"
+            "2a6a66b31c5f460c",
+            "bb9dbef8cb45196e",
+            "5eda3b19b578b0ac",
+            "3260f265fa428202",
+            "3f3a21d3049ec80e",
+            "261006cbdbc71918",
+            "e114910054609b89",
+            "70759d96362c3dd0",
+            "6288f77b267af38e"
         ],
-        "x": null,
-        "y": null,
-        "w": null,
-        "h": null
+        "x": 34,
+        "y": 1259,
+        "w": 1392,
+        "h": 1542
     },
     {
         "id": "42b214503281ca7c",
@@ -997,8 +998,8 @@
             "c65e3faa54f5bb92",
             "772eac6cc3a332be",
             "bd6c2ef535cd2431",
-            "4737e8eb4e3bf517",
-            "ea3c9a01daa0a075"
+            "3a2150871dc150d7",
+            "f335724ffaafefc1"
         ],
         "x": 34,
         "y": 559,
@@ -1078,10 +1079,10 @@
             "12953714d1fc22a0",
             "166fae3726e1c702"
         ],
-        "x": null,
-        "y": null,
-        "w": null,
-        "h": null
+        "x": 34,
+        "y": 2059,
+        "w": 3652,
+        "h": 922
     },
     {
         "id": "96ff04cf0133a4da",
@@ -1133,12 +1134,13 @@
             "fdabb9a2863f4f8f",
             "ca333a2f720b8f48",
             "38fa734109685e32",
-            "bb8dcd37c0b9c95b"
+            "bb8dcd37c0b9c95b",
+            "b7408a0e68d108ab"
         ],
-        "x": null,
-        "y": null,
-        "w": null,
-        "h": null
+        "x": 74,
+        "y": 39,
+        "w": 1272,
+        "h": 382
     },
     {
         "id": "d5a9a22192fa1989",
@@ -1299,8 +1301,10 @@
             "4badd197346ea811",
             "eaaca9d693f47d9e",
             "eaf66c35a0857e01",
-            "ddd8ee138059b10f",
-            "d2af17549ceaa392"
+            "d2af17549ceaa392",
+            "7b2cb52638e4be02",
+            "cb3df391fe8b164d",
+            "ef8e6acb3a85f5f5"
         ],
         "x": 74,
         "y": 279,
@@ -1419,12 +1423,13 @@
             "4c812ed941d51f84",
             "af191a7e64081653",
             "70118f402d0f03ac",
-            "d04767856f0cbf5a"
+            "d04767856f0cbf5a",
+            "31c1846a7132aa44"
         ],
         "x": 54,
-        "y": 1559,
+        "y": 1539,
         "w": 1212,
-        "h": 202
+        "h": 222
     },
     {
         "id": "af65f71384d80c06",
@@ -1653,9 +1658,9 @@
             "3324634c09c548bf",
             "3d046ba4c916941d",
             "98d191edffa2ef5e",
-            "a85ba356b00c51b0",
-            "3e35edc6870bb62a",
-            "b5e7257a9c0d3132"
+            "b5e7257a9c0d3132",
+            "f2494cd54995781c",
+            "ce920f2d4f224a0c"
         ],
         "x": 44,
         "y": 59,
@@ -1767,43 +1772,14 @@
             "e4c8bd17eedcaeed",
             "42f5817a459be45e",
             "204e41e815b84721",
-            "f84c2cc6c68ba6a7",
-            "6905d97ea2de0acf",
-            "58b8200a69e4d828"
+            "a0ce9ee1febae5a6",
+            "38b4274e72f57864",
+            "3794164b8e8bf146"
         ],
-        "x": null,
-        "y": null,
-        "w": null,
-        "h": null
-    },
-    {
-        "id": "905fd980afcc413b",
-        "type": "group",
-        "z": "f48a32dcae7a25f2",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "73c9394419e72ccc",
-            "4119659198e26fff",
-            "50ab29d8cd2fc7f7",
-            "6f33b11416d1c962",
-            "e3392f6d242f1e1e",
-            "23c3b030710aaea0",
-            "98be89e169e716c6",
-            "d4d0c21c06be4a8f",
-            "67465e3808e9e765"
-        ],
-        "x": 1334,
-        "y": 1619,
-        "w": 1112,
-        "h": 122
+        "x": 44,
+        "y": 39,
+        "w": 1922,
+        "h": 1168
     },
     {
         "id": "204e41e815b84721",
@@ -1828,10 +1804,10 @@
             "5cd31c58f735fafb",
             "32c0f876c2302cd8"
         ],
-        "x": null,
-        "y": null,
-        "w": null,
-        "h": null
+        "x": 74,
+        "y": 959,
+        "w": 852,
+        "h": 222
     },
     {
         "id": "d2fba984a07da085",
@@ -1851,11 +1827,51 @@
         "id": "8161750f4f47fda0",
         "type": "junction",
         "z": "27ce80b8fbcd825f",
-        "x": 1500,
+        "x": 1520,
         "y": 280,
         "wires": [
             [
-                "61328cedf50576b3"
+                "59b43acb3a16e751"
+            ]
+        ]
+    },
+    {
+        "id": "83adc08423912a66",
+        "type": "junction",
+        "z": "d41b21524ec70b11",
+        "g": "b2e9a721546c936c",
+        "x": 620,
+        "y": 360,
+        "wires": [
+            [
+                "3422465e9d16734b",
+                "9c4b61a5066b93c2"
+            ]
+        ]
+    },
+    {
+        "id": "37e79a6bf6aad79b",
+        "type": "junction",
+        "z": "d41b21524ec70b11",
+        "g": "b2e9a721546c936c",
+        "x": 300,
+        "y": 260,
+        "wires": [
+            [
+                "4439c34b24b37c0f"
+            ]
+        ]
+    },
+    {
+        "id": "9b7f854b6d10a072",
+        "type": "junction",
+        "z": "d41b21524ec70b11",
+        "g": "b2e9a721546c936c",
+        "x": 300,
+        "y": 460,
+        "wires": [
+            [
+                "607c806941f44991"
             ]
         ]
     },
@@ -1890,31 +1906,6 @@
         "verboselogging": false
     },
     {
-        "id": "a32b312f472ff9d3",
-        "type": "telegram bot",
-        "botname": "intentPay_bot",
-        "usernames": "",
-        "chatids": "",
-        "baseapiurl": "",
-        "updatemode": "polling",
-        "pollinterval": "300",
-        "usesocks": false,
-        "sockshost": "",
-        "socksprotocol": "socks5",
-        "socksport": "6667",
-        "socksusername": "anonymous",
-        "sockspassword": "",
-        "bothost": "",
-        "botpath": "",
-        "localbotport": "8443",
-        "publicbotport": "8443",
-        "privatekey": "",
-        "certificate": "",
-        "useselfsignedcertificate": false,
-        "sslterminated": false,
-        "verboselogging": false
-    },
-    {
         "id": "7908a755f1520aa7",
         "type": "mongodb",
         "hostname": "${AIBOTDB-MONGO-HOST-NAME}",
@@ -1922,16 +1913,6 @@
         "connectOptions": "authSource=admin",
         "port": "27017",
         "db": "${AIBOTDB-MONGO-DB-NAME}",
-        "name": ""
-    },
-    {
-        "id": "f168eeb2f9b6dc07",
-        "type": "mongodb",
-        "hostname": "${VIDEOAIDB-MONGO-HOST-NAME}",
-        "topology": "direct",
-        "connectOptions": "authSource=admin",
-        "port": "27017",
-        "db": "${VIDEOAIDB-MONGO-DB-NAME}",
         "name": ""
     },
     {
@@ -2200,7 +2181,31 @@
         "x": 510,
         "y": 80,
         "wires": [
-            []
+            [
+                "f2ce323afb8655b3"
+            ]
+        ]
+    },
+    {
+        "id": "f2ce323afb8655b3",
+        "type": "array-loop",
+        "z": "52166c6adc5d5d26",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 700,
+        "y": 80,
+        "wires": [
+            [
+                "4da1b5bb2b2535c6"
+            ],
+            [
+                "a74508c2d541dd8a"
+            ]
         ]
     },
     {
@@ -2216,7 +2221,9 @@
         "x": 860,
         "y": 140,
         "wires": [
-            []
+            [
+                "f2ce323afb8655b3"
+            ]
         ]
     },
     {
@@ -2265,7 +2272,7 @@
         "type": "function",
         "z": "27ce80b8fbcd825f",
         "name": "to AI embedding-ada",
-        "func": "msg.input = msg.UNIFIED_DATA.chat.content;\nmsg.model = \"text-embedding-ada-002\";\n\nreturn msg;\n",
+        "func": "msg.input = msg.UNIFIED_DATA.chat.content;\nmsg.model = \"text-embedding-ada-002\";\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -2275,7 +2282,7 @@
         "y": 280,
         "wires": [
             [
-                "37b26fc0aa550d90"
+                "2930500347b75ae1"
             ]
         ]
     },
@@ -2284,7 +2291,7 @@
         "type": "function",
         "z": "27ce80b8fbcd825f",
         "name": "Input Data Unification",
-        "func": "const UNIFIED_DATA = {\n    BOT_NAME: msg.payload.BOT_NAME || null,\n    DATABASE: {\n        'TYPE_BASE': msg.payload.DATABASE?.TYPE_BASE || null,\n        'NAME_BASE': msg.payload.DATABASE?.NAME_BASE || null,\n    },\n    NUMBER_OF_ANSWERS_VDB: msg.payload.NUMBER_OF_ANSWERS_VDB ? msg.payload.NUMBER_OF_ANSWERS_VDB : 2, \n    PINECONE: {\n        INDEX: msg.payload.PINECONE?.INDEX || null,\n        API_KEY: msg.payload.PINECONE?.API_KEY || null,\n        ENVIRONMENT: msg.payload.PINECONE?.ENVIRONMENT || null,\n        BASE_URL: msg.payload.PINECONE?.BASE_URL || null,\n    },\n    CHROMA_LINK: msg.payload.CHROMA_LINK,\n    OPENAI_KEY: msg.payload.OPENAI_KEY,\n    BASE_URL: msg.payload.BASE_URL,\n    PREPARED_MESSAGES: {\n        WELCOME: msg.payload.PREPARED_MESSAGES?.WELCOME ? msg.payload.PREPARED_MESSAGES.WELCOME : 'HELLO! 🙂',\n        ERROR: msg.payload.PREPARED_MESSAGES?.ERROR ? msg.payload.PREPARED_MESSAGES.ERROR : 'Oops something went wrong 😔',\n    },\n    AI_SETTINGS: {\n        ANSWER_AS: msg.payload.AI_SETTINGS?.ANSWER_AS || 'Friend',\n        TONE: msg.payload.AI_SETTINGS?.TONE || 'Formal',\n        LANGUAGE: msg.payload.AI_SETTINGS?.LANGUAGE || 'English',\n        ANSWER_LENGTH: msg.payload.AI_SETTINGS?.ANSWER_LENGTH || 'Small',\n        PROMPT_CUSTOM: msg.payload.AI_SETTINGS?.PROMPT_CUSTOM || 'You are a polite assistant',\n        OPENAI_MODEL: msg.payload.AI_SETTINGS?.OPENAI_MODEL || 'gpt-3.5-turbo',\n    },\n    chat: {\n        type: msg.payload.chat?.type,\n        id: msg.payload.chat?.id && msg.payload.chat?.id.toString(),\n        username: msg.payload.chat?.username,\n        content: msg.payload.chat?.content,\n    },\n    startDate: Date.now(),\n};\n\nnode.warn(UNIFIED_DATA);\n\nmsg.OPENAI_API_KEY = UNIFIED_DATA.OPENAI_KEY;\nmsg.UNIFIED_DATA = UNIFIED_DATA;\nmsg.history = {\n    BOT_NAME: UNIFIED_DATA.BOT_NAME,\n    DATABASE: UNIFIED_DATA.DATABASE,\n    AI_SETTINGS: UNIFIED_DATA.AI_SETTINGS,\n    question: UNIFIED_DATA.chat.content,\n    startDate: UNIFIED_DATA.startDate,\n};\n\nreturn msg;\n",
+        "func": "const UNIFIED_DATA = {\n    BOT_NAME: msg.payload.BOT_NAME || null,\n    DATABASE: {\n        'TYPE_BASE': msg.payload.DATABASE?.TYPE_BASE || null,\n        'NAME_BASE': msg.payload.DATABASE?.NAME_BASE || null,\n    },\n    NUMBER_OF_ANSWERS_VDB: msg.payload.NUMBER_OF_ANSWERS_VDB ? msg.payload.NUMBER_OF_ANSWERS_VDB : 2, \n    PINECONE: {\n        INDEX: msg.payload.PINECONE?.INDEX || null,\n        API_KEY: msg.payload.PINECONE?.API_KEY || null,\n        ENVIRONMENT: msg.payload.PINECONE?.ENVIRONMENT || null,\n        BASE_URL: msg.payload.PINECONE?.BASE_URL || null,\n    },\n    CHROMA_LINK: msg.payload.CHROMA_LINK,\n    OPENAI_KEY: msg.payload.OPENAI_KEY,\n    BASE_URL: msg.payload.BASE_URL,\n    PREPARED_MESSAGES: {\n        WELCOME: msg.payload.PREPARED_MESSAGES?.WELCOME ? msg.payload.PREPARED_MESSAGES.WELCOME : 'HELLO! 🙂',\n        ERROR: msg.payload.PREPARED_MESSAGES?.ERROR ? msg.payload.PREPARED_MESSAGES.ERROR : 'Oops something went wrong 😔',\n    },\n    AI_SETTINGS: {\n        ANSWER_AS: msg.payload.AI_SETTINGS?.ANSWER_AS || 'Friend',\n        TONE: msg.payload.AI_SETTINGS?.TONE || 'Formal',\n        LANGUAGE: msg.payload.AI_SETTINGS?.LANGUAGE || 'English',\n        ANSWER_LENGTH: msg.payload.AI_SETTINGS?.ANSWER_LENGTH || 'Small',\n        PROMPT_CUSTOM: msg.payload.AI_SETTINGS?.PROMPT_CUSTOM || 'You are a polite assistant',\n        OPENAI_MODEL: msg.payload.AI_SETTINGS?.OPENAI_MODEL || 'gpt-3.5-turbo',\n    },\n    chat: {\n        type: msg.payload.chat?.type,\n        id: msg.payload.chat?.id && msg.payload.chat?.id.toString(),\n        username: msg.payload.chat?.username,\n        content: msg.payload.chat?.content,\n        messengerType: msg.payload.chat?.messengerType,\n    },\n    startDate: Date.now(),\n};\n\nnode.warn(UNIFIED_DATA);\n\nmsg.OPENAI_API_KEY = UNIFIED_DATA.OPENAI_KEY;\nmsg.UNIFIED_DATA = UNIFIED_DATA;\nmsg.history = {\n    BOT_NAME: UNIFIED_DATA.BOT_NAME,\n    DATABASE: UNIFIED_DATA.DATABASE,\n    AI_SETTINGS: UNIFIED_DATA.AI_SETTINGS,\n    question: UNIFIED_DATA.chat.content,\n    startDate: UNIFIED_DATA.startDate,\n    messengerType: UNIFIED_DATA.chat.messengerType,\n};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -2341,7 +2348,8 @@
         "y": 120,
         "wires": [
             [
-                "2bd82ed72cf97054"
+                "2bd82ed72cf97054",
+                "65404bb5e190d7d9"
             ]
         ]
     },
@@ -2368,7 +2376,10 @@
         "x": 1000,
         "y": 240,
         "wires": [
-            []
+            [
+                "17c61ad43fed7c57",
+                "c35b382786f52e43"
+            ]
         ]
     },
     {
@@ -2386,7 +2397,8 @@
         "y": 480,
         "wires": [
             [
-                "7f5f8f7f9a4f088d"
+                "7f5f8f7f9a4f088d",
+                "e30e04b5bc084fd8"
             ]
         ]
     },
@@ -2394,7 +2406,7 @@
         "id": "2bd82ed72cf97054",
         "type": "pinecone-vector-ubos",
         "z": "27ce80b8fbcd825f",
-        "name": "demoversion",
+        "name": "PineconeDB",
         "actionType": "query",
         "apiKey": "",
         "environment": "",
@@ -2403,6 +2415,22 @@
         "wires": [
             [
                 "efc2c7680dbc24cc"
+            ]
+        ]
+    },
+    {
+        "id": "17c61ad43fed7c57",
+        "type": "chromadb-collection",
+        "z": "27ce80b8fbcd825f",
+        "remoteServer": "92b09c9cd170f8a8",
+        "name": "ChromaDB",
+        "collection": "",
+        "operation": "query",
+        "x": 1170,
+        "y": 240,
+        "wires": [
+            [
+                "be9cfd37213efd9a"
             ]
         ]
     },
@@ -2429,18 +2457,19 @@
         "id": "efc2c7680dbc24cc",
         "type": "function",
         "z": "27ce80b8fbcd825f",
-        "name": "create vector",
-        "func": "node.warn(msg);\n\ndelete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nlet PROMPT = msg.UNIFIED_DATA.AI_SETTINGS;\nlet totalPrompt = `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}`;\n\nmsg.model = msg.UNIFIED_DATA.AI_SETTINGS.OPENAI_MODEL;\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt },\n    { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n  ]\n} else {\n  const vectorsForPrompt = msg.payload?.matches\n    .map(vector => vector.metadata.result)\n    .join(', ');\n\n  node.warn(msg.payload?.matches);\n  node.warn(vectorsForPrompt);\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": `${totalPrompt}. ${vectorsForPrompt}`},\n    { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n  ]\n}\n\nmsg.history.fullPromptToAI = msg.messages[0].content;\nmsg.history.vectors = msg.payload.matches.map((vector, i) => {\n  return {\n    question: vector.metadata.question,\n    result: vector.metadata.result,\n    distance: vector.score,\n    document: vector.metadata.url,\n  }\n})\nreturn msg;\n",
+        "name": "create answer",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nlet PROMPT = msg.UNIFIED_DATA.AI_SETTINGS;\nlet totalPrompt = `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}`;\n\nmsg.model = msg.UNIFIED_DATA.AI_SETTINGS.OPENAI_MODEL;\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt },\n    { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n  ]\n} else {\n  const vectorsForPrompt = msg.payload?.matches\n    .map(vector => vector.metadata.result)\n    .join(', ');\n\n  node.warn(msg.payload?.matches);\n  node.warn(vectorsForPrompt);\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": `${totalPrompt}. ${vectorsForPrompt}`},\n    { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n  ]\n}\n\nmsg.history.fullPromptToAI = msg.messages[0].content;\nmsg.history.vectors = msg.payload.matches.map((vector, i) => {\n  return {\n    question: vector.metadata.question,\n    result: vector.metadata.result,\n    distance: vector.score,\n    document: vector.metadata.url,\n  }\n})\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1350,
+        "x": 1360,
         "y": 120,
         "wires": [
             [
-                "8161750f4f47fda0"
+                "8161750f4f47fda0",
+                "c3c3a388b8f5670f"
             ]
         ]
     },
@@ -2448,18 +2477,19 @@
         "id": "be9cfd37213efd9a",
         "type": "function",
         "z": "27ce80b8fbcd825f",
-        "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nlet PROMPT = msg.UNIFIED_DATA.AI_SETTINGS;\nlet totalPrompt = `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}`;\n\nmsg.model = msg.UNIFIED_DATA.AI_SETTINGS.OPENAI_MODEL;\n\nlet result = msg.payload.metadatas[0].filter(e => e !== null).map(e => e.result)\n\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt },\n        { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" + JSON.stringify(result) },\n        { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n    ]\n}\n\nmsg.history.fullPromptToAI = msg.messages[0].content;\nmsg.history.vectors = msg.payload.metadatas[0].map((_, i) => {\n    return {\n        ...msg.payload.metadatas[0][i],\n        distance: msg.payload.distances[0][i],\n        document: msg.payload.documents[0][i],\n    }\n})\n\nreturn msg;\n",
+        "name": "create answer",
+        "func": "delete msg.url;\n\nlet PROMPT = msg.UNIFIED_DATA.AI_SETTINGS;\nlet totalPrompt = `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}`;\n\nmsg.model = msg.UNIFIED_DATA.AI_SETTINGS.OPENAI_MODEL;\n\nlet result = msg.payload.metadatas[0].filter(e => e !== null).map(e => e.result)\n\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt },\n        { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" + JSON.stringify(result) },\n        { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n    ]\n}\n\nmsg.history.fullPromptToAI = msg.messages[0].content;\nmsg.history.vectors = msg.payload.metadatas[0].map((_, i) => {\n    return {\n        ...msg.payload.metadatas[0][i],\n        distance: msg.payload.distances[0][i],\n        document: msg.payload.documents[0][i],\n    }\n})\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1370,
+        "x": 1360,
         "y": 240,
         "wires": [
             [
-                "8161750f4f47fda0"
+                "8161750f4f47fda0",
+                "8342d1bac7bf9e0e"
             ]
         ]
     },
@@ -2484,7 +2514,7 @@
         "type": "function",
         "z": "27ce80b8fbcd825f",
         "name": "to GPT only",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nlet PROMPT = msg.UNIFIED_DATA.AI_SETTINGS;\nlet totalPrompt = `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}`;\n\nmsg.model = msg.UNIFIED_DATA.AI_SETTINGS.OPENAI_MODEL;\n\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt },\n        { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt },\n        { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n    ]\n}\n\nmsg.history.fullPromptToAI = msg.messages[0].content;\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\n\nlet PROMPT = msg.UNIFIED_DATA.AI_SETTINGS;\nlet totalPrompt = `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}`;\n\nmsg.model = msg.UNIFIED_DATA.AI_SETTINGS.OPENAI_MODEL;\n\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt },\n        { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt },\n        { \"role\": \"user\", \"content\": msg.UNIFIED_DATA.chat.content }\n    ]\n}\n\nmsg.history.fullPromptToAI = msg.messages[0].content;\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -2494,18 +2524,20 @@
         "y": 340,
         "wires": [
             [
-                "8161750f4f47fda0"
+                "8161750f4f47fda0",
+                "b905c9a287cad6e9"
             ]
         ]
     },
     {
-        "id": "37b26fc0aa550d90",
+        "id": "2930500347b75ae1",
         "type": "openai-ubos",
         "z": "27ce80b8fbcd825f",
         "name": "",
-        "model": "gpt-3.5-turbo",
+        "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -2523,13 +2555,14 @@
         ]
     },
     {
-        "id": "61328cedf50576b3",
+        "id": "59b43acb3a16e751",
         "type": "openai-ubos",
         "z": "27ce80b8fbcd825f",
         "name": "",
         "model": "gpt-3.5-turbo",
         "temperature": 0.5,
         "max_tokens": 3000,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -2542,9 +2575,128 @@
         "y": 280,
         "wires": [
             [
-                "3677128a83383333"
+                "3677128a83383333",
+                "b491d374e166c66f"
             ]
         ]
+    },
+    {
+        "id": "65404bb5e190d7d9",
+        "type": "debug",
+        "z": "27ce80b8fbcd825f",
+        "name": "pinecone",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "c35b382786f52e43",
+        "type": "debug",
+        "z": "27ce80b8fbcd825f",
+        "name": "chroma",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "b905c9a287cad6e9",
+        "type": "debug",
+        "z": "27ce80b8fbcd825f",
+        "name": "GPT only",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "b491d374e166c66f",
+        "type": "debug",
+        "z": "27ce80b8fbcd825f",
+        "name": "GPT Answer",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1830,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "e30e04b5bc084fd8",
+        "type": "debug",
+        "z": "27ce80b8fbcd825f",
+        "name": "result out",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "c3c3a388b8f5670f",
+        "type": "debug",
+        "z": "27ce80b8fbcd825f",
+        "name": "debug 812",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1570,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "8342d1bac7bf9e0e",
+        "type": "debug",
+        "z": "27ce80b8fbcd825f",
+        "name": "debug 813",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1570,
+        "y": 240,
+        "wires": []
     },
     {
         "id": "bf596eb6b97b1752",
@@ -2948,7 +3100,7 @@
         "type": "function",
         "z": "71cb7453ba91face",
         "name": "to AI embedding-ada",
-        "func": "msg.fromUI = msg.payload;\n\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.model = \"text-embedding-ada-002\";\n\nnode.warn(msg.fromUI);\n\nif (Array.isArray(msg.fromUI.question)) {\n    let newQuestions = '';\n\n    msg.fromUI.question.forEach(e => newQuestions += ` ${e.question}`);\n    msg.fromUI.question = newQuestions;\n}\n\nmsg.input = `${msg.fromUI.question} ${msg.fromUI.answer}`;\n\nreturn msg;\n",
+        "func": "msg.fromUI = msg.payload;\n\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.model = \"text-embedding-ada-002\";\n\nnode.warn(msg.fromUI);\n\nif (Array.isArray(msg.fromUI.question)) {\n    let newQuestions = '';\n\n    msg.fromUI.question.forEach(e => newQuestions += ` ${e.question}`);\n    msg.fromUI.question = newQuestions;\n}\n\nmsg.input = `${msg.fromUI.question} ${msg.fromUI.answer}`;\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -2958,7 +3110,7 @@
         "y": 640,
         "wires": [
             [
-                "0e17791da17ef446"
+                "0acde57a56398a13"
             ]
         ]
     },
@@ -3341,6 +3493,22 @@
         "wires": []
     },
     {
+        "id": "44e09f48c41f4dd9",
+        "type": "chromadb-collection",
+        "z": "71cb7453ba91face",
+        "remoteServer": "92b09c9cd170f8a8",
+        "name": "",
+        "collection": "",
+        "operation": "add",
+        "x": 1120,
+        "y": 600,
+        "wires": [
+            [
+                "db31f5dfa738f3d8"
+            ]
+        ]
+    },
+    {
         "id": "c40fbc0ab9da6820",
         "type": "subflow:27ce80b8fbcd825f",
         "z": "71cb7453ba91face",
@@ -3354,13 +3522,14 @@
         ]
     },
     {
-        "id": "0e17791da17ef446",
+        "id": "0acde57a56398a13",
         "type": "openai-ubos",
         "z": "71cb7453ba91face",
         "name": "",
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -3374,22 +3543,6 @@
         "wires": [
             [
                 "de4dbe8bea29fd0d"
-            ]
-        ]
-    },
-    {
-        "id": "44e09f48c41f4dd9",
-        "type": "chromadb-collection",
-        "z": "71cb7453ba91face",
-        "remoteServer": "92b09c9cd170f8a8",
-        "name": "",
-        "collection": "",
-        "operation": "add",
-        "x": 1120,
-        "y": 600,
-        "wires": [
-            [
-                "db31f5dfa738f3d8"
             ]
         ]
     },
@@ -3456,7 +3609,7 @@
         "type": "function",
         "z": "a0451234ff05c29f",
         "name": "to openAI",
-        "func": "msg.fromUI = msg.payload;\n\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.messages = [\n    {\n        \"role\": \"system\",\n        \"content\": `Your task, based on the input text, is to generate 10 questions to the vector database, from which the user will receive the most accurate, best vector.\n        Do not enumerate questions!!!\nAlways return data in JSON!\nJSON data sample:\n[\n    {\n        \"question\": \"Is it generated question?\"\n    },\n    {\n        \"question\": \"Is it generated question?\"\n    },\n    {\n        \"question\": \"Is it generated question?\"\n    }\n]`\n    },\n    {\n        \"role\": \"user\",\n        \"content\": msg.fromUI.answer\n    }\n];\n\nmsg.temporaryQuestionBasket = [];\n\nreturn msg;\n",
+        "func": "msg.fromUI = msg.payload;\n\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.messages = [\n    {\n        \"role\": \"system\",\n        \"content\": `Your task, based on the input text, is to generate 10 questions to the vector database, from which the user will receive the most accurate, best vector.\n        Do not enumerate questions!!!\nAlways return data in JSON!\nJSON data sample:\n[\n    {\n        \"question\": \"Is it generated question?\"\n    },\n    {\n        \"question\": \"Is it generated question?\"\n    },\n    {\n        \"question\": \"Is it generated question?\"\n    }\n]`\n    },\n    {\n        \"role\": \"user\",\n        \"content\": msg.fromUI.answer\n    }\n];\n\nmsg.temporaryQuestionBasket = [];\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3466,7 +3619,7 @@
         "y": 240,
         "wires": [
             [
-                "6e9ef3615f654361"
+                "1f8abad405f202d8"
             ]
         ]
     },
@@ -3555,7 +3708,7 @@
         "type": "function",
         "z": "a0451234ff05c29f",
         "name": "to AI embedding-ada",
-        "func": "msg.fromUI = msg.payload;\n\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.model = \"text-embedding-ada-002\";\n\nnode.warn(msg.fromUI);\n\nif (Array.isArray(msg.fromUI.question.data)) {\n    let newQuestions = '';\n\n    msg.fromUI.question.data.forEach(e => newQuestions += ` ${e.question}`);\n    msg.fromUI.question = newQuestions;\n}\n\nmsg.input = `${msg.fromUI.question} ${msg.fromUI.answer}`;\n\nnode.warn(msg.fromUI);\n\nreturn msg;\n",
+        "func": "msg.fromUI = msg.payload;\n\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.model = \"text-embedding-ada-002\";\n\nif (Array.isArray(msg.fromUI.question.data)) {\n    let newQuestions = '';\n\n    msg.fromUI.question.data.forEach(e => newQuestions += ` ${e.question}`);\n    msg.fromUI.question = newQuestions;\n}\n\nmsg.input = `${msg.fromUI.question} ${msg.fromUI.answer}`;\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3565,7 +3718,7 @@
         "y": 420,
         "wires": [
             [
-                "4fda29115b94df09"
+                "0517032d2eec7a52"
             ]
         ]
     },
@@ -3648,7 +3801,7 @@
         "type": "function",
         "z": "a0451234ff05c29f",
         "name": "to AI embedding-ada",
-        "func": "const dataBaseFull = msg.payload.dataBase.split(' ');\n\nmsg.fromUI = {\n    ...msg.payload,\n    dataBaseName: dataBaseFull[0],\n    dataBaseType: dataBaseFull[1],\n};\n\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = msg.payload.question;\nmsg.model = \"text-embedding-ada-002\";\n\nreturn msg;\n",
+        "func": "const dataBaseFull = msg.payload.dataBase.split(' ');\n\nmsg.fromUI = {\n    ...msg.payload,\n    dataBaseName: dataBaseFull[0],\n    dataBaseType: dataBaseFull[1],\n};\n\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = msg.payload.question;\nmsg.model = \"text-embedding-ada-002\";\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3658,7 +3811,7 @@
         "y": 80,
         "wires": [
             [
-                "5824e30670745419"
+                "08dc9965958afe02"
             ]
         ]
     },
@@ -4065,79 +4218,7 @@
         "y": 300,
         "wires": [
             [
-                "6e9ef3615f654361"
-            ]
-        ]
-    },
-    {
-        "id": "5824e30670745419",
-        "type": "openai-ubos",
-        "z": "a0451234ff05c29f",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 520,
-        "y": 80,
-        "wires": [
-            [
-                "e0a5c346aec729ad"
-            ]
-        ]
-    },
-    {
-        "id": "6e9ef3615f654361",
-        "type": "openai-ubos",
-        "z": "a0451234ff05c29f",
-        "name": "",
-        "model": "gpt-3.5-turbo",
-        "temperature": 0.5,
-        "max_tokens": 3000,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 500,
-        "y": 240,
-        "wires": [
-            [
-                "9f7f20aceb1ee00b"
-            ]
-        ]
-    },
-    {
-        "id": "4fda29115b94df09",
-        "type": "openai-ubos",
-        "z": "a0451234ff05c29f",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 620,
-        "y": 420,
-        "wires": [
-            [
-                "76a204897ab25ee1"
+                "1f8abad405f202d8"
             ]
         ]
     },
@@ -4174,12 +4255,87 @@
         ]
     },
     {
+        "id": "08dc9965958afe02",
+        "type": "openai-ubos",
+        "z": "a0451234ff05c29f",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 520,
+        "y": 80,
+        "wires": [
+            [
+                "e0a5c346aec729ad"
+            ]
+        ]
+    },
+    {
+        "id": "1f8abad405f202d8",
+        "type": "openai-ubos",
+        "z": "a0451234ff05c29f",
+        "name": "",
+        "model": "gpt-3.5-turbo",
+        "temperature": 0.5,
+        "max_tokens": 3000,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 500,
+        "y": 240,
+        "wires": [
+            [
+                "9f7f20aceb1ee00b"
+            ]
+        ]
+    },
+    {
+        "id": "0517032d2eec7a52",
+        "type": "openai-ubos",
+        "z": "a0451234ff05c29f",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 620,
+        "y": 420,
+        "wires": [
+            [
+                "76a204897ab25ee1"
+            ]
+        ]
+    },
+    {
         "id": "a478b692e78a5971",
         "type": "function",
         "z": "88bba2923a31d3e7",
         "g": "4a77a41c6602f9d6",
         "name": "check command",
-        "func": "// msg.fromApp = msg.payload\n\n// msg.OPENAI_API_KEY = global.get(\"openai\")?.OPENAI_API;\n\n\nmsg.history = {\n    requestText: msg.input,\n    startDate: Date.now(),\n    type: 'demo',\n    email: msg.fromApp.email + '_' + msg.fromApp.dbname\n}\n\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\n// msg.input = msg.fromApp.message;\n// msg.content = msg.fromApp.message;\nmsg.model = \"text-embedding-ada-002\";\n\nreturn msg\n",
+        "func": "msg.history = {\n    requestText: msg.input,\n    startDate: Date.now(),\n    type: 'demo',\n    email: msg.fromApp.email + '_' + msg.fromApp.dbname\n};\n\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.model = \"text-embedding-ada-002\";\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4190,7 +4346,7 @@
         "wires": [
             [
                 "3ab52837b239e540",
-                "4737e8eb4e3bf517"
+                "3a2150871dc150d7"
             ]
         ]
     },
@@ -4229,7 +4385,7 @@
         "y": 760,
         "wires": [
             [
-                "ea3c9a01daa0a075"
+                "f335724ffaafefc1"
             ]
         ]
     },
@@ -4308,7 +4464,7 @@
         "z": "88bba2923a31d3e7",
         "g": "4a77a41c6602f9d6",
         "name": "create vector",
-        "func": "\nmsg.model = msg.fromApp.model\nlet result = msg.payload.metadatas[0].filter(e => e !== null).map(e => e.result)\nnode.warn(result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": msg.input }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": msg.fromApp.prompt  + JSON.stringify(result) },\n        { \"role\": \"user\", \"content\": msg.input }\n    ]\n}\n\n\n\nreturn msg;\n",
+        "func": "msg.model = msg.fromApp.model\nlet result = msg.payload.metadatas[0].filter(e => e !== null).map(e => e.result)\n\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": msg.input }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": msg.fromApp.prompt  + JSON.stringify(result) },\n        { \"role\": \"user\", \"content\": msg.input }\n    ]\n}\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4319,7 +4475,7 @@
         "wires": [
             [
                 "a98cfb1e16cbe099",
-                "ea3c9a01daa0a075"
+                "f335724ffaafefc1"
             ]
         ]
     },
@@ -4542,7 +4698,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 960,
+        "x": 990,
         "y": 920,
         "wires": []
     },
@@ -4663,7 +4819,7 @@
         "y": 600,
         "wires": [
             [
-                "4737e8eb4e3bf517"
+                "3a2150871dc150d7"
             ],
             [
                 "1573008514834eb6"
@@ -4823,7 +4979,7 @@
         "z": "88bba2923a31d3e7",
         "g": "4aa44aa75910cb5b",
         "name": "check command",
-        "func": "msg.fromApp = msg.payload\nmsg.email = msg.req.query.email\nmsg.reqFromApp = msg.req.query\nmsg.OPENAI_API_KEY = global.get(\"openai\")?.OPENAI_API;\nmsg.BOT_NAME = global.get('telegram')?.BOT_NAME;\nmsg.PINECONE_INDEX = global.get(\"pinecone\")?.PINECONE_INDEX;\nmsg.PINECONE_API_KEY = global.get(\"pinecone\")?.PINECONE_API;\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\")?.PINECONE_ENV;\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\")?.PINECONE_URL;\nmsg.id = 1111111;\n\nmsg.history = {\n    requestText: msg.payload.message.toLowerCase(),\n    startDate: Date.now(),\n    type: 'demo'\n}\n\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = msg.payload.message;\nmsg.content = msg.payload.message;\nmsg.model = \"text-embedding-ada-002\";\n\nreturn msg\n",
+        "func": "msg.fromApp = msg.payload\nmsg.email = msg.req.query.email\nmsg.reqFromApp = msg.req.query\nmsg.OPENAI_API_KEY = global.get(\"openai\")?.OPENAI_API;\nmsg.BOT_NAME = global.get('telegram')?.BOT_NAME;\nmsg.PINECONE_INDEX = global.get(\"pinecone\")?.PINECONE_INDEX;\nmsg.PINECONE_API_KEY = global.get(\"pinecone\")?.PINECONE_API;\nmsg.PINECONE_ENVIRONMENT = global.get(\"pinecone\")?.PINECONE_ENV;\nmsg.PINECONE_BASE_URL = global.get(\"pinecone\")?.PINECONE_URL;\nmsg.id = 1111111;\n\nmsg.history = {\n    requestText: msg.payload.message.toLowerCase(),\n    startDate: Date.now(),\n    type: 'demo'\n}\n\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = msg.payload.message;\nmsg.content = msg.payload.message;\nmsg.model = \"text-embedding-ada-002\";\n\nmsg.payload = {};\n\nreturn msg\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4834,7 +4990,7 @@
         "wires": [
             [
                 "beae0f4b261933d2",
-                "a85ba356b00c51b0"
+                "f2494cd54995781c"
             ]
         ]
     },
@@ -4863,7 +5019,7 @@
         "z": "88bba2923a31d3e7",
         "g": "4aa44aa75910cb5b",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"customPrompts\").find(e => e.ID === msg.reqFromApp.idDB);\nlet totalPrompt = (\n  PROMPT &&\n  PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n  PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n  PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n  PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n  `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n  \"Answer as friend\";\n\n\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.content;\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": ''},\n    { \"role\": \"user\", \"content\": content }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + \". \" +  msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": content }\n  ]\n}\nnode.warn(msg.payload.matches )\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\ndelete msg.url;\n\nlet PROMPT = global.get(\"customPrompts\").find(e => e.ID === msg.reqFromApp.idDB);\nlet totalPrompt = (\n  PROMPT &&\n  PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n  PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n  PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n  PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n  `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n  \"Answer as friend\";\n\nmsg.model = global.get('openai').OPENAI_MODEL;\n\nconst content = msg.content;\n\nif (msg.payload === \"RequestError: getaddrinfo ENOTFOUND undefined : http://undefined/query\" || msg.statusCode === 'ENOTFOUND') {\n\n  msg.messages = [\n    { \"role\": \"system\", \"content\": ''},\n    { \"role\": \"user\", \"content\": content }\n  ]\n} else {\n  msg.messages = [\n    { \"role\": \"system\", \"content\": totalPrompt + \". \" +  msg.payload?.matches[0]?.metadata.result + \", \" + msg.payload?.matches[1]?.metadata.result },\n    { \"role\": \"user\", \"content\": content }\n  ]\n}\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4873,7 +5029,7 @@
         "y": 260,
         "wires": [
             [
-                "3e35edc6870bb62a"
+                "ce920f2d4f224a0c"
             ]
         ]
     },
@@ -4973,7 +5129,7 @@
         "z": "88bba2923a31d3e7",
         "g": "4aa44aa75910cb5b",
         "name": "create vector",
-        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\nlet PROMPT = global.get(\"customPrompts\").find(e => e.ID === msg.reqFromApp.idDB);\nnode.warn(PROMPT);\nlet totalPrompt = (\n    PROMPT &&\n    PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n    PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n    PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n    PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n    `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n    \"Answer as friend\";\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.content\nlet result = msg.payload.metadatas[0].filter(e => e !== null).map(e => e.result)\nnode.warn(result)\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" + JSON.stringify(result) },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\n\nreturn msg;\n",
+        "func": "delete msg.filepath;\ndelete msg.filename;\ndelete msg.text;\ndelete msg.url;\n\nlet PROMPT = global.get(\"customPrompts\").find(e => e.ID === msg.reqFromApp.idDB);\nnode.warn(PROMPT);\nlet totalPrompt = (\n    PROMPT &&\n    PROMPT.ANSWER_AS !== undefined && PROMPT.ANSWER_AS !== \"\" &&\n    PROMPT.TONE !== undefined && PROMPT.TONE !== \"\" &&\n    PROMPT.LANGUAGE !== undefined && PROMPT.LANGUAGE !== \"\" &&\n    PROMPT.ANSWER_LENGTH !== undefined && PROMPT.ANSWER_LENGTH !== \"\"\n) ?\n    `Answer as an ${PROMPT.ANSWER_AS}, ${PROMPT.TONE}, ${PROMPT.LANGUAGE}, and the response should be ${PROMPT.ANSWER_LENGTH}. Here's some additional guidance: ${PROMPT.PROMPT_CUSTOM}` :\n    \"Answer as friend\";\n\nmsg.model = global.get('openai').OPENAI_MODEL;\nconst content = msg.content\nlet result = msg.payload.metadatas[0].filter(e => e !== null).map(e => e.result)\n\n\nif (msg.statusCode !== 200) {\n\n    msg.messages = [\n        { \"role\": \"system\", \"content\": '' },\n        { \"role\": \"user\", \"content\": content }\n    ]\n} else {\n    msg.messages = [\n        { \"role\": \"system\", \"content\": totalPrompt + \". \" + JSON.stringify(result) },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4984,7 +5140,7 @@
         "wires": [
             [
                 "f60512750bf45925",
-                "3e35edc6870bb62a"
+                "ce920f2d4f224a0c"
             ]
         ]
     },
@@ -5387,7 +5543,25 @@
         "l": false
     },
     {
-        "id": "a85ba356b00c51b0",
+        "id": "b5e7257a9c0d3132",
+        "type": "debug",
+        "z": "88bba2923a31d3e7",
+        "g": "4aa44aa75910cb5b",
+        "name": "debug 811",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1310,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "f2494cd54995781c",
         "type": "openai-ubos",
         "z": "88bba2923a31d3e7",
         "g": "4aa44aa75910cb5b",
@@ -5395,6 +5569,7 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -5413,7 +5588,7 @@
         ]
     },
     {
-        "id": "3e35edc6870bb62a",
+        "id": "ce920f2d4f224a0c",
         "type": "openai-ubos",
         "z": "88bba2923a31d3e7",
         "g": "4aa44aa75910cb5b",
@@ -5421,6 +5596,7 @@
         "model": "gpt-3.5-turbo",
         "temperature": 0.5,
         "max_tokens": 3000,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -5439,7 +5615,7 @@
         ]
     },
     {
-        "id": "4737e8eb4e3bf517",
+        "id": "3a2150871dc150d7",
         "type": "openai-ubos",
         "z": "88bba2923a31d3e7",
         "g": "4a77a41c6602f9d6",
@@ -5447,6 +5623,7 @@
         "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -5455,7 +5632,7 @@
             "value": "[]"
         },
         "OPENAI_API_KEY": "",
-        "x": 960,
+        "x": 980,
         "y": 800,
         "wires": [
             [
@@ -5464,7 +5641,7 @@
         ]
     },
     {
-        "id": "ea3c9a01daa0a075",
+        "id": "f335724ffaafefc1",
         "type": "openai-ubos",
         "z": "88bba2923a31d3e7",
         "g": "4a77a41c6602f9d6",
@@ -5472,6 +5649,7 @@
         "model": "gpt-3.5-turbo",
         "temperature": 0.5,
         "max_tokens": 3000,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -5488,24 +5666,6 @@
                 "c65e3faa54f5bb92"
             ]
         ]
-    },
-    {
-        "id": "b5e7257a9c0d3132",
-        "type": "debug",
-        "z": "88bba2923a31d3e7",
-        "g": "4aa44aa75910cb5b",
-        "name": "debug 811",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1310,
-        "y": 340,
-        "wires": []
     },
     {
         "id": "04e6e4279b387b31",
@@ -5731,147 +5891,6 @@
         "wires": []
     },
     {
-        "id": "73c9394419e72ccc",
-        "type": "function",
-        "z": "f48a32dcae7a25f2",
-        "g": "905fd980afcc413b",
-        "name": "function 608",
-        "func": "msg.fromApp = msg.payload\nmsg.collection = 'AISettings'\nmsg.query = {\n    // collection: objectid(msg.payload.collection),\n    email: msg.payload.email\n}\n\nmsg.payload = {\n    $set: {\n        selected: false\n    }\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "objectid",
-                "module": "objectid"
-            }
-        ],
-        "x": 1710,
-        "y": 1700,
-        "wires": [
-            [
-                "50ab29d8cd2fc7f7",
-                "98be89e169e716c6",
-                "d4d0c21c06be4a8f"
-            ]
-        ]
-    },
-    {
-        "id": "4119659198e26fff",
-        "type": "http in",
-        "z": "f48a32dcae7a25f2",
-        "g": "905fd980afcc413b",
-        "name": "",
-        "url": "/setDefault_db",
-        "method": "put",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 1450,
-        "y": 1700,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "50ab29d8cd2fc7f7",
-        "type": "link call",
-        "z": "f48a32dcae7a25f2",
-        "g": "905fd980afcc413b",
-        "name": "",
-        "links": [
-            "b490f10125b58f85"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 1890,
-        "y": 1700,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6f33b11416d1c962",
-        "type": "http response",
-        "z": "f48a32dcae7a25f2",
-        "g": "905fd980afcc413b",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 1950,
-        "y": 1660,
-        "wires": []
-    },
-    {
-        "id": "e3392f6d242f1e1e",
-        "type": "function",
-        "z": "f48a32dcae7a25f2",
-        "g": "905fd980afcc413b",
-        "name": "function 609",
-        "func": "msg.query={\n    email: msg.fromApp.email,\n    collection: objectid(msg.fromApp.collection)\n}\nmsg.payload={\n    $set:{\n        selected: true\n    }\n}\nmsg.collection = 'AISettings'\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "objectid",
-                "module": "objectid"
-            }
-        ],
-        "x": 2130,
-        "y": 1700,
-        "wires": [
-            [
-                "23c3b030710aaea0"
-            ]
-        ]
-    },
-    {
-        "id": "23c3b030710aaea0",
-        "type": "link call",
-        "z": "f48a32dcae7a25f2",
-        "g": "905fd980afcc413b",
-        "name": "",
-        "links": [
-            "b490f10125b58f85"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 2330,
-        "y": 1700,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "98be89e169e716c6",
-        "type": "delay",
-        "z": "f48a32dcae7a25f2",
-        "g": "905fd980afcc413b",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1845,
-        "y": 1660,
-        "wires": [
-            [
-                "6f33b11416d1c962"
-            ]
-        ],
-        "l": false
-    },
-    {
         "id": "5690fbc5d9d490d4",
         "type": "function",
         "z": "f48a32dcae7a25f2",
@@ -5965,33 +5984,6 @@
         "x": 590,
         "y": 1780,
         "wires": []
-    },
-    {
-        "id": "d4d0c21c06be4a8f",
-        "type": "delay",
-        "z": "f48a32dcae7a25f2",
-        "g": "905fd980afcc413b",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "1",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 2025,
-        "y": 1700,
-        "wires": [
-            [
-                "e3392f6d242f1e1e"
-            ]
-        ],
-        "l": false
     },
     {
         "id": "18d215c5231a856c",
@@ -7080,7 +7072,7 @@
         "type": "function",
         "z": "f48a32dcae7a25f2",
         "name": "Prepare Data",
-        "func": "const customChatData = global.get('customChat');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst userIdx = msg.payload.inputs.userIdx;\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === customChatData.id_base);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: userIdx,\n        username: userIdx,\n        type: 'custom',\n        content: msg.payload.inputs.input,\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n}\n\nreturn msg;\n",
+        "func": "const customChatData = global.get('customChat');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst userIdx = msg.payload.inputs.userIdx;\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === customChatData.id_base);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: userIdx,\n        username: userIdx,\n        type: 'custom',\n        content: msg.payload.inputs.input,\n        messengerType: 'custom',\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n}\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7545,7 +7537,7 @@
         "z": "f48a32dcae7a25f2",
         "g": "478d796d1a70f361",
         "name": "create vector",
-        "func": "\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = `${msg.payload}, ${msg.payload}`;\nmsg.model = \"text-embedding-ada-002\";\n\nmsg.ids = Date.now().toString();\n\nreturn msg;\n",
+        "func": "\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = `${msg.payload}, ${msg.payload}`;\nmsg.model = \"text-embedding-ada-002\";\n\nmsg.ids = Date.now().toString();\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7555,7 +7547,7 @@
         "y": 860,
         "wires": [
             [
-                "58b8200a69e4d828"
+                "3794164b8e8bf146"
             ]
         ]
     },
@@ -7761,7 +7753,7 @@
         "z": "f48a32dcae7a25f2",
         "g": "478d796d1a70f361",
         "name": "create vector",
-        "func": "msg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = `${msg.payload}, ${msg.payload}`;\nmsg.model = \"text-embedding-ada-002\";\n\nmsg.ids = Date.now().toString();\n\nreturn msg;\n",
+        "func": "msg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = `${msg.payload}, ${msg.payload}`;\nmsg.model = \"text-embedding-ada-002\";\n\nmsg.ids = Date.now().toString();\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7771,7 +7763,7 @@
         "y": 260,
         "wires": [
             [
-                "f84c2cc6c68ba6a7"
+                "a0ce9ee1febae5a6"
             ]
         ]
     },
@@ -8049,7 +8041,7 @@
         "z": "f48a32dcae7a25f2",
         "g": "478d796d1a70f361",
         "name": "create vector",
-        "func": "\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = `${msg.payload}, ${msg.payload}`;\nmsg.model = \"text-embedding-ada-002\";\n\nmsg.ids = Date.now().toString();\n\nreturn msg;\n",
+        "func": "\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = `${msg.payload}, ${msg.payload}`;\nmsg.model = \"text-embedding-ada-002\";\n\nmsg.ids = Date.now().toString();\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -8059,7 +8051,7 @@
         "y": 560,
         "wires": [
             [
-                "6905d97ea2de0acf"
+                "38b4274e72f57864"
             ]
         ]
     },
@@ -8073,6 +8065,29 @@
         "x": 150,
         "y": 420,
         "wires": []
+    },
+    {
+        "id": "cb08dd7787cf9f90",
+        "type": "array-loop",
+        "z": "f48a32dcae7a25f2",
+        "g": "478d796d1a70f361",
+        "name": "",
+        "key": "amount",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 1480,
+        "y": 760,
+        "wires": [
+            [
+                "d2f36279fd460b8e"
+            ],
+            [
+                "108d14ed5668c038"
+            ]
+        ]
     },
     {
         "id": "d2f36279fd460b8e",
@@ -8114,6 +8129,29 @@
         "y": 720,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "6addb13fd1402595",
+        "type": "array-loop",
+        "z": "f48a32dcae7a25f2",
+        "g": "478d796d1a70f361",
+        "name": "",
+        "key": "amount",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 1460,
+        "y": 160,
+        "wires": [
+            [
+                "7ace8b2ff958d9ad"
+            ],
+            [
+                "a63face72ac6a46c"
+            ]
         ]
     },
     {
@@ -8243,6 +8281,29 @@
         "y": 300,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "12dacb4c5be15603",
+        "type": "array-loop",
+        "z": "f48a32dcae7a25f2",
+        "g": "478d796d1a70f361",
+        "name": "",
+        "key": "amount",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 1470,
+        "y": 460,
+        "wires": [
+            [
+                "e0a9c094315f9304"
+            ],
+            [
+                "2a923fd4d02519d8"
+            ]
         ]
     },
     {
@@ -8663,6 +8724,22 @@
         ]
     },
     {
+        "id": "d909a2f94071e9d9",
+        "type": "mongodb out",
+        "z": "f48a32dcae7a25f2",
+        "g": "204e41e815b84721",
+        "mongodb": "7908a755f1520aa7",
+        "name": "delete all knowlegebases",
+        "collection": "",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 790,
+        "y": 1080,
+        "wires": []
+    },
+    {
         "id": "39d64a121b1f0d72",
         "type": "function",
         "z": "f48a32dcae7a25f2",
@@ -8959,25 +9036,15 @@
         "wires": []
     },
     {
-        "id": "67465e3808e9e765",
-        "type": "comment",
-        "z": "f48a32dcae7a25f2",
-        "g": "905fd980afcc413b",
-        "name": "is it useles ????",
-        "info": "",
-        "x": 1480,
-        "y": 1660,
-        "wires": []
-    },
-    {
-        "id": "f84c2cc6c68ba6a7",
+        "id": "a0ce9ee1febae5a6",
         "type": "openai-ubos",
         "z": "f48a32dcae7a25f2",
         "g": "478d796d1a70f361",
         "name": "",
-        "model": "gpt-3.5-turbo",
+        "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -8996,14 +9063,15 @@
         ]
     },
     {
-        "id": "6905d97ea2de0acf",
+        "id": "38b4274e72f57864",
         "type": "openai-ubos",
         "z": "f48a32dcae7a25f2",
         "g": "478d796d1a70f361",
         "name": "",
-        "model": "gpt-3.5-turbo",
+        "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -9022,14 +9090,15 @@
         ]
     },
     {
-        "id": "58b8200a69e4d828",
+        "id": "3794164b8e8bf146",
         "type": "openai-ubos",
         "z": "f48a32dcae7a25f2",
         "g": "478d796d1a70f361",
         "name": "",
-        "model": "gpt-3.5-turbo",
+        "model": "text-embedding-ada-002",
         "temperature": 0.5,
         "max_tokens": 60,
+        "messages": "",
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "top_p": 1,
@@ -9044,87 +9113,6 @@
             [
                 "b09542bff4b17693",
                 "1c2e897da68dfde0"
-            ]
-        ]
-    },
-    {
-        "id": "d909a2f94071e9d9",
-        "type": "mongodb out",
-        "z": "f48a32dcae7a25f2",
-        "mongodb": "7908a755f1520aa7",
-        "name": "delete all knowlegebases",
-        "collection": "",
-        "payonly": false,
-        "upsert": false,
-        "multi": false,
-        "operation": "delete",
-        "x": 790,
-        "y": 1080,
-        "wires": []
-    },
-    {
-        "id": "cb08dd7787cf9f90",
-        "type": "array-loop",
-        "z": "f48a32dcae7a25f2",
-        "name": "",
-        "key": "amount",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 1480,
-        "y": 760,
-        "wires": [
-            [
-                "d2f36279fd460b8e"
-            ],
-            [
-                "108d14ed5668c038"
-            ]
-        ]
-    },
-    {
-        "id": "6addb13fd1402595",
-        "type": "array-loop",
-        "z": "f48a32dcae7a25f2",
-        "name": "",
-        "key": "amount",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 1460,
-        "y": 160,
-        "wires": [
-            [
-                "7ace8b2ff958d9ad"
-            ],
-            [
-                "a63face72ac6a46c"
-            ]
-        ]
-    },
-    {
-        "id": "12dacb4c5be15603",
-        "type": "array-loop",
-        "z": "f48a32dcae7a25f2",
-        "name": "",
-        "key": "amount",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 1470,
-        "y": 460,
-        "wires": [
-            [
-                "e0a9c094315f9304"
-            ],
-            [
-                "2a923fd4d02519d8"
             ]
         ]
     },
@@ -9664,7 +9652,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 470,
+        "x": 430,
         "y": 480,
         "wires": [
             [
@@ -9690,7 +9678,7 @@
         "overwriteFile": "true",
         "encoding": "none",
         "x": 740,
-        "y": 460,
+        "y": 440,
         "wires": [
             [
                 "db4dda113a133f32"
@@ -9707,7 +9695,7 @@
         "action": "",
         "pretty": false,
         "x": 610,
-        "y": 460,
+        "y": 440,
         "wires": [
             [
                 "66e010e4bd2f3852"
@@ -9727,7 +9715,7 @@
         "finalize": "",
         "libs": [],
         "x": 1230,
-        "y": 460,
+        "y": 440,
         "wires": [
             [
                 "7c3869a24eef7b9b"
@@ -9747,7 +9735,7 @@
         "finalize": "",
         "libs": [],
         "x": 880,
-        "y": 460,
+        "y": 440,
         "wires": [
             [
                 "8f82a1d189344a56"
@@ -9768,7 +9756,7 @@
         "encoding": "none",
         "allProps": false,
         "x": 1020,
-        "y": 460,
+        "y": 440,
         "wires": [
             [
                 "64ada091ef6083db"
@@ -9785,7 +9773,7 @@
         "action": "",
         "pretty": false,
         "x": 1115,
-        "y": 460,
+        "y": 440,
         "wires": [
             [
                 "3f6b420a991ab205"
@@ -9799,17 +9787,18 @@
         "z": "5e7416993281e99d",
         "g": "dd4d6fdf1b601b09",
         "name": "test OpenAI",
-        "func": "\n    msg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.model = global.get(\"openai\").OPENAI_MODEL;\n\nmsg.messages = [\n    { \"role\": \"system\", \"content\": \"Be polite and friendly.Don’t use slang.Don’t use emojis\"},\n    { \"role\": \"user\", \"content\": \"hello\" }\n]\n    msg.input = \"Hello\"\n    return msg;\n",
+        "func": "msg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.model = global.get(\"openai\").OPENAI_MODEL;\n\nmsg.messages = [\n    { \"role\": \"system\", \"content\": \"Be polite and friendly.Don’t use slang.Don’t use emojis\" },\n    { \"role\": \"user\", \"content\": \"hello\" }\n];\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 1390,
-        "y": 460,
+        "y": 440,
         "wires": [
             [
-                "ddd8ee138059b10f"
+                "7b2cb52638e4be02",
+                "cb3df391fe8b164d"
             ]
         ]
     },
@@ -9822,7 +9811,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1930,
-        "y": 460,
+        "y": 440,
         "wires": []
     },
     {
@@ -9838,7 +9827,7 @@
         "finalize": "",
         "libs": [],
         "x": 1760,
-        "y": 460,
+        "y": 440,
         "wires": [
             [
                 "139b56b09fa92b48",
@@ -9859,7 +9848,7 @@
         "finalize": "",
         "libs": [],
         "x": 1955,
-        "y": 500,
+        "y": 480,
         "wires": [
             [
                 "139b56b09fa92b48"
@@ -9880,7 +9869,7 @@
         "finalize": "",
         "libs": [],
         "x": 1840,
-        "y": 380,
+        "y": 360,
         "wires": [
             [
                 "6f7b89e9a9f27359"
@@ -9899,7 +9888,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 2030,
-        "y": 380,
+        "y": 360,
         "wires": [
             [
                 "b9e54a435fd93ad4"
@@ -10010,7 +9999,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 2170,
-        "y": 420,
+        "y": 400,
         "wires": []
     },
     {
@@ -10071,7 +10060,7 @@
         "finalize": "",
         "libs": [],
         "x": 2170,
-        "y": 380,
+        "y": 360,
         "wires": [
             [
                 "3f1db6f7a04a41b0",
@@ -10096,7 +10085,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2310,
+        "x": 2170,
         "y": 320,
         "wires": []
     },
@@ -10113,8 +10102,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 630,
-        "y": 540,
+        "x": 430,
+        "y": 520,
         "wires": []
     },
     {
@@ -10129,7 +10118,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 630,
-        "y": 500,
+        "y": 540,
         "wires": [
             []
         ]
@@ -10142,8 +10131,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 990,
-        "y": 500,
+        "x": 870,
+        "y": 480,
         "wires": []
     },
     {
@@ -10164,8 +10153,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 735,
-        "y": 500,
+        "x": 615,
+        "y": 480,
         "wires": [
             [
                 "7f7e2007a018670f"
@@ -10185,8 +10174,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 840,
-        "y": 500,
+        "x": 720,
+        "y": 480,
         "wires": [
             [
                 "fc4255ed2bf1f4cf"
@@ -10211,7 +10200,7 @@
         "senderr": false,
         "headers": [],
         "x": 2350,
-        "y": 440,
+        "y": 420,
         "wires": [
             []
         ]
@@ -11240,7 +11229,8 @@
         "y": 1620,
         "wires": [
             [
-                "81285fb22828f3a7"
+                "81285fb22828f3a7",
+                "31c1846a7132aa44"
             ]
         ],
         "l": false
@@ -11501,7 +11491,7 @@
         "z": "5e7416993281e99d",
         "g": "21ac3a19bfa57a66",
         "name": "get settings",
-        "func": "msg.payload = {\n    pinecone: global.get('pinecone') ? global.get('pinecone') : {\n        PINECONE_API: \"\",\n        PINECONE_ENV: \"\",\n        PINECONE_INDEX: \"\",\n        PINECONE_URL: \"\",\n    },\n    messages: global.get(\"messages\") ? global.get(\"messages\") : {\n        WELCOME: \"\",\n        UNABLE: \"\"\n    },\n    openai: global.get('openai') ? global.get('openai') : {\n        OPENAI_API: \"\",\n        OPENAI_MODEL: \"\",\n    },\n    // prompts: global.get(\"prompts\") ? global.get(\"prompts\") : {\n    //     ANSWER_LENGTH: \"\",\n    //     ANSWER_AS:  \"\",\n    //     TONE: \"\",\n    //     LANGUAGE: \"\",\n    //     PROMPT_CUSTOM: \"\",\n    //     TYPE_BASE: \"\",\n    //     NAME_BASE: \"\"\n    // },\n    otherTechVars: global.get(\"otherTechVars\"),\n};\n\nreturn msg;\n",
+        "func": "msg.payload = {\n    pinecone: global.get('pinecone') ? global.get('pinecone') : {\n        PINECONE_API: \"\",\n        PINECONE_ENV: \"\",\n        PINECONE_INDEX: \"\",\n        PINECONE_URL: \"\",\n    },\n    messages: global.get(\"messages\") ? global.get(\"messages\") : {\n        WELCOME: \"\",\n        UNABLE: \"\"\n    },\n    openai: global.get('openai') ? global.get('openai') : {\n        OPENAI_API: \"\",\n        OPENAI_MODEL: \"\",\n    },\n    otherTechVars: global.get(\"otherTechVars\"),\n};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -12978,31 +12968,6 @@
         "wires": []
     },
     {
-        "id": "ddd8ee138059b10f",
-        "type": "openai-ubos",
-        "z": "5e7416993281e99d",
-        "g": "dd4d6fdf1b601b09",
-        "name": "",
-        "model": "gpt-3.5-turbo",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 1580,
-        "y": 460,
-        "wires": [
-            [
-                "89b9d71dd5b48135"
-            ]
-        ]
-    },
-    {
         "id": "0ec04c582bf41c8a",
         "type": "catch",
         "z": "5e7416993281e99d",
@@ -13031,12 +12996,92 @@
         ],
         "uncaught": false,
         "x": 1830,
-        "y": 500,
+        "y": 480,
         "wires": [
             [
                 "89a3547980a3c139"
             ]
         ]
+    },
+    {
+        "id": "7b2cb52638e4be02",
+        "type": "openai-ubos",
+        "z": "5e7416993281e99d",
+        "g": "dd4d6fdf1b601b09",
+        "name": "",
+        "model": "gpt-3.5-turbo",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 1580,
+        "y": 440,
+        "wires": [
+            [
+                "89b9d71dd5b48135",
+                "ef8e6acb3a85f5f5"
+            ]
+        ]
+    },
+    {
+        "id": "31c1846a7132aa44",
+        "type": "debug",
+        "z": "5e7416993281e99d",
+        "g": "20f41552a8bf93e6",
+        "name": "debug 815",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "cb3df391fe8b164d",
+        "type": "debug",
+        "z": "5e7416993281e99d",
+        "g": "dd4d6fdf1b601b09",
+        "name": "debug 816",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1430,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "ef8e6acb3a85f5f5",
+        "type": "debug",
+        "z": "5e7416993281e99d",
+        "g": "dd4d6fdf1b601b09",
+        "name": "debug 817",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1670,
+        "y": 520,
+        "wires": []
     },
     {
         "id": "8e8669b0fb5ca927",
@@ -15731,8 +15776,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1120,
-        "y": 240,
+        "x": 1060,
+        "y": 220,
         "wires": [
             [
                 "d617ad7ca2e9a908",
@@ -15748,7 +15793,7 @@
         "name": "",
         "statusCode": "400",
         "headers": {},
-        "x": 860,
+        "x": 880,
         "y": 260,
         "wires": []
     },
@@ -15763,8 +15808,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1330,
-        "y": 240,
+        "x": 1270,
+        "y": 220,
         "wires": [
             []
         ]
@@ -15781,8 +15826,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1110,
-        "y": 320,
+        "x": 1210,
+        "y": 340,
         "wires": [
             [
                 "d46364cbaa5bf2be"
@@ -15797,8 +15842,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1310,
-        "y": 320,
+        "x": 1410,
+        "y": 340,
         "wires": []
     },
     {
@@ -15922,7 +15967,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 900,
+        "x": 1000,
         "y": 300,
         "wires": [
             [
@@ -17205,6 +17250,7 @@
         "id": "c67a5e3ed05701d0",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "admin_modules",
@@ -17220,6 +17266,7 @@
         "id": "64bd4da57cb0fb8e",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "admin_roles",
@@ -17235,6 +17282,7 @@
         "id": "fcc5a7d2ab3ca1a0",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "admins",
@@ -17250,6 +17298,7 @@
         "id": "3fa0f02696c20781",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "knowlegebase",
@@ -17265,6 +17314,7 @@
         "id": "538b9bc282c282a9",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "knowledgeObjects",
@@ -17280,6 +17330,7 @@
         "id": "14aa9473fb6a23c5",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "users_messages",
@@ -17295,6 +17346,7 @@
         "id": "dcac6d6ceb4d2a0f",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "users",
@@ -17310,6 +17362,7 @@
         "id": "9c2a0c75f3e7f927",
         "type": "mongodb out",
         "z": "391658888cc82dc0",
+        "g": "78ec20634862824d",
         "mongodb": "7908a755f1520aa7",
         "name": "",
         "collection": "AISettings",
@@ -17635,7 +17688,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
+        "x": 470,
         "y": 60,
         "wires": [
             [
@@ -17669,7 +17722,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 830,
+        "x": 1210,
         "y": 60,
         "wires": []
     },
@@ -17684,7 +17737,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 660,
+        "x": 700,
         "y": 60,
         "wires": [
             [
@@ -17704,7 +17757,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
+        "x": 430,
         "y": 120,
         "wires": [
             [
@@ -17738,7 +17791,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 730,
+        "x": 1210,
         "y": 120,
         "wires": []
     },
@@ -17753,7 +17806,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 540,
+        "x": 700,
         "y": 120,
         "wires": [
             [
@@ -17778,7 +17831,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 370,
+        "x": 430,
         "y": 180,
         "wires": [
             [
@@ -17797,7 +17850,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 550,
+        "x": 690,
         "y": 180,
         "wires": [
             [
@@ -17813,7 +17866,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 890,
+        "x": 1210,
         "y": 180,
         "wires": []
     },
@@ -17829,7 +17882,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 720,
+        "x": 860,
         "y": 180,
         "wires": [
             [
@@ -17863,30 +17916,9 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 610,
-        "y": 440,
+        "x": 1210,
+        "y": 360,
         "wires": []
-    },
-    {
-        "id": "1a8d8b8b1ebd8dfc",
-        "type": "function",
-        "z": "d41b21524ec70b11",
-        "g": "b2e9a721546c936c",
-        "name": "get analytics",
-        "func": "\nconst fieldsToCheck = [\n    'pinecone',\n    'WHATSAPP',\n    'telegram',\n    'openai',\n    'META',\n    'base',\n    'files'\n];\n\nconst payload = {};\n\nfieldsToCheck.forEach(field => {\n    payload[field] = global.get(field) || {};\n});\n\nfunction countEmptyAndFilledFields(obj) {\n    const result = {};\n\n    for (const key in obj) {\n        const subObj = obj[key];\n        const totalFields = Object.keys(subObj).length;\n        const filledFieldsForKey = Object.values(subObj).filter(value => value !== \"\").length;\n        const percentage = filledFieldsForKey === 0 ? 0 : ((filledFieldsForKey / totalFields) * 100).toFixed(0);\n\n        result[key] = {\n            filledFields: filledFieldsForKey,\n            totalFields: totalFields,\n            percentage: percentage\n        };\n    }\n\n    const totalFields = Object.values(result).reduce((acc, curr) => acc + curr.totalFields, 0);\n    const filledFields = Object.values(result).reduce((acc, curr) => acc + curr.filledFields, 0);\n    const totalPercentage = filledFields === 0 ? 0 : ((filledFields / totalFields) * 100).toFixed(0);\n\n    result[\"total\"] = {\n        filledFields: filledFields,\n        totalFields: totalFields,\n        percentage: totalPercentage\n    };\n\n    return result;\n}\n\nconst result = countEmptyAndFilledFields(payload);\n\nconst botsFilledFields = result.WHATSAPP.filledFields + result.telegram.filledFields + result.META.filledFields;\nconst botsTotalFields = 6;\nconst settingsFilledFields = result.pinecone.filledFields + result.openai.filledFields;\nconst settingsTotalFields = 6;\nconst baseTotalFields = global.get('base')?.total ? global.get('base')?.total : 0\nconst filesTotalFields = global.get('files')?.total ? global.get('files')?.total : 0\n\nconst total = parseFloat(((botsFilledFields + settingsFilledFields + baseTotalFields + filesTotalFields)/(botsTotalFields + settingsTotalFields + baseTotalFields + filesTotalFields)) * 100).toFixed(0);\n\nmsg.payload = {\n    openai: {\n        filledFields: result.openai.filledFields,\n        totalFields: 2,},\n    bots: {\n        filledFields: botsFilledFields,\n        totalFields: botsTotalFields,\n        percentage: botsFilledFields === 0 ? 0 : ((botsFilledFields/botsTotalFields) * 100).toFixed(0)\n    },\n    settings: {\n        filledFields: settingsFilledFields,\n        totalFields: 6,\n        percentage: settingsFilledFields === 0 ? 0 : ((settingsFilledFields/settingsTotalFields ) * 100).toFixed(0)\n    },\n    base: {\n        totalFields: baseTotalFields,\n        percentage: baseTotalFields === 0 ? 0 : 100\n    },\n    files: {\n        totalFields: filesTotalFields,\n        percentage: filesTotalFields === 0 ? 0 : 100\n    },\n    total\n};\n\nreturn msg;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 430,
-        "y": 440,
-        "wires": [
-            [
-                "9c4b61a5066b93c2",
-                "3422465e9d16734b"
-            ]
-        ]
     },
     {
         "id": "4439c34b24b37c0f",
@@ -17900,7 +17932,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 390,
+        "x": 450,
         "y": 260,
         "wires": [
             [
@@ -17919,7 +17951,7 @@
         ],
         "linkType": "static",
         "timeout": "70",
-        "x": 570,
+        "x": 690,
         "y": 260,
         "wires": [
             [
@@ -17939,7 +17971,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 740,
+        "x": 880,
         "y": 260,
         "wires": [
             []
@@ -17956,12 +17988,12 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 150,
-        "y": 440,
+        "y": 360,
         "wires": [
             [
-                "607c806941f44991",
-                "4439c34b24b37c0f",
-                "1a8d8b8b1ebd8dfc"
+                "a0f3a2c3f09c319d",
+                "37e79a6bf6aad79b",
+                "9b7f854b6d10a072"
             ]
         ]
     },
@@ -17991,7 +18023,7 @@
         "y": 280,
         "wires": [
             [
-                "4439c34b24b37c0f"
+                "37e79a6bf6aad79b"
             ]
         ]
     },
@@ -18009,7 +18041,7 @@
         "y": 240,
         "wires": [
             [
-                "4439c34b24b37c0f"
+                "37e79a6bf6aad79b"
             ]
         ]
     },
@@ -18025,8 +18057,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 400,
-        "y": 360,
+        "x": 460,
+        "y": 460,
         "wires": [
             [
                 "7153e00d61eeb857"
@@ -18044,8 +18076,8 @@
         ],
         "linkType": "static",
         "timeout": "70",
-        "x": 590,
-        "y": 360,
+        "x": 690,
+        "y": 460,
         "wires": [
             [
                 "60e9c820f516cfc1"
@@ -18064,8 +18096,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 780,
-        "y": 360,
+        "x": 880,
+        "y": 460,
         "wires": [
             []
         ]
@@ -18093,10 +18125,10 @@
         "payload": "",
         "payloadType": "date",
         "x": 150,
-        "y": 380,
+        "y": 480,
         "wires": [
             [
-                "607c806941f44991"
+                "9b7f854b6d10a072"
             ]
         ]
     },
@@ -18111,10 +18143,10 @@
         ],
         "uncaught": false,
         "x": 130,
-        "y": 340,
+        "y": 440,
         "wires": [
             [
-                "607c806941f44991"
+                "9b7f854b6d10a072"
             ]
         ]
     },
@@ -18129,7 +18161,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 120,
-        "y": 500,
+        "y": 560,
         "wires": [
             [
                 "ac28fa444438740d"
@@ -18142,14 +18174,14 @@
         "z": "d41b21524ec70b11",
         "g": "b2e9a721546c936c",
         "name": "function 393",
-        "func": "\nconst totalMessages = msg.payload.total;\n\n\nconst messengerData = [\n    {\n        \"label\": \"Telegram\",\n        \"value\": msg.payload.telegram.length,\n        \"type\": \"1-2\",\n        \"color\": \"#abd8de\",\n        \"borderColor\": \"#000\"\n    },\n    {\n        \"label\": \"Messenger\",\n        \"value\": msg.payload.messanger.length ,\n        \"type\": \"1-3\",\n        \"color\": \"#86b3e4\",\n        \"borderColor\": \"#000\"\n    },\n    {\n        \"label\": \"WhatsApp\",\n        \"value\": msg.payload.whatsApp.length,\n        \"type\": \"1-4\",\n        \"color\": \"#1976D2\",\n        \"borderColor\": \"#000\"\n    },\n    {\n        \"label\": \"Instagram\",\n        \"value\": msg.payload.instagram.length,\n        \"type\": \"1-5\",\n        \"color\": \"#f96431\",\n        \"borderColor\": \"#000\"\n    },\n    {\n        \"label\": \"Custom Chat\",\n        \"value\": msg.payload.instagram.length,\n        \"type\": \"1-6\",\n        \"color\": \"#4bf73b\",\n        \"borderColor\": \"#000\"\n    }\n]\n\n// Створення графіка\nconst chartData = [\n    {\n        \"label\": 'Total Messages', value: totalMessages, \"type\": \"4-10\", \"color\": \"#FFEB3B\",\"borderColor\": \"#F44336\" },\n    ...messengerData\n];\n\n\n\n// Оновлення графіка з новими даними\nmsg.payload = chartData;\n\nreturn msg;",
+        "func": "\nconst totalMessages = msg.payload.total;\n\n\nconst messengerData = [\n    {\n        \"label\": \"Telegram\",\n        \"value\": msg.payload.telegram.length,\n        \"type\": \"1-2\",\n        \"color\": \"#abd8de\",\n        \"borderColor\": \"#000\"\n    },\n    {\n        \"label\": \"Messenger\",\n        \"value\": msg.payload.messanger.length ,\n        \"type\": \"1-3\",\n        \"color\": \"#86b3e4\",\n        \"borderColor\": \"#000\"\n    },\n    {\n        \"label\": \"WhatsApp\",\n        \"value\": msg.payload.whatsApp.length,\n        \"type\": \"1-4\",\n        \"color\": \"#1976D2\",\n        \"borderColor\": \"#000\"\n    },\n    {\n        \"label\": \"Instagram\",\n        \"value\": msg.payload.instagram.length,\n        \"type\": \"1-5\",\n        \"color\": \"#f96431\",\n        \"borderColor\": \"#000\"\n    },\n    {\n        \"label\": \"Custom Chat\",\n        \"value\": msg.payload.custom.length,\n        \"type\": \"1-6\",\n        \"color\": \"#4bf73b\",\n        \"borderColor\": \"#000\"\n    }\n]\n\n// Створення графіка\nconst chartData = [\n    {\n        \"label\": 'Total Messages', value: totalMessages, \"type\": \"4-10\", \"color\": \"#FFEB3B\",\"borderColor\": \"#F44336\" },\n    ...messengerData\n];\n\n\n\n// Оновлення графіка з новими даними\nmsg.payload = chartData;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 850,
-        "y": 500,
+        "x": 1050,
+        "y": 560,
         "wires": [
             [
                 "d85d31f6e5e71638"
@@ -18162,14 +18194,14 @@
         "z": "d41b21524ec70b11",
         "g": "b2e9a721546c936c",
         "name": "get users",
-        "func": "// msg.collection = 'users'\nmsg.collection = 'users_messages'\nmsg.payload = {\n      deleted: false\n}\n// msg.payload =[\n    \n//       {  $match:{\n//        deleted:false\n//         }}\n    \n// ]\nreturn msg;",
+        "func": "msg.collection = 'users_messages';\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 280,
-        "y": 500,
+        "x": 420,
+        "y": 560,
         "wires": [
             [
                 "29e8cc38a78022ce"
@@ -18187,31 +18219,11 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 450,
-        "y": 500,
+        "x": 690,
+        "y": 560,
         "wires": [
             [
-                "2710be5a8526ba3e"
-            ]
-        ]
-    },
-    {
-        "id": "2710be5a8526ba3e",
-        "type": "function",
-        "z": "d41b21524ec70b11",
-        "g": "b2e9a721546c936c",
-        "name": "function 394",
-        "func": "msg.payload={\n    telegram: msg.payload.filter(e => e.type ==='telegram'),\n    messanger: msg.payload.filter(e => e.type === 'messanger'),\n    whatsApp: msg.payload.filter(e => e.type === 'whatsApp'),\n    instagram: msg.payload.filter(e => e.type === 'instagram'),\n    custom: msg.payload.filter(e => e.type === 'custom'),\n    total: msg.payload.length\n\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 630,
-        "y": 500,
-        "wires": [
-            [
-                "aeaaab8a80debb93"
+                "f441f88803387128"
             ]
         ]
     },
@@ -18223,8 +18235,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1030,
-        "y": 500,
+        "x": 1210,
+        "y": 560,
         "wires": []
     },
     {
@@ -18239,8 +18251,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 575,
-        "y": 400,
+        "x": 705,
+        "y": 340,
         "wires": [
             [
                 "f42471de14bb6f8e"
@@ -18265,12 +18277,52 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 645,
-        "y": 400,
+        "x": 775,
+        "y": 340,
         "wires": [
             []
         ],
         "l": false
+    },
+    {
+        "id": "a0f3a2c3f09c319d",
+        "type": "function",
+        "z": "d41b21524ec70b11",
+        "g": "b2e9a721546c936c",
+        "name": "get analytics",
+        "func": "const fieldsToCheck = [\n    'pinecone',\n    'WHATSAPP',\n    'telegram',\n    'openai',\n    'META',\n    'instagram',\n    'customChat',\n    'base',\n    'files'\n];\n\nconst payload = {};\n\nfieldsToCheck.forEach(field => {\n    payload[field] = global.get(field) || {};\n});\n\nfunction countEmptyAndFilledFields(obj) {\n    const result = {};\n\n    for (const key in obj) {\n        const subObj = obj[key];\n        const totalFields = Object.keys(subObj).length;\n        const filledFieldsForKey = (\n            Object.values(subObj).every(value => !!value) && //якщо КОЖЕН елемент об'єкту в глобалці заповнений!\n            Object.values(subObj).length  // якщо об'єкт в глобал існує і НЕ пустий!\n            ) ? 1 : 0;\n\n        const percentage = filledFieldsForKey === 0 ? 0 : ((filledFieldsForKey / totalFields) * 100).toFixed(0);\n\n        result[key] = {\n            filledFields: filledFieldsForKey,\n            totalFields: 1,\n            percentage: percentage\n        };\n    }\n\n    const totalFields = Object.values(result).reduce((acc, curr) => acc + curr.totalFields, 0);\n    const filledFields = Object.values(result).reduce((acc, curr) => acc + curr.filledFields, 0);\n    const totalPercentage = filledFields === 0 ? 0 : ((filledFields / totalFields) * 100).toFixed(0);\n\n    result[\"total\"] = {\n        filledFields: filledFields,\n        totalFields: totalFields,\n        percentage: totalPercentage\n    };\n\n    return result;\n}\n\nconst result = countEmptyAndFilledFields(payload);\n\nconst botsFilledFields = result.WHATSAPP.filledFields + result.telegram.filledFields + result.META.filledFields + result.instagram.filledFields + result.customChat.filledFields;\nconst botsTotalFields = 5;\n\nconst settingsFilledFields = result.pinecone.filledFields + result.openai.filledFields;\nconst settingsTotalFields = 2;\n\n\nconst baseFilledFields = global.get('base')?.total ? global.get('base')?.total : 0;\nconst baseTotalFields = global.get('base')?.total ? global.get('base')?.total : 1;\n\nconst filesFilledFields = global.get('files')?.total ? global.get('files')?.total : 0;\nconst filesTotalFields = global.get('files')?.total ? global.get('files')?.total : 1;\n\nconst total = parseFloat((\n    (\n    botsFilledFields + settingsFilledFields + (!!baseFilledFields ? 1 : 0) + (!!filesFilledFields ? 1 : 0) // з файлами і базами, враховуємо лише по одній. Якщо Одна тоді 1.\n    ) / (\n        botsTotalFields + settingsTotalFields + (!!baseTotalFields ? 1 : 0) + (!!filesTotalFields ? 1 : 0)\n        ))\n            * 100).toFixed(0);\n\nmsg.payload = {\n    openai: {\n        filledFields: result.openai.filledFields,\n        totalFields: 2},\n    bots: {\n        filledFields: botsFilledFields,\n        totalFields: botsTotalFields,\n        percentage: botsFilledFields === 0 ? 0 : ((botsFilledFields/botsTotalFields) * 100).toFixed(0)\n    },\n    settings: {\n        filledFields: settingsFilledFields,\n        totalFields: settingsTotalFields,\n        percentage: settingsFilledFields === 0 ? 0 : ((settingsFilledFields/settingsTotalFields ) * 100).toFixed(0)\n    },\n    base: {\n        totalFields: baseFilledFields,\n        percentage: baseFilledFields === 0 ? 0 : ((baseFilledFields / baseTotalFields) * 100).toFixed(0)\n    },\n    files: {\n        totalFields: filesFilledFields,\n        percentage: filesFilledFields === 0 ? 0 : ((filesFilledFields / filesTotalFields) * 100).toFixed(0)\n    },\n    total,\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 360,
+        "wires": [
+            [
+                "83adc08423912a66"
+            ]
+        ]
+    },
+    {
+        "id": "f441f88803387128",
+        "type": "function",
+        "z": "d41b21524ec70b11",
+        "g": "b2e9a721546c936c",
+        "name": "function 394",
+        "func": "msg.payload = {\n    telegram: msg.payload.filter(e => e.messengerType === 'telegram'),\n    messanger: msg.payload.filter(e => e.messengerType === 'messanger'),\n    whatsApp: msg.payload.filter(e => e.messengerType === 'whatsApp'),\n    instagram: msg.payload.filter(e => e.messengerType === 'instagram'),\n    custom: msg.payload.filter(e => e.messengerType === 'custom'),\n    total: msg.payload.length,\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 560,
+        "wires": [
+            [
+                "aeaaab8a80debb93"
+            ]
+        ]
     },
     {
         "id": "1f3847a732f60a22",
@@ -18282,7 +18334,7 @@
         "fieldType": "msg",
         "format": "css",
         "syntax": "mustache",
-        "template": "@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,200&display=swap');\n\nbody{\n    font-family: 'Titillium Web', sans-serif!important;\n   \n}\n\n.header{\ntop: 0px !important;\nheight: 66px !important;\npadding: 0px !important;\nborder-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n.menu_section{\nbox-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\nheight: 100vh !important;\npadding: 0px !important;\nleft: 0px !important;\nborder-right: 2px solid rgb(241, 243, 244) !important;\n}\n\n.main_section{\npadding: 0px !important;\nheight: 100vh !important;\nposition: fixed !important;\ntop: 66px !important; \n}\n\n.tab_login>div>div>div>div{\nbox-shadow: none !important;\n}\n\n.tab_login>div>div>div>div>div{\nbackground: transparent !important;\n}\n\n.frame_section{\nheight: 100vh !important;\nposition: fixed !important;\ntop: 16px !important; \n}\n\n.scroll_section{\n    height: 100vh !important; \n    top: 66px !important; \n    padding: 0px !important;\n}\n\n.scroll_section1{\n    height: 100vh !important; \n    top: 90px !important; \n    padding: 0px !important;\n}\n\n.image{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n    height: 75px !important;\n}\n\n\n.menu .active span{\ncolor: #2a2f36 !important;\n}\n\n.menu .active {\n    background: #ebf1fb !important;\n}\n\n.menu button:hover{\nbackground: #ebf1fb;\n}\n\n.menu span[role=\"img\"]{\nmargin-left: 8px !important;\nmargin-top: 3px !important;\n\n}\n.menu .bp3-collapse-body .sub_category {\n    padding: 5px 5px 5px 20px !important;\n}\n.menu button{\n    box-shadow: none !important;\n}\n\n.menu span{\n    font-size: 16px !important;\n    font-weight: 400 !important;\n    color: #00000099 !important;\n}\n\n.menu {\n    left: 0px !important;\n    width: 100% !important;\n    padding: 0 !important;\n}\n\n.menu_wrap{\n    position: fixed !important;\n    left: 0px!important;\n    top: 0px !important;\n    height: 100vh !important;\n    /* width: 178.312px!important; */\n    padding: 0px!important;\n    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\n}\n\n.menu button {\n    justify-content: start !important;\n    padding: 5px 10px 5px 15px !important;\n    margin-bottom: 5px !important;\n}\n\n.setting_title{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n\n.setting_text{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important; \n}\n\n.setting_text .bp3-ui-text {\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n.setting_title .bp3-ui-text {\n    font-weight: 600 !important;\n    font-size: 18px !important;\n}\n\n.telegramList {\n    padding: 10px 20px !important;\n}\n\n.telegramList .custom-wrapper-canvas-list{\n    display: flex;\n    flex-direction: column !important;\n}\n.telegramList .custom-wrapper-canvas-list button {\n    display: none !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget{\n    width: 90% !important;\n    position: static !important;\n    border-radius: 8px!important;\n    padding: 0 !important;\n    margin-bottom: 7px;\n    margin-right: auto !important;\n    margin-left: 0 !important;\n    background-color: #cfcfdb !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd){\n    margin-right: 0 !important;\n    margin-left: auto !important;\n    background-color: #e5e5e6 !important;\n}\n.telegramList .t--widget-textwidget{\n    width: auto !important;\n    position: static !important;\n    padding: 5px 15px !important;\n    height: 100% !important;\n}\n.telegramList .t--widget-textwidget span{\n    font-weight: 500; \n    font-size: 16px;\n    line-height: 125%;\n}\n\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd) .t--widget-textwidget span{\n    text-align: end;\n}\n\n.telegramWrap{\n    padding: 0!important;\n}\n\n.container{\n    min-height: 100vh;\n}\n\n.selectedTab{\n    box-shadow: rgb(235, 239, 242) -1px 0px 0px inset, rgb(235, 239, 242) 0px 0px 0px inset, rgb(55 169 235) 0px 4px 0px inset !important;\n}\n\n.icon >div>div>div>div>div>div>div{\n   background-position: center right!important;\n}\n\n.title >div>div>div>div>div>div>div span {\nfont-size:22px!important; \n}\n.title >div>div>div>div>div>div>div >span >span.training_span {color:#118cfc!important; font-size: 28px!important;  font-weight: 700!important;}\n.tabs >div>div>div>div>div>div {\nfont-size:20px!important;\ntext-transform: uppercase!important;\nfont-weight: 500!important;\n}\n.training_wrap >div>div>div>div>div>div>div>div>div>div>div>div>div{\n    display: inline-flex!important;\n    justify-content: space-between!important;\n}\n.table{\nfont-size:14px!important;\ntext-transform: lowercase!important;\nfont-weight: 400!important; \n}\n.table >div>div>div>div>div>div{\n    font-size:14px!important;\ntext-transform: uppercase!important;\n}\n.tr>div>div>div>div>div>div>div>div{\n    border-right: none!important;\n}\n\n\n\n.title >div>div>div>div>div>div>div >span >span {\nfont-size:14px!important;\nfont-weight: 400!important; \n}\n\n/**/\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    margin-bottom: 20px!important;\n}\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    position: initial !important;\n}\n\n.hide{\n    display: none;\n       height: 20px!important;\n}\n\n.activ{\n    display: block;\n    /* height: 270px!important; */\n}\n.activ_setup{\n    display: block;\n    /* height: 500px!important; */\n}\n.btn_right>div>div>div>div>button>span>svg {\n    transform: rotate(180deg)!important;\n    transition: all 0.5s ease 0s !important;\n}\n.btn_left>div>div>div>div>button>span>svg {\n        transform: translateY(0px)!important;\n    transition: none 0s ease 0s!important;\n}\n\n/* За замовчуванням */\n.btn_left>div>div>div>div>button,\n.btn_right>div>div>div>div>button {\n    background-color: #ccc;  \n    transition: background-color 0.3s ease, transform 0.3s ease !important;\n \n}\n\n\n.btn_left>div>div>div>div>button:hover:enabled,\n.btn_right>div>div>div>div>button:hover:enabled {\n    background: #9991 !important; \n    transform: translateY(-5px) !important; \n}\n.bp3-input  {\nborder-radius: 10px!important;\n}\n.select_input button.select-button {\n    border-radius: 10px!important;\n}\n.dashboard_text>div>div>div>div>div>div>div{\n    font-size:32px!important;\nfont-weight: 700!important; \n}\n.t--widget-progresswidget>div>div>div>div{\n   height: 68%!important; \n  border-radius:10px!important; \n    background: #fec518;\n    overflow: hidden!important;\n    \n\n}\n\n.t--widget-progresswidget>div>div>div>div>div{\n    height: 100%!important; \n    background-color: #fec518!important;\n    padding-right: 4px!important;\n    font-size: 20px!important;\n    font-weight: 600!important;\n    text-align: center!important;\n    padding-top: 2px!important;\n  \n   \n   \n} \n.text_cross{\n    text-decoration: line-through!important;\n}\n.text_cross span{\n    text-decoration: none!important;\n}\n.done{\n    opacity: 0.3!important;\n}\n.scroll_section{\n     overflow-y: hidden!important;\n}\n\n\n.users_tabs{\n    border-radius: 10px!important;\n}\n.upload_img .bp3-button {\n    background:#215484!important;\n    border-radius: 5px !important;\n}\n.upload_img .bp3-button:hover,\n.upload_img >div>div>div>div:hover > button, \n.upload_img >div>div>div>div:active > button{\nbackground: #123a5e!important;\ntransition: background-color 0.3s ease, transform 0.3s ease !important;\n}\n.text_aisetup{\n    top:0 px!important;\n}\n.text_aisetup>div>div>div>div>div>div>div>span{\ngap: 5px!important;\ndisplay: flex!important;\nwidth: 100%!important;\nline-height: 1.2!important;\nwhite-space: normal!important;\n}\n.table_vectors .table .td{height: 250px!important;\n}\n.table_vectors .table .td>div>div{\n    white-space: initial!important;\n    align-items: baseline!important;\n}\n\n.chatDemo{\n    height: calc(100% - 60px)!important;\n}\n\n.cloneTemplateBtn {\nwidth: 200px !important;\nleft: calc(100% - 220px) !important;\n}\n\n.warningSection{\n    width: calc(100% - 45px) !important;\n    left: 6px !important;\n}\n\n.warningText{\n    width: 100% !important;\n}\n\n.selectWithoutCross .cancel-icon {\n    display:none !important;\n}\n\n/* DB Benchmark & ModelTesting pages ---START--- */\n.pseudoInput {\n    background: none !important;\n    border-radius: 10px !important;\n}\n\n.pseudoInput input,\n.pseudoInput textarea {\n    background: #f9fafa !important;\n    border-radius: 10px !important;\n    color: #2E3D49 !important;\n}\n\n.inputRegular {\n    background-color: #F6F7F8 !important;\n    border-radius: 10px !important;\n}\n\n.pseudoInputEnrichment  {\n    background: none !important;\n    border-radius: 10px !important;\n}\n\n.pseudoInputEnrichment textarea {\n    background: #edf2f7 !important;\n    border-width: 10px !important;\n    border-color: #edf2f7 !important;\n    border-radius: 10px !important;\n    color: #2E3D49 !important;\n}\n\n.listVectors div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div {\n    border-radius: 10px !important;\n    transition-delay: 999999s; /* prevents the hover from turning on */\n}\n\n.listVectors div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div:hover {\n    cursor: default !important; /* hover off */\n}\n\n.listVectorsText div>div>div>div>div>div>div {\n    padding: 10px !important;\n}\n\n\n\n.tableOfVectors .thead .tr .th:nth-child(1),\n.tableOfVectors .tbody .tr .td:nth-child(1) {\n    width: 45% !important;\n}\n\n.tableOfVectors .thead .tr .th:nth-child(2),\n.tableOfVectors .tbody .tr .td:nth-child(2) {\n    width: 50% !important;\n}\n\n.tableOfVectors .thead .tr .th:last-child,\n.tableOfVectors .tbody .tr .td:last-child {\n    width: 5% !important;\n}\n\n.Text_v_answer div>div>div>div>div>div>div{\n    padding: 10px !important;\n    /* border-radius: 10px !important; */\n}\n\n.modelTestingSelector .cancel-icon,\n.BenchmarkSelector .cancel-icon {\n    display: none !important;\n}\n\n.Enrich_JSONForm .t--jsonformfield-Enriched_data_from_AI {\n    border-radius: 10px !important;\n}\n/* DB Benchmark & ModelTesting pages ---FINISH--- */\n\n\n.buttonsTraining>div>div>div>div {\n    border: 1px solid #e8e8e8 !important;\n    border-radius: 9px !important;\n    padding: 0 !important;\n}\n\n.buttonsTraining button {\n    border-color: #e8e8e8 !important;\n}\n",
+        "template": "@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,200&display=swap');\n\nbody{\n    font-family: 'Titillium Web', sans-serif!important;\n   \n}\n\n.header{\ntop: 0px !important;\nheight: 66px !important;\npadding: 0px !important;\nborder-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n.menu_section{\nbox-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\nheight: 100vh !important;\npadding: 0px !important;\nleft: 0px !important;\nborder-right: 2px solid rgb(241, 243, 244) !important;\n}\n\n.main_section{\npadding: 0px !important;\nheight: 100vh !important;\nposition: fixed !important;\ntop: 66px !important; \n}\n\n.tab_login>div>div>div>div{\nbox-shadow: none !important;\n}\n\n.tab_login>div>div>div>div>div{\nbackground: transparent !important;\n}\n\n.frame_section{\nheight: 100vh !important;\nposition: fixed !important;\ntop: 16px !important; \n}\n\n.scroll_section{\n    height: 100vh !important; \n    top: 66px !important; \n    padding: 0px !important;\n}\n\n.scroll_section1{\n    height: 100vh !important; \n    top: 90px !important; \n    padding: 0px !important;\n}\n\n.image{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n    height: 75px !important;\n}\n\n\n.menu .active span{\ncolor: #2a2f36 !important;\n}\n\n.menu .active {\n    background: #ebf1fb !important;\n}\n\n.menu button:hover{\nbackground: #ebf1fb;\n}\n\n.menu span[role=\"img\"]{\nmargin-left: 8px !important;\nmargin-top: 3px !important;\n\n}\n.menu .bp3-collapse-body .sub_category {\n    padding: 5px 5px 5px 20px !important;\n}\n.menu button{\n    box-shadow: none !important;\n}\n\n.menu span{\n    font-size: 16px !important;\n    font-weight: 400 !important;\n    color: #00000099 !important;\n}\n\n.menu {\n    left: 0px !important;\n    width: 100% !important;\n    padding: 0 !important;\n}\n\n.menu_wrap{\n    position: fixed !important;\n    left: 0px!important;\n    top: 0px !important;\n    height: 100vh !important;\n    /* width: 178.312px!important; */\n    padding: 0px!important;\n    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\n}\n\n.menu button {\n    justify-content: start !important;\n    padding: 5px 10px 5px 15px !important;\n    margin-bottom: 5px !important;\n}\n\n.setting_title{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n\n.setting_text{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important; \n}\n\n.setting_text .bp3-ui-text {\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n.setting_title .bp3-ui-text {\n    font-weight: 600 !important;\n    font-size: 18px !important;\n}\n\n.telegramList {\n    padding: 10px 20px !important;\n}\n\n.telegramList .custom-wrapper-canvas-list{\n    display: flex;\n    flex-direction: column !important;\n}\n.telegramList .custom-wrapper-canvas-list button {\n    display: none !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget{\n    width: 90% !important;\n    position: static !important;\n    border-radius: 8px!important;\n    padding: 0 !important;\n    margin-bottom: 7px;\n    margin-right: auto !important;\n    margin-left: 0 !important;\n    background-color: #cfcfdb !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd){\n    margin-right: 0 !important;\n    margin-left: auto !important;\n    background-color: #e5e5e6 !important;\n}\n.telegramList .t--widget-textwidget{\n    width: auto !important;\n    position: static !important;\n    padding: 5px 15px !important;\n    height: 100% !important;\n}\n.telegramList .t--widget-textwidget span{\n    font-weight: 500; \n    font-size: 16px;\n    line-height: 125%;\n}\n\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd) .t--widget-textwidget span{\n    text-align: end;\n}\n\n.telegramWrap{\n    padding: 0!important;\n}\n\n.container{\n    min-height: 100vh;\n}\n\n.selectedTab{\n    box-shadow: rgb(235, 239, 242) -1px 0px 0px inset, rgb(235, 239, 242) 0px 0px 0px inset, rgb(55 169 235) 0px 4px 0px inset !important;\n}\n\n.icon >div>div>div>div>div>div>div{\n   background-position: center right!important;\n}\n\n.title >div>div>div>div>div>div>div span {\nfont-size:22px!important; \n}\n.title >div>div>div>div>div>div>div >span >span.training_span {color:#118cfc!important; font-size: 28px!important;  font-weight: 700!important;}\n.tabs >div>div>div>div>div>div {\nfont-size:20px!important;\ntext-transform: uppercase!important;\nfont-weight: 500!important;\n}\n.training_wrap >div>div>div>div>div>div>div>div>div>div>div>div>div{\n    display: inline-flex!important;\n    justify-content: space-between!important;\n}\n.table{\nfont-size:14px!important;\ntext-transform: lowercase!important;\nfont-weight: 400!important; \n}\n.table >div>div>div>div>div>div{\n    font-size:14px!important;\ntext-transform: uppercase!important;\n}\n.tr>div>div>div>div>div>div>div>div{\n    border-right: none!important;\n}\n\n\n\n.title >div>div>div>div>div>div>div >span >span {\nfont-size:14px!important;\nfont-weight: 400!important; \n}\n\n/**/\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    margin-bottom: 20px!important;\n}\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    position: initial !important;\n}\n\n.hide{\n    display: none;\n       height: 20px!important;\n}\n\n.activ{\n    display: block;\n    /* height: 270px!important; */\n}\n.activ_setup{\n    display: block;\n    /* height: 500px!important; */\n}\n.btn_right>div>div>div>div>button>span>svg {\n    transform: rotate(180deg)!important;\n    transition: all 0.5s ease 0s !important;\n}\n.btn_left>div>div>div>div>button>span>svg {\n        transform: translateY(0px)!important;\n    transition: none 0s ease 0s!important;\n}\n\n/* За замовчуванням */\n.btn_left>div>div>div>div>button,\n.btn_right>div>div>div>div>button {\n    background-color: #ccc;  \n    transition: background-color 0.3s ease, transform 0.3s ease !important;\n \n}\n\n\n.btn_left>div>div>div>div>button:hover:enabled,\n.btn_right>div>div>div>div>button:hover:enabled {\n    background: #9991 !important; \n    transform: translateY(-5px) !important; \n}\n.bp3-input  {\nborder-radius: 10px!important;\n}\n.select_input button.select-button {\n    border-radius: 10px!important;\n}\n.dashboard_text>div>div>div>div>div>div>div{\n    font-size:32px!important;\nfont-weight: 700!important; \n}\n.t--widget-progresswidget>div>div>div>div{\n   height: 68%!important; \n  border-radius:10px!important; \n    background: #fec518;\n    overflow: hidden!important;\n    \n\n}\n\n.t--widget-progresswidget>div>div>div>div>div{\n    height: 100%!important; \n    background-color: #fec518!important;\n    padding-right: 4px!important;\n    font-size: 20px!important;\n    font-weight: 600!important;\n    text-align: center!important;\n    padding-top: 2px!important;\n  \n   \n   \n} \n.text_cross{\n    text-decoration: line-through!important;\n}\n.text_cross span{\n    text-decoration: none!important;\n}\n.undone{\n    opacity: 0.3!important;\n}\n.scroll_section{\n     overflow-y: hidden!important;\n}\n\n\n.users_tabs{\n    border-radius: 10px!important;\n}\n.upload_img .bp3-button {\n    background:#215484!important;\n    border-radius: 5px !important;\n}\n.upload_img .bp3-button:hover,\n.upload_img >div>div>div>div:hover > button, \n.upload_img >div>div>div>div:active > button{\nbackground: #123a5e!important;\ntransition: background-color 0.3s ease, transform 0.3s ease !important;\n}\n.text_aisetup{\n    top:0 px!important;\n}\n.text_aisetup>div>div>div>div>div>div>div>span{\ngap: 5px!important;\ndisplay: flex!important;\nwidth: 100%!important;\nline-height: 1.2!important;\nwhite-space: normal!important;\n}\n.table_vectors .table .td{height: 250px!important;\n}\n.table_vectors .table .td>div>div{\n    white-space: initial!important;\n    align-items: baseline!important;\n}\n\n.chatDemo{\n    height: calc(100% - 60px)!important;\n}\n\n.cloneTemplateBtn {\nwidth: 200px !important;\nleft: calc(100% - 220px) !important;\n}\n\n.warningSection{\n    width: calc(100% - 45px) !important;\n    left: 6px !important;\n}\n\n.warningText{\n    width: 100% !important;\n}\n\n.selectWithoutCross .cancel-icon {\n    display:none !important;\n}\n\n/* DB Benchmark & ModelTesting pages ---START--- */\n.pseudoInput {\n    background: none !important;\n    border-radius: 10px !important;\n}\n\n.pseudoInput input,\n.pseudoInput textarea {\n    background: #f9fafa !important;\n    border-radius: 10px !important;\n    color: #2E3D49 !important;\n}\n\n.inputRegular {\n    background-color: #F6F7F8 !important;\n    border-radius: 10px !important;\n}\n\n.pseudoInputEnrichment  {\n    background: none !important;\n    border-radius: 10px !important;\n}\n\n.pseudoInputEnrichment textarea {\n    background: #edf2f7 !important;\n    border-width: 10px !important;\n    border-color: #edf2f7 !important;\n    border-radius: 10px !important;\n    color: #2E3D49 !important;\n}\n\n.listVectors div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div {\n    border-radius: 10px !important;\n    transition-delay: 999999s; /* prevents the hover from turning on */\n}\n\n.listVectors div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div:hover {\n    cursor: default !important; /* hover off */\n}\n\n.listVectorsText div>div>div>div>div>div>div {\n    padding: 10px !important;\n}\n\n\n\n.tableOfVectors .thead .tr .th:nth-child(1),\n.tableOfVectors .tbody .tr .td:nth-child(1) {\n    width: 45% !important;\n}\n\n.tableOfVectors .thead .tr .th:nth-child(2),\n.tableOfVectors .tbody .tr .td:nth-child(2) {\n    width: 50% !important;\n}\n\n.tableOfVectors .thead .tr .th:last-child,\n.tableOfVectors .tbody .tr .td:last-child {\n    width: 5% !important;\n}\n\n.Text_v_answer div>div>div>div>div>div>div{\n    padding: 10px !important;\n    /* border-radius: 10px !important; */\n}\n\n.modelTestingSelector .cancel-icon,\n.BenchmarkSelector .cancel-icon {\n    display: none !important;\n}\n\n.Enrich_JSONForm .t--jsonformfield-Enriched_data_from_AI {\n    border-radius: 10px !important;\n}\n/* DB Benchmark & ModelTesting pages ---FINISH--- */\n\n\n.buttonsTraining>div>div>div>div {\n    border: 1px solid #e8e8e8 !important;\n    border-radius: 9px !important;\n    padding: 0 !important;\n}\n\n.buttonsTraining button {\n    border-color: #e8e8e8 !important;\n}\n",
         "output": "str",
         "x": 260,
         "y": 60,
@@ -18624,6 +18676,44 @@
         "l": false
     },
     {
+        "id": "adeafe8e156b21d7",
+        "type": "telegram sender",
+        "z": "7e6aa2730f443095",
+        "g": "d5f3c34635f35708",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 410,
+        "y": 380,
+        "wires": [
+            [
+                "3ac799522b65d1e3"
+            ]
+        ]
+    },
+    {
+        "id": "d9a9aec28a0e24f6",
+        "type": "while-loop",
+        "z": "7e6aa2730f443095",
+        "g": "d5f3c34635f35708",
+        "name": "",
+        "condi": "global.get(`${msg.typing}`) === true",
+        "limit": true,
+        "limitTime": "100",
+        "time": "counter",
+        "timeType": "msg",
+        "x": 375,
+        "y": 320,
+        "wires": [
+            [],
+            [
+                "770851c3f89211f4"
+            ]
+        ],
+        "l": false
+    },
+    {
         "id": "770851c3f89211f4",
         "type": "function",
         "z": "7e6aa2730f443095",
@@ -18668,6 +18758,25 @@
         ]
     },
     {
+        "id": "26865e13ed50bd7c",
+        "type": "telegram receiver",
+        "z": "7e6aa2730f443095",
+        "g": "d5f3c34635f35708",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "saveDataDir": "",
+        "filterCommands": true,
+        "x": 180,
+        "y": 200,
+        "wires": [
+            [
+                "12d33bcda39c0668",
+                "877f2e04d71b4d11"
+            ],
+            []
+        ]
+    },
+    {
         "id": "a49a7139a5dd1cb3",
         "type": "function",
         "z": "7e6aa2730f443095",
@@ -18694,7 +18803,7 @@
         "z": "7e6aa2730f443095",
         "g": "d5f3c34635f35708",
         "name": "Prepare Data",
-        "func": "const telegramData = global.get('telegram');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === telegramData.id_base)\n\nnode.warn(data);\n\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ?\n    msg.fromTG.content.replace(`@${msg.BOT_NAME}`, '') :\n    msg.fromTG.content;\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.fromTG.chatId,\n        username: msg.fromTG.username ? msg.fromTG.username : msg.originalMessage.from.first_name,\n        type: msg.fromTG.type,\n        content,\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nreturn msg;\n",
+        "func": "const telegramData = global.get('telegram');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === telegramData.id_base)\n\nnode.warn(data);\n\nconst content = msg.fromTG.content.includes(`@${msg.BOT_NAME}`) ?\n    msg.fromTG.content.replace(`@${msg.BOT_NAME}`, '') :\n    msg.fromTG.content;\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.fromTG.chatId,\n        username: msg.fromTG.username ? msg.fromTG.username : msg.originalMessage.from.first_name,\n        type: msg.fromTG.type,\n        content,\n        messengerType: msg.history.type,\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -18746,6 +18855,21 @@
                 "bad82f6476c7925c",
                 "368c6a39a3a41559"
             ]
+        ]
+    },
+    {
+        "id": "e8d6a2dbc6c40396",
+        "type": "telegram sender",
+        "z": "7e6aa2730f443095",
+        "g": "d5f3c34635f35708",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 740,
+        "y": 80,
+        "wires": [
+            []
         ]
     },
     {
@@ -18822,7 +18946,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
+        "x": 1000,
         "y": 260,
         "wires": [
             [
@@ -18849,6 +18973,21 @@
                 "368c6a39a3a41559",
                 "38fa734109685e32"
             ],
+            []
+        ]
+    },
+    {
+        "id": "ca333a2f720b8f48",
+        "type": "telegram sender",
+        "z": "7e6aa2730f443095",
+        "g": "d5f3c34635f35708",
+        "name": "",
+        "bot": "4b07803a52e468f5",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1200,
+        "y": 260,
+        "wires": [
             []
         ]
     },
@@ -19171,7 +19310,7 @@
         "z": "7e6aa2730f443095",
         "g": "d5a9a22192fa1989",
         "name": "Prepare Data",
-        "func": "const whatsAppData = global.get('WHATSAPP');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === whatsAppData.id_base);\n\nnode.warn(data);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.fromWhatsApp.entry[0].changes[0].value.contacts[0].wa_id.toString(),\n        username: msg.fromWhatsApp.entry[0].changes[0].value.contacts[0].profile.name,\n        type: msg.fromWhatsApp.entry[0].changes[0].value.messages[0].type,\n        content: msg.fromWhatsApp.entry[0].changes[0].value.messages[0].text.body,\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nnode.warn(msg.payload);\n\nreturn msg;\n",
+        "func": "const whatsAppData = global.get('WHATSAPP');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === whatsAppData.id_base);\n\nnode.warn(data);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.fromWhatsApp.entry[0].changes[0].value.contacts[0].wa_id.toString(),\n        username: msg.fromWhatsApp.entry[0].changes[0].value.contacts[0].profile.name,\n        type: msg.fromWhatsApp.entry[0].changes[0].value.messages[0].type,\n        content: msg.fromWhatsApp.entry[0].changes[0].value.messages[0].text.body,\n        messengerType: 'whatsApp',\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nnode.warn(msg.payload);\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -19498,7 +19637,7 @@
         "z": "7e6aa2730f443095",
         "g": "df739382769ae8ae",
         "name": "Prepare Data",
-        "func": "const instagramData = global.get('instagram');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === instagramData.id_base);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM + 'Answer length maximum 800 characters!',\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.old.entry[0].messaging[0].sender.id,\n        username: msg.old.entry[0].messaging[0].sender.id,\n        content: msg.old.entry[0].messaging[0].message.text,\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nnode.warn(msg.payload);\n\nreturn msg;\n",
+        "func": "const instagramData = global.get('instagram');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === instagramData.id_base);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM + 'Answer length maximum 800 characters!',\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.old.entry[0].messaging[0].sender.id,\n        username: msg.old.entry[0].messaging[0].sender.id,\n        content: msg.old.entry[0].messaging[0].message.text,\n        messengerType: 'instagram',\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nnode.warn(msg.payload);\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -19958,7 +20097,7 @@
         "z": "7e6aa2730f443095",
         "g": "9c9bc0ca2320ad1b",
         "name": "Prepare Data",
-        "func": "const messengerData = global.get('META');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === messengerData.id_base);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.old.entry[0].messaging[0].sender.id,\n        username: msg.old.entry[0].messaging[0].sender.id,\n        // type: msg.old.entry[0].changes[0]?.value.messages[0].type && 'TYPETESTTESTEST',\n        content: msg.old.entry[0].messaging[0].message.text\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nnode.warn(msg.payload);\n\nreturn msg;\n",
+        "func": "const messengerData = global.get('META');\nconst openai = global.get('openai');\nconst pinecone = global.get('pinecone');\nconst customPrompts = global.get('customPrompts');\nconst data = customPrompts.find(el => el.ID === messengerData.id_base);\n\nmsg.payload = {\n    OPENAI_KEY: openai?.OPENAI_API,\n    CHROMA_LINK: env.get('VECTORDB-CHROMA-HOST-NAME'),\n    BASE_URL: env.get(\"nodered\"),\n    AI_SETTINGS: {\n        ANSWER_AS: data?.ANSWER_AS,\n        TONE: data?.TONE,\n        LANGUAGE: data?.LANGUAGE,\n        ANSWER_LENGTH: data?.ANSWER_LENGTH,\n        PROMPT_CUSTOM: data?.PROMPT_CUSTOM,\n        OPENAI_MODEL: openai?.OPENAI_MODEL,\n    },\n    DATABASE: {\n        TYPE_BASE: data?.TYPE_BASE,\n        NAME_BASE: data?.NAME_BASE,\n    },\n    chat: {\n        id: msg.old.entry[0].messaging[0].sender.id,\n        username: msg.old.entry[0].messaging[0].sender.id,\n        // type: msg.old.entry[0].changes[0]?.value.messages[0].type && 'TYPETESTTESTEST',\n        content: msg.old.entry[0].messaging[0].message.text,\n        messengerType: 'messanger',\n    },\n    PINECONE: {\n        INDEX: pinecone?.PINECONE_INDEX,\n        API_KEY: pinecone?.PINECONE_API,\n        ENVIRONMENT: pinecone?.PINECONE_ENV,\n        BASE_URL: pinecone?.PINECONE_URL,\n    },\n    NUMBER_OF_ANSWERS_VDB: 2,\n};\n\nnode.warn(msg.payload);\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -20033,8 +20172,9 @@
         "id": "b7408a0e68d108ab",
         "type": "subflow:27ce80b8fbcd825f",
         "z": "7e6aa2730f443095",
+        "g": "d5f3c34635f35708",
         "name": "",
-        "x": 760,
+        "x": 780,
         "y": 260,
         "wires": [
             [
@@ -20099,91 +20239,9 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 840,
+        "x": 830,
         "y": 300,
         "wires": []
-    },
-    {
-        "id": "26865e13ed50bd7c",
-        "type": "telegram receiver",
-        "z": "7e6aa2730f443095",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "saveDataDir": "",
-        "filterCommands": true,
-        "x": 180,
-        "y": 200,
-        "wires": [
-            [
-                "12d33bcda39c0668",
-                "877f2e04d71b4d11"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "adeafe8e156b21d7",
-        "type": "telegram sender",
-        "z": "7e6aa2730f443095",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 410,
-        "y": 380,
-        "wires": [
-            [
-                "3ac799522b65d1e3"
-            ]
-        ]
-    },
-    {
-        "id": "e8d6a2dbc6c40396",
-        "type": "telegram sender",
-        "z": "7e6aa2730f443095",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 740,
-        "y": 80,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ca333a2f720b8f48",
-        "type": "telegram sender",
-        "z": "7e6aa2730f443095",
-        "name": "",
-        "bot": "4b07803a52e468f5",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 1180,
-        "y": 260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d9a9aec28a0e24f6",
-        "type": "while-loop",
-        "z": "7e6aa2730f443095",
-        "name": "",
-        "condi": "global.get(`${msg.typing}`) === true",
-        "limit": true,
-        "limitTime": "100",
-        "time": "counter",
-        "timeType": "msg",
-        "x": 375,
-        "y": 320,
-        "wires": [
-            [],
-            [
-                "770851c3f89211f4"
-            ]
-        ],
-        "l": false
     },
     {
         "id": "8bcfa72a275e228d",
@@ -20211,7 +20269,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 730,
+        "x": 990,
         "y": 60,
         "wires": []
     },
@@ -20268,7 +20326,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 390,
+        "x": 430,
         "y": 120,
         "wires": [
             [
@@ -20288,7 +20346,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 400,
+        "x": 420,
         "y": 180,
         "wires": [
             [
@@ -20308,7 +20366,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
+        "x": 420,
         "y": 60,
         "wires": [
             [
@@ -20324,7 +20382,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 770,
+        "x": 990,
         "y": 180,
         "wires": []
     },
@@ -20336,7 +20394,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 770,
+        "x": 990,
         "y": 120,
         "wires": []
     },
@@ -20366,7 +20424,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 690,
+        "x": 990,
         "y": 300,
         "wires": []
     },
@@ -20416,7 +20474,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 830,
+        "x": 990,
         "y": 240,
         "wires": []
     },
@@ -20450,7 +20508,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
+        "x": 410,
         "y": 420,
         "wires": [
             [
@@ -20466,7 +20524,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 690,
+        "x": 990,
         "y": 420,
         "wires": []
     },
@@ -20500,7 +20558,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
+        "x": 400,
         "y": 480,
         "wires": [
             [
@@ -20516,7 +20574,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 690,
+        "x": 990,
         "y": 480,
         "wires": []
     },
@@ -20546,7 +20604,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 810,
+        "x": 990,
         "y": 360,
         "wires": []
     },
@@ -20561,7 +20619,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 570,
+        "x": 670,
         "y": 60,
         "wires": [
             [
@@ -20580,7 +20638,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 620,
+        "x": 680,
         "y": 120,
         "wires": [
             [
@@ -20599,12 +20657,11 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 650,
+        "x": 670,
         "y": 240,
         "wires": [
             [
-                "4266ed3974264061",
-                "5cd893ede34c2edb"
+                "4266ed3974264061"
             ]
         ]
     },
@@ -20619,7 +20676,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 610,
+        "x": 670,
         "y": 180,
         "wires": [
             [
@@ -20638,7 +20695,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 530,
+        "x": 670,
         "y": 420,
         "wires": [
             [
@@ -20657,7 +20714,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 530,
+        "x": 670,
         "y": 480,
         "wires": [
             [
@@ -20677,7 +20734,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
+        "x": 420,
         "y": 300,
         "wires": [
             [
@@ -20697,7 +20754,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
+        "x": 400,
         "y": 360,
         "wires": [
             [
@@ -20716,7 +20773,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 530,
+        "x": 670,
         "y": 300,
         "wires": [
             [
@@ -20735,12 +20792,11 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 530,
+        "x": 670,
         "y": 360,
         "wires": [
             [
-                "a1df828fad87161e",
-                "5cd893ede34c2edb"
+                "a1df828fad87161e"
             ]
         ]
     },
@@ -20756,12 +20812,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 670,
+        "x": 850,
         "y": 360,
         "wires": [
             [
-                "cf68eca562a940d3",
-                "5cd893ede34c2edb"
+                "cf68eca562a940d3"
             ]
         ]
     },
@@ -20778,8 +20833,7 @@
         "y": 540,
         "wires": [
             [
-                "1b07b671b402e285",
-                "c20f006fc113de9c"
+                "1b07b671b402e285"
             ]
         ]
     },
@@ -20795,7 +20849,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
+        "x": 440,
         "y": 540,
         "wires": [
             [
@@ -20811,7 +20865,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 850,
+        "x": 990,
         "y": 540,
         "wires": []
     },
@@ -20826,12 +20880,11 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 570,
+        "x": 670,
         "y": 540,
         "wires": [
             [
-                "499f061480815403",
-                "c20f006fc113de9c"
+                "499f061480815403"
             ]
         ]
     },
@@ -20839,6 +20892,7 @@
         "id": "499f061480815403",
         "type": "function",
         "z": "87c010715c532181",
+        "g": "c7c1d01c718f9fc8",
         "name": "to app",
         "func": "function transformData(data) {\n    const result = [];\n\n    // data.forEach(item => {\n    //     if (item.type === 'telegram') {\n    //         result.push({\n    //             type: item.user_name,\n    //             message: item.requestText,\n    //             date: moment(item.startDate).format('LLL')\n    //         });\n\n    //         result.push({\n    //             type: 'BOT',\n    //             message: item.answer,\n    //             date: moment(item.endDate).format('LLL')\n    //         });\n    //     }\n    // });\n    data.forEach(item => {\n        result.push({\n            type: item.user_name,\n            message: item.question ? item.question : item.requestText,\n            date: moment(item.startDate).format('LLL')\n        });\n\n        result.push({\n            type: 'BOT',\n            message: item.answer,\n            date: moment(item.endDate).format('LLL')\n        });\n\n    });\n\n    return result;\n}\n\nconst data = msg.payload\n\n\nconst result = transformData(data);\nif (result.length > msg.length) {\n    msg.payload = result.slice(msg.length)\n} else {\n    msg.statusCode = 400\n}\nmsg.payload = result\nreturn msg;",
         "outputs": 1,
@@ -20851,30 +20905,13 @@
                 "module": "moment"
             }
         ],
-        "x": 730,
+        "x": 850,
         "y": 540,
         "wires": [
             [
                 "e5800b24f11dd243"
             ]
         ]
-    },
-    {
-        "id": "5cd893ede34c2edb",
-        "type": "debug",
-        "z": "87c010715c532181",
-        "g": "c7c1d01c718f9fc8",
-        "name": "debug 772",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 690,
-        "y": 320,
-        "wires": []
     },
     {
         "id": "4dfac33a1423df39",
@@ -20897,8 +20934,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 120,
-        "y": 600,
+        "x": 180,
+        "y": 660,
         "wires": [
             [
                 "16cd26e91fe01fee",
@@ -20917,7 +20954,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
+        "x": 380,
         "y": 660,
         "wires": [
             [
@@ -20935,7 +20972,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 550,
+        "x": 610,
         "y": 660,
         "wires": [
             [
@@ -20955,24 +20992,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 710,
-        "y": 640,
-        "wires": []
-    },
-    {
-        "id": "c20f006fc113de9c",
-        "type": "debug",
-        "z": "87c010715c532181",
-        "name": "debug 777",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 590,
-        "y": 620,
+        "x": 790,
+        "y": 660,
         "wires": []
     },
     {
@@ -21254,7 +21275,7 @@
         "z": "561be8df1dd04335",
         "g": "9f3a08dadb8626c3",
         "name": "create vector",
-        "func": "msg.fromApp = msg.payload;\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = `${msg.payload.result}, ${msg.payload.question}`;\n\nif (msg.payload.typeBase === \"chroma\") {\n\n    return [null, msg]\n} else {\n\n    return [msg, null]\n}\n",
+        "func": "msg.fromApp = msg.payload;\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = `${msg.payload.result}, ${msg.payload.question}`;\n\nmsg.payload = {};\n\nif (msg.payload.typeBase === \"chroma\") {\n\n    return [null, msg]\n} else {\n\n    return [msg, null]\n}\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -21264,10 +21285,10 @@
         "y": 980,
         "wires": [
             [
-                "0664e6c3fa1f6132"
+                "fbe908c58e49cc11"
             ],
             [
-                "f58cc1c13181dcf1"
+                "c5789583232edcec"
             ]
         ]
     },
@@ -22180,7 +22201,6 @@
         "wires": [
             [
                 "b7a031b77066e8f1",
-                "1209cc0fb0a890cd",
                 "f2de3aef43efb57a"
             ]
         ],
@@ -22217,7 +22237,7 @@
         "z": "561be8df1dd04335",
         "g": "1ad265cdd5feb53e",
         "name": "create vector",
-        "func": "msg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = `${msg.payload}, ${msg.payload}`;\nmsg.ids = Date.now().toString();\n\nif (msg.typeBase === \"chroma\") {\n    \n    return [null, msg]\n} else {\n\n    return [msg, null]\n}\n",
+        "func": "msg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = `${msg.payload}, ${msg.payload}`;\nmsg.ids = Date.now().toString();\n\nmsg.payload = {};\n\nif (msg.typeBase === \"chroma\") {\n    \n    return [null, msg]\n} else {\n\n    return [msg, null]\n}\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -22227,10 +22247,12 @@
         "y": 1840,
         "wires": [
             [
-                "c59352ee6aec7d0d"
+                "a4d5073f86bac61a",
+                "bb9dbef8cb45196e"
             ],
             [
-                "e656959b6bb65df8"
+                "ff5ac9811d26fb42",
+                "5eda3b19b578b0ac"
             ]
         ]
     },
@@ -22339,7 +22361,7 @@
         "z": "561be8df1dd04335",
         "g": "1ad265cdd5feb53e",
         "name": "create vector",
-        "func": "\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.tobase = msg.payload\nmsg.input = `${msg.payload.question}, ${msg.payload.result}`\nmsg.ids = Date.now().toString()\nif (msg.typeBase === \"chroma\") { return [null, msg] }\nelse {\n    return [msg, null]\n}",
+        "func": "msg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.tobase = msg.payload;\nmsg.input = `${msg.payload.question}, ${msg.payload.result}`;\nmsg.ids = Date.now().toString();\n\nmsg.payload = {};\n\nif (msg.typeBase === \"chroma\") {\n    return [null, msg]\n} else {\n    return [msg, null]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -22350,11 +22372,11 @@
         "wires": [
             [
                 "d4569548a5f8f438",
-                "a609f6927ac45615"
+                "3260f265fa428202"
             ],
             [
-                "d5550fe9f265b396",
-                "9535311b6e134e56"
+                "9535311b6e134e56",
+                "3f3a21d3049ec80e"
             ]
         ]
     },
@@ -22401,7 +22423,7 @@
         "z": "561be8df1dd04335",
         "g": "1ad265cdd5feb53e",
         "name": "create vector",
-        "func": "msg.tobase = msg.payload;\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = `${msg.payload.question }, ${msg.payload.result}`\n\nif (msg.payload.typeBase === \"chroma\"){\n    return [null,msg]\n}else{\n    return[msg,null]\n}",
+        "func": "msg.tobase = msg.payload;\nmsg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.input = `${msg.payload.question }, ${msg.payload.result}`;\n\nmsg.payload = {};\n\nif (msg.payload.typeBase === \"chroma\"){\n    return [null,msg];\n}else{\n    return[msg,null];\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -22411,10 +22433,10 @@
         "y": 2700,
         "wires": [
             [
-                "eabf87c97c2af554"
+                "70759d96362c3dd0"
             ],
             [
-                "76aba1958ede1343"
+                "6288f77b267af38e"
             ]
         ]
     },
@@ -22692,7 +22714,7 @@
         "z": "561be8df1dd04335",
         "g": "1ad265cdd5feb53e",
         "name": "create vector",
-        "func": "msg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.tobase = JSON.stringify(msg.payload)\nmsg.input = JSON.stringify(msg.payload)\nmsg.ids = Date.now().toString()\n\nif (msg.typeBase === \"chroma\") { return [null, msg] }\nelse {\n    return [msg, null]\n}",
+        "func": "msg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\nmsg.tobase = JSON.stringify(msg.payload);\nmsg.input = JSON.stringify(msg.payload);\nmsg.ids = Date.now().toString();\n\nmsg.payload = {};\n\nif (msg.typeBase === \"chroma\") {\n    return [null, msg];\n} else {\n    return [msg, null];\n}\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -22703,10 +22725,10 @@
         "wires": [
             [
                 "28ffaf7eb1fd26d1",
-                "22f96893b0c97739"
+                "261006cbdbc71918"
             ],
             [
-                "0b4ff76f2b117a6a"
+                "e114910054609b89"
             ]
         ]
     },
@@ -23522,8 +23544,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 680,
-        "y": 2100,
+        "x": 560,
+        "y": 2080,
         "wires": []
     },
     {
@@ -25496,7 +25518,7 @@
         "type": "function",
         "z": "561be8df1dd04335",
         "name": "create vector",
-        "func": "msg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\n// msg.tobase = JSON.stringify(msg.payload)\nmsg.input = `Hiring & Onboarding\n\nUBOS looks to hire technical talent with expertise in areas like JavaScript, React, AI/ML, and backend programming. Design and UX skills also valued.\nRemote work opportunities available for experienced developers. Office locations in San Francisco, Austin, and New York.\n30-60-90 day onboarding roadmaps for engineers, managers, designers. Require assigned mentors.\nCompensation & Benefits\n\nSalaries and equity packages competitive with FAANG companies for targeted talent. Annual bonuses based on company and individual performance.\nGenerous benefits package - unlimited PTO, full medical/dental/vision coverage, 401k 6% matching, parental leave, flex spending, etc.\nLearning & Development\n\nQuarterly hackathons to promote innovation and coding skills development. Winners get funding for project development.\nConference and online course attendance budget for each employee's learning goals and skills improvement.\nMonthly tech talks by internal and external experts to exposure new languages, frameworks, or methodologies.\nValues & Culture\n\nUBOS values collaboration > individual performance, creativity > process, users > profits. Culture supports employee autonomy balanced with responsibility.\nLeadership promotes diversity, equity and inclusion. Employee resource groups and belonging committees shape these initiatives.`\nmsg.ids = Date.now().toString()\n\n// if (msg.typeBase === \"chroma\") { return [null, msg] }\n// else {\n//     return [msg, null]\n// }\nreturn msg",
+        "func": "msg.OPENAI_API_KEY = global.get(\"openai\").OPENAI_API;\n// msg.tobase = JSON.stringify(msg.payload)\nmsg.input = `Hiring & Onboarding\n\nUBOS looks to hire technical talent with expertise in areas like JavaScript, React, AI/ML, and backend programming. Design and UX skills also valued.\nRemote work opportunities available for experienced developers. Office locations in San Francisco, Austin, and New York.\n30-60-90 day onboarding roadmaps for engineers, managers, designers. Require assigned mentors.\nCompensation & Benefits\n\nSalaries and equity packages competitive with FAANG companies for targeted talent. Annual bonuses based on company and individual performance.\nGenerous benefits package - unlimited PTO, full medical/dental/vision coverage, 401k 6% matching, parental leave, flex spending, etc.\nLearning & Development\n\nQuarterly hackathons to promote innovation and coding skills development. Winners get funding for project development.\nConference and online course attendance budget for each employee's learning goals and skills improvement.\nMonthly tech talks by internal and external experts to exposure new languages, frameworks, or methodologies.\nValues & Culture\n\nUBOS values collaboration > individual performance, creativity > process, users > profits. Culture supports employee autonomy balanced with responsibility.\nLeadership promotes diversity, equity and inclusion. Employee resource groups and belonging committees shape these initiatives.`\nmsg.ids = Date.now().toString()\n\nmsg.payload = {};\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -25507,7 +25529,7 @@
         "wires": [
             [
                 "894e526981ec3839",
-                "fb94efdd7c9a719e"
+                "832635a98d89b6c6"
             ]
         ]
     },
@@ -25998,6 +26020,109 @@
         ]
     },
     {
+        "id": "ec06091a7169454f",
+        "type": "xlsx",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "sheets": "first",
+        "multi": "one",
+        "parse": "rows",
+        "map": "{\"Питання\":\"question\",\"Тип\":\"type\",\"а\":\"a\",\"б\":\"b\",\"в\":\"c\",\"г\":\"d\",\"Правильна відповідь\":\"correctAnswer\"}",
+        "x": 515,
+        "y": 2380,
+        "wires": [
+            [
+                "cb9d6d7726422bdd"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "dd8eb35354758aac",
+        "type": "array-loop",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 880,
+        "y": 2040,
+        "wires": [
+            [
+                "b99349e3b1b3f3a3"
+            ],
+            [
+                "2b0d6af74c339f5f"
+            ]
+        ]
+    },
+    {
+        "id": "f94215791e094c88",
+        "type": "array-loop",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "key": "amount",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 720,
+        "y": 1680,
+        "wires": [
+            [
+                "d23ca9071f281b3b"
+            ],
+            [
+                "1b109b08caaf72bd"
+            ]
+        ]
+    },
+    {
+        "id": "986601d67845f75e",
+        "type": "array-loop",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "key": "count",
+        "keyType": "msg",
+        "reset": false,
+        "resetValue": "value-null",
+        "array": "array",
+        "arrayType": "msg",
+        "x": 880,
+        "y": 2380,
+        "wires": [
+            [
+                "b3fdc18843d90360"
+            ],
+            [
+                "4df2bc0ad523211e"
+            ]
+        ]
+    },
+    {
+        "id": "b2937f4db9e9f46a",
+        "type": "pdfparse",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "path": "",
+        "x": 720,
+        "y": 1540,
+        "wires": [
+            [
+                "25f3c8bdb4610e04"
+            ]
+        ]
+    },
+    {
         "id": "94579d632128cd68",
         "type": "function",
         "z": "561be8df1dd04335",
@@ -26116,34 +26241,17 @@
         "type": "debug",
         "z": "561be8df1dd04335",
         "g": "1ad265cdd5feb53e",
-        "name": "debug 793",
+        "name": "pinecone",
         "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "payload",
+        "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1330,
-        "y": 1720,
-        "wires": []
-    },
-    {
-        "id": "1209cc0fb0a890cd",
-        "type": "debug",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "debug 797",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1330,
-        "y": 1680,
+        "x": 1160,
+        "y": 1760,
         "wires": []
     },
     {
@@ -26163,304 +26271,6 @@
                 "a4d5073f86bac61a"
             ]
         ]
-    },
-    {
-        "id": "0664e6c3fa1f6132",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "9f3a08dadb8626c3",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 2870,
-        "y": 940,
-        "wires": [
-            [
-                "beb68ab316d75f9f"
-            ]
-        ]
-    },
-    {
-        "id": "f58cc1c13181dcf1",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "9f3a08dadb8626c3",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 2870,
-        "y": 1060,
-        "wires": [
-            [
-                "7e6a176c53a30645"
-            ]
-        ]
-    },
-    {
-        "id": "c59352ee6aec7d0d",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 640,
-        "y": 1760,
-        "wires": [
-            [
-                "59a0473709ced9b7",
-                "2e9f40767ad997f4"
-            ]
-        ]
-    },
-    {
-        "id": "e656959b6bb65df8",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 640,
-        "y": 1900,
-        "wires": [
-            [
-                "f7da8a2810c6029e",
-                "f977661ebe071bce"
-            ]
-        ]
-    },
-    {
-        "id": "a609f6927ac45615",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 720,
-        "y": 2120,
-        "wires": [
-            [
-                "b32a68096d7a239f"
-            ]
-        ]
-    },
-    {
-        "id": "d5550fe9f265b396",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 600,
-        "y": 2180,
-        "wires": [
-            [
-                "62304227d13174c5",
-                "681a34d55bf0226b"
-            ]
-        ]
-    },
-    {
-        "id": "22f96893b0c97739",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 760,
-        "y": 2460,
-        "wires": [
-            [
-                "d3947bc6a74a55a6"
-            ]
-        ]
-    },
-    {
-        "id": "0b4ff76f2b117a6a",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 740,
-        "y": 2600,
-        "wires": [
-            [
-                "5568b48503199d40",
-                "e02e18afcd7b246a",
-                "20eb7f6487d550d0"
-            ]
-        ]
-    },
-    {
-        "id": "eabf87c97c2af554",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 540,
-        "y": 2680,
-        "wires": [
-            [
-                "5e27a3af0de4127f"
-            ]
-        ]
-    },
-    {
-        "id": "76aba1958ede1343",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 540,
-        "y": 2720,
-        "wires": [
-            [
-                "fd386349507dd91f",
-                "beb60e5c829cdb4d"
-            ]
-        ]
-    },
-    {
-        "id": "fb94efdd7c9a719e",
-        "type": "openai-ubos",
-        "z": "561be8df1dd04335",
-        "name": "",
-        "model": "text-embedding-ada-002",
-        "temperature": 0.5,
-        "max_tokens": 60,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "top_p": 1,
-        "stop": {
-            "type": "json",
-            "value": "[]"
-        },
-        "OPENAI_API_KEY": "",
-        "x": 1140,
-        "y": 3040,
-        "wires": [
-            [
-                "d4e3c0018b9a87d0"
-            ]
-        ]
-    },
-    {
-        "id": "2e9f40767ad997f4",
-        "type": "debug",
-        "z": "561be8df1dd04335",
-        "g": "1ad265cdd5feb53e",
-        "name": "debug 800",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 690,
-        "y": 1820,
-        "wires": []
     },
     {
         "id": "e44521ccd19c79c6",
@@ -27014,102 +26824,293 @@
         "wires": []
     },
     {
-        "id": "b2937f4db9e9f46a",
-        "type": "pdfparse",
+        "id": "bb9dbef8cb45196e",
+        "type": "openai-ubos",
         "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
         "name": "",
-        "path": "",
-        "x": 720,
-        "y": 1540,
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 640,
+        "y": 1760,
         "wires": [
             [
-                "25f3c8bdb4610e04"
+                "59a0473709ced9b7"
             ]
         ]
     },
     {
-        "id": "dd8eb35354758aac",
-        "type": "array-loop",
+        "id": "5eda3b19b578b0ac",
+        "type": "openai-ubos",
         "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
         "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 880,
-        "y": 2040,
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 640,
+        "y": 1940,
         "wires": [
             [
-                "b99349e3b1b3f3a3"
-            ],
-            [
-                "2b0d6af74c339f5f"
+                "f977661ebe071bce",
+                "f7da8a2810c6029e"
             ]
         ]
     },
     {
-        "id": "f94215791e094c88",
-        "type": "array-loop",
+        "id": "3260f265fa428202",
+        "type": "openai-ubos",
         "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
         "name": "",
-        "key": "amount",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 720,
-        "y": 1680,
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 740,
+        "y": 2120,
         "wires": [
             [
-                "d23ca9071f281b3b"
-            ],
-            [
-                "1b109b08caaf72bd",
-                "a4d5073f86bac61a"
+                "b32a68096d7a239f"
             ]
         ]
     },
     {
-        "id": "986601d67845f75e",
-        "type": "array-loop",
+        "id": "3f3a21d3049ec80e",
+        "type": "openai-ubos",
         "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
         "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "array",
-        "arrayType": "msg",
-        "x": 880,
-        "y": 2380,
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 620,
+        "y": 2180,
         "wires": [
             [
-                "b3fdc18843d90360"
-            ],
-            [
-                "4df2bc0ad523211e"
+                "681a34d55bf0226b",
+                "62304227d13174c5"
             ]
         ]
     },
     {
-        "id": "ec06091a7169454f",
-        "type": "xlsx",
+        "id": "261006cbdbc71918",
+        "type": "openai-ubos",
         "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
         "name": "",
-        "sheets": "first",
-        "multi": "one",
-        "parse": "rows",
-        "map": "{\"Питання\":\"question\",\"Тип\":\"type\",\"а\":\"a\",\"б\":\"b\",\"в\":\"c\",\"г\":\"d\",\"Правильна відповідь\":\"correctAnswer\"}",
-        "x": 515,
-        "y": 2380,
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 740,
+        "y": 2460,
         "wires": [
             [
-                "cb9d6d7726422bdd"
+                "d3947bc6a74a55a6"
             ]
-        ],
-        "l": false
+        ]
+    },
+    {
+        "id": "e114910054609b89",
+        "type": "openai-ubos",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 740,
+        "y": 2600,
+        "wires": [
+            [
+                "5568b48503199d40",
+                "e02e18afcd7b246a",
+                "20eb7f6487d550d0"
+            ]
+        ]
+    },
+    {
+        "id": "70759d96362c3dd0",
+        "type": "openai-ubos",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 540,
+        "y": 2680,
+        "wires": [
+            [
+                "5e27a3af0de4127f"
+            ]
+        ]
+    },
+    {
+        "id": "6288f77b267af38e",
+        "type": "openai-ubos",
+        "z": "561be8df1dd04335",
+        "g": "1ad265cdd5feb53e",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 540,
+        "y": 2720,
+        "wires": [
+            [
+                "fd386349507dd91f",
+                "beb60e5c829cdb4d"
+            ]
+        ]
+    },
+    {
+        "id": "832635a98d89b6c6",
+        "type": "openai-ubos",
+        "z": "561be8df1dd04335",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 1140,
+        "y": 3040,
+        "wires": [
+            [
+                "d4e3c0018b9a87d0"
+            ]
+        ]
+    },
+    {
+        "id": "fbe908c58e49cc11",
+        "type": "openai-ubos",
+        "z": "561be8df1dd04335",
+        "g": "9f3a08dadb8626c3",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 2860,
+        "y": 940,
+        "wires": [
+            [
+                "beb68ab316d75f9f"
+            ]
+        ]
+    },
+    {
+        "id": "c5789583232edcec",
+        "type": "openai-ubos",
+        "z": "561be8df1dd04335",
+        "g": "9f3a08dadb8626c3",
+        "name": "",
+        "model": "text-embedding-ada-002",
+        "temperature": 0.5,
+        "max_tokens": 60,
+        "messages": "",
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "top_p": 1,
+        "stop": {
+            "type": "json",
+            "value": "[]"
+        },
+        "OPENAI_API_KEY": "",
+        "x": 2860,
+        "y": 1060,
+        "wires": [
+            [
+                "7e6a176c53a30645"
+            ]
+        ]
     }
 ]
