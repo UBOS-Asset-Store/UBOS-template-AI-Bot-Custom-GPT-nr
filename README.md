@@ -33,7 +33,8 @@ This is an internal technical repository. <b><a href="https://github.com/UBOS-te
 
 ## Demo
 
-<img width="1440" alt="Знімок екрана 2024-03-22 о 11 26 31" src="https://github.com/UBOS-Asset-Store/UBOS-template-AI-Bot-Custom-GPT-nr/assets/76822866/e4410176-c43c-440e-9a19-74b1edc4b20b">
+<img width="1440" alt="Знімок екрана 2024-03-27 о 17 53 29" src="https://github.com/UBOS-Asset-Store/UBOS-template-AI-Bot-Custom-GPT-nr/assets/76822866/10cf53ee-65a0-468d-a409-135b166468c7">
+
 
 
 
