@@ -1813,31 +1813,6 @@
         "verboselogging": false
     },
     {
-        "id": "a32b312f472ff9d3",
-        "type": "telegram bot",
-        "botname": "intentPay_bot",
-        "usernames": "",
-        "chatids": "",
-        "baseapiurl": "",
-        "updatemode": "polling",
-        "pollinterval": "300",
-        "usesocks": false,
-        "sockshost": "",
-        "socksprotocol": "socks5",
-        "socksport": "6667",
-        "socksusername": "anonymous",
-        "sockspassword": "",
-        "bothost": "",
-        "botpath": "",
-        "localbotport": "8443",
-        "publicbotport": "8443",
-        "privatekey": "",
-        "certificate": "",
-        "useselfsignedcertificate": false,
-        "sslterminated": false,
-        "verboselogging": false
-    },
-    {
         "id": "92b09c9cd170f8a8",
         "type": "remote-server-collection",
         "host": "${VECTORDB-CHROMA-HOST-NAME}"
@@ -3220,7 +3195,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
+        "x": 320,
         "y": 140,
         "wires": [
             [
