@@ -489,7 +489,9 @@
             "53d5d61c6a1232fd"
         ],
         "x": 14,
-        "y": 19
+        "y": 19,
+        "w": 812,
+        "h": 422
     },
     {
         "id": "2e6e4e61c61cc1ec",
@@ -1256,7 +1258,9 @@
             "9f52ba4a2575c0b8"
         ],
         "x": 74,
-        "y": 279
+        "y": 279,
+        "w": 3112,
+        "h": 302
     },
     {
         "id": "55b42f036281abed",
@@ -1283,7 +1287,9 @@
             "531a8a840209f5f5"
         ],
         "x": 1094,
-        "y": 1099
+        "y": 1099,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "44336aabd4cc8aba",
@@ -1310,7 +1316,9 @@
             "1a206d7e3e958251"
         ],
         "x": 64,
-        "y": 1099
+        "y": 1099,
+        "w": 992,
+        "h": 182
     },
     {
         "id": "6f53df0634427ab8",
@@ -1340,7 +1348,9 @@
             "10c0cf87a1cbdb0a"
         ],
         "x": 54,
-        "y": 1299
+        "y": 1299,
+        "w": 1192,
+        "h": 222
     },
     {
         "id": "20f41552a8bf93e6",
@@ -1367,7 +1377,9 @@
             "d04767856f0cbf5a"
         ],
         "x": 54,
-        "y": 1559
+        "y": 1559,
+        "w": 1212,
+        "h": 202
     },
     {
         "id": "af65f71384d80c06",
@@ -1394,7 +1406,9 @@
             "c3b931f10ae5cf2b"
         ],
         "x": 54,
-        "y": 1799
+        "y": 1799,
+        "w": 1152,
+        "h": 202
     },
     {
         "id": "21ac3a19bfa57a66",
@@ -1415,7 +1429,9 @@
             "75a973c1530c1fe9"
         ],
         "x": 54,
-        "y": 2519
+        "y": 2519,
+        "w": 572,
+        "h": 162
     },
     {
         "id": "d5b48aa89e9f41a1",
@@ -1453,7 +1469,9 @@
             "0ec04c582bf41c8a"
         ],
         "x": 74,
-        "y": 19
+        "y": 19,
+        "w": 2152,
+        "h": 242
     },
     {
         "id": "fcdce1b1fa2970b8",
@@ -1483,7 +1501,9 @@
             "1566d559db5d95fb"
         ],
         "x": 54,
-        "y": 2039
+        "y": 2039,
+        "w": 1192,
+        "h": 202
     },
     {
         "id": "d8a434ae844324e0",
@@ -1510,7 +1530,9 @@
             "b13fea9ecd31d1f7"
         ],
         "x": 54,
-        "y": 2279
+        "y": 2279,
+        "w": 1232,
+        "h": 202
     },
     {
         "id": "7348d6f27f4f25e5",
@@ -1544,7 +1566,9 @@
             "9464348869bc10b2"
         ],
         "x": 74,
-        "y": 639
+        "y": 639,
+        "w": 1232,
+        "h": 422
     },
     {
         "id": "4aa44aa75910cb5b",
@@ -18253,7 +18277,7 @@
         "fieldType": "msg",
         "format": "css",
         "syntax": "mustache",
-        "template": "@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,200&display=swap');\n\nbody{\n    font-family: 'Titillium Web', sans-serif!important;\n   \n}\n\n.header{\ntop: 0px !important;\nheight: 66px !important;\npadding: 0px !important;\nborder-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n.menu_section{\nbox-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\nheight: 100vh !important;\npadding: 0px !important;\nleft: 0px !important;\nborder-right: 2px solid rgb(241, 243, 244) !important;\n}\n\n.main_section{\npadding: 0px !important;\nheight: 100vh !important;\nposition: fixed !important;\ntop: 66px !important; \n}\n\n.tab_login>div>div>div>div{\nbox-shadow: none !important;\n}\n\n.tab_login>div>div>div>div>div{\nbackground: transparent !important;\n}\n\n.frame_section{\nheight: 100vh !important;\nposition: fixed !important;\ntop: 16px !important; \n}\n\n.scroll_section{\n    height: 100vh !important; \n    top: 66px !important; \n    padding: 0px !important;\n}\n\n.scroll_section1{\n    height: 100vh !important; \n    top: 90px !important; \n    padding: 0px !important;\n}\n\n.image{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n    height: 75px !important;\n}\n\n\n.menu .active span{\ncolor: #2a2f36 !important;\n}\n\n.menu .active {\n    background: #ebf1fb !important;\n}\n\n.menu button:hover{\nbackground: #ebf1fb;\n}\n\n.menu span[role=\"img\"]{\nmargin-left: 8px !important;\nmargin-top: 3px !important;\n\n}\n.menu .bp3-collapse-body .sub_category {\n    padding: 5px 5px 5px 20px !important;\n}\n.menu button{\n    box-shadow: none !important;\n}\n\n.menu span{\n    font-size: 16px !important;\n    font-weight: 400 !important;\n    color: #00000099 !important;\n}\n\n.menu {\n    left: 0px !important;\n    width: 100% !important;\n    padding: 0 !important;\n}\n\n.menu_wrap{\n    position: fixed !important;\n    left: 0px!important;\n    top: 0px !important;\n    height: 100vh !important;\n    /* width: 178.312px!important; */\n    padding: 0px!important;\n    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\n}\n\n.menu button {\n    justify-content: start !important;\n    padding: 5px 10px 5px 15px !important;\n    margin-bottom: 5px !important;\n}\n\n.setting_title{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n\n.setting_text{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important; \n}\n\n.setting_text .bp3-ui-text {\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n.setting_title .bp3-ui-text {\n    font-weight: 600 !important;\n    font-size: 18px !important;\n}\n\n.telegramList {\n    padding: 10px 20px !important;\n}\n\n.telegramList .custom-wrapper-canvas-list{\n    display: flex;\n    flex-direction: column !important;\n}\n.telegramList .custom-wrapper-canvas-list button {\n    display: none !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget{\n    width: 90% !important;\n    position: static !important;\n    border-radius: 8px!important;\n    padding: 0 !important;\n    margin-bottom: 7px;\n    margin-right: auto !important;\n    margin-left: 0 !important;\n    background-color: #cfcfdb !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd){\n    margin-right: 0 !important;\n    margin-left: auto !important;\n    background-color: #e5e5e6 !important;\n}\n.telegramList .t--widget-textwidget{\n    width: auto !important;\n    position: static !important;\n    padding: 5px 15px !important;\n    height: 100% !important;\n}\n.telegramList .t--widget-textwidget span{\n    font-weight: 500; \n    font-size: 16px;\n    line-height: 125%;\n}\n\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd) .t--widget-textwidget span{\n    text-align: end;\n}\n\n.telegramWrap{\n    padding: 0!important;\n}\n\n.container{\n    min-height: 100vh;\n}\n\n.selectedTab{\n    box-shadow: rgb(235, 239, 242) -1px 0px 0px inset, rgb(235, 239, 242) 0px 0px 0px inset, rgb(55 169 235) 0px 4px 0px inset !important;\n}\n\n.icon >div>div>div>div>div>div>div{\n   background-position: center right!important;\n}\n\n.title >div>div>div>div>div>div>div span {\nfont-size:22px!important; \n}\n.title >div>div>div>div>div>div>div >span >span.training_span {color:#118cfc!important; font-size: 28px!important;  font-weight: 700!important;}\n.tabs >div>div>div>div>div>div {\nfont-size:20px!important;\ntext-transform: uppercase!important;\nfont-weight: 500!important;\n}\n.training_wrap >div>div>div>div>div>div>div>div>div>div>div>div>div{\n    display: inline-flex!important;\n    justify-content: space-between!important;\n}\n.table{\nfont-size:14px!important;\ntext-transform: lowercase!important;\nfont-weight: 400!important; \n}\n.table >div>div>div>div>div>div{\n    font-size:14px!important;\ntext-transform: uppercase!important;\n}\n.tr>div>div>div>div>div>div>div>div{\n    border-right: none!important;\n}\n\n\n\n.title >div>div>div>div>div>div>div >span >span {\nfont-size:14px!important;\nfont-weight: 400!important; \n}\n\n/**/\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    margin-bottom: 20px!important;\n}\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    position: initial !important;\n}\n\n.hide{\n    display: none;\n       height: 20px!important;\n}\n\n.activ{\n    display: block;\n    /* height: 270px!important; */\n}\n.activ_setup{\n    display: block;\n    /* height: 500px!important; */\n}\n.btn_right>div>div>div>div>button>span>svg {\n    transform: rotate(180deg)!important;\n    transition: all 0.5s ease 0s !important;\n}\n.btn_left>div>div>div>div>button>span>svg {\n        transform: translateY(0px)!important;\n    transition: none 0s ease 0s!important;\n}\n\n/* За замовчуванням */\n.btn_left>div>div>div>div>button,\n.btn_right>div>div>div>div>button {\n    background-color: #ccc;  \n    transition: background-color 0.3s ease, transform 0.3s ease !important;\n \n}\n\n\n.btn_left>div>div>div>div>button:hover:enabled,\n.btn_right>div>div>div>div>button:hover:enabled {\n    background: #9991 !important; \n    transform: translateY(-5px) !important; \n}\n.bp3-input  {\nborder-radius: 10px!important;\n}\n.select_input button.select-button {\n    border-radius: 10px!important;\n}\n.dashboard_text>div>div>div>div>div>div>div{\n    font-size:32px!important;\nfont-weight: 700!important; \n}\n.t--widget-progresswidget>div>div>div>div{\n   height: 68%!important; \n  border-radius:10px!important; \n    background: #fec518;\n    overflow: hidden!important;\n    \n\n}\n\n.t--widget-progresswidget>div>div>div>div>div{\n    height: 100%!important; \n    background-color: #fec518!important;\n    padding-right: 4px!important;\n    font-size: 20px!important;\n    font-weight: 600!important;\n    text-align: center!important;\n    padding-top: 2px!important;\n  \n   \n   \n} \n.text_cross{\n    text-decoration: line-through!important;\n}\n.text_cross span{\n    text-decoration: none!important;\n}\n.done{\n    opacity: 0.3!important;\n}\n.scroll_section{\n     overflow-y: hidden!important;\n}\n\n\n.users_tabs{\n    border-radius: 10px!important;\n}\n.upload_img .bp3-button {\n    background:#215484!important;\n    border-radius: 5px !important;\n}\n.upload_img .bp3-button:hover,\n.upload_img >div>div>div>div:hover > button, \n.upload_img >div>div>div>div:active > button{\nbackground: #123a5e!important;\ntransition: background-color 0.3s ease, transform 0.3s ease !important;\n}\n.text_aisetup{\n    top:0 px!important;\n}\n.text_aisetup>div>div>div>div>div>div>div>span{\ngap: 5px!important;\ndisplay: flex!important;\nwidth: 100%!important;\nline-height: 1.2!important;\nwhite-space: normal!important;\n}\n.table_vectors .table .td{height: 250px!important;\n}\n.table_vectors .table .td>div>div{\n    white-space: initial!important;\n    align-items: baseline!important;\n}\n\n.chatDemo{\n    height: calc(100% - 60px)!important;\n}\n\n.cloneTemplateBtn {\nwidth: 200px !important;\nleft: calc(100% - 220px) !important;\n}\n\n.warningSection{\n    width: calc(100% - 45px) !important;\n    left: 6px !important;\n}\n\n.warningText{\n    width: 100% !important;\n}\n\n.selectWithoutCross .cancel-icon {\n    display:none !important;\n}\n\n/* DB Benchmark & ModelTesting pages ---START--- */\n.pseudoInput {\n    background: none !important;\n    border-radius: 10px !important;\n}\n\n.pseudoInput input,\n.pseudoInput textarea {\n    background: #f9fafa !important;\n    border-radius: 10px !important;\n    color: #2E3D49 !important;\n}\n\n.inputRegular {\n    background-color: #F6F7F8 !important;\n    border-radius: 10px !important;\n}\n\n.pseudoInputEnrichment  {\n    background: none !important;\n    border-radius: 10px !important;\n}\n\n.pseudoInputEnrichment textarea {\n    background: #edf2f7 !important;\n    border-width: 10px !important;\n    border-color: #edf2f7 !important;\n    border-radius: 10px !important;\n    color: #2E3D49 !important;\n}\n\n.listVectors div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div {\n    border-radius: 10px !important;\n    transition-delay: 999999s; /* prevents the hover from turning on */\n}\n\n.listVectors div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div:hover {\n    cursor: default !important; /* hover off */\n}\n\n.listVectorsText div>div>div>div>div>div>div {\n    padding: 10px !important;\n}\n\n\n\n.tableOfVectors .thead .tr .th:nth-child(1),\n.tableOfVectors .tbody .tr .td:nth-child(1) {\n    width: 45% !important;\n}\n\n.tableOfVectors .thead .tr .th:nth-child(2),\n.tableOfVectors .tbody .tr .td:nth-child(2) {\n    width: 50% !important;\n}\n\n.tableOfVectors .thead .tr .th:last-child,\n.tableOfVectors .tbody .tr .td:last-child {\n    width: 5% !important;\n}\n\n.Text_v_answer div>div>div>div>div>div>div{\n    padding: 10px !important;\n    /* border-radius: 10px !important; */\n}\n\n.modelTestingSelector .cancel-icon,\n.BenchmarkSelector .cancel-icon {\n    display: none !important;\n}\n\n.Enrich_JSONForm .t--jsonformfield-Enriched_data_from_AI {\n    border-radius: 10px !important;\n}\n/* DB Benchmark & ModelTesting pages ---FINISH--- */\n\n\n.buttonsTraining>div>div>div>div {\n    border: 1px solid #e8e8e8 !important;\n    border-radius: 9px !important;\n    padding: 0 !important;\n}\n\n.buttonsTraining button {\n    border-color: #e8e8e8 !important;\n}\n",
+        "template": "@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,200&display=swap');\n\nbody{\n    font-family: 'Titillium Web', sans-serif!important;\n   \n}\n\n.header{\ntop: 0px !important;\nheight: 66px !important;\npadding: 0px !important;\nborder-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n.menu_section{\nbox-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\nheight: 100vh !important;\npadding: 0px !important;\nleft: 0px !important;\nborder-right: 2px solid rgb(241, 243, 244) !important;\n}\n\n.main_section{\npadding: 0px !important;\nheight: 100vh !important;\nposition: fixed !important;\ntop: 66px !important; \n}\n\n.tab_login>div>div>div>div{\nbox-shadow: none !important;\n}\n\n.tab_login>div>div>div>div>div{\nbackground: transparent !important;\n}\n\n.frame_section{\nheight: 100vh !important;\nposition: fixed !important;\ntop: 16px !important; \n}\n\n.scroll_section{\n    height: 100vh !important; \n    top: 66px !important; \n    padding: 0px !important;\n}\n\n.scroll_section1{\n    height: 100vh !important; \n    top: 90px !important; \n    padding: 0px !important;\n}\n\n.image{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n    height: 75px !important;\n}\n\n\n.menu .active span{\ncolor: #2a2f36 !important;\n}\n\n.menu .active {\n    background: #ebf1fb !important;\n}\n\n.menu button:hover{\nbackground: #ebf1fb;\n}\n\n.menu span[role=\"img\"]{\nmargin-left: 8px !important;\nmargin-top: 3px !important;\n\n}\n.menu .bp3-collapse-body .sub_category {\n    padding: 5px 5px 5px 20px !important;\n}\n.menu button{\n    box-shadow: none !important;\n}\n\n.menu span{\n    font-size: 16px !important;\n    font-weight: 400 !important;\n    color: #00000099 !important;\n}\n\n.menu {\n    left: 0px !important;\n    width: 100% !important;\n    padding: 0 !important;\n}\n\n.menu_wrap{\n    position: fixed !important;\n    left: 0px!important;\n    top: 0px !important;\n    height: 100vh !important;\n    /* width: 178.312px!important; */\n    padding: 0px!important;\n    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 3px !important;\n}\n\n.menu button {\n    justify-content: start !important;\n    padding: 5px 10px 5px 15px !important;\n    margin-bottom: 5px !important;\n}\n\n.setting_title{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important;\n}\n\n\n.setting_text{\n    padding: 4px 14px !important;\n    left: 0px !important;\n    width: 100% !important;\n    border-bottom: 2px solid rgb(241, 243, 244) !important; \n}\n\n.setting_text .bp3-ui-text {\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n.setting_title .bp3-ui-text {\n    font-weight: 600 !important;\n    font-size: 18px !important;\n}\n\n.telegramList {\n    padding: 10px 20px !important;\n}\n\n.telegramList .custom-wrapper-canvas-list{\n    display: flex;\n    flex-direction: column !important;\n}\n.telegramList .custom-wrapper-canvas-list button {\n    display: none !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget{\n    width: 90% !important;\n    position: static !important;\n    border-radius: 8px!important;\n    padding: 0 !important;\n    margin-bottom: 7px;\n    margin-right: auto !important;\n    margin-left: 0 !important;\n    background-color: #cfcfdb !important;\n}\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd){\n    margin-right: 0 !important;\n    margin-left: auto !important;\n    background-color: #e5e5e6 !important;\n}\n.telegramList .t--widget-textwidget{\n    width: auto !important;\n    position: static !important;\n    padding: 5px 15px !important;\n    height: 100% !important;\n}\n.telegramList .t--widget-textwidget span{\n    font-weight: 500; \n    font-size: 16px;\n    line-height: 125%;\n}\n\n.telegramList .custom-wrapper-canvas-list .t--widget-containerwidget:nth-of-type(odd) .t--widget-textwidget span{\n    text-align: end;\n}\n\n.telegramWrap{\n    padding: 0!important;\n}\n\n.container{\n    min-height: 100vh;\n}\n\n.selectedTab{\n    box-shadow: rgb(235, 239, 242) -1px 0px 0px inset, rgb(235, 239, 242) 0px 0px 0px inset, rgb(55 169 235) 0px 4px 0px inset !important;\n}\n\n.icon >div>div>div>div>div>div>div{\n   background-position: center right!important;\n}\n\n.title >div>div>div>div>div>div>div span {\nfont-size:22px!important; \n}\n.title >div>div>div>div>div>div>div >span >span.training_span {color:#118cfc!important; font-size: 28px!important;  font-weight: 700!important;}\n.tabs >div>div>div>div>div>div {\nfont-size:20px!important;\ntext-transform: uppercase!important;\nfont-weight: 500!important;\n}\n.training_wrap >div>div>div>div>div>div>div>div>div>div>div>div>div{\n    display: inline-flex!important;\n    justify-content: space-between!important;\n}\n.table{\nfont-size:14px!important;\ntext-transform: lowercase!important;\nfont-weight: 400!important; \n}\n.table >div>div>div>div>div>div{\n    font-size:14px!important;\ntext-transform: uppercase!important;\n}\n.tr>div>div>div>div>div>div>div>div{\n    border-right: none!important;\n}\n\n\n\n.title >div>div>div>div>div>div>div >span >span {\nfont-size:14px!important;\nfont-weight: 400!important; \n}\n\n/**/\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    margin-bottom: 20px!important;\n}\n.main>div>div>div>div>div>div>div>div>div>div>div>div>div>div{\n    position: initial !important;\n}\n\n.hide{\n    display: none;\n       height: 20px!important;\n}\n\n.activ{\n    display: block;\n    /* height: 270px!important; */\n}\n.activ_setup{\n    display: block;\n    /* height: 500px!important; */\n}\n.btn_right>div>div>div>div>button>span>svg {\n    transform: rotate(180deg)!important;\n    transition: all 0.5s ease 0s !important;\n}\n.btn_left>div>div>div>div>button>span>svg {\n        transform: translateY(0px)!important;\n    transition: none 0s ease 0s!important;\n}\n\n/* За замовчуванням */\n.btn_left>div>div>div>div>button,\n.btn_right>div>div>div>div>button {\n    background-color: #ccc;  \n    transition: background-color 0.3s ease, transform 0.3s ease !important;\n \n}\n\n\n.btn_left>div>div>div>div>button:hover:enabled,\n.btn_right>div>div>div>div>button:hover:enabled {\n    background: #9991 !important; \n    transform: translateY(-5px) !important; \n}\n.bp3-input  {\nborder-radius: 10px!important;\n}\n.select_input button.select-button {\n    border-radius: 10px!important;\n}\n.dashboard_text>div>div>div>div>div>div>div{\n    font-size:32px!important;\nfont-weight: 700!important; \n}\n.t--widget-progresswidget>div>div>div>div{\n   height: 68%!important; \n  border-radius:10px!important; \n    background: #fec518;\n    overflow: hidden!important;\n    \n\n}\n\n.t--widget-progresswidget>div>div>div>div>div{\n    height: 100%!important; \n    background-color: #fec518!important;\n    padding-right: 4px!important;\n    font-size: 20px!important;\n    font-weight: 600!important;\n    text-align: center!important;\n    padding-top: 2px!important;\n  \n   \n   \n} \n.text_cross{\n    text-decoration: line-through!important;\n}\n.text_cross span{\n    text-decoration: none!important;\n}\n.undone{\n    opacity: 0.3!important;\n}\n.scroll_section{\n     overflow-y: hidden!important;\n}\n\n\n.users_tabs{\n    border-radius: 10px!important;\n}\n.upload_img .bp3-button {\n    background:#215484!important;\n    border-radius: 5px !important;\n}\n.upload_img .bp3-button:hover,\n.upload_img >div>div>div>div:hover > button, \n.upload_img >div>div>div>div:active > button{\nbackground: #123a5e!important;\ntransition: background-color 0.3s ease, transform 0.3s ease !important;\n}\n.text_aisetup{\n    top:0 px!important;\n}\n.text_aisetup>div>div>div>div>div>div>div>span{\ngap: 5px!important;\ndisplay: flex!important;\nwidth: 100%!important;\nline-height: 1.2!important;\nwhite-space: normal!important;\n}\n.table_vectors .table .td{height: 250px!important;\n}\n.table_vectors .table .td>div>div{\n    white-space: initial!important;\n    align-items: baseline!important;\n}\n\n.chatDemo{\n    height: calc(100% - 60px)!important;\n}\n\n.cloneTemplateBtn {\nwidth: 200px !important;\nleft: calc(100% - 220px) !important;\n}\n\n.warningSection{\n    width: calc(100% - 45px) !important;\n    left: 6px !important;\n}\n\n.warningText{\n    width: 100% !important;\n}\n\n.selectWithoutCross .cancel-icon {\n    display:none !important;\n}\n\n/* DB Benchmark & ModelTesting pages ---START--- */\n.pseudoInput {\n    background: none !important;\n    border-radius: 10px !important;\n}\n\n.pseudoInput input,\n.pseudoInput textarea {\n    background: #f9fafa !important;\n    border-radius: 10px !important;\n    color: #2E3D49 !important;\n}\n\n.inputRegular {\n    background-color: #F6F7F8 !important;\n    border-radius: 10px !important;\n}\n\n.pseudoInputEnrichment  {\n    background: none !important;\n    border-radius: 10px !important;\n}\n\n.pseudoInputEnrichment textarea {\n    background: #edf2f7 !important;\n    border-width: 10px !important;\n    border-color: #edf2f7 !important;\n    border-radius: 10px !important;\n    color: #2E3D49 !important;\n}\n\n.listVectors div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div {\n    border-radius: 10px !important;\n    transition-delay: 999999s; /* prevents the hover from turning on */\n}\n\n.listVectors div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div:hover {\n    cursor: default !important; /* hover off */\n}\n\n.listVectorsText div>div>div>div>div>div>div {\n    padding: 10px !important;\n}\n\n\n\n.tableOfVectors .thead .tr .th:nth-child(1),\n.tableOfVectors .tbody .tr .td:nth-child(1) {\n    width: 45% !important;\n}\n\n.tableOfVectors .thead .tr .th:nth-child(2),\n.tableOfVectors .tbody .tr .td:nth-child(2) {\n    width: 50% !important;\n}\n\n.tableOfVectors .thead .tr .th:last-child,\n.tableOfVectors .tbody .tr .td:last-child {\n    width: 5% !important;\n}\n\n.Text_v_answer div>div>div>div>div>div>div{\n    padding: 10px !important;\n    /* border-radius: 10px !important; */\n}\n\n.modelTestingSelector .cancel-icon,\n.BenchmarkSelector .cancel-icon {\n    display: none !important;\n}\n\n.Enrich_JSONForm .t--jsonformfield-Enriched_data_from_AI {\n    border-radius: 10px !important;\n}\n/* DB Benchmark & ModelTesting pages ---FINISH--- */\n\n\n.buttonsTraining>div>div>div>div {\n    border: 1px solid #e8e8e8 !important;\n    border-radius: 9px !important;\n    padding: 0 !important;\n}\n\n.buttonsTraining button {\n    border-color: #e8e8e8 !important;\n}\n",
         "output": "str",
         "x": 260,
         "y": 60,
